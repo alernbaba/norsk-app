@@ -27,70 +27,67 @@ export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
   }, [word.id, word.no, settings.autoPlay, settings.slowSpeech]);
 
   return (
-    <div className="space-y-4">
-      <div
-        role="button"
-        tabIndex={0}
-        onClick={() => setFlipped(true)}
-        onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && setFlipped(true)}
-        className="flex min-h-64 cursor-pointer flex-col items-center justify-center gap-4 rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm dark:border-slate-700 dark:bg-slate-900"
-      >
-        <div className="flex items-center gap-3">
-          <p className="text-3xl font-semibold" lang="nb">
-            {word.no}
-          </p>
-          <SpeakButton text={word.no} slow={settings.slowSpeech} />
-        </div>
-
-        {flipped ? (
-          <div className="w-full space-y-4">
-            <p className="text-xl text-slate-600 dark:text-slate-300">{word.en.join(" · ")}</p>
-            {inflection && (
-              <table className="mx-auto w-full max-w-sm text-left text-sm">
-                <tbody>
-                  {inflectionRows(inflection).map((row) => (
-                    <tr key={row.form} className="border-t border-slate-100 dark:border-slate-800">
-                      <th className="py-1.5 pr-3 font-normal text-slate-500 dark:text-slate-400">{t.forms[row.form]}</th>
-                      <td className="py-1.5">
-                        <div className="flex items-center justify-between gap-2">
-                          <span lang="nb">{row.values.join(" / ")}</span>
-                          <SpeakButton text={row.values[0]} slow={settings.slowSpeech} size="sm" />
-                        </div>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            )}
+    <div className="space-y-5">
+      <div className="relative">
+        {/* Two cards peeking out underneath make it read as a deck. */}
+        <div aria-hidden className="sheet absolute inset-x-4 top-3 -bottom-3 rotate-[1.6deg] opacity-60" />
+        <div aria-hidden className="sheet absolute inset-x-2 top-1.5 -bottom-1.5 -rotate-[1deg] opacity-85" />
+        <div
+          role="button"
+          tabIndex={0}
+          onClick={() => setFlipped(true)}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && setFlipped(true)}
+          className="sheet rise relative flex min-h-72 cursor-pointer flex-col items-center justify-center gap-5 p-6 text-center"
+        >
+          <p className="eyebrow absolute top-4 left-5">Bokmål</p>
+          <div className="flex items-center gap-3">
+            <p className="font-display text-4xl font-medium sm:text-5xl" lang="nb">
+              {word.no}
+            </p>
+            <SpeakButton text={word.no} slow={settings.slowSpeech} />
           </div>
-        ) : (
-          <p className="text-sm text-slate-500">{t.practice.tapToSee}</p>
-        )}
+
+          {flipped ? (
+            <div className="rise w-full space-y-4">
+              <div className="mx-auto h-px w-16 bg-line" />
+              <p className="text-xl text-muted">{word.en.join(" · ")}</p>
+              {inflection && (
+                <table className="mx-auto w-full max-w-sm text-left text-sm">
+                  <tbody>
+                    {inflectionRows(inflection).map((row) => (
+                      <tr key={row.form} className="border-t border-dashed border-line">
+                        <th className="py-1.5 pr-3 font-normal text-muted">{t.forms[row.form]}</th>
+                        <td className="py-1.5">
+                          <div className="flex items-center justify-between gap-2">
+                            <span lang="nb" className="font-medium">
+                              {row.values.join(" / ")}
+                            </span>
+                            <SpeakButton text={row.values[0]} slow={settings.slowSpeech} size="sm" />
+                          </div>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+            </div>
+          ) : (
+            <p className="text-sm text-muted">{t.practice.tapToSee}</p>
+          )}
+        </div>
       </div>
 
       {flipped ? (
         <div className="grid grid-cols-2 gap-3">
-          <button
-            type="button"
-            onClick={() => onAnswer(false)}
-            className="rounded-xl bg-rose-100 px-4 py-3 font-semibold text-rose-900 hover:bg-rose-200 dark:bg-rose-950 dark:text-rose-100"
-          >
+          <button type="button" onClick={() => onAnswer(false)} className="btn btn-quiet text-rust">
             {t.practice.didntKnow}
           </button>
-          <button
-            type="button"
-            onClick={() => onAnswer(true)}
-            className="rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white hover:bg-emerald-700"
-          >
+          <button type="button" onClick={() => onAnswer(true)} className="btn btn-moss">
             {t.practice.knewIt}
           </button>
         </div>
       ) : (
-        <button
-          type="button"
-          onClick={() => setFlipped(true)}
-          className="w-full rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white hover:bg-slate-700 dark:bg-slate-100 dark:text-slate-900"
-        >
+        <button type="button" onClick={() => setFlipped(true)} className="btn btn-ink w-full">
           {t.practice.showAnswer}
         </button>
       )}
