@@ -1,8 +1,211 @@
 @import "tailwindcss";
+@import "@fontsource-variable/fraunces/full.css";
+@import "@fontsource-variable/fraunces/full-italic.css";
+@import "@fontsource-variable/instrument-sans/wdth.css";
 
 @custom-variant dark (@media (prefers-color-scheme: dark));
 
+/*
+ * "Fjord & paper": warm cream paper and ink in daylight, polar-night blue after dark.
+ * Colours are CSS variables so components rarely need dark: variants.
+ */
+:root {
+  --paper: #f4eee2;
+  --card: #fffbf3;
+  --sunk: #ebe3d3;
+  --ink: #1d2733;
+  --muted: #6e6758;
+  --line: #e0d5c1;
+  --fjord: #275470;
+  --fjord-soft: #dbe5e8;
+  --rust: #b0412d;
+  --rust-soft: #f3ddd3;
+  --moss: #3d6a45;
+  --moss-soft: #e0e9d5;
+  --ochre: #94661a;
+  --ochre-soft: #f2e2bd;
+  --press: #c9bca4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #11161c;
+    --card: #19212a;
+    --sunk: #0d1116;
+    --ink: #ece4d3;
+    --muted: #9b9484;
+    --line: #2a3541;
+    --fjord: #93bdd3;
+    --fjord-soft: #1d3240;
+    --rust: #e88a72;
+    --rust-soft: #3b221d;
+    --moss: #a3cc9c;
+    --moss-soft: #1d3021;
+    --ochre: #e4b862;
+    --ochre-soft: #362b16;
+    --press: #05080b;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-sunk: var(--sunk);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-fjord: var(--fjord);
+  --color-fjord-soft: var(--fjord-soft);
+  --color-rust: var(--rust);
+  --color-rust-soft: var(--rust-soft);
+  --color-moss: var(--moss);
+  --color-moss-soft: var(--moss-soft);
+  --color-ochre: var(--ochre);
+  --color-ochre-soft: var(--ochre-soft);
+  --font-sans: "Instrument Sans Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Fraunces Variable", ui-serif, Georgia, serif;
+}
+
+html {
+  background: var(--paper);
+  color-scheme: light dark;
+}
+
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-sans);
   -webkit-tap-highlight-color: transparent;
+  /* A faint paper grain, so large surfaces don't look flat. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.45 0 0 0 0 0.38 0 0 0 0 0.28 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+h1,
+h2,
+.font-display {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 60, "WONK" 0;
+  letter-spacing: -0.015em;
+}
+
+::selection {
+  background: var(--ochre-soft);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--fjord);
+  outline-offset: 2px;
+}
+
+@layer components {
+  /* A sheet of paper resting on the page. */
+  .sheet {
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 1.25rem;
+    box-shadow:
+      0 1px 0 rgb(255 255 255 / 0.6) inset,
+      0 1px 2px rgb(60 45 20 / 0.05),
+      0 6px 18px -10px rgb(60 45 20 / 0.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    .sheet {
+      box-shadow:
+        0 1px 0 rgb(255 255 255 / 0.03) inset,
+        0 8px 20px -12px rgb(0 0 0 / 0.6);
+    }
+  }
+
+  /* Buttons press down like a key. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.9rem;
+    padding: 0.8rem 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+    transition:
+      transform 80ms ease,
+      box-shadow 80ms ease,
+      background-color 150ms ease,
+      opacity 150ms ease;
+    box-shadow: 0 3px 0 0 var(--btn-edge, var(--press));
+  }
+  .btn:active:not(:disabled) {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 0 var(--btn-edge, var(--press));
+  }
+  .btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  .btn-ink {
+    background: var(--ink);
+    color: var(--paper);
+    --btn-edge: color-mix(in oklab, var(--ink) 60%, black);
+  }
+  .btn-ink:hover:not(:disabled) {
+    background: color-mix(in oklab, var(--ink) 88%, var(--paper));
+  }
+  .btn-fjord {
+    background: var(--fjord);
+    color: var(--card);
+    --btn-edge: color-mix(in oklab, var(--fjord) 65%, black);
+  }
+  .btn-fjord:hover:not(:disabled) {
+    background: color-mix(in oklab, var(--fjord) 90%, var(--paper));
+  }
+  .btn-moss {
+    background: var(--moss);
+    color: var(--card);
+    --btn-edge: color-mix(in oklab, var(--moss) 65%, black);
+  }
+  .btn-rust {
+    background: var(--rust);
+    color: var(--card);
+    --btn-edge: color-mix(in oklab, var(--rust) 65%, black);
+  }
+  .btn-quiet {
+    background: var(--card);
+    color: var(--ink);
+    border: 1px solid var(--line);
+  }
+  .btn-quiet:hover:not(:disabled) {
+    background: var(--sunk);
+  }
+
+  /* Small all-caps label above a heading. */
+  .eyebrow {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise 320ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }

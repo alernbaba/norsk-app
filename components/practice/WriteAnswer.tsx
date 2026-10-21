@@ -33,7 +33,7 @@ export function WriteAnswer({ prompt, accepted, settings, onAnswer, onNext, plac
 
   return (
     <div className="space-y-5">
-      <div className="text-xl font-medium">{prompt}</div>
+      <div className="font-display text-2xl leading-snug">{prompt}</div>
       <AnswerInput value={value} onChange={setValue} onSubmit={result ? onNext : check} disabled={!!result} placeholder={placeholder} autoFocus />
       {result ? (
         <>
@@ -43,7 +43,7 @@ export function WriteAnswer({ prompt, accepted, settings, onAnswer, onNext, plac
             slow={settings.slowSpeech}
             alternatives={accepted.slice(1)}
           />
-          <button type="button" onClick={onNext} autoFocus className="w-full rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white dark:bg-slate-100 dark:text-slate-900">
+          <button type="button" onClick={onNext} autoFocus className="btn btn-ink w-full">
             {t.common.continue}
           </button>
         </>
@@ -52,7 +52,7 @@ export function WriteAnswer({ prompt, accepted, settings, onAnswer, onNext, plac
           type="button"
           onClick={check}
           disabled={value.trim() === ""}
-          className="w-full rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white hover:bg-emerald-700 disabled:opacity-40"
+          className="btn btn-fjord w-full"
         >
           {t.common.check}
         </button>

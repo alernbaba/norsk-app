@@ -5,7 +5,9 @@ import { useMemo, useState, type ReactNode } from "react";
 import { capitalize, drillAnswers, drillHint } from "@/lib/inflection";
 import { reverseId, wordIdFromReverse, type Mode } from "@/lib/modes";
 import type { InflectionTable, ItemProgress, Settings, Topic } from "@/lib/types";
+import { BackLink } from "../BackLink";
 import { useT, useTopicText } from "../i18n";
+import { ModeIcon } from "../ModeIcon";
 import { ProgressBar } from "../ProgressBar";
 import { NoVoiceNotice } from "../SpeakButton";
 import { useAppState } from "../useAppState";
@@ -31,17 +33,22 @@ export function Practice({ topic, mode, inflections }: Props) {
 
   return (
     <div className="space-y-5">
-      <div>
-        <Link href={`/topics/${topic.id}`} className="text-sm text-slate-500 hover:underline">
-          ← {topic.emoji} {title}
-        </Link>
-        <h1 className="text-2xl font-bold">{t.modes[mode].title}</h1>
+      <div className="space-y-3">
+        <BackLink href={`/topics/${topic.id}`}>
+          {topic.emoji} {title}
+        </BackLink>
+        <h1 className="flex items-center gap-3 text-3xl font-medium">
+          <span className="grid h-10 w-10 place-items-center rounded-xl bg-fjord-soft text-fjord">
+            <ModeIcon mode={mode} />
+          </span>
+          {t.modes[mode].title}
+        </h1>
       </div>
       <NoVoiceNotice />
       {!ready ? (
-        <p className="text-slate-500">{t.common.loading}</p>
+        <p className="text-muted">{t.common.loading}</p>
       ) : itemIds.length === 0 ? (
-        <p className="text-slate-500">{t.practice.nothingInMode}</p>
+        <p className="text-muted">{t.practice.nothingInMode}</p>
       ) : (
         <Round
           key={round}
@@ -83,17 +90,23 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
   if (session.done) {
     const right = session.results.filter((r) => r.correct).length;
     body = (
-      <div className="space-y-4 text-center">
-        <p className="text-5xl">{right === session.results.length ? "🎉" : "💪"}</p>
-        <p className="text-2xl font-semibold">
-          {t.practice.rightOf(right, session.results.length)}
+      <div className="sheet rise space-y-5 px-5 py-8 text-center">
+        <p className="eyebrow">{right === session.results.length ? t.practice.perfect : t.practice.wellDone}</p>
+        <p className="font-display text-6xl font-medium tabular-nums">
+          <span aria-hidden>
+            {right}
+            <span className="text-muted">/{session.results.length}</span>
+          </span>
+          <span className="sr-only">{t.practice.rightOf(right, session.results.length)}</span>
         </p>
-        <p className="text-slate-600 dark:text-slate-300">{t.practice.missedComeBack}</p>
-        <div className="grid gap-3 sm:grid-cols-2">
-          <button type="button" onClick={onRestart} className="rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white hover:bg-emerald-700">
+        <p className="text-muted">
+          {right === session.results.length ? t.practice.allRight : t.practice.missedComeBack}
+        </p>
+        <div className="grid gap-3 pt-2 sm:grid-cols-2">
+          <button type="button" onClick={onRestart} className="btn btn-fjord">
             {t.practice.again}
           </button>
-          <Link href={`/topics/${topic.id}`} className="rounded-xl border border-slate-300 px-4 py-3 font-semibold hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-800">
+          <Link href={`/topics/${topic.id}`} className="btn btn-quiet">
             {t.practice.backTo(title)}
           </Link>
         </div>
@@ -132,10 +145,10 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
           <div className="space-y-2">
             <p lang="nb">
               {before}
-              <span className="mx-1 inline-block min-w-16 border-b-2 border-slate-400 text-center">&nbsp;</span>
+              <span className="mx-1 inline-block min-w-16 border-b-2 border-fjord text-center">&nbsp;</span>
               {after}
             </p>
-            <p className="text-base font-normal text-slate-500 dark:text-slate-400">
+            <p className="font-sans text-base font-normal text-muted">
               ({drillHint(drill, t.forms)}) · {drill.en}
             </p>
           </div>
@@ -156,11 +169,11 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
         <>
           <div className="flex items-center gap-3">
             <ProgressBar value={session.index} max={session.total} label={t.practice.sessionProgress} />
-            <span className="shrink-0 text-sm tabular-nums text-slate-500">
+            <span className="shrink-0 text-sm font-medium tabular-nums text-muted">
               {session.index + 1} / {session.total}
             </span>
           </div>
-          {session.extra && <p className="text-sm text-slate-500">{t.practice.extraPractice}</p>}
+          {session.extra && <p className="rounded-xl bg-fjord-soft px-3 py-2 text-sm text-fjord">{t.practice.extraPractice}</p>}
         </>
       )}
       {body}

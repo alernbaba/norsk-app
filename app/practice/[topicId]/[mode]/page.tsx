@@ -13,7 +13,7 @@ type Params = PageProps<"/practice/[topicId]/[mode]">["params"];
 
 export default function PracticePage({ params }: PageProps<"/practice/[topicId]/[mode]">) {
   return (
-    <Suspense fallback={<p className="text-slate-500">
+    <Suspense fallback={<p className="text-muted">
           <Msg id="common.loading" />
         </p>}>
       <PracticeContent params={params} />

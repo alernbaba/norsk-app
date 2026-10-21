@@ -7,6 +7,7 @@ import type { Messages } from "@/lib/i18n/messages";
 import type { Mode } from "@/lib/modes";
 import { BOX_INTERVALS, isDue } from "@/lib/srs";
 import type { ItemProgress } from "@/lib/types";
+import { BackLink } from "./BackLink";
 import { useT, useTopicText } from "./i18n";
 import { useAppState } from "./useAppState";
 
@@ -34,18 +35,25 @@ export function DueList({ topics }: { topics: ReviewTopic[] }) {
 
   return (
     <div className="space-y-6">
-      <div className="space-y-2">
-        <Link href="/" className="text-sm text-slate-500 hover:underline">
-          {t.due.back}
-        </Link>
-        <h1 className="text-2xl font-bold">
-          {t.due.title} {ready && <span className="text-slate-400">({total})</span>}
-        </h1>
+      <div className="space-y-3">
+        <BackLink href="/">{t.due.back}</BackLink>
+        <div className="space-y-1">
+          <p className="eyebrow">{t.due.eyebrow}</p>
+          <h1 className="flex items-baseline gap-3 text-4xl font-medium">
+            {t.due.title}
+            {ready && <span className="rounded-full bg-ochre-soft px-2.5 py-0.5 font-sans text-base font-semibold text-ochre tabular-nums">{total}</span>}
+          </h1>
+        </div>
       </div>
 
-      <details className="rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
-        <summary className="cursor-pointer font-semibold text-slate-800 dark:text-slate-100">{t.due.whatIsDue}</summary>
-        <div className="mt-2 space-y-2">
+      <details className="group rounded-2xl border border-dashed border-line p-4 text-sm text-muted">
+        <summary className="flex cursor-pointer list-none items-center justify-between gap-3 font-semibold text-ink [&::-webkit-details-marker]:hidden">
+          {t.due.whatIsDue}
+          <span aria-hidden className="text-muted transition-transform group-open:rotate-45">
+            +
+          </span>
+        </summary>
+        <div className="mt-3 space-y-2 leading-relaxed">
           <p>{t.due.boxesIntro}</p>
           <ul className="list-inside list-disc">
             {Object.entries(BOX_INTERVALS).map(([box, days]) => (
@@ -57,17 +65,18 @@ export function DueList({ topics }: { topics: ReviewTopic[] }) {
       </details>
 
       {!ready ? (
-        <p className="text-slate-500">{t.common.loading}</p>
+        <p className="text-muted">{t.common.loading}</p>
       ) : groups.length === 0 ? (
-        <p className="rounded-2xl border border-slate-200 bg-white p-4 text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
+        <p className="sheet p-5 text-muted">
           {t.due.nothingDue}
         </p>
       ) : (
         <ul className="space-y-4">
           {groups.map((group) => (
-            <li key={group.id} className="space-y-3 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
-              <h2 className="font-semibold">
-                {group.emoji} {topicText(group).title} <span className="text-slate-400">({group.items.length})</span>
+            <li key={group.id} className="sheet space-y-3 p-4">
+              <h2 className="flex items-center gap-2 text-lg font-medium">
+                <span aria-hidden>{group.emoji}</span> {topicText(group).title}
+                <span className="font-sans text-sm font-normal text-muted tabular-nums">· {group.items.length}</span>
               </h2>
               <div className="flex flex-wrap gap-2">
                 {(Object.keys(KIND_MODE) as ReviewItem["kind"][])
@@ -77,22 +86,22 @@ export function DueList({ topics }: { topics: ReviewTopic[] }) {
                     <Link
                       key={kind}
                       href={`/practice/${group.id}/${KIND_MODE[kind]}`}
-                      className="rounded-full bg-emerald-600 px-3 py-1 text-sm font-medium text-white hover:bg-emerald-700"
+                      className="btn btn-fjord px-3 py-1.5 text-sm"
                     >
                       {t.due.review(n, kind)}
                     </Link>
                   ))}
               </div>
-              <ul className="divide-y divide-slate-100 text-sm dark:divide-slate-800">
+              <ul className="divide-y divide-dashed divide-line text-sm">
                 {group.items.map((i) => (
                   <li key={i.id} className="flex justify-between gap-4 py-1.5">
                     <span>
-                      <span lang="nb" className="font-medium">
+                      <span lang="nb" className="font-display text-base font-medium">
                         {i.no}
                       </span>
-                      <span className="block text-slate-500">{i.en}</span>
+                      <span className="block text-muted">{i.en}</span>
                     </span>
-                    <span className="shrink-0 text-right text-xs text-slate-400">
+                    <span className="shrink-0 text-right text-xs text-muted">
                       {t.due.box(progress[i.id].box)}
                       <span className="block">{dueLabel(progress[i.id], date, t)}</span>
                     </span>
