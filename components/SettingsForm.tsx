@@ -15,17 +15,17 @@ export function SettingsForm() {
 
   return (
     <div className="space-y-6">
-      <fieldset className="space-y-3 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
+      <fieldset className="sheet space-y-3 p-5">
         <legend className="sr-only">{t.settings.language}</legend>
-        <h2 className="font-semibold" aria-hidden>
+        <h2 className="text-xl font-medium" aria-hidden>
           {t.settings.language}
         </h2>
-        <p className="text-sm text-slate-500 dark:text-slate-400">{t.settings.languageDescription}</p>
-        <div className="grid grid-cols-2 gap-2">
+        <p className="text-sm text-muted">{t.settings.languageDescription}</p>
+        <div className="grid grid-cols-2 gap-1 rounded-2xl bg-sunk p-1">
           {LANGUAGES.map((l) => (
             <label
               key={l.id}
-              className="flex cursor-pointer items-center gap-2 rounded-xl border border-slate-300 px-3 py-2 font-medium has-checked:border-emerald-500 has-checked:bg-emerald-50 dark:border-slate-600 dark:has-checked:bg-emerald-950"
+              className="flex cursor-pointer items-center justify-center rounded-xl px-3 py-2.5 text-center text-sm font-semibold text-muted transition has-checked:bg-card has-checked:text-ink has-checked:shadow-sm has-focus-visible:outline-2 has-focus-visible:outline-fjord"
             >
               <input
                 type="radio"
@@ -33,7 +33,7 @@ export function SettingsForm() {
                 value={l.id}
                 checked={language === l.id}
                 onChange={() => setLanguage(l.id)}
-                className="accent-emerald-600"
+                className="sr-only"
               />
               {l.label}
             </label>
@@ -41,8 +41,8 @@ export function SettingsForm() {
         </div>
       </fieldset>
 
-      <section className="space-y-4 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
-        <h2 className="font-semibold">{t.settings.pronunciation}</h2>
+      <section className="sheet space-y-5 p-5">
+        <h2 className="text-xl font-medium">{t.settings.pronunciation}</h2>
         <NoVoiceNotice />
         <Toggle
           label={t.settings.slowSpeech}
@@ -58,17 +58,17 @@ export function SettingsForm() {
           disabled={!ready}
           onChange={(autoPlay) => updateSettings({ ...settings, autoPlay })}
         />
-        <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
+        <div className="flex items-center gap-3 rounded-xl bg-sunk/70 p-3 text-sm text-muted">
           <SpeakButton text="Hei! Velkommen til norsk." slow={settings.slowSpeech} />
-          <span>{t.settings.tryIt("Hei! Velkommen til norsk.")}</span>
+          <span className="font-display text-base text-ink italic">{t.settings.tryIt("Hei! Velkommen til norsk.")}</span>
         </div>
         <VoiceInfo />
       </section>
 
-      <section className="space-y-3 rounded-2xl border border-rose-200 bg-white p-4 dark:border-rose-900 dark:bg-slate-900">
-        <h2 className="font-semibold">{t.settings.reset}</h2>
-        <p className="text-sm text-slate-600 dark:text-slate-300">{t.settings.resetDescription}</p>
-        {resetDone && <p className="text-sm font-medium text-emerald-700">{t.settings.resetDone}</p>}
+      <section className="space-y-3 rounded-[1.25rem] border border-dashed border-rust/50 p-5">
+        <h2 className="text-xl font-medium">{t.settings.reset}</h2>
+        <p className="text-sm text-muted">{t.settings.resetDescription}</p>
+        {resetDone && <p className="text-sm font-medium text-moss">{t.settings.resetDone}</p>}
         {confirming ? (
           <div className="flex flex-wrap gap-3">
             <button
@@ -78,11 +78,11 @@ export function SettingsForm() {
                 setConfirming(false);
                 setResetDone(true);
               }}
-              className="rounded-xl bg-rose-600 px-4 py-2 font-semibold text-white hover:bg-rose-700"
+              className="btn btn-rust"
             >
               {t.settings.resetConfirm}
             </button>
-            <button type="button" onClick={() => setConfirming(false)} className="rounded-xl border border-slate-300 px-4 py-2 font-semibold dark:border-slate-600">
+            <button type="button" onClick={() => setConfirming(false)} className="btn btn-quiet">
               {t.common.cancel}
             </button>
           </div>
@@ -93,7 +93,7 @@ export function SettingsForm() {
               setConfirming(true);
               setResetDone(false);
             }}
-            className="rounded-xl border border-rose-300 px-4 py-2 font-semibold text-rose-700 hover:bg-rose-50 dark:border-rose-800 dark:text-rose-300 dark:hover:bg-rose-950"
+            className="btn btn-quiet text-rust"
           >
             {t.settings.resetButton}
           </button>
@@ -120,15 +120,22 @@ function Toggle({
     <label className="flex cursor-pointer items-start justify-between gap-4">
       <span>
         <span className="block font-medium">{label}</span>
-        <span className="block text-sm text-slate-500 dark:text-slate-400">{description}</span>
+        <span className="block text-sm text-muted">{description}</span>
       </span>
-      <input
-        type="checkbox"
-        checked={checked}
-        disabled={disabled}
-        onChange={(e) => onChange(e.target.checked)}
-        className="mt-1 h-5 w-5 shrink-0 accent-emerald-600"
-      />
+      <span className="relative mt-0.5 inline-flex shrink-0">
+        <input
+          type="checkbox"
+          role="switch"
+          checked={checked}
+          disabled={disabled}
+          onChange={(e) => onChange(e.target.checked)}
+          className="peer h-7 w-12 cursor-pointer appearance-none rounded-full border border-line bg-sunk transition-colors checked:border-moss checked:bg-moss disabled:cursor-not-allowed disabled:opacity-50"
+        />
+        <span
+          aria-hidden
+          className="pointer-events-none absolute top-1 left-1 h-5 w-5 rounded-full bg-card shadow-sm transition-transform peer-checked:translate-x-5"
+        />
+      </span>
     </label>
   );
 }

@@ -2,7 +2,7 @@
 
 import { useLanguage } from "./i18n";
 
-const linkClass = "text-emerald-700 underline dark:text-emerald-400";
+const linkClass = "text-fjord underline decoration-fjord/40 underline-offset-2 hover:decoration-fjord";
 
 export function AboutContent() {
   return useLanguage() === "nb" ? <AboutNb /> : <AboutEn />;
@@ -11,21 +11,21 @@ export function AboutContent() {
 function AboutEn() {
   return (
     <article className="space-y-6">
-      <h1 className="text-2xl font-bold">About</h1>
+      <h1 className="text-4xl font-medium">About</h1>
 
-      <section className="space-y-2">
+      <section className="space-y-3 text-lg leading-relaxed">
         <p>
           Norsk helps English speakers learn Norwegian (bokmål). Practise words with flashcards, build and write sentences,
           and learn how words change form. Words you find hard come back more often.
         </p>
-        <p className="text-sm text-slate-600 dark:text-slate-300">
+        <p className="text-base text-muted">
           Your progress is stored only in this browser. Pronunciation uses your device&apos;s built-in Norwegian voice when one
           is available.
         </p>
       </section>
 
-      <section className="space-y-2 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
-        <h2 className="font-semibold">Sources</h2>
+      <section className="sheet space-y-3 p-5 leading-relaxed">
+        <h2 className="text-xl font-medium">Sources</h2>
         <p>
           Inflections (bøyingsformer) come from{" "}
           <a className={linkClass} href="https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-5/">
@@ -48,7 +48,7 @@ function AboutEn() {
           </a>{" "}
           corpus (CC BY-SA 4.0). The list itself is not part of the app.
         </p>
-        <p className="text-sm text-slate-600 dark:text-slate-300">Translations and example sentences were written for this app.</p>
+        <p className="text-sm text-muted">Translations and example sentences were written for this app.</p>
       </section>
     </article>
   );
@@ -57,21 +57,21 @@ function AboutEn() {
 function AboutNb() {
   return (
     <article className="space-y-6">
-      <h1 className="text-2xl font-bold">Om appen</h1>
+      <h1 className="text-4xl font-medium">Om appen</h1>
 
-      <section className="space-y-2">
+      <section className="space-y-3 text-lg leading-relaxed">
         <p>
           Norsk hjelper engelskspråklige å lære norsk (bokmål). Øv på ord med ordkort, bygg og skriv setninger, og lær
           hvordan ord bøyes. Ord du synes er vanskelige, kommer oftere tilbake.
         </p>
-        <p className="text-sm text-slate-600 dark:text-slate-300">
+        <p className="text-base text-muted">
           Fremgangen din lagres bare i denne nettleseren. Uttalen bruker den innebygde norske stemmen på enheten din når
           den finnes.
         </p>
       </section>
 
-      <section className="space-y-2 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
-        <h2 className="font-semibold">Kilder</h2>
+      <section className="sheet space-y-3 p-5 leading-relaxed">
+        <h2 className="text-xl font-medium">Kilder</h2>
         <p>
           Bøyingsformene kommer fra{" "}
           <a className={linkClass} href="https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-5/">
@@ -94,7 +94,7 @@ function AboutNb() {
           </a>{" "}
           (CC BY-SA 4.0). Selve listen er ikke en del av appen.
         </p>
-        <p className="text-sm text-slate-600 dark:text-slate-300">Oversettelser og eksempelsetninger er skrevet for denne appen.</p>
+        <p className="text-sm text-muted">Oversettelser og eksempelsetninger er skrevet for denne appen.</p>
       </section>
     </article>
   );

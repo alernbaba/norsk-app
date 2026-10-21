@@ -19,27 +19,25 @@ export function Feedback({ status, expected, slow, alternatives = [] }: Props) {
   return (
     <div
       role="status"
-      className={`rounded-xl px-4 py-3 ${
-        right
-          ? "bg-emerald-50 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-100"
-          : "bg-rose-50 text-rose-900 dark:bg-rose-950 dark:text-rose-100"
-      }`}
+      className={`rise rounded-2xl border-l-4 px-4 py-3 ${right ? "border-moss bg-moss-soft" : "border-rust bg-rust-soft"}`}
     >
-      <p className="font-semibold">{right ? t.feedback.correct : t.feedback.notQuite}</p>
+      <p className={`font-display text-lg font-semibold italic ${right ? "text-moss" : "text-rust"}`}>
+        {right ? t.feedback.correct : t.feedback.notQuite}
+      </p>
       {status === "correct-with-hint" && (
         <p className="mt-1 text-sm">{t.feedback.letterHint}</p>
       )}
       <div className="mt-2 flex items-center gap-2">
         <p className="text-lg">
           {right ? "" : t.feedback.correctAnswer}
-          <span className="font-medium" lang="nb">
+          <span className="font-display font-medium" lang="nb">
             {expected}
           </span>
         </p>
         <SpeakButton text={expected} slow={slow} size="sm" />
       </div>
       {alternatives.length > 0 && (
-        <p className="mt-1 text-sm opacity-80">
+        <p className="mt-1 text-sm text-muted">
           {t.feedback.alsoAccepted}
           <span lang="nb">{alternatives.join(" · ")}</span>
         </p>

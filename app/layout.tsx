@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { HtmlLang, Msg } from "@/components/i18n";
+import { Logo } from "@/components/Logo";
+import { HeaderNav, TabBar } from "@/components/NavLinks";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -11,36 +13,37 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#059669",
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f4eee2" },
+    { media: "(prefers-color-scheme: dark)", color: "#11161c" },
+  ],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="flex min-h-full flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+      <body className="flex min-h-full flex-col bg-paper text-ink">
         <HtmlLang />
-        <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-900/90">
-          <nav className="mx-auto flex max-w-2xl items-center justify-between px-4 py-3">
-            <Link href="/" className="text-lg font-bold">
-              🇳🇴 Norsk
+        <header className="sticky top-0 z-10 border-b border-line/70 bg-paper/85 backdrop-blur-md">
+          <div className="mx-auto flex max-w-2xl items-center justify-between gap-3 px-4 py-3">
+            <Link href="/" className="flex items-center gap-2">
+              <Logo />
+              <span className="font-display text-xl font-semibold tracking-tight italic">norsk</span>
             </Link>
-            <div className="flex gap-4 text-sm font-medium text-slate-600 dark:text-slate-300">
-              <Link href="/" className="hover:text-emerald-700">
-                <Msg id="nav.overview" />
-              </Link>
-              <Link href="/due" className="hover:text-emerald-700">
-                <Msg id="nav.due" />
-              </Link>
-              <Link href="/settings" className="hover:text-emerald-700">
-                <Msg id="nav.settings" />
-              </Link>
-              <Link href="/about" className="hover:text-emerald-700">
-                <Msg id="nav.about" />
-              </Link>
-            </div>
-          </nav>
+            <HeaderNav />
+          </div>
         </header>
-        <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-6">{children}</main>
+        <main className="mx-auto w-full max-w-2xl flex-1 px-4 pt-7 pb-16">{children}</main>
+        <footer className="mx-auto w-full max-w-2xl px-4 pb-28 text-xs text-muted sm:pb-8">
+          <p className="border-t border-dashed border-line pt-4">
+            <span lang="nb" className="font-display italic">
+              Litt hver dag.
+            </span>{" "}
+            <Msg id="common.tagline" />
+          </p>
+        </footer>
+        <TabBar />
       </body>
     </html>
   );

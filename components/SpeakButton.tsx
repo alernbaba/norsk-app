@@ -42,11 +42,23 @@ export function SpeakButton({ text, slow = false, size = "md", label }: Props) {
       disabled={disabled}
       title={title}
       aria-label={label ?? t.speech.listenLabel(text)}
-      className={`inline-flex shrink-0 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition hover:bg-slate-100 active:scale-95 disabled:cursor-not-allowed disabled:opacity-40 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700 ${
-        size === "sm" ? "h-7 w-7 text-sm" : "h-10 w-10 text-lg"
+      className={`inline-flex shrink-0 items-center justify-center rounded-full border border-line bg-card text-fjord transition hover:border-fjord/40 hover:bg-fjord-soft active:scale-95 disabled:cursor-not-allowed disabled:opacity-40 ${
+        size === "sm" ? "h-7 w-7" : "h-10 w-10"
       }`}
     >
-      <span aria-hidden>🔊</span>
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className={size === "sm" ? "h-3.5 w-3.5" : "h-5 w-5"}
+        aria-hidden
+      >
+        <path d="M4 9.5h3l4.5-4v13L7 14.5H4z" fill="currentColor" fillOpacity="0.15" />
+        <path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" />
+      </svg>
     </button>
   );
 }
@@ -57,7 +69,7 @@ export function NoVoiceNotice() {
   const t = useT();
   if (available !== false) return null;
   return (
-    <p className="rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:bg-amber-950 dark:text-amber-200">
+    <p className="rounded-xl border-l-4 border-ochre bg-ochre-soft px-3 py-2 text-sm text-ink">
       {t.speech.noVoiceNotice}
     </p>
   );
@@ -69,5 +81,5 @@ export function VoiceInfo() {
   const t = useT();
   const label = available ? getSpeech().voiceLabel() : null;
   if (!label) return null;
-  return <p className="text-xs text-slate-500">{t.speech.voice(label)}</p>;
+  return <p className="text-xs text-muted">{t.speech.voice(label)}</p>;
 }

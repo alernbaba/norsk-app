@@ -30,17 +30,17 @@ export function TileBuilder({ sentence, settings, onAnswer, onNext }: Props) {
 
   return (
     <div className="space-y-5">
-      <p className="text-xl font-medium">{sentence.en}</p>
+      <p className="font-display text-2xl leading-snug">{sentence.en}</p>
 
-      <div className="flex min-h-16 flex-wrap content-start gap-2 rounded-xl border-2 border-dashed border-slate-300 p-3 dark:border-slate-600">
-        {chosen.length === 0 && <span className="self-center text-sm text-slate-400">{t.practice.tapInOrder}</span>}
+      <div className="flex min-h-[4.5rem] flex-wrap content-start gap-2 rounded-2xl bg-sunk/70 p-3 shadow-[inset_0_1px_3px_rgb(0_0_0/0.08)]">
+        {chosen.length === 0 && <span className="self-center px-1 text-sm text-muted">{t.practice.tapInOrder}</span>}
         {chosen.map((tile) => (
           <button
             key={tile.key}
             type="button"
             disabled={!!result}
             onClick={() => setChosen((c) => c.filter((x) => x.key !== tile.key))}
-            className="rounded-lg bg-emerald-100 px-3 py-2 text-lg text-emerald-950 dark:bg-emerald-900 dark:text-emerald-50"
+            className="rise rounded-lg border border-fjord/30 bg-fjord-soft px-3 py-2 text-lg font-medium text-fjord shadow-[0_2px_0_0_color-mix(in_oklab,var(--fjord)_35%,transparent)]"
             lang="nb"
           >
             {tile.text}
@@ -55,7 +55,7 @@ export function TileBuilder({ sentence, settings, onAnswer, onNext }: Props) {
             type="button"
             disabled={!!result}
             onClick={() => setChosen((c) => [...c, tile])}
-            className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-lg shadow-sm hover:bg-slate-50 active:scale-95 disabled:opacity-50 dark:border-slate-600 dark:bg-slate-800 dark:hover:bg-slate-700"
+            className="rounded-lg border border-line bg-card px-3 py-2 text-lg shadow-[0_2px_0_0_var(--press)] transition hover:bg-sunk active:translate-y-0.5 active:shadow-none disabled:opacity-50"
             lang="nb"
           >
             {tile.text}
@@ -66,17 +66,12 @@ export function TileBuilder({ sentence, settings, onAnswer, onNext }: Props) {
       {result ? (
         <>
           <Feedback status={result.status} expected={result.expected} slow={settings.slowSpeech} alternatives={sentence.no.slice(1)} />
-          <button type="button" onClick={onNext} className="w-full rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white dark:bg-slate-100 dark:text-slate-900">
+          <button type="button" onClick={onNext} className="btn btn-ink w-full">
             {t.common.continue}
           </button>
         </>
       ) : (
-        <button
-          type="button"
-          onClick={check}
-          disabled={chosen.length === 0}
-          className="w-full rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white hover:bg-emerald-700 disabled:opacity-40"
-        >
+        <button type="button" onClick={check} disabled={chosen.length === 0} className="btn btn-fjord w-full">
           {t.common.check}
         </button>
       )}
