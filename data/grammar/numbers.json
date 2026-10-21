@@ -1,0 +1,40 @@
+{
+  "topicId": "numbers",
+  "tips": [
+    {
+      "id": "numbers-tens-ordinals",
+      "title": {
+        "en": "Twenty-one and twenty-first",
+        "nb": "Tjueen og tjueførste"
+      },
+      "text": {
+        "en": [
+          "From 21 up, say the tens first and then the ones, written as one word: *tjueen, trettifem, førtiåtte*. Older speakers may say it the other way round, *enogtjue*, so it's good to recognise.",
+          "Ordinals (first, second …) are mostly formed with *-de* or *-ende*: *fjerde, femte, sjette, sjuende, åttende, tiende, tjuende*. The first three are irregular: *første, andre, tredje*. In dates, write a full stop: *17. mai*."
+        ],
+        "nb": [
+          "Fra 21 og oppover sier du tierne først og så enerne, skrevet i ett ord: *tjueen, trettifem, førtiåtte*. Eldre folk kan si det motsatt, *enogtjue*, så det er lurt å kjenne igjen.",
+          "Ordenstall lages for det meste med *-de* eller *-ende*: *fjerde, femte, sjette, sjuende, åttende, tiende, tjuende*. De tre første er uregelrette: *første, andre, tredje*. I datoer skriver du punktum: *17. mai*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*tjueen*",
+          "en": "twenty-one"
+        },
+        {
+          "no": "*hundre og trettito*",
+          "en": "a hundred and thirty-two"
+        },
+        {
+          "no": "Hun bor i *tredje* etasje.",
+          "en": "She lives on the third floor."
+        },
+        {
+          "no": "i dag er det *1.* mars",
+          "en": "today is the 1st of March"
+        }
+      ]
+    }
+  ]
+}

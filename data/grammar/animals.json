@@ -1,0 +1,40 @@
+{
+  "topicId": "animals",
+  "tips": [
+    {
+      "id": "animals-irregular-plurals",
+      "title": {
+        "en": "One animal, two animals: plurals without -er",
+        "nb": "Ett dyr, to dyr: flertall uten -er"
+      },
+      "text": {
+        "en": [
+          "Short et-words get no ending in the plural: *et dyr – mange dyr, et lam – to lam*.",
+          "A few nouns have their own plural forms, like English *mouse → mice*: *ei mus – mus, ei ku – kuer* (or *kyr*), *en mann – menn*."
+        ],
+        "nb": [
+          "Korte et-ord får ingen endelse i flertall: *et dyr – mange dyr, et lam – to lam*.",
+          "Noen få substantiv har egne flertallsformer: *ei mus – mus, ei ku – kuer* (eller *kyr*), *en mann – menn*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "et dyr → mange *dyr*",
+          "en": "an animal → many animals"
+        },
+        {
+          "no": "ei mus → tre *mus*",
+          "en": "a mouse → three mice"
+        },
+        {
+          "no": "ei ku → mange *kuer*",
+          "en": "a cow → many cows"
+        },
+        {
+          "no": "en hund → to *hunder*",
+          "en": "a dog → two dogs"
+        }
+      ]
+    }
+  ]
+}

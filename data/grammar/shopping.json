@@ -1,0 +1,40 @@
+{
+  "topicId": "shopping",
+  "tips": [
+    {
+      "id": "shopping-mye-mange",
+      "title": {
+        "en": "Much or many: «mye» and «mange»",
+        "nb": "Mye eller mange?"
+      },
+      "text": {
+        "en": [
+          "*Mange* (many) is used with things you can count, and *mye* (much, a lot) with things you can't: *mange epler, mye melk*.",
+          "Money is uncountable as in English: *mye penger*. But *kroner* are counted: *mange kroner*. The small opposites are *få* (few) and *lite* (little)."
+        ],
+        "nb": [
+          "*Mange* brukes om ting du kan telle, og *mye* om ting du ikke kan telle: *mange epler, mye melk*.",
+          "Penger telles ikke: *mye penger*. Men *kroner* telles: *mange kroner*. Motsatt heter det *få* og *lite*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Det koster *mye* penger.",
+          "en": "It costs a lot of money."
+        },
+        {
+          "no": "Vi kjøpte *mange* epler.",
+          "en": "We bought a lot of apples."
+        },
+        {
+          "no": "Det er *få* folk i butikken.",
+          "en": "There are few people in the shop."
+        },
+        {
+          "no": "Jeg har *lite* tid.",
+          "en": "I have little time."
+        }
+      ]
+    }
+  ]
+}

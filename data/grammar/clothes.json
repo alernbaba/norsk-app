@@ -1,0 +1,40 @@
+{
+  "topicId": "clothes",
+  "tips": [
+    {
+      "id": "clothes-adjectives",
+      "title": {
+        "en": "A red sweater, a red skirt: adjectives agree",
+        "nb": "En rød genser, et rødt skjørt: adjektivet bøyes"
+      },
+      "text": {
+        "en": [
+          "An adjective changes to match the noun. With en- and ei-words it has no ending, with et-words it adds *-t*, and in the plural it adds *-e*: *en rød genser, et rødt skjerf, røde sokker*.",
+          "Some colours behave differently: *blå* and *grå* get a double *t* (*et blått skjerf*), while *rosa* and *lilla* never change."
+        ],
+        "nb": [
+          "Adjektivet bøyes etter substantivet. Med en- og ei-ord har det ingen endelse, med et-ord får det *-t*, og i flertall får det *-e*: *en rød genser, et rødt skjerf, røde sokker*.",
+          "Noen farger er annerledes: *blå* og *grå* får dobbel *t* (*et blått skjerf*), mens *rosa* og *lilla* aldri bøyes."
+        ]
+      },
+      "examples": [
+        {
+          "no": "en *svart* jakke",
+          "en": "a black jacket"
+        },
+        {
+          "no": "et *hvitt* skjerf",
+          "en": "a white scarf"
+        },
+        {
+          "no": "*grønne* sko",
+          "en": "green shoes"
+        },
+        {
+          "no": "et *blått* skjørt",
+          "en": "a blue skirt"
+        }
+      ]
+    }
+  ]
+}

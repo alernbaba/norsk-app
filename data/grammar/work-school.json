@@ -1,0 +1,40 @@
+{
+  "topicId": "work-school",
+  "tips": [
+    {
+      "id": "work-school-subclause",
+      "title": {
+        "en": "Clauses with «at», «fordi» and «når»",
+        "nb": "Leddsetninger med «at», «fordi» og «når»"
+      },
+      "text": {
+        "en": [
+          "In a clause that starts with *at* (that), *fordi* (because), *hvis* (if), *når* (when) or *som* (who, that), the word order stays subject + verb, and *ikke* comes before the verb.",
+          "If the sentence begins with such a clause, the whole clause counts as the first element, so V2 puts the main verb next: *Når jeg kommer hjem, spiser jeg.*"
+        ],
+        "nb": [
+          "I en leddsetning som begynner med *at*, *fordi*, *hvis*, *når* eller *som*, står subjektet foran verbet, og *ikke* står foran verbet.",
+          "Begynner setningen med en slik leddsetning, teller hele leddsetningen som første ledd, så V2-regelen setter verbet rett etter: *Når jeg kommer hjem, spiser jeg.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg vet at hun *ikke jobber* i dag.",
+          "en": "I know that she isn't working today."
+        },
+        {
+          "no": "Han er sliten fordi han *ikke sov*.",
+          "en": "He's tired because he didn't sleep."
+        },
+        {
+          "no": "Når møtet er ferdig, *går jeg* hjem.",
+          "en": "When the meeting is over, I'm going home."
+        },
+        {
+          "no": "Hvis du har tid, *kan du* hjelpe meg.",
+          "en": "If you have time, you can help me."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "topicId": "describing",
+  "tips": [
+    {
+      "id": "describing-comparison",
+      "title": {
+        "en": "Bigger and biggest",
+        "nb": "Større og størst"
+      },
+      "text": {
+        "en": [
+          "Most adjectives add *-ere* and *-est*: *fin, finere, finest*. Long adjectives, and those ending in *-isk*, use *mer* and *mest*: *mer interessant, mest praktisk*.",
+          "A handful of common ones are irregular, just as in English: *god – bedre – best, stor – større – størst, liten – mindre – minst, gammel – eldre – eldst, ung – yngre – yngst*. *Than* is *enn*."
+        ],
+        "nb": [
+          "De fleste adjektiver får *-ere* og *-est*: *fin, finere, finest*. Lange adjektiver, og de som ender på *-isk*, bruker *mer* og *mest*: *mer interessant, mest praktisk*.",
+          "Noen vanlige er uregelrette, akkurat som på engelsk: *god – bedre – best, stor – større – størst, liten – mindre – minst, gammel – eldre – eldst, ung – yngre – yngst*. *Than* heter *enn*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Oslo er *større* enn Bergen.",
+          "en": "Oslo is bigger than Bergen."
+        },
+        {
+          "no": "Hun er *eldre* enn meg.",
+          "en": "She is older than me."
+        },
+        {
+          "no": "Dette er *best*.",
+          "en": "This is best."
+        },
+        {
+          "no": "Boka er *mer interessant* enn filmen.",
+          "en": "The book is more interesting than the film."
+        }
+      ]
+    }
+  ]
+}

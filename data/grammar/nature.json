@@ -1,0 +1,40 @@
+{
+  "topicId": "nature",
+  "tips": [
+    {
+      "id": "nature-det",
+      "title": {
+        "en": "It's raining: «det» as a dummy subject",
+        "nb": "Det regner: «det» som formelt subjekt"
+      },
+      "text": {
+        "en": [
+          "Like English *it*, Norwegian uses *det* as a subject for the weather and the time: *Det regner. Det snør. Det er kaldt.*",
+          "After *det er*, adjectives take the et-form with *-t*: *Det er varmt i dag*, not *Det er varm*."
+        ],
+        "nb": [
+          "Som engelsk *it* bruker norsk *det* som subjekt om vær og tid: *Det regner. Det snør. Det er kaldt.*",
+          "Etter *det er* får adjektivet et-formen med *-t*: *Det er varmt i dag*, ikke *Det er varm*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*Det* regner.",
+          "en": "It's raining."
+        },
+        {
+          "no": "Det er *kaldt* ute.",
+          "en": "It's cold outside."
+        },
+        {
+          "no": "Det blåser mye i dag.",
+          "en": "It's very windy today."
+        },
+        {
+          "no": "Var det *fint* vær?",
+          "en": "Was the weather nice?"
+        }
+      ]
+    }
+  ]
+}

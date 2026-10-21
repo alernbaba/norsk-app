@@ -10,6 +10,7 @@ En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Gre
 - **Oversikt** med fremgang per tema, lærte og mestrede ord, streak og nullstilling
 - **Due today**: liste over alt som skal repeteres i dag, med forklaring av boksene
 - 📱 **Installerbar app** (PWA): kan legges på hjemskjermen og virker uten nett etter første besøk
+- 📘 **Grammatikktips** per tema (kjønn, V2-regelen, adjektivbøying, verbtider osv.) på engelsk eller norsk, på temasiden og samlet under `/grammar`
 - 🌐 **Språkvalg** for menyer, knapper og tilbakemeldinger: engelsk (standard) eller norsk bokmål, lagret i nettleseren
 
 Innholdet er 35 temaer med ca. 1350 ord, 146 vanlige uttrykk, 350 setninger og 167 bøyingsøvelser.
@@ -45,6 +46,7 @@ lib/
   content.ts              leser data/ ved bygging
 data/
   topics/*.json           ett tema per fil
+  grammar/*.json          grammatikktips, én fil per tema
   inflections.json        bøyingsformer, generert fra Norsk ordbank
   inflections-missing.txt ord som ikke ble funnet i ordbanken
 scripts/import-ordbank.ts lager inflections.json
@@ -121,6 +123,26 @@ Svarsjekken ignorerer store og små bokstaver, tegnsetting og ekstra mellomrom. 
 | `form` | Hvilken form. Substantiv: `indefSg`, `defSg`, `indefPl`, `defPl`. Verb: `infinitive`, `present`, `past`, `perfect` (med «har»), `participle` (uten «har»), `imperative`. Adjektiv: `mf`, `f`, `n`, `def`, `pl`, `comparative`, `superlative`, `superlativeDef`. |
 
 Fasiten hentes fra `inflections.json`, så alle tillatte former godtas (f.eks. både *boka* og *boken*).
+
+## Grammatikktips
+
+Tipsene ligger i `data/grammar/<tema-id>.json`, én fil per tema:
+
+```json
+{
+  "topicId": "clothes",
+  "tips": [
+    {
+      "id": "clothes-adjectives",
+      "title": { "en": "A red sweater, a red skirt", "nb": "En rød genser, et rødt skjørt" },
+      "text": { "en": ["An adjective changes …"], "nb": ["Adjektivet bøyes …"] },
+      "examples": [{ "no": "et *blått* skjørt", "en": "a blue skirt" }]
+    }
+  ]
+}
+```
+
+`text` er en liste med avsnitt. Ord mellom `*stjerner*` vises i fet skrift. Eksemplene har alltid engelsk oversettelse. Testene i `tests/grammar.test.ts` sjekker at alle temaer har tips, og at begge språk er fylt ut.
 
 ## Bøying fra Norsk ordbank
 

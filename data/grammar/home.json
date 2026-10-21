@@ -1,0 +1,40 @@
+{
+  "topicId": "home",
+  "tips": [
+    {
+      "id": "home-gender",
+      "title": {
+        "en": "En, ei, et: three genders and «the» as an ending",
+        "nb": "En, ei, et: tre kjønn og bestemt form som endelse"
+      },
+      "text": {
+        "en": [
+          "Every noun is masculine (*en*), feminine (*ei*) or neuter (*et*). The gender rarely follows any logic, so learn the article with the word: *en stol, ei dør, et bord*.",
+          "*The* is an ending on the noun: *-en*, *-a* and *-et*. You may always use *en* and *-en* instead of *ei* and *-a*, so *ei dør, døra* can also be *en dør, døren*. Both are correct bokmål."
+        ],
+        "nb": [
+          "Alle substantiv er hankjønn (*en*), hunkjønn (*ei*) eller intetkjønn (*et*). Kjønnet følger sjelden noen logikk, så lær artikkelen sammen med ordet: *en stol, ei dør, et bord*.",
+          "Bestemt form er en endelse på substantivet: *-en*, *-a* og *-et*. Du kan alltid bruke *en* og *-en* i stedet for *ei* og *-a*, så *ei dør, døra* kan også være *en dør, døren*. Begge deler er riktig bokmål."
+        ]
+      },
+      "examples": [
+        {
+          "no": "en stol → *stolen*",
+          "en": "a chair → the chair"
+        },
+        {
+          "no": "ei dør → *døra* (or *døren*)",
+          "en": "a door → the door"
+        },
+        {
+          "no": "et bord → *bordet*",
+          "en": "a table → the table"
+        },
+        {
+          "no": "Lukk *vinduet*, er du snill.",
+          "en": "Close the window, please."
+        }
+      ]
+    }
+  ]
+}

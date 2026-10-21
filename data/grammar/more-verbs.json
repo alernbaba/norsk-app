@@ -1,0 +1,40 @@
+{
+  "topicId": "more-verbs",
+  "tips": [
+    {
+      "id": "more-verbs-passive",
+      "title": {
+        "en": "It was fixed: the passive",
+        "nb": "Den ble fikset: passiv"
+      },
+      "text": {
+        "en": [
+          "The most common passive is *bli* + past participle: *Bilen ble fikset* (The car was fixed). *Bli* is the verb *become*: *blir, ble, har blitt*.",
+          "There is also a short passive with *-s* on the infinitive, used a lot in signs, rules and the news, mostly after modal verbs and in the present: *Huset selges. Det må gjøres.*"
+        ],
+        "nb": [
+          "Den vanligste passiven er *bli* + perfektum partisipp: *Bilen ble fikset*. *Bli* bøyes *blir, ble, har blitt*.",
+          "Det finnes også en kort passiv med *-s* på infinitiv, som brukes mye på skilt, i regler og i nyheter, mest etter modalverb og i presens: *Huset selges. Det må gjøres.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Bilen *ble fikset* i går.",
+          "en": "The car was fixed yesterday."
+        },
+        {
+          "no": "Møtet *blir flyttet*.",
+          "en": "The meeting is being moved."
+        },
+        {
+          "no": "Huset *selges*.",
+          "en": "The house is for sale."
+        },
+        {
+          "no": "Det *må gjøres* i dag.",
+          "en": "It has to be done today."
+        }
+      ]
+    }
+  ]
+}

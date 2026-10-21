@@ -1,0 +1,40 @@
+{
+  "topicId": "everyday",
+  "tips": [
+    {
+      "id": "everyday-ikke",
+      "title": {
+        "en": "Saying no: where «ikke» goes",
+        "nb": "Å si nei: hvor «ikke» står"
+      },
+      "text": {
+        "en": [
+          "*Ikke* means *not*. In a normal sentence it comes right after the verb. Norwegian has no helper like English *do*: you say «I understand not».",
+          "If there are two verbs, *ikke* goes after the first one."
+        ],
+        "nb": [
+          "*Ikke* betyr *not*. I en vanlig setning kommer det rett etter verbet. Norsk har ikke noe hjelpeverb som engelsk *do*.",
+          "Er det to verb, står *ikke* etter det første."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg forstår *ikke*.",
+          "en": "I don't understand."
+        },
+        {
+          "no": "Det er *ikke* farlig.",
+          "en": "It's not dangerous."
+        },
+        {
+          "no": "Jeg kan *ikke* komme i dag.",
+          "en": "I can't come today."
+        },
+        {
+          "no": "Vi har *ikke* tid.",
+          "en": "We don't have time."
+        }
+      ]
+    }
+  ]
+}

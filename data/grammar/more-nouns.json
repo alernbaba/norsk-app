@@ -1,0 +1,40 @@
+{
+  "topicId": "more-nouns",
+  "tips": [
+    {
+      "id": "more-nouns-gender-endings",
+      "title": {
+        "en": "Guessing the gender from the ending",
+        "nb": "Gjett kjønnet ut fra endelsen"
+      },
+      "text": {
+        "en": [
+          "Gender mostly has to be learned, but some endings give it away.",
+          "En-words: *-sjon* (en situasjon), *-het* (en mulighet), *-else* (en hendelse), *-er* for people (en lærer). Et-words: *-ment* (et argument), *-eri* (et bakeri), *-um* (et museum). Words in *-ing* are often ei-words, but en is always fine too."
+        ],
+        "nb": [
+          "Kjønnet må stort sett læres, men noen endelser røper det.",
+          "En-ord: *-sjon* (en situasjon), *-het* (en mulighet), *-else* (en hendelse), *-er* om personer (en lærer). Et-ord: *-ment* (et argument), *-eri* (et bakeri), *-um* (et museum). Ord på *-ing* er ofte ei-ord, men en går alltid an."
+        ]
+      },
+      "examples": [
+        {
+          "no": "en informa*sjon*",
+          "en": "a piece of information"
+        },
+        {
+          "no": "en mulig*het*",
+          "en": "a possibility"
+        },
+        {
+          "no": "et doku*ment*",
+          "en": "a document"
+        },
+        {
+          "no": "ei/en løs*ning*",
+          "en": "a solution"
+        }
+      ]
+    }
+  ]
+}

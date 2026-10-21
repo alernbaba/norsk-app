@@ -1,0 +1,40 @@
+{
+  "topicId": "free-time",
+  "tips": [
+    {
+      "id": "free-time-like",
+      "title": {
+        "en": "I like swimming: «liker å» and «gjerne»",
+        "nb": "Jeg liker å svømme: «liker å» og «gjerne»"
+      },
+      "text": {
+        "en": [
+          "To say you like doing something, use *liker å* + infinitive. Norwegian has no *-ing* form here: *Jeg liker å svømme.*",
+          "*Gjerne* (gladly) after the verb is a softer way to say you like to or would like to: *Jeg spiller gjerne kort*. Also note *å spille* for sports, games and instruments, and *å leke* for children's play."
+        ],
+        "nb": [
+          "For å si at du liker å gjøre noe, bruker du *liker å* + infinitiv: *Jeg liker å svømme.*",
+          "*Gjerne* etter verbet er en mykere måte å si at du liker å eller har lyst til å: *Jeg spiller gjerne kort*. Legg også merke til *å spille* om sport, spill og instrumenter, og *å leke* om barns lek."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg liker *å* lese.",
+          "en": "I like reading."
+        },
+        {
+          "no": "Hun *spiller* fotball.",
+          "en": "She plays football."
+        },
+        {
+          "no": "Barna *leker* i hagen.",
+          "en": "The children are playing in the garden."
+        },
+        {
+          "no": "Vi går *gjerne* på tur.",
+          "en": "We like going for walks."
+        }
+      ]
+    }
+  ]
+}

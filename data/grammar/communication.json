@@ -1,0 +1,40 @@
+{
+  "topicId": "communication",
+  "tips": [
+    {
+      "id": "communication-v2",
+      "title": {
+        "en": "The V2 rule: the verb is always second",
+        "nb": "V2-regelen: verbet står alltid på andreplass"
+      },
+      "text": {
+        "en": [
+          "In a Norwegian main clause, the verb is the second element. If you start with something other than the subject, such as a time, a place or *derfor*, the subject moves behind the verb.",
+          "English does this only in a few cases (*Never have I …*). In Norwegian it happens all the time, so *I dag jeg snakker* is wrong and *I dag snakker jeg* is right."
+        ],
+        "nb": [
+          "I en norsk helsetning står verbet på andreplass. Begynner du med noe annet enn subjektet, for eksempel tid, sted eller *derfor*, flytter subjektet seg bak verbet.",
+          "På engelsk skjer dette bare i noen få tilfeller. På norsk skjer det hele tiden, så *I dag jeg snakker* er feil, og *I dag snakker jeg* er riktig."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg *snakker* norsk i dag.",
+          "en": "I'm speaking Norwegian today."
+        },
+        {
+          "no": "I dag *snakker* jeg norsk.",
+          "en": "Today I'm speaking Norwegian."
+        },
+        {
+          "no": "Nå *forstår* jeg det.",
+          "en": "Now I understand it."
+        },
+        {
+          "no": "Derfor *spør* hun.",
+          "en": "That's why she's asking."
+        }
+      ]
+    }
+  ]
+}
