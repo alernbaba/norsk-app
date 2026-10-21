@@ -11,20 +11,36 @@ type Props = {
   word: Word;
   inflections: InflectionTable;
   settings: Settings;
+  /** English on the front, Norwegian on the back. */
+  reverse?: boolean;
   onAnswer: (knewIt: boolean) => void;
 };
 
-export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
+export function Flashcard({ word, inflections, settings, reverse = false, onAnswer }: Props) {
   const [flipped, setFlipped] = useState(false);
   const t = useT();
   const inflection = inflectionForWord(word, inflections);
 
+  // Play the Norwegian when it appears: at once, or (English first) on flip.
+  const showsNorwegian = !reverse || flipped;
   useEffect(() => {
-    if (!settings.autoPlay) return;
+    if (!settings.autoPlay || !showsNorwegian) return;
     void getSpeech()
       .ready()
       .then((ok) => ok && getSpeech().speak(word.no, { slow: settings.slowSpeech }));
-  }, [word.id, word.no, settings.autoPlay, settings.slowSpeech]);
+  }, [word.id, word.no, settings.autoPlay, settings.slowSpeech, showsNorwegian]);
+
+  const norwegian = (
+    <div className="flex items-center justify-center gap-3">
+      <p className="font-display text-4xl font-medium sm:text-5xl" lang="nb">
+        {word.no}
+      </p>
+      <SpeakButton text={word.no} slow={settings.slowSpeech} />
+    </div>
+  );
+  const english = (big: boolean) => (
+    <p className={big ? "font-display text-4xl font-medium sm:text-5xl" : "text-xl text-muted"}>{word.en.join(" · ")}</p>
+  );
 
   return (
     <div className="space-y-5">
@@ -39,18 +55,13 @@ export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
           onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && setFlipped(true)}
           className="sheet rise relative flex min-h-72 cursor-pointer flex-col items-center justify-center gap-5 p-6 text-center"
         >
-          <p className="eyebrow absolute top-4 left-5">Bokmål</p>
-          <div className="flex items-center gap-3">
-            <p className="font-display text-4xl font-medium sm:text-5xl" lang="nb">
-              {word.no}
-            </p>
-            <SpeakButton text={word.no} slow={settings.slowSpeech} />
-          </div>
+          <p className="eyebrow absolute top-4 left-5">{reverse ? t.practice.english : "Bokmål"}</p>
+          {reverse ? english(true) : norwegian}
 
           {flipped ? (
             <div className="rise w-full space-y-4">
               <div className="mx-auto h-px w-16 bg-line" />
-              <p className="text-xl text-muted">{word.en.join(" · ")}</p>
+              {reverse ? norwegian : english(false)}
               {inflection && (
                 <table className="mx-auto w-full max-w-sm text-left text-sm">
                   <tbody>
@@ -72,7 +83,7 @@ export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
               )}
             </div>
           ) : (
-            <p className="text-sm text-muted">{t.practice.tapToSee}</p>
+            <p className="text-sm text-muted">{reverse ? t.practice.tapToSeeNorwegian : t.practice.tapToSee}</p>
           )}
         </div>
       </div>

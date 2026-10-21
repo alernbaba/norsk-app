@@ -13,6 +13,7 @@ import { useAppState } from "./useAppState";
 
 const KIND_MODE: Record<ReviewItem["kind"], Mode> = {
   word: "flashcards",
+  reverse: "reverse",
   sentence: "write",
   drill: "inflection",
 };

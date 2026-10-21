@@ -82,10 +82,12 @@ describe("topicStats", () => {
       topic,
       {
         w1: { ...base, itemId: "w1", box: 4, nextReview: "2026-11-01" },
+        "w2:rev": { ...base, itemId: "w2:rev", box: 2, nextReview: "2026-10-21" },
         s1: { ...base, itemId: "s1", box: 1, nextReview: "2026-10-21" },
       },
       "2026-10-21",
     );
-    expect(stats).toEqual({ topicId: "t", words: 2, learnedWords: 1, practised: 2, total: 3, due: 1 });
+    // Each word counts twice among the items: once per flashcard direction.
+    expect(stats).toEqual({ topicId: "t", words: 2, learnedWords: 1, practised: 3, total: 5, due: 2 });
   });
 });

@@ -1,6 +1,7 @@
 // Recording answers, streaks and per-topic statistics on top of the storage layer.
 
 import { daysBetween } from "./dates";
+import { reverseId } from "./modes";
 import { isLearned, review } from "./srs";
 import type { StorageAdapter } from "./storage";
 import type { ItemProgress, Profile, Topic } from "./types";
@@ -47,6 +48,7 @@ export type TopicStats = {
 export function topicItemIds(topic: Topic): string[] {
   return [
     ...topic.words.map((w) => w.id),
+    ...topic.words.map((w) => reverseId(w.id)),
     ...topic.sentences.map((s) => s.id),
     ...topic.inflectionDrills.map((d) => d.id),
   ];

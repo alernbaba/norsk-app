@@ -49,6 +49,7 @@ const en = {
   },
   modes: {
     flashcards: { title: "Flashcards", description: "See a Norwegian word, flip the card, and say if you knew it." },
+    reverse: { title: "Flashcards: English → Norwegian", description: "See the English, think of the Norwegian word, then flip the card." },
     tiles: { title: "Build the sentence", description: "Translate from English by tapping word tiles." },
     write: { title: "Write it", description: "Type the Norwegian translation yourself." },
     inflection: { title: "Inflection", description: "Fill in the right form of a word in a sentence." },
@@ -86,6 +87,8 @@ const en = {
     backTo: (title: string) => `Back to ${title}`,
     missingWord: "Type the missing word…",
     tapToSee: "Tap to see the translation",
+    tapToSeeNorwegian: "Say it in Norwegian, then tap to check",
+    english: "English",
     showAnswer: "Show answer",
     didntKnow: "I didn't know it",
     knewIt: "I knew it",
@@ -136,9 +139,9 @@ const en = {
     dueExplained:
       "An item is due when its review date has come. Items you have never practised are not due; they show up as new items in practice instead. A word counts as learned once you get it right, and as mastered from box 4.",
     nothingDue: "Nothing is due right now. 🎉 Pick a topic on the overview to learn something new.",
-    review: (n: number, kind: "word" | "sentence" | "drill") =>
+    review: (n: number, kind: "word" | "reverse" | "sentence" | "drill") =>
       `Review ${n} ${
-        { word: plural(n, "word", "words"), sentence: plural(n, "sentence", "sentences"), drill: plural(n, "inflection drill", "inflection drills") }[kind]
+        { word: plural(n, "word", "words"), reverse: `${plural(n, "word", "words")} (English → Norwegian)`, sentence: plural(n, "sentence", "sentences"), drill: plural(n, "inflection drill", "inflection drills") }[kind]
       }`,
     box: (box: number) => `Box ${box}`,
     missedLastTime: "missed last time",
@@ -185,6 +188,7 @@ const nb: Messages = {
   },
   modes: {
     flashcards: { title: "Ordkort", description: "Se et norsk ord, snu kortet og si om du kunne det." },
+    reverse: { title: "Ordkort: engelsk → norsk", description: "Se det engelske ordet, tenk på det norske og snu kortet." },
     tiles: { title: "Bygg setningen", description: "Oversett fra engelsk ved å trykke på ordbrikker." },
     write: { title: "Skriv det", description: "Skriv den norske oversettelsen selv." },
     inflection: { title: "Bøying", description: "Fyll inn riktig form av et ord i en setning." },
@@ -222,6 +226,8 @@ const nb: Messages = {
     backTo: (title) => `Tilbake til ${title}`,
     missingWord: "Skriv ordet som mangler…",
     tapToSee: "Trykk for å se oversettelsen",
+    tapToSeeNorwegian: "Si det på norsk, og trykk for å sjekke",
+    english: "Engelsk",
     showAnswer: "Vis svaret",
     didntKnow: "Jeg kunne det ikke",
     knewIt: "Jeg kunne det",
@@ -273,7 +279,7 @@ const nb: Messages = {
     nothingDue: "Ingenting skal repeteres akkurat nå. 🎉 Velg et emne i oversikten for å lære noe nytt.",
     review: (n, kind) =>
       `Repeter ${n} ${
-        { word: "ord", sentence: plural(n, "setning", "setninger"), drill: plural(n, "bøyingsøvelse", "bøyingsøvelser") }[kind]
+        { word: "ord", reverse: "ord (engelsk → norsk)", sentence: plural(n, "setning", "setninger"), drill: plural(n, "bøyingsøvelse", "bøyingsøvelser") }[kind]
       }`,
     box: (box) => `Boks ${box}`,
     missedLastTime: "feil sist",

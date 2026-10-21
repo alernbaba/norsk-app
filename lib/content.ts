@@ -2,6 +2,8 @@
 
 import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
+import { reverseId } from "./modes";
+import { topicItemIds } from "./progress";
 import type { InflectionTable, Topic } from "./types";
 
 let topicsCache: Topic[] | null = null;
@@ -56,11 +58,11 @@ export function topicSummaries(): TopicSummary[] {
     description: t.description,
     emoji: t.emoji,
     wordIds: t.words.map((w) => w.id),
-    itemIds: [...t.words.map((w) => w.id), ...t.sentences.map((s) => s.id), ...t.inflectionDrills.map((d) => d.id)],
+    itemIds: topicItemIds(t),
   }));
 }
 
-export type ReviewItem = { id: string; kind: "word" | "sentence" | "drill"; no: string; en: string };
+export type ReviewItem = { id: string; kind: "word" | "reverse" | "sentence" | "drill"; no: string; en: string };
 export type ReviewTopic = Pick<Topic, "id" | "title" | "emoji"> & { items: ReviewItem[] };
 
 /** Every practice item with its display text, for the "due today" list. */
@@ -71,6 +73,7 @@ export function reviewTopics(): ReviewTopic[] {
     emoji: t.emoji,
     items: [
       ...t.words.map((w): ReviewItem => ({ id: w.id, kind: "word", no: w.no, en: w.en.join(", ") })),
+      ...t.words.map((w): ReviewItem => ({ id: reverseId(w.id), kind: "reverse", no: w.no, en: w.en.join(", ") })),
       ...t.sentences.map((s): ReviewItem => ({ id: s.id, kind: "sentence", no: s.no[0], en: s.en })),
       ...t.inflectionDrills.map((d): ReviewItem => ({ id: d.id, kind: "drill", no: d.no, en: d.en })),
     ],

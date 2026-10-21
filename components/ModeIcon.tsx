@@ -8,6 +8,13 @@ const PATHS: Record<Mode, React.ReactNode> = {
       <path d="M11 10h5M11 13.5h3" />
     </>
   ),
+  reverse: (
+    <>
+      <rect x="7" y="4" width="13" height="16" rx="2.5" />
+      <path d="M4.5 7.5v10A2.5 2.5 0 0 0 7 20" />
+      <path d="M10.5 10h6l-2-2M16.5 14h-6l2 2" />
+    </>
+  ),
   tiles: (
     <>
       <rect x="3" y="5" width="8" height="6" rx="1.5" />
