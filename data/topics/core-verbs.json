@@ -1,0 +1,618 @@
+{
+  "id": "core-verbs",
+  "title": "The most common verbs",
+  "description": "Be, have, become, do, can, want and other verbs you need every day.",
+  "emoji": "⭐",
+  "order": 9,
+  "words": [
+    {
+      "id": "core-verbs-a-vaere",
+      "no": "å være",
+      "en": [
+        "to be"
+      ],
+      "pos": "verb",
+      "lemma": "være"
+    },
+    {
+      "id": "core-verbs-a-ha",
+      "no": "å ha",
+      "en": [
+        "to have"
+      ],
+      "pos": "verb",
+      "lemma": "ha"
+    },
+    {
+      "id": "core-verbs-a-bli",
+      "no": "å bli",
+      "en": [
+        "to become",
+        "to stay"
+      ],
+      "pos": "verb",
+      "lemma": "bli"
+    },
+    {
+      "id": "core-verbs-a-fa",
+      "no": "å få",
+      "en": [
+        "to get",
+        "to be allowed to"
+      ],
+      "pos": "verb",
+      "lemma": "få"
+    },
+    {
+      "id": "core-verbs-a-gjore",
+      "no": "å gjøre",
+      "en": [
+        "to do",
+        "to make"
+      ],
+      "pos": "verb",
+      "lemma": "gjøre"
+    },
+    {
+      "id": "core-verbs-a-kunne",
+      "no": "å kunne",
+      "en": [
+        "can",
+        "to be able to"
+      ],
+      "pos": "verb",
+      "lemma": "kunne"
+    },
+    {
+      "id": "core-verbs-a-ville",
+      "no": "å ville",
+      "en": [
+        "will",
+        "to want to"
+      ],
+      "pos": "verb",
+      "lemma": "ville"
+    },
+    {
+      "id": "core-verbs-a-skulle",
+      "no": "å skulle",
+      "en": [
+        "shall",
+        "to be going to"
+      ],
+      "pos": "verb",
+      "lemma": "skulle"
+    },
+    {
+      "id": "core-verbs-a-matte",
+      "no": "å måtte",
+      "en": [
+        "must",
+        "to have to"
+      ],
+      "pos": "verb",
+      "lemma": "måtte"
+    },
+    {
+      "id": "core-verbs-a-burde",
+      "no": "å burde",
+      "en": [
+        "should",
+        "ought to"
+      ],
+      "pos": "verb",
+      "lemma": "burde"
+    },
+    {
+      "id": "core-verbs-a-ga",
+      "no": "å gå",
+      "en": [
+        "to go",
+        "to walk"
+      ],
+      "pos": "verb",
+      "lemma": "gå"
+    },
+    {
+      "id": "core-verbs-a-komme",
+      "no": "å komme",
+      "en": [
+        "to come"
+      ],
+      "pos": "verb",
+      "lemma": "komme"
+    },
+    {
+      "id": "core-verbs-a-se",
+      "no": "å se",
+      "en": [
+        "to see",
+        "to look"
+      ],
+      "pos": "verb",
+      "lemma": "se"
+    },
+    {
+      "id": "core-verbs-a-si",
+      "no": "å si",
+      "en": [
+        "to say"
+      ],
+      "pos": "verb",
+      "lemma": "si"
+    },
+    {
+      "id": "core-verbs-a-ta",
+      "no": "å ta",
+      "en": [
+        "to take"
+      ],
+      "pos": "verb",
+      "lemma": "ta"
+    },
+    {
+      "id": "core-verbs-a-gi",
+      "no": "å gi",
+      "en": [
+        "to give"
+      ],
+      "pos": "verb",
+      "lemma": "gi"
+    },
+    {
+      "id": "core-verbs-a-vite",
+      "no": "å vite",
+      "en": [
+        "to know (a fact)"
+      ],
+      "pos": "verb",
+      "lemma": "vite"
+    },
+    {
+      "id": "core-verbs-a-kjenne",
+      "no": "å kjenne",
+      "en": [
+        "to know (a person)",
+        "to feel"
+      ],
+      "pos": "verb",
+      "lemma": "kjenne"
+    },
+    {
+      "id": "core-verbs-a-tro",
+      "no": "å tro",
+      "en": [
+        "to believe",
+        "to think"
+      ],
+      "pos": "verb",
+      "lemma": "tro"
+    },
+    {
+      "id": "core-verbs-a-tenke",
+      "no": "å tenke",
+      "en": [
+        "to think"
+      ],
+      "pos": "verb",
+      "lemma": "tenke"
+    },
+    {
+      "id": "core-verbs-a-mene",
+      "no": "å mene",
+      "en": [
+        "to mean",
+        "to think (opinion)"
+      ],
+      "pos": "verb",
+      "lemma": "mene"
+    },
+    {
+      "id": "core-verbs-a-synes",
+      "no": "å synes",
+      "en": [
+        "to think (opinion)",
+        "to find"
+      ],
+      "pos": "verb",
+      "lemma": "synes"
+    },
+    {
+      "id": "core-verbs-a-like",
+      "no": "å like",
+      "en": [
+        "to like"
+      ],
+      "pos": "verb",
+      "lemma": "like",
+      "ordbankId": 40893
+    },
+    {
+      "id": "core-verbs-a-elske",
+      "no": "å elske",
+      "en": [
+        "to love"
+      ],
+      "pos": "verb",
+      "lemma": "elske"
+    },
+    {
+      "id": "core-verbs-a-hate",
+      "no": "å hate",
+      "en": [
+        "to hate"
+      ],
+      "pos": "verb",
+      "lemma": "hate"
+    },
+    {
+      "id": "core-verbs-a-trenge",
+      "no": "å trenge",
+      "en": [
+        "to need"
+      ],
+      "pos": "verb",
+      "lemma": "trenge"
+    },
+    {
+      "id": "core-verbs-a-bruke",
+      "no": "å bruke",
+      "en": [
+        "to use",
+        "to spend"
+      ],
+      "pos": "verb",
+      "lemma": "bruke"
+    },
+    {
+      "id": "core-verbs-a-finne",
+      "no": "å finne",
+      "en": [
+        "to find"
+      ],
+      "pos": "verb",
+      "lemma": "finne"
+    },
+    {
+      "id": "core-verbs-a-lete",
+      "no": "å lete",
+      "en": [
+        "to look for"
+      ],
+      "pos": "verb",
+      "lemma": "lete"
+    },
+    {
+      "id": "core-verbs-a-vente",
+      "no": "å vente",
+      "en": [
+        "to wait"
+      ],
+      "pos": "verb",
+      "lemma": "vente"
+    },
+    {
+      "id": "core-verbs-a-prove",
+      "no": "å prøve",
+      "en": [
+        "to try"
+      ],
+      "pos": "verb",
+      "lemma": "prøve"
+    },
+    {
+      "id": "core-verbs-a-begynne",
+      "no": "å begynne",
+      "en": [
+        "to begin",
+        "to start"
+      ],
+      "pos": "verb",
+      "lemma": "begynne"
+    },
+    {
+      "id": "core-verbs-a-slutte",
+      "no": "å slutte",
+      "en": [
+        "to stop",
+        "to quit"
+      ],
+      "pos": "verb",
+      "lemma": "slutte"
+    },
+    {
+      "id": "core-verbs-a-fortsette",
+      "no": "å fortsette",
+      "en": [
+        "to continue"
+      ],
+      "pos": "verb",
+      "lemma": "fortsette"
+    },
+    {
+      "id": "core-verbs-a-bety",
+      "no": "å bety",
+      "en": [
+        "to mean"
+      ],
+      "pos": "verb",
+      "lemma": "bety"
+    },
+    {
+      "id": "core-verbs-a-skje",
+      "no": "å skje",
+      "en": [
+        "to happen"
+      ],
+      "pos": "verb",
+      "lemma": "skje"
+    },
+    {
+      "id": "core-verbs-a-la",
+      "no": "å la",
+      "en": [
+        "to let"
+      ],
+      "pos": "verb",
+      "lemma": "la"
+    },
+    {
+      "id": "core-verbs-a-legge",
+      "no": "å legge",
+      "en": [
+        "to lay",
+        "to put (lying)"
+      ],
+      "pos": "verb",
+      "lemma": "legge"
+    },
+    {
+      "id": "core-verbs-a-sette",
+      "no": "å sette",
+      "en": [
+        "to set",
+        "to put (standing)"
+      ],
+      "pos": "verb",
+      "lemma": "sette"
+    },
+    {
+      "id": "core-verbs-a-sta",
+      "no": "å stå",
+      "en": [
+        "to stand"
+      ],
+      "pos": "verb",
+      "lemma": "stå"
+    },
+    {
+      "id": "core-verbs-a-sitte",
+      "no": "å sitte",
+      "en": [
+        "to sit"
+      ],
+      "pos": "verb",
+      "lemma": "sitte"
+    },
+    {
+      "id": "core-verbs-a-ligge",
+      "no": "å ligge",
+      "en": [
+        "to lie (be lying)"
+      ],
+      "pos": "verb",
+      "lemma": "ligge"
+    },
+    {
+      "id": "core-verbs-a-hjelpe",
+      "no": "å hjelpe",
+      "en": [
+        "to help"
+      ],
+      "pos": "verb",
+      "lemma": "hjelpe"
+    },
+    {
+      "id": "core-verbs-a-leve",
+      "no": "å leve",
+      "en": [
+        "to live (be alive)"
+      ],
+      "pos": "verb",
+      "lemma": "leve"
+    },
+    {
+      "id": "core-verbs-a-bo",
+      "no": "å bo",
+      "en": [
+        "to live (reside)"
+      ],
+      "pos": "verb",
+      "lemma": "bo"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "core-verbs-s1",
+      "en": "I am a teacher.",
+      "no": [
+        "Jeg er lærer."
+      ],
+      "distractors": [
+        "har",
+        "en",
+        "blir"
+      ]
+    },
+    {
+      "id": "core-verbs-s2",
+      "en": "We have a big house.",
+      "no": [
+        "Vi har et stort hus."
+      ],
+      "distractors": [
+        "er",
+        "stor",
+        "huset"
+      ]
+    },
+    {
+      "id": "core-verbs-s3",
+      "en": "What are you doing?",
+      "no": [
+        "Hva gjør du?",
+        "Hva holder du på med?"
+      ],
+      "distractors": [
+        "hvem",
+        "gjøre",
+        "er"
+      ]
+    },
+    {
+      "id": "core-verbs-s4",
+      "en": "I can swim.",
+      "no": [
+        "Jeg kan svømme."
+      ],
+      "distractors": [
+        "vil",
+        "må",
+        "svømmer"
+      ]
+    },
+    {
+      "id": "core-verbs-s5",
+      "en": "She wants to go home.",
+      "no": [
+        "Hun vil gå hjem.",
+        "Hun vil dra hjem."
+      ],
+      "distractors": [
+        "må",
+        "hjemme",
+        "han"
+      ]
+    },
+    {
+      "id": "core-verbs-s6",
+      "en": "We have to work tomorrow.",
+      "no": [
+        "Vi må jobbe i morgen."
+      ],
+      "distractors": [
+        "kan",
+        "jobber",
+        "skal"
+      ]
+    },
+    {
+      "id": "core-verbs-s7",
+      "en": "I don't know.",
+      "no": [
+        "Jeg vet ikke."
+      ],
+      "distractors": [
+        "kjenner",
+        "er",
+        "tror"
+      ]
+    },
+    {
+      "id": "core-verbs-s8",
+      "en": "Do you know Kari?",
+      "no": [
+        "Kjenner du Kari?"
+      ],
+      "distractors": [
+        "vet",
+        "kan",
+        "er"
+      ]
+    },
+    {
+      "id": "core-verbs-s9",
+      "en": "I think it is nice here.",
+      "no": [
+        "Jeg synes det er fint her.",
+        "Jeg syns det er fint her.",
+        "Jeg synes at det er fint her."
+      ],
+      "distractors": [
+        "tror",
+        "der",
+        "har"
+      ]
+    },
+    {
+      "id": "core-verbs-s10",
+      "en": "Can you help me?",
+      "no": [
+        "Kan du hjelpe meg?"
+      ],
+      "distractors": [
+        "jeg",
+        "vil",
+        "hjelp"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "core-verbs-d1",
+      "no": "Vi ___ i Bergen i fjor.",
+      "en": "We were in Bergen last year.",
+      "lemma": "være",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "core-verbs-d2",
+      "no": "Han ___ en ny jobb.",
+      "en": "He has got a new job.",
+      "lemma": "få",
+      "pos": "verb",
+      "form": "perfect"
+    },
+    {
+      "id": "core-verbs-d3",
+      "no": "Hva ___ du i går?",
+      "en": "What did you do yesterday?",
+      "lemma": "gjøre",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "core-verbs-d4",
+      "no": "Jeg ___ ham på bussen.",
+      "en": "I saw him on the bus.",
+      "lemma": "se",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "core-verbs-d5",
+      "no": "Hun ___ at hun var syk.",
+      "en": "She said that she was sick.",
+      "lemma": "si",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "core-verbs-d6",
+      "no": "___ en kopp kaffe!",
+      "en": "Have a cup of coffee! (lit. take)",
+      "lemma": "ta",
+      "pos": "verb",
+      "form": "imperative"
+    },
+    {
+      "id": "core-verbs-d7",
+      "no": "Det ___ mye i går.",
+      "en": "A lot happened yesterday.",
+      "lemma": "skje",
+      "pos": "verb",
+      "form": "past"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "out-and-help",
+  "title": "Eating out and getting help",
+  "description": "Order at a café, ask for the bill and handle emergencies.",
+  "emoji": "🆘",
+  "order": 34,
+  "words": [
+    {
+      "id": "out-and-help-et-bord-for-to-takk",
+      "no": "Et bord for to, takk.",
+      "en": [
+        "A table for two, please."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-kan-jeg-fa-menyen",
+      "no": "Kan jeg få menyen?",
+      "en": [
+        "Can I have the menu?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-jeg-vil-gjerne-ha",
+      "no": "Jeg vil gjerne ha …",
+      "en": [
+        "I would like …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-hva-anbefaler-du",
+      "no": "Hva anbefaler du?",
+      "en": [
+        "What do you recommend?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-er-det-plass-her",
+      "no": "Er det plass her?",
+      "en": [
+        "Is this seat free?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-jeg-er-allergisk-mot",
+      "no": "Jeg er allergisk mot …",
+      "en": [
+        "I am allergic to …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-kan-vi-fa-regningen",
+      "no": "Kan vi få regningen?",
+      "en": [
+        "Can we have the bill?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-kan-vi-betale-hver-for-oss",
+      "no": "Kan vi betale hver for oss?",
+      "en": [
+        "Can we pay separately?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-det-smakte-godt",
+      "no": "Det smakte godt.",
+      "en": [
+        "That tasted good."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-behold-resten",
+      "no": "Behold resten.",
+      "en": [
+        "Keep the change."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-ring-politiet",
+      "no": "Ring politiet!",
+      "en": [
+        "Call the police!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-ring-en-ambulanse",
+      "no": "Ring en ambulanse!",
+      "en": [
+        "Call an ambulance!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-det-brenner",
+      "no": "Det brenner!",
+      "en": [
+        "Fire!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-jeg-har-gatt-meg-vill",
+      "no": "Jeg har gått meg vill.",
+      "en": [
+        "I am lost."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-kan-du-hjelpe-meg",
+      "no": "Kan du hjelpe meg?",
+      "en": [
+        "Can you help me?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-jeg-trenger-hjelp",
+      "no": "Jeg trenger hjelp.",
+      "en": [
+        "I need help."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-jeg-har-mistet-lommeboka",
+      "no": "Jeg har mistet lommeboka.",
+      "en": [
+        "I have lost my wallet."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-hvor-er-naermeste-sykehus",
+      "no": "Hvor er nærmeste sykehus?",
+      "en": [
+        "Where is the nearest hospital?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-det-har-skjedd-en-ulykke",
+      "no": "Det har skjedd en ulykke.",
+      "en": [
+        "There has been an accident."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-er-alt-i-orden",
+      "no": "Er alt i orden?",
+      "en": [
+        "Is everything all right?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-ikke-ror",
+      "no": "Ikke rør!",
+      "en": [
+        "Don't touch!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "out-and-help-en-meny",
+      "no": "en meny",
+      "en": [
+        "a menu"
+      ],
+      "pos": "noun",
+      "lemma": "meny"
+    },
+    {
+      "id": "out-and-help-ei-lommebok",
+      "no": "ei lommebok",
+      "en": [
+        "a wallet"
+      ],
+      "pos": "noun",
+      "lemma": "lommebok"
+    },
+    {
+      "id": "out-and-help-en-ambulanse",
+      "no": "en ambulanse",
+      "en": [
+        "an ambulance"
+      ],
+      "pos": "noun",
+      "lemma": "ambulanse"
+    },
+    {
+      "id": "out-and-help-en-brann",
+      "no": "en brann",
+      "en": [
+        "a fire"
+      ],
+      "pos": "noun",
+      "lemma": "brann"
+    },
+    {
+      "id": "out-and-help-politi",
+      "no": "politi",
+      "en": [
+        "police"
+      ],
+      "pos": "noun",
+      "lemma": "politi"
+    },
+    {
+      "id": "out-and-help-en-nodssituasjon",
+      "no": "en nødssituasjon",
+      "en": [
+        "an emergency"
+      ],
+      "pos": "noun",
+      "lemma": "nødssituasjon"
+    },
+    {
+      "id": "out-and-help-allergisk",
+      "no": "allergisk",
+      "en": [
+        "allergic"
+      ],
+      "pos": "adj",
+      "lemma": "allergisk"
+    },
+    {
+      "id": "out-and-help-a-anbefale",
+      "no": "å anbefale",
+      "en": [
+        "to recommend"
+      ],
+      "pos": "verb",
+      "lemma": "anbefale"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "out-and-help-s1",
+      "en": "A table for two, please.",
+      "no": [
+        "Et bord for to, takk.",
+        "Et bord til to, takk."
+      ],
+      "distractors": [
+        "en",
+        "tre",
+        "bordet"
+      ]
+    },
+    {
+      "id": "out-and-help-s2",
+      "en": "Can we have the bill, please?",
+      "no": [
+        "Kan vi få regningen, takk?",
+        "Kan vi få regningen?"
+      ],
+      "distractors": [
+        "regning",
+        "betale",
+        "jeg"
+      ]
+    },
+    {
+      "id": "out-and-help-s3",
+      "en": "I would like a pizza.",
+      "no": [
+        "Jeg vil gjerne ha en pizza."
+      ],
+      "distractors": [
+        "et",
+        "kan",
+        "pizzaen"
+      ]
+    },
+    {
+      "id": "out-and-help-s4",
+      "en": "What do you recommend?",
+      "no": [
+        "Hva anbefaler du?"
+      ],
+      "distractors": [
+        "hvem",
+        "anbefale",
+        "er"
+      ]
+    },
+    {
+      "id": "out-and-help-s5",
+      "en": "I am allergic to nuts.",
+      "no": [
+        "Jeg er allergisk mot nøtter."
+      ],
+      "distractors": [
+        "for",
+        "nøtt",
+        "har"
+      ]
+    },
+    {
+      "id": "out-and-help-s6",
+      "en": "Call the police!",
+      "no": [
+        "Ring politiet!"
+      ],
+      "distractors": [
+        "politi",
+        "ringer",
+        "ambulanse"
+      ]
+    },
+    {
+      "id": "out-and-help-s7",
+      "en": "I am lost.",
+      "no": [
+        "Jeg har gått meg vill."
+      ],
+      "distractors": [
+        "går",
+        "deg",
+        "er"
+      ]
+    },
+    {
+      "id": "out-and-help-s8",
+      "en": "I have lost my wallet.",
+      "no": [
+        "Jeg har mistet lommeboka.",
+        "Jeg har mistet lommeboken.",
+        "Jeg har mistet lommeboka mi.",
+        "Jeg har mistet lommeboken min."
+      ],
+      "distractors": [
+        "lommebok",
+        "funnet",
+        "er"
+      ]
+    },
+    {
+      "id": "out-and-help-s9",
+      "en": "Is everything all right?",
+      "no": [
+        "Er alt i orden?",
+        "Går det bra?"
+      ],
+      "distractors": [
+        "alle",
+        "ordnet",
+        "var"
+      ]
+    },
+    {
+      "id": "out-and-help-s10",
+      "en": "Where is the nearest hospital?",
+      "no": [
+        "Hvor er nærmeste sykehus?",
+        "Hvor er det nærmeste sykehuset?"
+      ],
+      "distractors": [
+        "hva",
+        "sykehuset",
+        "nær"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "out-and-help-d1",
+      "no": "Jeg ___ denne restauranten.",
+      "en": "I recommend this restaurant.",
+      "lemma": "anbefale",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "out-and-help-d2",
+      "no": "Hun ___ den nye restauranten.",
+      "en": "She recommended the new restaurant.",
+      "lemma": "anbefale",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "out-and-help-d3",
+      "no": "___ var stor.",
+      "en": "The fire was big.",
+      "lemma": "brann",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "out-and-help-d4",
+      "no": "Jeg har mistet ___.",
+      "en": "I have lost the wallet.",
+      "lemma": "lommebok",
+      "pos": "noun",
+      "form": "defSg"
+    }
+  ]
+}

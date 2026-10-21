@@ -1,0 +1,603 @@
+{
+  "id": "verbs-3",
+  "title": "Verbs for daily life",
+  "description": "Collect, grow, solve, expect and many more.",
+  "emoji": "🧠",
+  "order": 30,
+  "words": [
+    {
+      "id": "verbs-3-a-samle",
+      "no": "å samle",
+      "en": [
+        "to collect",
+        "to gather"
+      ],
+      "pos": "verb",
+      "lemma": "samle"
+    },
+    {
+      "id": "verbs-3-a-kreve",
+      "no": "å kreve",
+      "en": [
+        "to demand",
+        "to require"
+      ],
+      "pos": "verb",
+      "lemma": "kreve"
+    },
+    {
+      "id": "verbs-3-a-vokse",
+      "no": "å vokse",
+      "en": [
+        "to grow"
+      ],
+      "pos": "verb",
+      "lemma": "vokse"
+    },
+    {
+      "id": "verbs-3-a-lose",
+      "no": "å løse",
+      "en": [
+        "to solve"
+      ],
+      "pos": "verb",
+      "lemma": "løse"
+    },
+    {
+      "id": "verbs-3-a-beholde",
+      "no": "å beholde",
+      "en": [
+        "to keep"
+      ],
+      "pos": "verb",
+      "lemma": "beholde"
+    },
+    {
+      "id": "verbs-3-a-skremme",
+      "no": "å skremme",
+      "en": [
+        "to scare"
+      ],
+      "pos": "verb",
+      "lemma": "skremme"
+    },
+    {
+      "id": "verbs-3-a-drive",
+      "no": "å drive",
+      "en": [
+        "to run (a business)",
+        "to do"
+      ],
+      "pos": "verb",
+      "lemma": "drive"
+    },
+    {
+      "id": "verbs-3-a-tilby",
+      "no": "å tilby",
+      "en": [
+        "to offer"
+      ],
+      "pos": "verb",
+      "lemma": "tilby"
+    },
+    {
+      "id": "verbs-3-a-fylle",
+      "no": "å fylle",
+      "en": [
+        "to fill"
+      ],
+      "pos": "verb",
+      "lemma": "fylle"
+    },
+    {
+      "id": "verbs-3-a-unnga",
+      "no": "å unngå",
+      "en": [
+        "to avoid"
+      ],
+      "pos": "verb",
+      "lemma": "unngå"
+    },
+    {
+      "id": "verbs-3-a-overraske",
+      "no": "å overraske",
+      "en": [
+        "to surprise"
+      ],
+      "pos": "verb",
+      "lemma": "overraske"
+    },
+    {
+      "id": "verbs-3-a-forvente",
+      "no": "å forvente",
+      "en": [
+        "to expect"
+      ],
+      "pos": "verb",
+      "lemma": "forvente"
+    },
+    {
+      "id": "verbs-3-a-oppdage",
+      "no": "å oppdage",
+      "en": [
+        "to discover"
+      ],
+      "pos": "verb",
+      "lemma": "oppdage"
+    },
+    {
+      "id": "verbs-3-a-behandle",
+      "no": "å behandle",
+      "en": [
+        "to treat"
+      ],
+      "pos": "verb",
+      "lemma": "behandle"
+    },
+    {
+      "id": "verbs-3-a-minne-om",
+      "no": "å minne om",
+      "en": [
+        "to remind"
+      ],
+      "pos": "verb",
+      "lemma": "minne"
+    },
+    {
+      "id": "verbs-3-a-mistenke",
+      "no": "å mistenke",
+      "en": [
+        "to suspect"
+      ],
+      "pos": "verb",
+      "lemma": "mistenke"
+    },
+    {
+      "id": "verbs-3-a-merke",
+      "no": "å merke",
+      "en": [
+        "to notice",
+        "to mark"
+      ],
+      "pos": "verb",
+      "lemma": "merke"
+    },
+    {
+      "id": "verbs-3-a-bekrefte",
+      "no": "å bekrefte",
+      "en": [
+        "to confirm"
+      ],
+      "pos": "verb",
+      "lemma": "bekrefte"
+    },
+    {
+      "id": "verbs-3-a-gjelde",
+      "no": "å gjelde",
+      "en": [
+        "to apply",
+        "to concern"
+      ],
+      "pos": "verb",
+      "lemma": "gjelde"
+    },
+    {
+      "id": "verbs-3-a-motta",
+      "no": "å motta",
+      "en": [
+        "to receive"
+      ],
+      "pos": "verb",
+      "lemma": "motta"
+    },
+    {
+      "id": "verbs-3-a-bevege",
+      "no": "å bevege",
+      "en": [
+        "to move"
+      ],
+      "pos": "verb",
+      "lemma": "bevege"
+    },
+    {
+      "id": "verbs-3-a-undersoke",
+      "no": "å undersøke",
+      "en": [
+        "to examine",
+        "to investigate"
+      ],
+      "pos": "verb",
+      "lemma": "undersøke"
+    },
+    {
+      "id": "verbs-3-a-advare",
+      "no": "å advare",
+      "en": [
+        "to warn"
+      ],
+      "pos": "verb",
+      "lemma": "advare"
+    },
+    {
+      "id": "verbs-3-a-forstyrre",
+      "no": "å forstyrre",
+      "en": [
+        "to disturb"
+      ],
+      "pos": "verb",
+      "lemma": "forstyrre"
+    },
+    {
+      "id": "verbs-3-a-forsvare",
+      "no": "å forsvare",
+      "en": [
+        "to defend"
+      ],
+      "pos": "verb",
+      "lemma": "forsvare"
+    },
+    {
+      "id": "verbs-3-a-nekte",
+      "no": "å nekte",
+      "en": [
+        "to refuse",
+        "to deny"
+      ],
+      "pos": "verb",
+      "lemma": "nekte"
+    },
+    {
+      "id": "verbs-3-a-lukte",
+      "no": "å lukte",
+      "en": [
+        "to smell"
+      ],
+      "pos": "verb",
+      "lemma": "lukte"
+    },
+    {
+      "id": "verbs-3-a-innromme",
+      "no": "å innrømme",
+      "en": [
+        "to admit"
+      ],
+      "pos": "verb",
+      "lemma": "innrømme"
+    },
+    {
+      "id": "verbs-3-a-interessere-seg-for",
+      "no": "å interessere seg for",
+      "en": [
+        "to be interested in"
+      ],
+      "pos": "verb",
+      "lemma": "interessere"
+    },
+    {
+      "id": "verbs-3-a-frykte",
+      "no": "å frykte",
+      "en": [
+        "to fear"
+      ],
+      "pos": "verb",
+      "lemma": "frykte"
+    },
+    {
+      "id": "verbs-3-a-vurdere",
+      "no": "å vurdere",
+      "en": [
+        "to consider"
+      ],
+      "pos": "verb",
+      "lemma": "vurdere"
+    },
+    {
+      "id": "verbs-3-a-oppleve",
+      "no": "å oppleve",
+      "en": [
+        "to experience"
+      ],
+      "pos": "verb",
+      "lemma": "oppleve"
+    },
+    {
+      "id": "verbs-3-a-forberede",
+      "no": "å forberede",
+      "en": [
+        "to prepare"
+      ],
+      "pos": "verb",
+      "lemma": "forberede"
+    },
+    {
+      "id": "verbs-3-a-styre",
+      "no": "å styre",
+      "en": [
+        "to steer",
+        "to control",
+        "to govern"
+      ],
+      "pos": "verb",
+      "lemma": "styre",
+      "ordbankId": 66391
+    },
+    {
+      "id": "verbs-3-a-tvile",
+      "no": "å tvile",
+      "en": [
+        "to doubt"
+      ],
+      "pos": "verb",
+      "lemma": "tvile"
+    },
+    {
+      "id": "verbs-3-a-gjenta",
+      "no": "å gjenta",
+      "en": [
+        "to repeat"
+      ],
+      "pos": "verb",
+      "lemma": "gjenta"
+    },
+    {
+      "id": "verbs-3-a-lede",
+      "no": "å lede",
+      "en": [
+        "to lead"
+      ],
+      "pos": "verb",
+      "lemma": "lede"
+    },
+    {
+      "id": "verbs-3-a-ligne",
+      "no": "å ligne",
+      "en": [
+        "to resemble",
+        "to look like"
+      ],
+      "pos": "verb",
+      "lemma": "ligne"
+    },
+    {
+      "id": "verbs-3-a-naerme-seg",
+      "no": "å nærme seg",
+      "en": [
+        "to approach"
+      ],
+      "pos": "verb",
+      "lemma": "nærme"
+    },
+    {
+      "id": "verbs-3-a-tillate",
+      "no": "å tillate",
+      "en": [
+        "to allow"
+      ],
+      "pos": "verb",
+      "lemma": "tillate"
+    },
+    {
+      "id": "verbs-3-a-stotte",
+      "no": "å støtte",
+      "en": [
+        "to support"
+      ],
+      "pos": "verb",
+      "lemma": "støtte"
+    },
+    {
+      "id": "verbs-3-a-fjerne",
+      "no": "å fjerne",
+      "en": [
+        "to remove"
+      ],
+      "pos": "verb",
+      "lemma": "fjerne"
+    },
+    {
+      "id": "verbs-3-a-gjette",
+      "no": "å gjette",
+      "en": [
+        "to guess"
+      ],
+      "pos": "verb",
+      "lemma": "gjette"
+    },
+    {
+      "id": "verbs-3-a-legge-merke-til",
+      "no": "å legge merke til",
+      "en": [
+        "to notice"
+      ],
+      "pos": "verb",
+      "lemma": "legge"
+    },
+    {
+      "id": "verbs-3-a-glede-seg-til",
+      "no": "å glede seg til",
+      "en": [
+        "to look forward to"
+      ],
+      "pos": "verb",
+      "lemma": "glede"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "verbs-3-s1",
+      "en": "The children grow fast.",
+      "no": [
+        "Barna vokser fort."
+      ],
+      "distractors": [
+        "barn",
+        "vokste",
+        "sakte"
+      ]
+    },
+    {
+      "id": "verbs-3-s2",
+      "en": "Can you repeat that?",
+      "no": [
+        "Kan du gjenta det?",
+        "Kan du si det igjen?"
+      ],
+      "distractors": [
+        "gjentar",
+        "jeg",
+        "den"
+      ]
+    },
+    {
+      "id": "verbs-3-s3",
+      "en": "She looks like her mother.",
+      "no": [
+        "Hun ligner på moren sin.",
+        "Hun ligner på mora si.",
+        "Hun ligner moren sin."
+      ],
+      "distractors": [
+        "hennes",
+        "mor",
+        "han"
+      ]
+    },
+    {
+      "id": "verbs-3-s4",
+      "en": "I expect an answer.",
+      "no": [
+        "Jeg forventer et svar."
+      ],
+      "distractors": [
+        "svaret",
+        "en",
+        "venter"
+      ]
+    },
+    {
+      "id": "verbs-3-s5",
+      "en": "We solved the problem.",
+      "no": [
+        "Vi løste problemet.",
+        "Vi har løst problemet."
+      ],
+      "distractors": [
+        "problem",
+        "løser",
+        "de"
+      ]
+    },
+    {
+      "id": "verbs-3-s6",
+      "en": "Don't disturb me!",
+      "no": [
+        "Ikke forstyrr meg!"
+      ],
+      "distractors": [
+        "jeg",
+        "forstyrre",
+        "deg"
+      ]
+    },
+    {
+      "id": "verbs-3-s7",
+      "en": "The food smells good.",
+      "no": [
+        "Maten lukter godt."
+      ],
+      "distractors": [
+        "mat",
+        "god",
+        "smaker"
+      ]
+    },
+    {
+      "id": "verbs-3-s8",
+      "en": "He refuses to eat.",
+      "no": [
+        "Han nekter å spise."
+      ],
+      "distractors": [
+        "spiser",
+        "vil",
+        "hun"
+      ]
+    },
+    {
+      "id": "verbs-3-s9",
+      "en": "Guess who I met!",
+      "no": [
+        "Gjett hvem jeg møtte!",
+        "Gjett hvem jeg traff!"
+      ],
+      "distractors": [
+        "hva",
+        "møter",
+        "gjette"
+      ]
+    },
+    {
+      "id": "verbs-3-s10",
+      "en": "We are preparing dinner.",
+      "no": [
+        "Vi forbereder middagen.",
+        "Vi forbereder middag."
+      ],
+      "distractors": [
+        "frokost",
+        "lager",
+        "de"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "verbs-3-d1",
+      "no": "Barna har ___ mye i år.",
+      "en": "The children have grown a lot this year.",
+      "lemma": "vokse",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "verbs-3-d2",
+      "no": "Hun ___ oppgaven på fem minutter.",
+      "en": "She solved the task in five minutes.",
+      "lemma": "løse",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "verbs-3-d3",
+      "no": "___ meg på det i morgen!",
+      "en": "Remind me of it tomorrow!",
+      "lemma": "minne",
+      "pos": "verb",
+      "form": "imperative"
+    },
+    {
+      "id": "verbs-3-d4",
+      "no": "Han ___ at han hadde gjort feil.",
+      "en": "He admitted that he had made a mistake.",
+      "lemma": "innrømme",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "verbs-3-d5",
+      "no": "Vi ___ deg om været.",
+      "en": "We warned you about the weather.",
+      "lemma": "advare",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "verbs-3-d6",
+      "no": "Jeg ___ riktig!",
+      "en": "I guessed right!",
+      "lemma": "gjette",
+      "pos": "verb",
+      "form": "past"
+    }
+  ]
+}

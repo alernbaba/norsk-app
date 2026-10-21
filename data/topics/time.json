@@ -1,0 +1,742 @@
+{
+  "id": "time",
+  "title": "Time and calendar",
+  "description": "Days, months, seasons and telling the time.",
+  "emoji": "📅",
+  "order": 8,
+  "words": [
+    {
+      "id": "time-en-tid",
+      "no": "en tid",
+      "en": [
+        "a time"
+      ],
+      "pos": "noun",
+      "lemma": "tid"
+    },
+    {
+      "id": "time-en-dag",
+      "no": "en dag",
+      "en": [
+        "a day"
+      ],
+      "pos": "noun",
+      "lemma": "dag"
+    },
+    {
+      "id": "time-ei-uke",
+      "no": "ei uke",
+      "en": [
+        "a week"
+      ],
+      "pos": "noun",
+      "lemma": "uke"
+    },
+    {
+      "id": "time-en-maned",
+      "no": "en måned",
+      "en": [
+        "a month"
+      ],
+      "pos": "noun",
+      "lemma": "måned"
+    },
+    {
+      "id": "time-et-ar",
+      "no": "et år",
+      "en": [
+        "a year"
+      ],
+      "pos": "noun",
+      "lemma": "år"
+    },
+    {
+      "id": "time-en-time",
+      "no": "en time",
+      "en": [
+        "an hour",
+        "a lesson",
+        "an appointment"
+      ],
+      "pos": "noun",
+      "lemma": "time"
+    },
+    {
+      "id": "time-et-minutt",
+      "no": "et minutt",
+      "en": [
+        "a minute"
+      ],
+      "pos": "noun",
+      "lemma": "minutt"
+    },
+    {
+      "id": "time-et-sekund",
+      "no": "et sekund",
+      "en": [
+        "a second"
+      ],
+      "pos": "noun",
+      "lemma": "sekund"
+    },
+    {
+      "id": "time-et-oyeblikk",
+      "no": "et øyeblikk",
+      "en": [
+        "a moment"
+      ],
+      "pos": "noun",
+      "lemma": "øyeblikk"
+    },
+    {
+      "id": "time-ei-klokke",
+      "no": "ei klokke",
+      "en": [
+        "a clock",
+        "a watch"
+      ],
+      "pos": "noun",
+      "lemma": "klokke"
+    },
+    {
+      "id": "time-en-morgen",
+      "no": "en morgen",
+      "en": [
+        "a morning"
+      ],
+      "pos": "noun",
+      "lemma": "morgen"
+    },
+    {
+      "id": "time-en-formiddag",
+      "no": "en formiddag",
+      "en": [
+        "a late morning"
+      ],
+      "pos": "noun",
+      "lemma": "formiddag"
+    },
+    {
+      "id": "time-en-ettermiddag",
+      "no": "en ettermiddag",
+      "en": [
+        "an afternoon"
+      ],
+      "pos": "noun",
+      "lemma": "ettermiddag"
+    },
+    {
+      "id": "time-en-kveld",
+      "no": "en kveld",
+      "en": [
+        "an evening"
+      ],
+      "pos": "noun",
+      "lemma": "kveld"
+    },
+    {
+      "id": "time-ei-natt",
+      "no": "ei natt",
+      "en": [
+        "a night"
+      ],
+      "pos": "noun",
+      "lemma": "natt"
+    },
+    {
+      "id": "time-ei-helg",
+      "no": "ei helg",
+      "en": [
+        "a weekend"
+      ],
+      "pos": "noun",
+      "lemma": "helg"
+    },
+    {
+      "id": "time-en-ferie",
+      "no": "en ferie",
+      "en": [
+        "a holiday",
+        "a vacation"
+      ],
+      "pos": "noun",
+      "lemma": "ferie"
+    },
+    {
+      "id": "time-en-bursdag",
+      "no": "en bursdag",
+      "en": [
+        "a birthday"
+      ],
+      "pos": "noun",
+      "lemma": "bursdag"
+    },
+    {
+      "id": "time-en-jul",
+      "no": "en jul",
+      "en": [
+        "Christmas"
+      ],
+      "pos": "noun",
+      "lemma": "jul"
+    },
+    {
+      "id": "time-i-dag",
+      "no": "i dag",
+      "en": [
+        "today"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-i-gar",
+      "no": "i går",
+      "en": [
+        "yesterday"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-i-morgen",
+      "no": "i morgen",
+      "en": [
+        "tomorrow"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-i-kveld",
+      "no": "i kveld",
+      "en": [
+        "this evening",
+        "tonight"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-i-natt",
+      "no": "i natt",
+      "en": [
+        "tonight",
+        "last night"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-i-fjor",
+      "no": "i fjor",
+      "en": [
+        "last year"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-na",
+      "no": "nå",
+      "en": [
+        "now"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-snart",
+      "no": "snart",
+      "en": [
+        "soon"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-straks",
+      "no": "straks",
+      "en": [
+        "right away"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-tidlig",
+      "no": "tidlig",
+      "en": [
+        "early"
+      ],
+      "pos": "adj",
+      "lemma": "tidlig"
+    },
+    {
+      "id": "time-sen-sein",
+      "no": "sen / sein",
+      "en": [
+        "late"
+      ],
+      "pos": "adj",
+      "lemma": "sen"
+    },
+    {
+      "id": "time-lenge",
+      "no": "lenge",
+      "en": [
+        "for a long time"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-alltid",
+      "no": "alltid",
+      "en": [
+        "always"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-aldri",
+      "no": "aldri",
+      "en": [
+        "never"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-ofte",
+      "no": "ofte",
+      "en": [
+        "often"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-noen-ganger",
+      "no": "noen ganger",
+      "en": [
+        "sometimes"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-av-og-til",
+      "no": "av og til",
+      "en": [
+        "now and then"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-en-gang",
+      "no": "en gang",
+      "en": [
+        "once",
+        "one time"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "time-enna",
+      "no": "ennå",
+      "en": [
+        "yet",
+        "still"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-fortsatt",
+      "no": "fortsatt",
+      "en": [
+        "still"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-allerede",
+      "no": "allerede",
+      "en": [
+        "already"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-etterpa",
+      "no": "etterpå",
+      "en": [
+        "afterwards"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-forst",
+      "no": "først",
+      "en": [
+        "first"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-til-slutt",
+      "no": "til slutt",
+      "en": [
+        "finally",
+        "in the end"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-mandag",
+      "no": "mandag",
+      "en": [
+        "Monday"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-tirsdag",
+      "no": "tirsdag",
+      "en": [
+        "Tuesday"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-onsdag",
+      "no": "onsdag",
+      "en": [
+        "Wednesday"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-torsdag",
+      "no": "torsdag",
+      "en": [
+        "Thursday"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-fredag",
+      "no": "fredag",
+      "en": [
+        "Friday"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-lordag",
+      "no": "lørdag",
+      "en": [
+        "Saturday"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-sondag",
+      "no": "søndag",
+      "en": [
+        "Sunday"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-januar",
+      "no": "januar",
+      "en": [
+        "January"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-februar",
+      "no": "februar",
+      "en": [
+        "February"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-mars",
+      "no": "mars",
+      "en": [
+        "March"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-april",
+      "no": "april",
+      "en": [
+        "April"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-mai",
+      "no": "mai",
+      "en": [
+        "May"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-juni",
+      "no": "juni",
+      "en": [
+        "June"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-juli",
+      "no": "juli",
+      "en": [
+        "July"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-august",
+      "no": "august",
+      "en": [
+        "August"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-september",
+      "no": "september",
+      "en": [
+        "September"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-oktober",
+      "no": "oktober",
+      "en": [
+        "October"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-november",
+      "no": "november",
+      "en": [
+        "November"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-desember",
+      "no": "desember",
+      "en": [
+        "December"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "time-en-var",
+      "no": "en vår",
+      "en": [
+        "a spring"
+      ],
+      "pos": "noun",
+      "lemma": "vår"
+    },
+    {
+      "id": "time-en-sommer",
+      "no": "en sommer",
+      "en": [
+        "a summer"
+      ],
+      "pos": "noun",
+      "lemma": "sommer"
+    },
+    {
+      "id": "time-en-host",
+      "no": "en høst",
+      "en": [
+        "an autumn"
+      ],
+      "pos": "noun",
+      "lemma": "høst"
+    },
+    {
+      "id": "time-en-vinter",
+      "no": "en vinter",
+      "en": [
+        "a winter"
+      ],
+      "pos": "noun",
+      "lemma": "vinter"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "time-s1",
+      "en": "What time is it?",
+      "no": [
+        "Hva er klokka?",
+        "Hvor mye er klokka?",
+        "Hva er klokken?",
+        "Hvor mye er klokken?"
+      ],
+      "distractors": [
+        "når",
+        "tid",
+        "hvem"
+      ]
+    },
+    {
+      "id": "time-s2",
+      "en": "I work on Monday.",
+      "no": [
+        "Jeg jobber på mandag.",
+        "Jeg jobber mandag."
+      ],
+      "distractors": [
+        "i",
+        "søndag",
+        "jobb"
+      ]
+    },
+    {
+      "id": "time-s3",
+      "en": "We are going on holiday in July.",
+      "no": [
+        "Vi skal på ferie i juli.",
+        "Vi drar på ferie i juli."
+      ],
+      "distractors": [
+        "juni",
+        "til",
+        "er"
+      ]
+    },
+    {
+      "id": "time-s4",
+      "en": "See you tomorrow!",
+      "no": [
+        "Vi ses i morgen!"
+      ],
+      "distractors": [
+        "går",
+        "dag",
+        "ser"
+      ]
+    },
+    {
+      "id": "time-s5",
+      "en": "I have lived here for a long time.",
+      "no": [
+        "Jeg har bodd her lenge."
+      ],
+      "distractors": [
+        "bor",
+        "alltid",
+        "der"
+      ]
+    },
+    {
+      "id": "time-s6",
+      "en": "She always drinks coffee in the morning.",
+      "no": [
+        "Hun drikker alltid kaffe om morgenen."
+      ],
+      "distractors": [
+        "aldri",
+        "kveld",
+        "han"
+      ]
+    },
+    {
+      "id": "time-s7",
+      "en": "It is cold in winter.",
+      "no": [
+        "Det er kaldt om vinteren."
+      ],
+      "distractors": [
+        "sommer",
+        "varmt",
+        "i"
+      ]
+    },
+    {
+      "id": "time-s8",
+      "en": "The meeting is in ten minutes.",
+      "no": [
+        "Møtet er om ti minutter.",
+        "Møtet begynner om ti minutter."
+      ],
+      "distractors": [
+        "minutt",
+        "i",
+        "timer"
+      ]
+    },
+    {
+      "id": "time-s9",
+      "en": "I have never been to Norway.",
+      "no": [
+        "Jeg har aldri vært i Norge."
+      ],
+      "distractors": [
+        "alltid",
+        "til",
+        "er"
+      ]
+    },
+    {
+      "id": "time-s10",
+      "en": "My birthday is in May.",
+      "no": [
+        "Bursdagen min er i mai.",
+        "Min bursdag er i mai."
+      ],
+      "distractors": [
+        "bursdag",
+        "på",
+        "mars"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "time-d1",
+      "no": "Jeg har bodd her i tre ___.",
+      "en": "I have lived here for three years.",
+      "lemma": "år",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "time-d2",
+      "no": "Vi ses om to ___.",
+      "en": "See you in two weeks.",
+      "lemma": "uke",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "time-d3",
+      "no": "___ var lang.",
+      "en": "The night was long.",
+      "lemma": "natt",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "time-d4",
+      "no": "Jeg jobbet alle ___ i forrige uke.",
+      "en": "I worked all the days last week.",
+      "lemma": "dag",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "time-d5",
+      "no": "Han kom for ___.",
+      "en": "He came too late.",
+      "lemma": "sen",
+      "pos": "adj",
+      "form": "mf"
+    }
+  ]
+}

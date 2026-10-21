@@ -1,0 +1,453 @@
+{
+  "id": "animals",
+  "title": "Animals",
+  "description": "Pets, farm animals and wild animals.",
+  "emoji": "🐾",
+  "order": 21,
+  "words": [
+    {
+      "id": "animals-et-dyr",
+      "no": "et dyr",
+      "en": [
+        "an animal"
+      ],
+      "pos": "noun",
+      "lemma": "dyr"
+    },
+    {
+      "id": "animals-en-hund",
+      "no": "en hund",
+      "en": [
+        "a dog"
+      ],
+      "pos": "noun",
+      "lemma": "hund"
+    },
+    {
+      "id": "animals-en-katt",
+      "no": "en katt",
+      "en": [
+        "a cat"
+      ],
+      "pos": "noun",
+      "lemma": "katt"
+    },
+    {
+      "id": "animals-en-hest",
+      "no": "en hest",
+      "en": [
+        "a horse"
+      ],
+      "pos": "noun",
+      "lemma": "hest"
+    },
+    {
+      "id": "animals-ei-ku",
+      "no": "ei ku",
+      "en": [
+        "a cow"
+      ],
+      "pos": "noun",
+      "lemma": "ku"
+    },
+    {
+      "id": "animals-en-gris",
+      "no": "en gris",
+      "en": [
+        "a pig"
+      ],
+      "pos": "noun",
+      "lemma": "gris"
+    },
+    {
+      "id": "animals-ei-sau",
+      "no": "ei sau",
+      "en": [
+        "a sheep"
+      ],
+      "pos": "noun",
+      "lemma": "sau"
+    },
+    {
+      "id": "animals-ei-geit",
+      "no": "ei geit",
+      "en": [
+        "a goat"
+      ],
+      "pos": "noun",
+      "lemma": "geit"
+    },
+    {
+      "id": "animals-ei-hone",
+      "no": "ei høne",
+      "en": [
+        "a hen"
+      ],
+      "pos": "noun",
+      "lemma": "høne"
+    },
+    {
+      "id": "animals-en-fugl",
+      "no": "en fugl",
+      "en": [
+        "a bird"
+      ],
+      "pos": "noun",
+      "lemma": "fugl"
+    },
+    {
+      "id": "animals-ei-mus",
+      "no": "ei mus",
+      "en": [
+        "a mouse"
+      ],
+      "pos": "noun",
+      "lemma": "mus"
+    },
+    {
+      "id": "animals-en-kanin",
+      "no": "en kanin",
+      "en": [
+        "a rabbit"
+      ],
+      "pos": "noun",
+      "lemma": "kanin"
+    },
+    {
+      "id": "animals-en-elg",
+      "no": "en elg",
+      "en": [
+        "an elk",
+        "a moose"
+      ],
+      "pos": "noun",
+      "lemma": "elg"
+    },
+    {
+      "id": "animals-en-rein",
+      "no": "en rein",
+      "en": [
+        "a reindeer"
+      ],
+      "pos": "noun",
+      "lemma": "rein"
+    },
+    {
+      "id": "animals-en-bjorn",
+      "no": "en bjørn",
+      "en": [
+        "a bear"
+      ],
+      "pos": "noun",
+      "lemma": "bjørn"
+    },
+    {
+      "id": "animals-en-ulv",
+      "no": "en ulv",
+      "en": [
+        "a wolf"
+      ],
+      "pos": "noun",
+      "lemma": "ulv"
+    },
+    {
+      "id": "animals-en-rev",
+      "no": "en rev",
+      "en": [
+        "a fox"
+      ],
+      "pos": "noun",
+      "lemma": "rev",
+      "ordbankId": 55626
+    },
+    {
+      "id": "animals-en-orn",
+      "no": "en ørn",
+      "en": [
+        "an eagle"
+      ],
+      "pos": "noun",
+      "lemma": "ørn"
+    },
+    {
+      "id": "animals-en-hval",
+      "no": "en hval",
+      "en": [
+        "a whale"
+      ],
+      "pos": "noun",
+      "lemma": "hval"
+    },
+    {
+      "id": "animals-en-laks",
+      "no": "en laks",
+      "en": [
+        "a salmon"
+      ],
+      "pos": "noun",
+      "lemma": "laks"
+    },
+    {
+      "id": "animals-et-insekt",
+      "no": "et insekt",
+      "en": [
+        "an insect"
+      ],
+      "pos": "noun",
+      "lemma": "insekt"
+    },
+    {
+      "id": "animals-ei-flue",
+      "no": "ei flue",
+      "en": [
+        "a fly"
+      ],
+      "pos": "noun",
+      "lemma": "flue"
+    },
+    {
+      "id": "animals-en-mygg",
+      "no": "en mygg",
+      "en": [
+        "a mosquito"
+      ],
+      "pos": "noun",
+      "lemma": "mygg"
+    },
+    {
+      "id": "animals-en-bie",
+      "no": "en bie",
+      "en": [
+        "a bee"
+      ],
+      "pos": "noun",
+      "lemma": "bie"
+    },
+    {
+      "id": "animals-en-slange",
+      "no": "en slange",
+      "en": [
+        "a snake"
+      ],
+      "pos": "noun",
+      "lemma": "slange"
+    },
+    {
+      "id": "animals-a-bite",
+      "no": "å bite",
+      "en": [
+        "to bite"
+      ],
+      "pos": "verb",
+      "lemma": "bite"
+    },
+    {
+      "id": "animals-a-mate",
+      "no": "å mate",
+      "en": [
+        "to feed"
+      ],
+      "pos": "verb",
+      "lemma": "mate"
+    },
+    {
+      "id": "animals-a-ga-tur-med-hunden",
+      "no": "å gå tur med hunden",
+      "en": [
+        "to walk the dog"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "animals-vill",
+      "no": "vill",
+      "en": [
+        "wild"
+      ],
+      "pos": "adj",
+      "lemma": "vill"
+    },
+    {
+      "id": "animals-tam",
+      "no": "tam",
+      "en": [
+        "tame"
+      ],
+      "pos": "adj",
+      "lemma": "tam"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "animals-s1",
+      "en": "We have a dog and two cats.",
+      "no": [
+        "Vi har en hund og to katter."
+      ],
+      "distractors": [
+        "katt",
+        "hunden",
+        "tre"
+      ]
+    },
+    {
+      "id": "animals-s2",
+      "en": "The cat sleeps on the sofa.",
+      "no": [
+        "Katten sover på sofaen.",
+        "Katta sover på sofaen."
+      ],
+      "distractors": [
+        "katt",
+        "sofa",
+        "i"
+      ]
+    },
+    {
+      "id": "animals-s3",
+      "en": "The horse is big.",
+      "no": [
+        "Hesten er stor."
+      ],
+      "distractors": [
+        "hest",
+        "liten",
+        "stort"
+      ]
+    },
+    {
+      "id": "animals-s4",
+      "en": "The birds are singing.",
+      "no": [
+        "Fuglene synger."
+      ],
+      "distractors": [
+        "fugl",
+        "fuglen",
+        "sang"
+      ]
+    },
+    {
+      "id": "animals-s5",
+      "en": "Is the dog dangerous?",
+      "no": [
+        "Er hunden farlig?"
+      ],
+      "distractors": [
+        "hund",
+        "snill",
+        "har"
+      ]
+    },
+    {
+      "id": "animals-s6",
+      "en": "There are many sheep in Norway.",
+      "no": [
+        "Det er mange sauer i Norge."
+      ],
+      "distractors": [
+        "sau",
+        "mye",
+        "på"
+      ]
+    },
+    {
+      "id": "animals-s7",
+      "en": "She feeds the hens every morning.",
+      "no": [
+        "Hun mater hønene hver morgen."
+      ],
+      "distractors": [
+        "høne",
+        "kveld",
+        "han"
+      ]
+    },
+    {
+      "id": "animals-s8",
+      "en": "I saw a moose in the forest.",
+      "no": [
+        "Jeg så en elg i skogen."
+      ],
+      "distractors": [
+        "ser",
+        "skog",
+        "et"
+      ]
+    },
+    {
+      "id": "animals-s9",
+      "en": "Bears are wild animals.",
+      "no": [
+        "Bjørner er ville dyr."
+      ],
+      "distractors": [
+        "bjørn",
+        "tamme",
+        "dyret"
+      ]
+    },
+    {
+      "id": "animals-s10",
+      "en": "The mosquito bit me.",
+      "no": [
+        "Myggen bet meg."
+      ],
+      "distractors": [
+        "mygg",
+        "biter",
+        "jeg"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "animals-d1",
+      "no": "Hun har tre ___.",
+      "en": "She has three cats.",
+      "lemma": "katt",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "animals-d2",
+      "no": "___ løp rundt i hagen.",
+      "en": "The dog ran around in the garden.",
+      "lemma": "hund",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "animals-d3",
+      "no": "___ spiser gress.",
+      "en": "The cows eat grass.",
+      "lemma": "ku",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "animals-d4",
+      "no": "Det finnes mange ___ i skogen.",
+      "en": "There are many birds in the forest.",
+      "lemma": "fugl",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "animals-d5",
+      "no": "Hunden ___ meg i går.",
+      "en": "The dog bit me yesterday.",
+      "lemma": "bite",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "animals-d6",
+      "no": "Vi så to ___ i fjellet.",
+      "en": "We saw two reindeer in the mountains.",
+      "lemma": "rein",
+      "pos": "noun",
+      "form": "indefPl"
+    }
+  ]
+}

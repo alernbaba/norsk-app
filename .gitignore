@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Norsk ordbank and other raw source files (large, downloaded separately)
+/data/raw/

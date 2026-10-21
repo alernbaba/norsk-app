@@ -1,0 +1,551 @@
+{
+  "id": "numbers",
+  "title": "Numbers",
+  "description": "Count from zero to a million, and say first, second and third.",
+  "emoji": "🔢",
+  "order": 7,
+  "words": [
+    {
+      "id": "numbers-null",
+      "no": "null",
+      "en": [
+        "zero"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-en-ett",
+      "no": "en / ett",
+      "en": [
+        "one"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-to",
+      "no": "to",
+      "en": [
+        "two"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-tre",
+      "no": "tre",
+      "en": [
+        "three"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-fire",
+      "no": "fire",
+      "en": [
+        "four"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-fem",
+      "no": "fem",
+      "en": [
+        "five"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-seks",
+      "no": "seks",
+      "en": [
+        "six"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-sju-syv",
+      "no": "sju / syv",
+      "en": [
+        "seven"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-atte",
+      "no": "åtte",
+      "en": [
+        "eight"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-ni",
+      "no": "ni",
+      "en": [
+        "nine"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-ti",
+      "no": "ti",
+      "en": [
+        "ten"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-elleve",
+      "no": "elleve",
+      "en": [
+        "eleven"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-tolv",
+      "no": "tolv",
+      "en": [
+        "twelve"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-tretten",
+      "no": "tretten",
+      "en": [
+        "thirteen"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-fjorten",
+      "no": "fjorten",
+      "en": [
+        "fourteen"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-femten",
+      "no": "femten",
+      "en": [
+        "fifteen"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-seksten",
+      "no": "seksten",
+      "en": [
+        "sixteen"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-sytten",
+      "no": "sytten",
+      "en": [
+        "seventeen"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-atten",
+      "no": "atten",
+      "en": [
+        "eighteen"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-nitten",
+      "no": "nitten",
+      "en": [
+        "nineteen"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-tjue",
+      "no": "tjue",
+      "en": [
+        "twenty"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-tjueen",
+      "no": "tjueen",
+      "en": [
+        "twenty-one"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-tretti",
+      "no": "tretti",
+      "en": [
+        "thirty"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-forti",
+      "no": "førti",
+      "en": [
+        "forty"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-femti",
+      "no": "femti",
+      "en": [
+        "fifty"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-seksti",
+      "no": "seksti",
+      "en": [
+        "sixty"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-sytti",
+      "no": "sytti",
+      "en": [
+        "seventy"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-atti",
+      "no": "åtti",
+      "en": [
+        "eighty"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-nitti",
+      "no": "nitti",
+      "en": [
+        "ninety"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-hundre",
+      "no": "hundre",
+      "en": [
+        "a hundred"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-tusen",
+      "no": "tusen",
+      "en": [
+        "a thousand"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-en-million",
+      "no": "en million",
+      "en": [
+        "a million"
+      ],
+      "pos": "noun",
+      "lemma": "million"
+    },
+    {
+      "id": "numbers-forste",
+      "no": "første",
+      "en": [
+        "first"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-andre",
+      "no": "andre",
+      "en": [
+        "second",
+        "other"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-tredje",
+      "no": "tredje",
+      "en": [
+        "third"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-fjerde",
+      "no": "fjerde",
+      "en": [
+        "fourth"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-femte",
+      "no": "femte",
+      "en": [
+        "fifth"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-siste",
+      "no": "siste",
+      "en": [
+        "last"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-halv",
+      "no": "halv",
+      "en": [
+        "a half"
+      ],
+      "pos": "adj",
+      "lemma": "halv"
+    },
+    {
+      "id": "numbers-et-tall",
+      "no": "et tall",
+      "en": [
+        "a number"
+      ],
+      "pos": "noun",
+      "lemma": "tall"
+    },
+    {
+      "id": "numbers-et-nummer",
+      "no": "et nummer",
+      "en": [
+        "a number (phone, house)"
+      ],
+      "pos": "noun",
+      "lemma": "nummer"
+    },
+    {
+      "id": "numbers-a-telle",
+      "no": "å telle",
+      "en": [
+        "to count"
+      ],
+      "pos": "verb",
+      "lemma": "telle"
+    },
+    {
+      "id": "numbers-mange",
+      "no": "mange",
+      "en": [
+        "many"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-fa",
+      "no": "få",
+      "en": [
+        "few"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "numbers-flere",
+      "no": "flere",
+      "en": [
+        "several",
+        "more"
+      ],
+      "pos": "other"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "numbers-s1",
+      "en": "I have two cats.",
+      "no": [
+        "Jeg har to katter."
+      ],
+      "distractors": [
+        "tre",
+        "katt",
+        "er"
+      ]
+    },
+    {
+      "id": "numbers-s2",
+      "en": "She is twenty years old.",
+      "no": [
+        "Hun er tjue år gammel.",
+        "Hun er tjue år."
+      ],
+      "distractors": [
+        "han",
+        "to",
+        "har"
+      ]
+    },
+    {
+      "id": "numbers-s3",
+      "en": "The bus costs fifty kroner.",
+      "no": [
+        "Bussen koster femti kroner."
+      ],
+      "distractors": [
+        "buss",
+        "fem",
+        "krone"
+      ]
+    },
+    {
+      "id": "numbers-s4",
+      "en": "It is seven o'clock.",
+      "no": [
+        "Klokka er sju.",
+        "Klokken er sju.",
+        "Klokka er syv.",
+        "Klokken er syv."
+      ],
+      "distractors": [
+        "seks",
+        "det",
+        "har"
+      ]
+    },
+    {
+      "id": "numbers-s5",
+      "en": "Can you count to ten?",
+      "no": [
+        "Kan du telle til ti?"
+      ],
+      "distractors": [
+        "teller",
+        "på",
+        "to"
+      ]
+    },
+    {
+      "id": "numbers-s6",
+      "en": "This is my first day.",
+      "no": [
+        "Dette er min første dag.",
+        "Dette er den første dagen min."
+      ],
+      "distractors": [
+        "siste",
+        "en",
+        "andre"
+      ]
+    },
+    {
+      "id": "numbers-s7",
+      "en": "There are many people here.",
+      "no": [
+        "Det er mange folk her.",
+        "Det er mange mennesker her."
+      ],
+      "distractors": [
+        "mye",
+        "der",
+        "har"
+      ]
+    },
+    {
+      "id": "numbers-s8",
+      "en": "I live at number twelve.",
+      "no": [
+        "Jeg bor i nummer tolv.",
+        "Jeg bor på nummer tolv."
+      ],
+      "distractors": [
+        "elleve",
+        "tall",
+        "er"
+      ]
+    },
+    {
+      "id": "numbers-s9",
+      "en": "We have a thousand kroner.",
+      "no": [
+        "Vi har tusen kroner.",
+        "Vi har ett tusen kroner."
+      ],
+      "distractors": [
+        "hundre",
+        "million",
+        "er"
+      ]
+    },
+    {
+      "id": "numbers-s10",
+      "en": "The last train leaves at eleven.",
+      "no": [
+        "Det siste toget går klokka elleve.",
+        "Det siste toget går klokken elleve.",
+        "Siste tog går klokka elleve.",
+        "Siste tog går klokken elleve."
+      ],
+      "distractors": [
+        "første",
+        "tolv",
+        "kommer"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "numbers-d1",
+      "no": "Hun ___ til hundre.",
+      "en": "She counts to a hundred.",
+      "lemma": "telle",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "numbers-d2",
+      "no": "Han ___ pengene i går.",
+      "en": "He counted the money yesterday.",
+      "lemma": "telle",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "numbers-d3",
+      "no": "Skriv ___ på tavla.",
+      "en": "Write the numbers on the board.",
+      "lemma": "tall",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "numbers-d4",
+      "no": "___ til fem!",
+      "en": "Count to five!",
+      "lemma": "telle",
+      "pos": "verb",
+      "form": "imperative"
+    },
+    {
+      "id": "numbers-d5",
+      "no": "Hva er ___ ditt?",
+      "en": "What is your (phone) number?",
+      "lemma": "nummer",
+      "pos": "noun",
+      "form": "defSg"
+    }
+  ]
+}

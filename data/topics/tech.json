@@ -1,0 +1,452 @@
+{
+  "id": "tech",
+  "title": "Phones and media",
+  "description": "Phones, computers, the internet and the news.",
+  "emoji": "📱",
+  "order": 27,
+  "words": [
+    {
+      "id": "tech-en-telefon",
+      "no": "en telefon",
+      "en": [
+        "a telephone"
+      ],
+      "pos": "noun",
+      "lemma": "telefon"
+    },
+    {
+      "id": "tech-en-mobil",
+      "no": "en mobil",
+      "en": [
+        "a mobile phone"
+      ],
+      "pos": "noun",
+      "lemma": "mobil"
+    },
+    {
+      "id": "tech-en-datamaskin",
+      "no": "en datamaskin",
+      "en": [
+        "a computer"
+      ],
+      "pos": "noun",
+      "lemma": "datamaskin"
+    },
+    {
+      "id": "tech-en-pc",
+      "no": "en PC",
+      "en": [
+        "a PC"
+      ],
+      "pos": "noun",
+      "lemma": "pc"
+    },
+    {
+      "id": "tech-et-nettbrett",
+      "no": "et nettbrett",
+      "en": [
+        "a tablet"
+      ],
+      "pos": "noun",
+      "lemma": "nettbrett"
+    },
+    {
+      "id": "tech-en-skjerm",
+      "no": "en skjerm",
+      "en": [
+        "a screen"
+      ],
+      "pos": "noun",
+      "lemma": "skjerm"
+    },
+    {
+      "id": "tech-et-tastatur",
+      "no": "et tastatur",
+      "en": [
+        "a keyboard"
+      ],
+      "pos": "noun",
+      "lemma": "tastatur"
+    },
+    {
+      "id": "tech-internett",
+      "no": "internett",
+      "en": [
+        "the internet"
+      ],
+      "pos": "noun",
+      "lemma": "internett"
+    },
+    {
+      "id": "tech-en-nettside",
+      "no": "en nettside",
+      "en": [
+        "a website"
+      ],
+      "pos": "noun",
+      "lemma": "nettside"
+    },
+    {
+      "id": "tech-en-e-post",
+      "no": "en e-post",
+      "en": [
+        "an e-mail"
+      ],
+      "pos": "noun",
+      "lemma": "e-post"
+    },
+    {
+      "id": "tech-et-passord",
+      "no": "et passord",
+      "en": [
+        "a password"
+      ],
+      "pos": "noun",
+      "lemma": "passord"
+    },
+    {
+      "id": "tech-en-app",
+      "no": "en app",
+      "en": [
+        "an app"
+      ],
+      "pos": "noun",
+      "lemma": "app"
+    },
+    {
+      "id": "tech-en-video",
+      "no": "en video",
+      "en": [
+        "a video"
+      ],
+      "pos": "noun",
+      "lemma": "video"
+    },
+    {
+      "id": "tech-et-kamera",
+      "no": "et kamera",
+      "en": [
+        "a camera"
+      ],
+      "pos": "noun",
+      "lemma": "kamera"
+    },
+    {
+      "id": "tech-en-tv",
+      "no": "en TV",
+      "en": [
+        "a TV"
+      ],
+      "pos": "noun",
+      "lemma": "tv"
+    },
+    {
+      "id": "tech-en-radio",
+      "no": "en radio",
+      "en": [
+        "a radio"
+      ],
+      "pos": "noun",
+      "lemma": "radio"
+    },
+    {
+      "id": "tech-ei-avis",
+      "no": "ei avis",
+      "en": [
+        "a newspaper"
+      ],
+      "pos": "noun",
+      "lemma": "avis"
+    },
+    {
+      "id": "tech-ei-nyhet",
+      "no": "ei nyhet",
+      "en": [
+        "a piece of news"
+      ],
+      "pos": "noun",
+      "lemma": "nyhet"
+    },
+    {
+      "id": "tech-et-program",
+      "no": "et program",
+      "en": [
+        "a programme",
+        "a program"
+      ],
+      "pos": "noun",
+      "lemma": "program"
+    },
+    {
+      "id": "tech-en-melding",
+      "no": "en melding",
+      "en": [
+        "a message"
+      ],
+      "pos": "noun",
+      "lemma": "melding"
+    },
+    {
+      "id": "tech-a-laste-ned",
+      "no": "å laste ned",
+      "en": [
+        "to download"
+      ],
+      "pos": "verb",
+      "lemma": "laste"
+    },
+    {
+      "id": "tech-a-klikke",
+      "no": "å klikke",
+      "en": [
+        "to click"
+      ],
+      "pos": "verb",
+      "lemma": "klikke"
+    },
+    {
+      "id": "tech-a-trykke",
+      "no": "å trykke",
+      "en": [
+        "to press",
+        "to print"
+      ],
+      "pos": "verb",
+      "lemma": "trykke"
+    },
+    {
+      "id": "tech-a-lade",
+      "no": "å lade",
+      "en": [
+        "to charge"
+      ],
+      "pos": "verb",
+      "lemma": "lade"
+    },
+    {
+      "id": "tech-a-skru-pa",
+      "no": "å skru på",
+      "en": [
+        "to switch on"
+      ],
+      "pos": "verb",
+      "lemma": "skru"
+    },
+    {
+      "id": "tech-a-skru-av",
+      "no": "å skru av",
+      "en": [
+        "to switch off"
+      ],
+      "pos": "verb",
+      "lemma": "skru"
+    },
+    {
+      "id": "tech-digital",
+      "no": "digital",
+      "en": [
+        "digital"
+      ],
+      "pos": "adj",
+      "lemma": "digital"
+    },
+    {
+      "id": "tech-tradlos",
+      "no": "trådløs",
+      "en": [
+        "wireless"
+      ],
+      "pos": "adj",
+      "lemma": "trådløs"
+    },
+    {
+      "id": "tech-kan-jeg-lane-telefonen-din",
+      "no": "Kan jeg låne telefonen din?",
+      "en": [
+        "Can I borrow your phone?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "tech-batteriet-er-tomt",
+      "no": "Batteriet er tomt.",
+      "en": [
+        "The battery is dead."
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "tech-s1",
+      "en": "I will send you a message.",
+      "no": [
+        "Jeg sender deg en melding.",
+        "Jeg skal sende deg en melding."
+      ],
+      "distractors": [
+        "ringer",
+        "et",
+        "du"
+      ]
+    },
+    {
+      "id": "tech-s2",
+      "en": "My phone is dead.",
+      "no": [
+        "Telefonen min er tom for strøm.",
+        "Mobilen min er tom for strøm.",
+        "Batteriet er tomt."
+      ],
+      "distractors": [
+        "full",
+        "telefon",
+        "mitt"
+      ]
+    },
+    {
+      "id": "tech-s3",
+      "en": "What is the password?",
+      "no": [
+        "Hva er passordet?"
+      ],
+      "distractors": [
+        "hvem",
+        "passord",
+        "når"
+      ]
+    },
+    {
+      "id": "tech-s4",
+      "en": "She reads the newspaper every morning.",
+      "no": [
+        "Hun leser avisa hver morgen.",
+        "Hun leser avisen hver morgen."
+      ],
+      "distractors": [
+        "avis",
+        "skriver",
+        "kveld"
+      ]
+    },
+    {
+      "id": "tech-s5",
+      "en": "Can you call me later?",
+      "no": [
+        "Kan du ringe meg senere?",
+        "Kan du ringe meg seinere?"
+      ],
+      "distractors": [
+        "jeg",
+        "ringte",
+        "etter"
+      ]
+    },
+    {
+      "id": "tech-s6",
+      "en": "The computer is slow.",
+      "no": [
+        "Datamaskinen er treg.",
+        "PC-en er treg."
+      ],
+      "distractors": [
+        "rask",
+        "datamaskin",
+        "sakte"
+      ]
+    },
+    {
+      "id": "tech-s7",
+      "en": "I watched a film on TV.",
+      "no": [
+        "Jeg så en film på TV."
+      ],
+      "distractors": [
+        "ser",
+        "filmen",
+        "i"
+      ]
+    },
+    {
+      "id": "tech-s8",
+      "en": "Turn off the TV!",
+      "no": [
+        "Skru av TV-en!",
+        "Slå av TV-en!"
+      ],
+      "distractors": [
+        "på",
+        "lukk",
+        "TV"
+      ]
+    },
+    {
+      "id": "tech-s9",
+      "en": "I need to charge my phone.",
+      "no": [
+        "Jeg må lade telefonen min.",
+        "Jeg må lade mobilen min."
+      ],
+      "distractors": [
+        "lader",
+        "telefon",
+        "vil"
+      ]
+    },
+    {
+      "id": "tech-s10",
+      "en": "Did you get my e-mail?",
+      "no": [
+        "Fikk du e-posten min?",
+        "Har du fått e-posten min?"
+      ],
+      "distractors": [
+        "e-post",
+        "sendte",
+        "mitt"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "tech-d1",
+      "no": "Hun ___ meg i går kveld.",
+      "en": "She called me last night.",
+      "lemma": "ringe",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "tech-d2",
+      "no": "Jeg har ___ deg tre meldinger.",
+      "en": "I have sent you three messages.",
+      "lemma": "sende",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "tech-d3",
+      "no": "Har du lest ___ i dag?",
+      "en": "Have you read the news today?",
+      "lemma": "nyhet",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "tech-d4",
+      "no": "___ er for liten.",
+      "en": "The screen is too small.",
+      "lemma": "skjerm",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "tech-d5",
+      "no": "Hvor mange ___ har du?",
+      "en": "How many apps do you have?",
+      "lemma": "app",
+      "pos": "noun",
+      "form": "indefPl"
+    }
+  ]
+}

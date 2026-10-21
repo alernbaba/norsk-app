@@ -1,0 +1,540 @@
+{
+  "id": "town",
+  "title": "In town",
+  "description": "Streets, shops and places you visit.",
+  "emoji": "🏙️",
+  "order": 18,
+  "words": [
+    {
+      "id": "town-en-by",
+      "no": "en by",
+      "en": [
+        "a town",
+        "a city"
+      ],
+      "pos": "noun",
+      "lemma": "by"
+    },
+    {
+      "id": "town-sentrum",
+      "no": "sentrum",
+      "en": [
+        "a town centre"
+      ],
+      "pos": "noun",
+      "lemma": "sentrum"
+    },
+    {
+      "id": "town-ei-gate",
+      "no": "ei gate",
+      "en": [
+        "a street"
+      ],
+      "pos": "noun",
+      "lemma": "gate"
+    },
+    {
+      "id": "town-en-vei",
+      "no": "en vei",
+      "en": [
+        "a road",
+        "a way"
+      ],
+      "pos": "noun",
+      "lemma": "vei"
+    },
+    {
+      "id": "town-et-torg",
+      "no": "et torg",
+      "en": [
+        "a square",
+        "a market place"
+      ],
+      "pos": "noun",
+      "lemma": "torg"
+    },
+    {
+      "id": "town-en-plass",
+      "no": "en plass",
+      "en": [
+        "a place",
+        "a square",
+        "room (space)"
+      ],
+      "pos": "noun",
+      "lemma": "plass"
+    },
+    {
+      "id": "town-et-sted",
+      "no": "et sted",
+      "en": [
+        "a place"
+      ],
+      "pos": "noun",
+      "lemma": "sted"
+    },
+    {
+      "id": "town-en-butikk",
+      "no": "en butikk",
+      "en": [
+        "a shop"
+      ],
+      "pos": "noun",
+      "lemma": "butikk"
+    },
+    {
+      "id": "town-en-kiosk",
+      "no": "en kiosk",
+      "en": [
+        "a kiosk",
+        "a corner shop"
+      ],
+      "pos": "noun",
+      "lemma": "kiosk"
+    },
+    {
+      "id": "town-et-marked",
+      "no": "et marked",
+      "en": [
+        "a market"
+      ],
+      "pos": "noun",
+      "lemma": "marked"
+    },
+    {
+      "id": "town-en-bank",
+      "no": "en bank",
+      "en": [
+        "a bank"
+      ],
+      "pos": "noun",
+      "lemma": "bank"
+    },
+    {
+      "id": "town-et-apotek",
+      "no": "et apotek",
+      "en": [
+        "a pharmacy"
+      ],
+      "pos": "noun",
+      "lemma": "apotek"
+    },
+    {
+      "id": "town-et-postkontor",
+      "no": "et postkontor",
+      "en": [
+        "a post office"
+      ],
+      "pos": "noun",
+      "lemma": "postkontor"
+    },
+    {
+      "id": "town-en-restaurant",
+      "no": "en restaurant",
+      "en": [
+        "a restaurant"
+      ],
+      "pos": "noun",
+      "lemma": "restaurant"
+    },
+    {
+      "id": "town-en-kafe",
+      "no": "en kafé",
+      "en": [
+        "a café"
+      ],
+      "pos": "noun",
+      "lemma": "kafé"
+    },
+    {
+      "id": "town-en-bar",
+      "no": "en bar",
+      "en": [
+        "a bar"
+      ],
+      "pos": "noun",
+      "lemma": "bar"
+    },
+    {
+      "id": "town-et-hotell",
+      "no": "et hotell",
+      "en": [
+        "a hotel"
+      ],
+      "pos": "noun",
+      "lemma": "hotell"
+    },
+    {
+      "id": "town-en-kirke",
+      "no": "en kirke",
+      "en": [
+        "a church"
+      ],
+      "pos": "noun",
+      "lemma": "kirke"
+    },
+    {
+      "id": "town-et-museum",
+      "no": "et museum",
+      "en": [
+        "a museum"
+      ],
+      "pos": "noun",
+      "lemma": "museum"
+    },
+    {
+      "id": "town-et-bibliotek",
+      "no": "et bibliotek",
+      "en": [
+        "a library"
+      ],
+      "pos": "noun",
+      "lemma": "bibliotek"
+    },
+    {
+      "id": "town-en-kino",
+      "no": "en kino",
+      "en": [
+        "a cinema"
+      ],
+      "pos": "noun",
+      "lemma": "kino"
+    },
+    {
+      "id": "town-et-teater",
+      "no": "et teater",
+      "en": [
+        "a theatre"
+      ],
+      "pos": "noun",
+      "lemma": "teater"
+    },
+    {
+      "id": "town-en-park",
+      "no": "en park",
+      "en": [
+        "a park"
+      ],
+      "pos": "noun",
+      "lemma": "park"
+    },
+    {
+      "id": "town-en-barnehage",
+      "no": "en barnehage",
+      "en": [
+        "a kindergarten"
+      ],
+      "pos": "noun",
+      "lemma": "barnehage"
+    },
+    {
+      "id": "town-et-universitet",
+      "no": "et universitet",
+      "en": [
+        "a university"
+      ],
+      "pos": "noun",
+      "lemma": "universitet"
+    },
+    {
+      "id": "town-en-fabrikk",
+      "no": "en fabrikk",
+      "en": [
+        "a factory"
+      ],
+      "pos": "noun",
+      "lemma": "fabrikk"
+    },
+    {
+      "id": "town-en-bygning",
+      "no": "en bygning",
+      "en": [
+        "a building"
+      ],
+      "pos": "noun",
+      "lemma": "bygning"
+    },
+    {
+      "id": "town-et-hjorne",
+      "no": "et hjørne",
+      "en": [
+        "a corner"
+      ],
+      "pos": "noun",
+      "lemma": "hjørne"
+    },
+    {
+      "id": "town-ei-bro-ei-bru",
+      "no": "ei bro / ei bru",
+      "en": [
+        "a bridge"
+      ],
+      "pos": "noun",
+      "lemma": "bro"
+    },
+    {
+      "id": "town-et-lyskryss",
+      "no": "et lyskryss",
+      "en": [
+        "a traffic light junction"
+      ],
+      "pos": "noun",
+      "lemma": "lyskryss"
+    },
+    {
+      "id": "town-et-fortau",
+      "no": "et fortau",
+      "en": [
+        "a pavement",
+        "a sidewalk"
+      ],
+      "pos": "noun",
+      "lemma": "fortau"
+    },
+    {
+      "id": "town-en-parkeringsplass",
+      "no": "en parkeringsplass",
+      "en": [
+        "a car park"
+      ],
+      "pos": "noun",
+      "lemma": "parkeringsplass"
+    },
+    {
+      "id": "town-en-politistasjon",
+      "no": "en politistasjon",
+      "en": [
+        "a police station"
+      ],
+      "pos": "noun",
+      "lemma": "politistasjon"
+    },
+    {
+      "id": "town-en-brannstasjon",
+      "no": "en brannstasjon",
+      "en": [
+        "a fire station"
+      ],
+      "pos": "noun",
+      "lemma": "brannstasjon"
+    },
+    {
+      "id": "town-til-venstre",
+      "no": "til venstre",
+      "en": [
+        "to the left"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "town-til-hoyre",
+      "no": "til høyre",
+      "en": [
+        "to the right"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "town-rett-fram",
+      "no": "rett fram",
+      "en": [
+        "straight ahead"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "town-a-ga-tur",
+      "no": "å gå tur",
+      "en": [
+        "to go for a walk"
+      ],
+      "pos": "verb",
+      "lemma": "gå"
+    },
+    {
+      "id": "town-a-finne-fram",
+      "no": "å finne fram",
+      "en": [
+        "to find your way"
+      ],
+      "pos": "verb",
+      "lemma": "finne"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "town-s1",
+      "en": "Where is the nearest pharmacy?",
+      "no": [
+        "Hvor er nærmeste apotek?",
+        "Hvor er det nærmeste apoteket?"
+      ],
+      "distractors": [
+        "hva",
+        "apoteket",
+        "nær"
+      ]
+    },
+    {
+      "id": "town-s2",
+      "en": "The shop opens at nine.",
+      "no": [
+        "Butikken åpner klokka ni.",
+        "Butikken åpner klokken ni.",
+        "Butikken åpner ni."
+      ],
+      "distractors": [
+        "butikk",
+        "stenger",
+        "ti"
+      ]
+    },
+    {
+      "id": "town-s3",
+      "en": "Turn left at the church.",
+      "no": [
+        "Ta til venstre ved kirka.",
+        "Ta til venstre ved kirken.",
+        "Sving til venstre ved kirka.",
+        "Sving til venstre ved kirken."
+      ],
+      "distractors": [
+        "høyre",
+        "kirke",
+        "på"
+      ]
+    },
+    {
+      "id": "town-s4",
+      "en": "Go straight ahead.",
+      "no": [
+        "Gå rett fram.",
+        "Gå rett frem."
+      ],
+      "distractors": [
+        "venstre",
+        "tilbake",
+        "går"
+      ]
+    },
+    {
+      "id": "town-s5",
+      "en": "We are going to the cinema tonight.",
+      "no": [
+        "Vi skal på kino i kveld.",
+        "Vi går på kino i kveld."
+      ],
+      "distractors": [
+        "til",
+        "kinoen",
+        "går"
+      ]
+    },
+    {
+      "id": "town-s6",
+      "en": "The library is next to the school.",
+      "no": [
+        "Biblioteket ligger ved siden av skolen.",
+        "Biblioteket er ved siden av skolen."
+      ],
+      "distractors": [
+        "bibliotek",
+        "skole",
+        "bak"
+      ]
+    },
+    {
+      "id": "town-s7",
+      "en": "I live in a small town.",
+      "no": [
+        "Jeg bor i en liten by."
+      ],
+      "distractors": [
+        "stor",
+        "byen",
+        "på"
+      ]
+    },
+    {
+      "id": "town-s8",
+      "en": "Is there a bank near here?",
+      "no": [
+        "Er det en bank i nærheten?",
+        "Finnes det en bank i nærheten?"
+      ],
+      "distractors": [
+        "banken",
+        "her",
+        "har"
+      ]
+    },
+    {
+      "id": "town-s9",
+      "en": "Let us meet at the café.",
+      "no": [
+        "La oss møtes på kafeen.",
+        "Vi kan møtes på kafeen."
+      ],
+      "distractors": [
+        "kafé",
+        "i",
+        "treffe"
+      ]
+    },
+    {
+      "id": "town-s10",
+      "en": "The street is closed.",
+      "no": [
+        "Gata er stengt.",
+        "Gaten er stengt."
+      ],
+      "distractors": [
+        "gate",
+        "åpen",
+        "vei"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "town-d1",
+      "no": "Det finnes mange ___ i Oslo.",
+      "en": "There are many hotels in Oslo.",
+      "lemma": "hotell",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "town-d2",
+      "no": "___ er stengt.",
+      "en": "The street is closed.",
+      "lemma": "gate",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "town-d3",
+      "no": "Vi gikk på tre ___ i går.",
+      "en": "We went to three museums yesterday.",
+      "lemma": "museum",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "town-d4",
+      "no": "___ er veldig gammel.",
+      "en": "The church is very old.",
+      "lemma": "kirke",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "town-d5",
+      "no": "Jeg liker ___ i Bergen.",
+      "en": "I like the shops in Bergen.",
+      "lemma": "butikk",
+      "pos": "noun",
+      "form": "defPl"
+    }
+  ]
+}

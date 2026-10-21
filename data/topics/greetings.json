@@ -1,0 +1,505 @@
+{
+  "id": "greetings",
+  "title": "Greetings",
+  "description": "Say hello and goodbye, introduce yourself and be polite.",
+  "emoji": "👋",
+  "order": 1,
+  "words": [
+    {
+      "id": "greetings-hei",
+      "no": "hei",
+      "en": [
+        "hi",
+        "hello"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-hallo",
+      "no": "hallo",
+      "en": [
+        "hello"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-heisann",
+      "no": "heisann",
+      "en": [
+        "hi there"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-god-morgen",
+      "no": "god morgen",
+      "en": [
+        "good morning"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-god-dag",
+      "no": "god dag",
+      "en": [
+        "good day",
+        "hello"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-god-kveld",
+      "no": "god kveld",
+      "en": [
+        "good evening"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-god-natt",
+      "no": "god natt",
+      "en": [
+        "good night"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-ha-det",
+      "no": "ha det",
+      "en": [
+        "bye"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-ha-det-bra",
+      "no": "ha det bra",
+      "en": [
+        "goodbye"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-ha-en-fin-dag",
+      "no": "ha en fin dag",
+      "en": [
+        "have a nice day"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-vi-ses",
+      "no": "vi ses",
+      "en": [
+        "see you"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-vi-ses-i-morgen",
+      "no": "vi ses i morgen",
+      "en": [
+        "see you tomorrow"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-velkommen",
+      "no": "velkommen",
+      "en": [
+        "welcome"
+      ],
+      "pos": "adj",
+      "lemma": "velkommen"
+    },
+    {
+      "id": "greetings-takk",
+      "no": "takk",
+      "en": [
+        "thanks",
+        "thank you"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-tusen-takk",
+      "no": "tusen takk",
+      "en": [
+        "thank you very much"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-takk-for-sist",
+      "no": "takk for sist",
+      "en": [
+        "nice to see you again (lit. thanks for last time)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-takk-for-maten",
+      "no": "takk for maten",
+      "en": [
+        "thanks for the meal"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-ingen-arsak",
+      "no": "ingen årsak",
+      "en": [
+        "you're welcome",
+        "no problem"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-bare-hyggelig",
+      "no": "bare hyggelig",
+      "en": [
+        "my pleasure"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-vaer-sa-snill",
+      "no": "vær så snill",
+      "en": [
+        "please"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-unnskyld",
+      "no": "unnskyld",
+      "en": [
+        "excuse me",
+        "sorry"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-beklager",
+      "no": "beklager",
+      "en": [
+        "I'm sorry"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-hvordan-har-du-det",
+      "no": "Hvordan har du det?",
+      "en": [
+        "How are you?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-jeg-har-det-bra",
+      "no": "Jeg har det bra.",
+      "en": [
+        "I'm fine."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-bare-bra-takk",
+      "no": "Bare bra, takk.",
+      "en": [
+        "Fine, thanks."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-og-du",
+      "no": "Og du?",
+      "en": [
+        "And you?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-hva-heter-du",
+      "no": "Hva heter du?",
+      "en": [
+        "What is your name?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-jeg-heter",
+      "no": "Jeg heter …",
+      "en": [
+        "My name is …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-hvor-kommer-du-fra",
+      "no": "Hvor kommer du fra?",
+      "en": [
+        "Where are you from?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-jeg-kommer-fra",
+      "no": "Jeg kommer fra …",
+      "en": [
+        "I come from …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-hyggelig-a-mote-deg",
+      "no": "Hyggelig å møte deg.",
+      "en": [
+        "Nice to meet you."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-i-like-mate",
+      "no": "i like måte",
+      "en": [
+        "likewise"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "greetings-en-venn",
+      "no": "en venn",
+      "en": [
+        "a friend"
+      ],
+      "pos": "noun",
+      "lemma": "venn"
+    },
+    {
+      "id": "greetings-et-navn",
+      "no": "et navn",
+      "en": [
+        "a name"
+      ],
+      "pos": "noun",
+      "lemma": "navn"
+    },
+    {
+      "id": "greetings-a-hilse",
+      "no": "å hilse",
+      "en": [
+        "to greet",
+        "to say hello"
+      ],
+      "pos": "verb",
+      "lemma": "hilse"
+    },
+    {
+      "id": "greetings-a-hete",
+      "no": "å hete",
+      "en": [
+        "to be called"
+      ],
+      "pos": "verb",
+      "lemma": "hete"
+    },
+    {
+      "id": "greetings-a-mote",
+      "no": "å møte",
+      "en": [
+        "to meet"
+      ],
+      "pos": "verb",
+      "lemma": "møte"
+    },
+    {
+      "id": "greetings-a-treffe",
+      "no": "å treffe",
+      "en": [
+        "to meet",
+        "to hit"
+      ],
+      "pos": "verb",
+      "lemma": "treffe"
+    },
+    {
+      "id": "greetings-a-presentere",
+      "no": "å presentere",
+      "en": [
+        "to introduce",
+        "to present"
+      ],
+      "pos": "verb",
+      "lemma": "presentere"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "greetings-s1",
+      "en": "Hi, my name is Ola.",
+      "no": [
+        "Hei, jeg heter Ola."
+      ],
+      "distractors": [
+        "du",
+        "hva",
+        "er"
+      ]
+    },
+    {
+      "id": "greetings-s2",
+      "en": "Good morning, how are you?",
+      "no": [
+        "God morgen, hvordan har du det?"
+      ],
+      "distractors": [
+        "kveld",
+        "hva",
+        "er"
+      ]
+    },
+    {
+      "id": "greetings-s3",
+      "en": "I am fine, thank you.",
+      "no": [
+        "Jeg har det bra, takk.",
+        "Jeg har det fint, takk."
+      ],
+      "distractors": [
+        "er",
+        "god",
+        "du"
+      ]
+    },
+    {
+      "id": "greetings-s4",
+      "en": "What is your name?",
+      "no": [
+        "Hva heter du?"
+      ],
+      "distractors": [
+        "hvordan",
+        "navn",
+        "jeg"
+      ]
+    },
+    {
+      "id": "greetings-s5",
+      "en": "Nice to meet you.",
+      "no": [
+        "Hyggelig å møte deg.",
+        "Hyggelig å treffe deg."
+      ],
+      "distractors": [
+        "god",
+        "du",
+        "takk"
+      ]
+    },
+    {
+      "id": "greetings-s6",
+      "en": "Thank you very much for the help.",
+      "no": [
+        "Tusen takk for hjelpen."
+      ],
+      "distractors": [
+        "hjelp",
+        "til",
+        "mange"
+      ]
+    },
+    {
+      "id": "greetings-s7",
+      "en": "Excuse me, do you speak English?",
+      "no": [
+        "Unnskyld, snakker du engelsk?"
+      ],
+      "distractors": [
+        "norsk",
+        "jeg",
+        "takk"
+      ]
+    },
+    {
+      "id": "greetings-s8",
+      "en": "Goodbye, see you tomorrow.",
+      "no": [
+        "Ha det bra, vi ses i morgen.",
+        "Ha det, vi ses i morgen."
+      ],
+      "distractors": [
+        "natt",
+        "du",
+        "dag"
+      ]
+    },
+    {
+      "id": "greetings-s9",
+      "en": "Where do you come from?",
+      "no": [
+        "Hvor kommer du fra?",
+        "Hvor er du fra?"
+      ],
+      "distractors": [
+        "hva",
+        "til",
+        "jeg"
+      ]
+    },
+    {
+      "id": "greetings-s10",
+      "en": "Welcome to Norway!",
+      "no": [
+        "Velkommen til Norge!"
+      ],
+      "distractors": [
+        "fra",
+        "i",
+        "takk"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "greetings-d1",
+      "no": "Han ___ Per.",
+      "en": "His name is Per.",
+      "lemma": "hete",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "greetings-d2",
+      "no": "Jeg har mange ___.",
+      "en": "I have many friends.",
+      "lemma": "venn",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "greetings-d3",
+      "no": "Jeg ___ på naboen i går.",
+      "en": "I said hello to the neighbour yesterday.",
+      "lemma": "hilse",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "greetings-d4",
+      "no": "Hva er ___ ditt?",
+      "en": "What is your name?",
+      "lemma": "navn",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "greetings-d5",
+      "no": "Jeg ___ ham i Oslo i fjor.",
+      "en": "I met him in Oslo last year.",
+      "lemma": "møte",
+      "pos": "verb",
+      "form": "past"
+    }
+  ]
+}

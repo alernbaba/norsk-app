@@ -1,0 +1,564 @@
+{
+  "id": "people",
+  "title": "People and jobs",
+  "description": "Words for people and what they do for a living.",
+  "emoji": "🧑‍💼",
+  "order": 14,
+  "words": [
+    {
+      "id": "people-et-menneske",
+      "no": "et menneske",
+      "en": [
+        "a human being",
+        "a person"
+      ],
+      "pos": "noun",
+      "lemma": "menneske"
+    },
+    {
+      "id": "people-en-person",
+      "no": "en person",
+      "en": [
+        "a person"
+      ],
+      "pos": "noun",
+      "lemma": "person"
+    },
+    {
+      "id": "people-folk",
+      "no": "folk",
+      "en": [
+        "people"
+      ],
+      "pos": "noun",
+      "lemma": "folk"
+    },
+    {
+      "id": "people-ei-kvinne",
+      "no": "ei kvinne",
+      "en": [
+        "a woman"
+      ],
+      "pos": "noun",
+      "lemma": "kvinne"
+    },
+    {
+      "id": "people-ei-dame",
+      "no": "ei dame",
+      "en": [
+        "a lady",
+        "a woman"
+      ],
+      "pos": "noun",
+      "lemma": "dame"
+    },
+    {
+      "id": "people-en-gutt",
+      "no": "en gutt",
+      "en": [
+        "a boy"
+      ],
+      "pos": "noun",
+      "lemma": "gutt"
+    },
+    {
+      "id": "people-ei-jente",
+      "no": "ei jente",
+      "en": [
+        "a girl"
+      ],
+      "pos": "noun",
+      "lemma": "jente"
+    },
+    {
+      "id": "people-en-herre",
+      "no": "en herre",
+      "en": [
+        "a gentleman"
+      ],
+      "pos": "noun",
+      "lemma": "herre"
+    },
+    {
+      "id": "people-en-ungdom",
+      "no": "en ungdom",
+      "en": [
+        "a young person",
+        "youth"
+      ],
+      "pos": "noun",
+      "lemma": "ungdom"
+    },
+    {
+      "id": "people-en-gjest",
+      "no": "en gjest",
+      "en": [
+        "a guest"
+      ],
+      "pos": "noun",
+      "lemma": "gjest"
+    },
+    {
+      "id": "people-en-fremmed",
+      "no": "en fremmed",
+      "en": [
+        "a stranger"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "people-en-jobb",
+      "no": "en jobb",
+      "en": [
+        "a job"
+      ],
+      "pos": "noun",
+      "lemma": "jobb"
+    },
+    {
+      "id": "people-et-yrke",
+      "no": "et yrke",
+      "en": [
+        "a profession"
+      ],
+      "pos": "noun",
+      "lemma": "yrke"
+    },
+    {
+      "id": "people-en-laerer",
+      "no": "en lærer",
+      "en": [
+        "a teacher"
+      ],
+      "pos": "noun",
+      "lemma": "lærer"
+    },
+    {
+      "id": "people-en-elev",
+      "no": "en elev",
+      "en": [
+        "a pupil"
+      ],
+      "pos": "noun",
+      "lemma": "elev"
+    },
+    {
+      "id": "people-en-student",
+      "no": "en student",
+      "en": [
+        "a student"
+      ],
+      "pos": "noun",
+      "lemma": "student"
+    },
+    {
+      "id": "people-en-lege",
+      "no": "en lege",
+      "en": [
+        "a doctor"
+      ],
+      "pos": "noun",
+      "lemma": "lege"
+    },
+    {
+      "id": "people-en-sykepleier",
+      "no": "en sykepleier",
+      "en": [
+        "a nurse"
+      ],
+      "pos": "noun",
+      "lemma": "sykepleier"
+    },
+    {
+      "id": "people-en-politi",
+      "no": "en politi",
+      "en": [
+        "a police officer"
+      ],
+      "pos": "noun",
+      "lemma": "politi"
+    },
+    {
+      "id": "people-en-politimann",
+      "no": "en politimann",
+      "en": [
+        "a policeman"
+      ],
+      "pos": "noun",
+      "lemma": "politimann"
+    },
+    {
+      "id": "people-en-advokat",
+      "no": "en advokat",
+      "en": [
+        "a lawyer"
+      ],
+      "pos": "noun",
+      "lemma": "advokat"
+    },
+    {
+      "id": "people-en-sjef",
+      "no": "en sjef",
+      "en": [
+        "a boss"
+      ],
+      "pos": "noun",
+      "lemma": "sjef"
+    },
+    {
+      "id": "people-en-leder",
+      "no": "en leder",
+      "en": [
+        "a leader",
+        "a manager"
+      ],
+      "pos": "noun",
+      "lemma": "leder"
+    },
+    {
+      "id": "people-en-kollega",
+      "no": "en kollega",
+      "en": [
+        "a colleague"
+      ],
+      "pos": "noun",
+      "lemma": "kollega"
+    },
+    {
+      "id": "people-en-ingenior",
+      "no": "en ingeniør",
+      "en": [
+        "an engineer"
+      ],
+      "pos": "noun",
+      "lemma": "ingeniør"
+    },
+    {
+      "id": "people-en-kokk",
+      "no": "en kokk",
+      "en": [
+        "a cook",
+        "a chef"
+      ],
+      "pos": "noun",
+      "lemma": "kokk"
+    },
+    {
+      "id": "people-en-servitor",
+      "no": "en servitør",
+      "en": [
+        "a waiter"
+      ],
+      "pos": "noun",
+      "lemma": "servitør"
+    },
+    {
+      "id": "people-en-sjafor",
+      "no": "en sjåfør",
+      "en": [
+        "a driver"
+      ],
+      "pos": "noun",
+      "lemma": "sjåfør"
+    },
+    {
+      "id": "people-en-bonde",
+      "no": "en bonde",
+      "en": [
+        "a farmer"
+      ],
+      "pos": "noun",
+      "lemma": "bonde"
+    },
+    {
+      "id": "people-en-snekker",
+      "no": "en snekker",
+      "en": [
+        "a carpenter"
+      ],
+      "pos": "noun",
+      "lemma": "snekker"
+    },
+    {
+      "id": "people-en-ekspeditor",
+      "no": "en ekspeditør",
+      "en": [
+        "a shop assistant"
+      ],
+      "pos": "noun",
+      "lemma": "ekspeditør"
+    },
+    {
+      "id": "people-en-kunde",
+      "no": "en kunde",
+      "en": [
+        "a customer"
+      ],
+      "pos": "noun",
+      "lemma": "kunde"
+    },
+    {
+      "id": "people-en-kunstner",
+      "no": "en kunstner",
+      "en": [
+        "an artist"
+      ],
+      "pos": "noun",
+      "lemma": "kunstner"
+    },
+    {
+      "id": "people-en-forfatter",
+      "no": "en forfatter",
+      "en": [
+        "an author"
+      ],
+      "pos": "noun",
+      "lemma": "forfatter"
+    },
+    {
+      "id": "people-en-journalist",
+      "no": "en journalist",
+      "en": [
+        "a journalist"
+      ],
+      "pos": "noun",
+      "lemma": "journalist"
+    },
+    {
+      "id": "people-en-musiker",
+      "no": "en musiker",
+      "en": [
+        "a musician"
+      ],
+      "pos": "noun",
+      "lemma": "musiker"
+    },
+    {
+      "id": "people-en-soldat",
+      "no": "en soldat",
+      "en": [
+        "a soldier"
+      ],
+      "pos": "noun",
+      "lemma": "soldat"
+    },
+    {
+      "id": "people-en-prest",
+      "no": "en prest",
+      "en": [
+        "a priest"
+      ],
+      "pos": "noun",
+      "lemma": "prest"
+    },
+    {
+      "id": "people-en-tannlege",
+      "no": "en tannlege",
+      "en": [
+        "a dentist"
+      ],
+      "pos": "noun",
+      "lemma": "tannlege"
+    },
+    {
+      "id": "people-a-jobbe",
+      "no": "å jobbe",
+      "en": [
+        "to work"
+      ],
+      "pos": "verb",
+      "lemma": "jobbe"
+    },
+    {
+      "id": "people-a-arbeide",
+      "no": "å arbeide",
+      "en": [
+        "to work"
+      ],
+      "pos": "verb",
+      "lemma": "arbeide"
+    },
+    {
+      "id": "people-a-tjene",
+      "no": "å tjene",
+      "en": [
+        "to earn",
+        "to serve"
+      ],
+      "pos": "verb",
+      "lemma": "tjene"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "people-s1",
+      "en": "She is a doctor.",
+      "no": [
+        "Hun er lege."
+      ],
+      "distractors": [
+        "en",
+        "han",
+        "lærer"
+      ]
+    },
+    {
+      "id": "people-s2",
+      "en": "What do you work as?",
+      "no": [
+        "Hva jobber du som?"
+      ],
+      "distractors": [
+        "hvor",
+        "jobb",
+        "er"
+      ]
+    },
+    {
+      "id": "people-s3",
+      "en": "My boss is nice.",
+      "no": [
+        "Sjefen min er hyggelig.",
+        "Sjefen min er grei.",
+        "Sjefen min er snill."
+      ],
+      "distractors": [
+        "sjef",
+        "mitt",
+        "kollega"
+      ]
+    },
+    {
+      "id": "people-s4",
+      "en": "The girl and the boy are playing.",
+      "no": [
+        "Jenta og gutten leker.",
+        "Jenten og gutten leker."
+      ],
+      "distractors": [
+        "jente",
+        "gutt",
+        "eller"
+      ]
+    },
+    {
+      "id": "people-s5",
+      "en": "Many people live in the city.",
+      "no": [
+        "Mange folk bor i byen.",
+        "Mange mennesker bor i byen."
+      ],
+      "distractors": [
+        "mye",
+        "by",
+        "på"
+      ]
+    },
+    {
+      "id": "people-s6",
+      "en": "The teacher helps the students.",
+      "no": [
+        "Læreren hjelper elevene.",
+        "Læreren hjelper studentene."
+      ],
+      "distractors": [
+        "lærer",
+        "elev",
+        "hjelp"
+      ]
+    },
+    {
+      "id": "people-s7",
+      "en": "He works in a hospital.",
+      "no": [
+        "Han jobber på et sykehus.",
+        "Han arbeider på et sykehus."
+      ],
+      "distractors": [
+        "i",
+        "sykehuset",
+        "hun"
+      ]
+    },
+    {
+      "id": "people-s8",
+      "en": "The waiter brings the food.",
+      "no": [
+        "Servitøren kommer med maten.",
+        "Servitøren bringer maten."
+      ],
+      "distractors": [
+        "mat",
+        "servitør",
+        "går"
+      ]
+    },
+    {
+      "id": "people-s9",
+      "en": "I have a new job.",
+      "no": [
+        "Jeg har en ny jobb."
+      ],
+      "distractors": [
+        "et",
+        "nytt",
+        "jobber"
+      ]
+    },
+    {
+      "id": "people-s10",
+      "en": "She earns a lot of money.",
+      "no": [
+        "Hun tjener mye penger.",
+        "Hun tjener mange penger."
+      ],
+      "distractors": [
+        "litt",
+        "han",
+        "penge"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "people-d1",
+      "no": "Det var mange ___ på festen.",
+      "en": "There were many people at the party.",
+      "lemma": "menneske",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "people-d2",
+      "no": "Alle ___ kom til møtet.",
+      "en": "All the teachers came to the meeting.",
+      "lemma": "lærer",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "people-d3",
+      "no": "Hun ___ i en bank før.",
+      "en": "She worked in a bank before.",
+      "lemma": "jobbe",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "people-d4",
+      "no": "Hvem er ___ der?",
+      "en": "Who is the woman over there?",
+      "lemma": "kvinne",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "people-d5",
+      "no": "Vi har tre ___ i dag.",
+      "en": "We have three guests today.",
+      "lemma": "gjest",
+      "pos": "noun",
+      "form": "indefPl"
+    }
+  ]
+}

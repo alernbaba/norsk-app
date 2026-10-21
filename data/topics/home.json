@@ -1,0 +1,581 @@
+{
+  "id": "home",
+  "title": "Home",
+  "description": "Rooms, furniture and things around the house.",
+  "emoji": "🏠",
+  "order": 16,
+  "words": [
+    {
+      "id": "home-et-hjem",
+      "no": "et hjem",
+      "en": [
+        "a home"
+      ],
+      "pos": "noun",
+      "lemma": "hjem"
+    },
+    {
+      "id": "home-et-hus",
+      "no": "et hus",
+      "en": [
+        "a house"
+      ],
+      "pos": "noun",
+      "lemma": "hus"
+    },
+    {
+      "id": "home-en-leilighet",
+      "no": "en leilighet",
+      "en": [
+        "a flat",
+        "an apartment"
+      ],
+      "pos": "noun",
+      "lemma": "leilighet"
+    },
+    {
+      "id": "home-et-rom",
+      "no": "et rom",
+      "en": [
+        "a room"
+      ],
+      "pos": "noun",
+      "lemma": "rom"
+    },
+    {
+      "id": "home-et-kjokken",
+      "no": "et kjøkken",
+      "en": [
+        "a kitchen"
+      ],
+      "pos": "noun",
+      "lemma": "kjøkken"
+    },
+    {
+      "id": "home-ei-stue",
+      "no": "ei stue",
+      "en": [
+        "a living room"
+      ],
+      "pos": "noun",
+      "lemma": "stue"
+    },
+    {
+      "id": "home-et-soverom",
+      "no": "et soverom",
+      "en": [
+        "a bedroom"
+      ],
+      "pos": "noun",
+      "lemma": "soverom"
+    },
+    {
+      "id": "home-et-bad",
+      "no": "et bad",
+      "en": [
+        "a bathroom"
+      ],
+      "pos": "noun",
+      "lemma": "bad"
+    },
+    {
+      "id": "home-et-toalett",
+      "no": "et toalett",
+      "en": [
+        "a toilet"
+      ],
+      "pos": "noun",
+      "lemma": "toalett"
+    },
+    {
+      "id": "home-en-gang",
+      "no": "en gang",
+      "en": [
+        "a hallway"
+      ],
+      "pos": "noun",
+      "lemma": "gang"
+    },
+    {
+      "id": "home-en-kjeller",
+      "no": "en kjeller",
+      "en": [
+        "a basement"
+      ],
+      "pos": "noun",
+      "lemma": "kjeller"
+    },
+    {
+      "id": "home-et-loft",
+      "no": "et loft",
+      "en": [
+        "an attic"
+      ],
+      "pos": "noun",
+      "lemma": "loft"
+    },
+    {
+      "id": "home-ei-trapp",
+      "no": "ei trapp",
+      "en": [
+        "a staircase"
+      ],
+      "pos": "noun",
+      "lemma": "trapp"
+    },
+    {
+      "id": "home-en-hage",
+      "no": "en hage",
+      "en": [
+        "a garden"
+      ],
+      "pos": "noun",
+      "lemma": "hage"
+    },
+    {
+      "id": "home-ei-dor",
+      "no": "ei dør",
+      "en": [
+        "a door"
+      ],
+      "pos": "noun",
+      "lemma": "dør"
+    },
+    {
+      "id": "home-et-vindu",
+      "no": "et vindu",
+      "en": [
+        "a window"
+      ],
+      "pos": "noun",
+      "lemma": "vindu"
+    },
+    {
+      "id": "home-en-vegg",
+      "no": "en vegg",
+      "en": [
+        "a wall"
+      ],
+      "pos": "noun",
+      "lemma": "vegg"
+    },
+    {
+      "id": "home-et-gulv",
+      "no": "et gulv",
+      "en": [
+        "a floor"
+      ],
+      "pos": "noun",
+      "lemma": "gulv"
+    },
+    {
+      "id": "home-et-tak",
+      "no": "et tak",
+      "en": [
+        "a roof",
+        "a ceiling"
+      ],
+      "pos": "noun",
+      "lemma": "tak"
+    },
+    {
+      "id": "home-et-bord",
+      "no": "et bord",
+      "en": [
+        "a table"
+      ],
+      "pos": "noun",
+      "lemma": "bord"
+    },
+    {
+      "id": "home-en-stol",
+      "no": "en stol",
+      "en": [
+        "a chair"
+      ],
+      "pos": "noun",
+      "lemma": "stol"
+    },
+    {
+      "id": "home-en-sofa",
+      "no": "en sofa",
+      "en": [
+        "a sofa"
+      ],
+      "pos": "noun",
+      "lemma": "sofa"
+    },
+    {
+      "id": "home-ei-seng",
+      "no": "ei seng",
+      "en": [
+        "a bed"
+      ],
+      "pos": "noun",
+      "lemma": "seng"
+    },
+    {
+      "id": "home-et-skap",
+      "no": "et skap",
+      "en": [
+        "a cupboard",
+        "a wardrobe"
+      ],
+      "pos": "noun",
+      "lemma": "skap"
+    },
+    {
+      "id": "home-ei-hylle",
+      "no": "ei hylle",
+      "en": [
+        "a shelf"
+      ],
+      "pos": "noun",
+      "lemma": "hylle"
+    },
+    {
+      "id": "home-en-lampe",
+      "no": "en lampe",
+      "en": [
+        "a lamp"
+      ],
+      "pos": "noun",
+      "lemma": "lampe"
+    },
+    {
+      "id": "home-et-lys",
+      "no": "et lys",
+      "en": [
+        "a light",
+        "a candle"
+      ],
+      "pos": "noun",
+      "lemma": "lys"
+    },
+    {
+      "id": "home-et-teppe",
+      "no": "et teppe",
+      "en": [
+        "a carpet",
+        "a blanket"
+      ],
+      "pos": "noun",
+      "lemma": "teppe"
+    },
+    {
+      "id": "home-en-pute",
+      "no": "en pute",
+      "en": [
+        "a pillow",
+        "a cushion"
+      ],
+      "pos": "noun",
+      "lemma": "pute"
+    },
+    {
+      "id": "home-et-speil",
+      "no": "et speil",
+      "en": [
+        "a mirror"
+      ],
+      "pos": "noun",
+      "lemma": "speil"
+    },
+    {
+      "id": "home-en-dusj",
+      "no": "en dusj",
+      "en": [
+        "a shower"
+      ],
+      "pos": "noun",
+      "lemma": "dusj"
+    },
+    {
+      "id": "home-et-kjoleskap",
+      "no": "et kjøleskap",
+      "en": [
+        "a fridge"
+      ],
+      "pos": "noun",
+      "lemma": "kjøleskap"
+    },
+    {
+      "id": "home-en-ovn",
+      "no": "en ovn",
+      "en": [
+        "an oven",
+        "a stove"
+      ],
+      "pos": "noun",
+      "lemma": "ovn"
+    },
+    {
+      "id": "home-en-nokkel",
+      "no": "en nøkkel",
+      "en": [
+        "a key"
+      ],
+      "pos": "noun",
+      "lemma": "nøkkel"
+    },
+    {
+      "id": "home-en-ting",
+      "no": "en ting",
+      "en": [
+        "a thing"
+      ],
+      "pos": "noun",
+      "lemma": "ting"
+    },
+    {
+      "id": "home-en-eske",
+      "no": "en eske",
+      "en": [
+        "a box"
+      ],
+      "pos": "noun",
+      "lemma": "eske"
+    },
+    {
+      "id": "home-en-pose",
+      "no": "en pose",
+      "en": [
+        "a bag"
+      ],
+      "pos": "noun",
+      "lemma": "pose"
+    },
+    {
+      "id": "home-ei-vask",
+      "no": "ei vask",
+      "en": [
+        "a sink"
+      ],
+      "pos": "noun",
+      "lemma": "vask"
+    },
+    {
+      "id": "home-en-adresse",
+      "no": "en adresse",
+      "en": [
+        "an address"
+      ],
+      "pos": "noun",
+      "lemma": "adresse"
+    },
+    {
+      "id": "home-a-leie",
+      "no": "å leie",
+      "en": [
+        "to rent"
+      ],
+      "pos": "verb",
+      "lemma": "leie"
+    },
+    {
+      "id": "home-a-eie",
+      "no": "å eie",
+      "en": [
+        "to own"
+      ],
+      "pos": "verb",
+      "lemma": "eie"
+    },
+    {
+      "id": "home-a-lase",
+      "no": "å låse",
+      "en": [
+        "to lock"
+      ],
+      "pos": "verb",
+      "lemma": "låse"
+    },
+    {
+      "id": "home-a-vaske-opp",
+      "no": "å vaske opp",
+      "en": [
+        "to do the dishes"
+      ],
+      "pos": "verb",
+      "lemma": "vaske"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "home-s1",
+      "en": "We live in a small flat.",
+      "no": [
+        "Vi bor i en liten leilighet."
+      ],
+      "distractors": [
+        "stor",
+        "hus",
+        "på"
+      ]
+    },
+    {
+      "id": "home-s2",
+      "en": "The kitchen is big.",
+      "no": [
+        "Kjøkkenet er stort."
+      ],
+      "distractors": [
+        "kjøkken",
+        "stor",
+        "liten"
+      ]
+    },
+    {
+      "id": "home-s3",
+      "en": "Where is the bathroom?",
+      "no": [
+        "Hvor er badet?",
+        "Hvor er toalettet?"
+      ],
+      "distractors": [
+        "hva",
+        "bad",
+        "når"
+      ]
+    },
+    {
+      "id": "home-s4",
+      "en": "The key is on the table.",
+      "no": [
+        "Nøkkelen ligger på bordet.",
+        "Nøkkelen er på bordet."
+      ],
+      "distractors": [
+        "nøkkel",
+        "under",
+        "i"
+      ]
+    },
+    {
+      "id": "home-s5",
+      "en": "I sleep in the bedroom.",
+      "no": [
+        "Jeg sover på soverommet.",
+        "Jeg sover i soverommet."
+      ],
+      "distractors": [
+        "stua",
+        "sov",
+        "rom"
+      ]
+    },
+    {
+      "id": "home-s6",
+      "en": "Can you close the window?",
+      "no": [
+        "Kan du lukke vinduet?"
+      ],
+      "distractors": [
+        "åpne",
+        "vindu",
+        "døra"
+      ]
+    },
+    {
+      "id": "home-s7",
+      "en": "They have a beautiful garden.",
+      "no": [
+        "De har en vakker hage.",
+        "De har en fin hage."
+      ],
+      "distractors": [
+        "et",
+        "fint",
+        "hagen"
+      ]
+    },
+    {
+      "id": "home-s8",
+      "en": "Turn on the light, please.",
+      "no": [
+        "Slå på lyset, takk.",
+        "Kan du slå på lyset?"
+      ],
+      "distractors": [
+        "av",
+        "lys",
+        "lampe"
+      ]
+    },
+    {
+      "id": "home-s9",
+      "en": "We rent a house.",
+      "no": [
+        "Vi leier et hus."
+      ],
+      "distractors": [
+        "eier",
+        "en",
+        "huset"
+      ]
+    },
+    {
+      "id": "home-s10",
+      "en": "Lock the door!",
+      "no": [
+        "Lås døra!",
+        "Lås døren!"
+      ],
+      "distractors": [
+        "åpne",
+        "dør",
+        "lukk"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "home-d1",
+      "no": "Huset har fire ___.",
+      "en": "The house has four rooms.",
+      "lemma": "rom",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "home-d2",
+      "no": "Vi har nye ___ på kjøkkenet.",
+      "en": "We have new chairs in the kitchen.",
+      "lemma": "stol",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "home-d3",
+      "no": "___ er åpent.",
+      "en": "The window is open.",
+      "lemma": "vindu",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "home-d4",
+      "no": "Har du sett ___ mine?",
+      "en": "Have you seen my keys?",
+      "lemma": "nøkkel",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "home-d5",
+      "no": "Vi ___ huset i fem år.",
+      "en": "We owned the house for five years.",
+      "lemma": "eie",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "home-d6",
+      "no": "___ er ren.",
+      "en": "The bed is clean.",
+      "lemma": "seng",
+      "pos": "noun",
+      "form": "defSg"
+    }
+  ]
+}

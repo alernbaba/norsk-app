@@ -1,0 +1,532 @@
+{
+  "id": "family",
+  "title": "Family and relationships",
+  "description": "Parents, children, relatives, partners and friends.",
+  "emoji": "👪",
+  "order": 13,
+  "words": [
+    {
+      "id": "family-en-familie",
+      "no": "en familie",
+      "en": [
+        "a family"
+      ],
+      "pos": "noun",
+      "lemma": "familie"
+    },
+    {
+      "id": "family-ei-mor",
+      "no": "ei mor",
+      "en": [
+        "a mother"
+      ],
+      "pos": "noun",
+      "lemma": "mor"
+    },
+    {
+      "id": "family-en-far",
+      "no": "en far",
+      "en": [
+        "a father"
+      ],
+      "pos": "noun",
+      "lemma": "far"
+    },
+    {
+      "id": "family-en-mamma",
+      "no": "en mamma",
+      "en": [
+        "a mum"
+      ],
+      "pos": "noun",
+      "lemma": "mamma"
+    },
+    {
+      "id": "family-en-pappa",
+      "no": "en pappa",
+      "en": [
+        "a dad"
+      ],
+      "pos": "noun",
+      "lemma": "pappa"
+    },
+    {
+      "id": "family-foreldre",
+      "no": "foreldre",
+      "en": [
+        "parents"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "family-en-bror",
+      "no": "en bror",
+      "en": [
+        "a brother"
+      ],
+      "pos": "noun",
+      "lemma": "bror"
+    },
+    {
+      "id": "family-ei-soster",
+      "no": "ei søster",
+      "en": [
+        "a sister"
+      ],
+      "pos": "noun",
+      "lemma": "søster"
+    },
+    {
+      "id": "family-sosken",
+      "no": "søsken",
+      "en": [
+        "siblings"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "family-et-barn",
+      "no": "et barn",
+      "en": [
+        "a child"
+      ],
+      "pos": "noun",
+      "lemma": "barn"
+    },
+    {
+      "id": "family-en-sonn",
+      "no": "en sønn",
+      "en": [
+        "a son"
+      ],
+      "pos": "noun",
+      "lemma": "sønn"
+    },
+    {
+      "id": "family-ei-datter",
+      "no": "ei datter",
+      "en": [
+        "a daughter"
+      ],
+      "pos": "noun",
+      "lemma": "datter"
+    },
+    {
+      "id": "family-en-baby",
+      "no": "en baby",
+      "en": [
+        "a baby"
+      ],
+      "pos": "noun",
+      "lemma": "baby"
+    },
+    {
+      "id": "family-ei-bestemor",
+      "no": "ei bestemor",
+      "en": [
+        "a grandmother"
+      ],
+      "pos": "noun",
+      "lemma": "bestemor"
+    },
+    {
+      "id": "family-en-bestefar",
+      "no": "en bestefar",
+      "en": [
+        "a grandfather"
+      ],
+      "pos": "noun",
+      "lemma": "bestefar"
+    },
+    {
+      "id": "family-et-barnebarn",
+      "no": "et barnebarn",
+      "en": [
+        "a grandchild"
+      ],
+      "pos": "noun",
+      "lemma": "barnebarn"
+    },
+    {
+      "id": "family-en-onkel",
+      "no": "en onkel",
+      "en": [
+        "an uncle"
+      ],
+      "pos": "noun",
+      "lemma": "onkel"
+    },
+    {
+      "id": "family-ei-tante",
+      "no": "ei tante",
+      "en": [
+        "an aunt"
+      ],
+      "pos": "noun",
+      "lemma": "tante"
+    },
+    {
+      "id": "family-en-fetter",
+      "no": "en fetter",
+      "en": [
+        "a cousin (male)"
+      ],
+      "pos": "noun",
+      "lemma": "fetter"
+    },
+    {
+      "id": "family-ei-kusine",
+      "no": "ei kusine",
+      "en": [
+        "a cousin (female)"
+      ],
+      "pos": "noun",
+      "lemma": "kusine"
+    },
+    {
+      "id": "family-en-mann",
+      "no": "en mann",
+      "en": [
+        "a husband",
+        "a man"
+      ],
+      "pos": "noun",
+      "lemma": "mann"
+    },
+    {
+      "id": "family-ei-kone",
+      "no": "ei kone",
+      "en": [
+        "a wife"
+      ],
+      "pos": "noun",
+      "lemma": "kone"
+    },
+    {
+      "id": "family-en-kjaereste",
+      "no": "en kjæreste",
+      "en": [
+        "a boyfriend",
+        "a girlfriend"
+      ],
+      "pos": "noun",
+      "lemma": "kjæreste"
+    },
+    {
+      "id": "family-en-venninne",
+      "no": "en venninne",
+      "en": [
+        "a female friend"
+      ],
+      "pos": "noun",
+      "lemma": "venninne"
+    },
+    {
+      "id": "family-en-kompis",
+      "no": "en kompis",
+      "en": [
+        "a mate",
+        "a buddy"
+      ],
+      "pos": "noun",
+      "lemma": "kompis"
+    },
+    {
+      "id": "family-en-nabo",
+      "no": "en nabo",
+      "en": [
+        "a neighbour"
+      ],
+      "pos": "noun",
+      "lemma": "nabo"
+    },
+    {
+      "id": "family-et-bryllup",
+      "no": "et bryllup",
+      "en": [
+        "a wedding"
+      ],
+      "pos": "noun",
+      "lemma": "bryllup"
+    },
+    {
+      "id": "family-a-gifte-seg",
+      "no": "å gifte seg",
+      "en": [
+        "to get married"
+      ],
+      "pos": "verb",
+      "lemma": "gifte"
+    },
+    {
+      "id": "family-gift",
+      "no": "gift",
+      "en": [
+        "married"
+      ],
+      "pos": "adj",
+      "lemma": "gift"
+    },
+    {
+      "id": "family-skilt",
+      "no": "skilt",
+      "en": [
+        "divorced"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "family-a-besoke",
+      "no": "å besøke",
+      "en": [
+        "to visit"
+      ],
+      "pos": "verb",
+      "lemma": "besøke"
+    },
+    {
+      "id": "family-a-savne",
+      "no": "å savne",
+      "en": [
+        "to miss (someone)"
+      ],
+      "pos": "verb",
+      "lemma": "savne"
+    },
+    {
+      "id": "family-a-passe-pa",
+      "no": "å passe på",
+      "en": [
+        "to look after"
+      ],
+      "pos": "verb",
+      "lemma": "passe"
+    },
+    {
+      "id": "family-a-kysse",
+      "no": "å kysse",
+      "en": [
+        "to kiss"
+      ],
+      "pos": "verb",
+      "lemma": "kysse"
+    },
+    {
+      "id": "family-a-klemme",
+      "no": "å klemme",
+      "en": [
+        "to hug"
+      ],
+      "pos": "verb",
+      "lemma": "klemme"
+    },
+    {
+      "id": "family-ung",
+      "no": "ung",
+      "en": [
+        "young"
+      ],
+      "pos": "adj",
+      "lemma": "ung"
+    },
+    {
+      "id": "family-voksen",
+      "no": "voksen",
+      "en": [
+        "adult",
+        "grown-up"
+      ],
+      "pos": "adj",
+      "lemma": "voksen"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "family-s1",
+      "en": "My mother is a teacher.",
+      "no": [
+        "Mora mi er lærer.",
+        "Moren min er lærer.",
+        "Min mor er lærer."
+      ],
+      "distractors": [
+        "far",
+        "en",
+        "mitt"
+      ]
+    },
+    {
+      "id": "family-s2",
+      "en": "I have a brother and a sister.",
+      "no": [
+        "Jeg har en bror og ei søster.",
+        "Jeg har en bror og en søster."
+      ],
+      "distractors": [
+        "et",
+        "brødre",
+        "eller"
+      ]
+    },
+    {
+      "id": "family-s3",
+      "en": "The children live in Oslo.",
+      "no": [
+        "Barna bor i Oslo."
+      ],
+      "distractors": [
+        "barn",
+        "på",
+        "bodde"
+      ]
+    },
+    {
+      "id": "family-s4",
+      "en": "My grandfather is very old.",
+      "no": [
+        "Bestefaren min er veldig gammel.",
+        "Min bestefar er veldig gammel."
+      ],
+      "distractors": [
+        "ung",
+        "gamle",
+        "bestemor"
+      ]
+    },
+    {
+      "id": "family-s5",
+      "en": "Do you have children?",
+      "no": [
+        "Har du barn?"
+      ],
+      "distractors": [
+        "barna",
+        "er",
+        "jeg"
+      ]
+    },
+    {
+      "id": "family-s6",
+      "en": "Her husband is young.",
+      "no": [
+        "Mannen hennes er ung."
+      ],
+      "distractors": [
+        "hans",
+        "kona",
+        "gammel"
+      ]
+    },
+    {
+      "id": "family-s7",
+      "en": "We love our family.",
+      "no": [
+        "Vi elsker familien vår.",
+        "Vi elsker vår familie."
+      ],
+      "distractors": [
+        "familie",
+        "de",
+        "våre"
+      ]
+    },
+    {
+      "id": "family-s8",
+      "en": "My aunt lives in Bergen.",
+      "no": [
+        "Tante mi bor i Bergen.",
+        "Tanta mi bor i Bergen.",
+        "Tanten min bor i Bergen.",
+        "Min tante bor i Bergen."
+      ],
+      "distractors": [
+        "onkel",
+        "på",
+        "bo"
+      ]
+    },
+    {
+      "id": "family-s9",
+      "en": "They got married last year.",
+      "no": [
+        "De giftet seg i fjor.",
+        "De gifta seg i fjor."
+      ],
+      "distractors": [
+        "gift",
+        "gifter",
+        "vi"
+      ]
+    },
+    {
+      "id": "family-s10",
+      "en": "How many siblings do you have?",
+      "no": [
+        "Hvor mange søsken har du?"
+      ],
+      "distractors": [
+        "hva",
+        "mye",
+        "barn"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "family-d1",
+      "no": "Hun har to ___.",
+      "en": "She has two brothers.",
+      "lemma": "bror",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "family-d2",
+      "no": "___ hans er snill.",
+      "en": "His father is kind.",
+      "lemma": "far",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "family-d3",
+      "no": "De ___ i Tromsø i fjor.",
+      "en": "They lived in Tromsø last year.",
+      "lemma": "bo",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "family-d4",
+      "no": "Huset er ___.",
+      "en": "The house is old.",
+      "lemma": "gammel",
+      "pos": "adj",
+      "form": "n"
+    },
+    {
+      "id": "family-d5",
+      "no": "Lillebroren min er ___ enn meg.",
+      "en": "My little brother is younger than me.",
+      "lemma": "ung",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "family-d6",
+      "no": "Barna er ___.",
+      "en": "The children are small.",
+      "lemma": "liten",
+      "pos": "adj",
+      "form": "pl"
+    },
+    {
+      "id": "family-d7",
+      "no": "Vi ___ besteforeldrene våre i helga.",
+      "en": "We visited our grandparents at the weekend.",
+      "lemma": "besøke",
+      "pos": "verb",
+      "form": "past"
+    }
+  ]
+}

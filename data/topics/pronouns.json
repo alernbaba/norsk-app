@@ -1,0 +1,505 @@
+{
+  "id": "pronouns",
+  "title": "Pronouns",
+  "description": "I, you, he, she, mine, yours and other small words for people and things.",
+  "emoji": "🙋",
+  "order": 3,
+  "words": [
+    {
+      "id": "pronouns-jeg",
+      "no": "jeg",
+      "en": [
+        "I"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-du",
+      "no": "du",
+      "en": [
+        "you (one person)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-han",
+      "no": "han",
+      "en": [
+        "he"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-hun",
+      "no": "hun",
+      "en": [
+        "she"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-den",
+      "no": "den",
+      "en": [
+        "it (en/ei words)",
+        "the"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-det",
+      "no": "det",
+      "en": [
+        "it (et words)",
+        "that",
+        "there"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-vi",
+      "no": "vi",
+      "en": [
+        "we"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-dere",
+      "no": "dere",
+      "en": [
+        "you (several people)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-de",
+      "no": "de",
+      "en": [
+        "they"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-meg",
+      "no": "meg",
+      "en": [
+        "me"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-deg",
+      "no": "deg",
+      "en": [
+        "you (object)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-ham",
+      "no": "ham",
+      "en": [
+        "him"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-henne",
+      "no": "henne",
+      "en": [
+        "her"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-oss",
+      "no": "oss",
+      "en": [
+        "us"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-dem",
+      "no": "dem",
+      "en": [
+        "them"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-seg",
+      "no": "seg",
+      "en": [
+        "himself",
+        "herself",
+        "themselves"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-selv",
+      "no": "selv",
+      "en": [
+        "self",
+        "even"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-hverandre",
+      "no": "hverandre",
+      "en": [
+        "each other"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-man",
+      "no": "man",
+      "en": [
+        "one",
+        "you (people in general)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-min-mi-mitt-mine",
+      "no": "min / mi / mitt / mine",
+      "en": [
+        "my",
+        "mine"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-din-di-ditt-dine",
+      "no": "din / di / ditt / dine",
+      "en": [
+        "your",
+        "yours"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-hans",
+      "no": "hans",
+      "en": [
+        "his"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-hennes",
+      "no": "hennes",
+      "en": [
+        "her",
+        "hers"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-dens-dets",
+      "no": "dens / dets",
+      "en": [
+        "its"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-var-vart-vare",
+      "no": "vår / vårt / våre",
+      "en": [
+        "our",
+        "ours"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-deres",
+      "no": "deres",
+      "en": [
+        "your (plural)",
+        "their"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-sin-si-sitt-sine",
+      "no": "sin / si / sitt / sine",
+      "en": [
+        "his/her/their own"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-denne-dette-disse",
+      "no": "denne / dette / disse",
+      "en": [
+        "this",
+        "these"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-den-det-de-der",
+      "no": "den / det / de der",
+      "en": [
+        "that",
+        "those"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-noen",
+      "no": "noen",
+      "en": [
+        "someone",
+        "some",
+        "any"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-noe",
+      "no": "noe",
+      "en": [
+        "something",
+        "anything"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-ingen",
+      "no": "ingen",
+      "en": [
+        "no one",
+        "no"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-ingenting",
+      "no": "ingenting",
+      "en": [
+        "nothing"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-alle",
+      "no": "alle",
+      "en": [
+        "everyone",
+        "all"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-alt",
+      "no": "alt",
+      "en": [
+        "everything"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-all-alt-alle",
+      "no": "all / alt / alle",
+      "en": [
+        "all"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-hver",
+      "no": "hver",
+      "en": [
+        "each",
+        "every"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-hvert",
+      "no": "hvert",
+      "en": [
+        "each",
+        "every (et words)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-begge",
+      "no": "begge",
+      "en": [
+        "both"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-annen-annet-andre",
+      "no": "annen / annet / andre",
+      "en": [
+        "other",
+        "another"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-samme",
+      "no": "samme",
+      "en": [
+        "same"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-egen-eget-egne",
+      "no": "egen / eget / egne",
+      "en": [
+        "own"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "pronouns-slik-sann",
+      "no": "slik / sånn",
+      "en": [
+        "such",
+        "like that"
+      ],
+      "pos": "other"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "pronouns-s1",
+      "en": "This is my brother.",
+      "no": [
+        "Dette er broren min.",
+        "Dette er min bror."
+      ],
+      "distractors": [
+        "denne",
+        "hans",
+        "mitt"
+      ]
+    },
+    {
+      "id": "pronouns-s2",
+      "en": "We help each other.",
+      "no": [
+        "Vi hjelper hverandre."
+      ],
+      "distractors": [
+        "oss",
+        "de",
+        "selv"
+      ]
+    },
+    {
+      "id": "pronouns-s3",
+      "en": "Nobody is at home.",
+      "no": [
+        "Ingen er hjemme.",
+        "Det er ingen hjemme."
+      ],
+      "distractors": [
+        "noen",
+        "alle",
+        "har"
+      ]
+    },
+    {
+      "id": "pronouns-s4",
+      "en": "Everyone likes her.",
+      "no": [
+        "Alle liker henne."
+      ],
+      "distractors": [
+        "hun",
+        "ingen",
+        "ham"
+      ]
+    },
+    {
+      "id": "pronouns-s5",
+      "en": "Is this your car?",
+      "no": [
+        "Er dette bilen din?",
+        "Er dette din bil?"
+      ],
+      "distractors": [
+        "min",
+        "hans",
+        "denne"
+      ]
+    },
+    {
+      "id": "pronouns-s6",
+      "en": "They live with us.",
+      "no": [
+        "De bor hos oss."
+      ],
+      "distractors": [
+        "vi",
+        "dem",
+        "med"
+      ]
+    },
+    {
+      "id": "pronouns-s7",
+      "en": "She washes herself.",
+      "no": [
+        "Hun vasker seg."
+      ],
+      "distractors": [
+        "henne",
+        "han",
+        "selv"
+      ]
+    },
+    {
+      "id": "pronouns-s8",
+      "en": "I have something for you.",
+      "no": [
+        "Jeg har noe til deg.",
+        "Jeg har noe for deg."
+      ],
+      "distractors": [
+        "noen",
+        "du",
+        "ingenting"
+      ]
+    },
+    {
+      "id": "pronouns-s9",
+      "en": "Both are my friends.",
+      "no": [
+        "Begge er vennene mine.",
+        "Begge er mine venner."
+      ],
+      "distractors": [
+        "alle",
+        "venn",
+        "hans"
+      ]
+    },
+    {
+      "id": "pronouns-s10",
+      "en": "It is the same book.",
+      "no": [
+        "Det er den samme boka.",
+        "Det er den samme boken."
+      ],
+      "distractors": [
+        "annen",
+        "en",
+        "dette"
+      ]
+    }
+  ],
+  "inflectionDrills": []
+}

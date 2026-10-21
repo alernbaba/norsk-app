@@ -1,0 +1,497 @@
+{
+  "id": "position",
+  "title": "Where and which way",
+  "description": "Prepositions and little words for place and direction.",
+  "emoji": "🧭",
+  "order": 5,
+  "words": [
+    {
+      "id": "position-i",
+      "no": "i",
+      "en": [
+        "in"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-pa",
+      "no": "på",
+      "en": [
+        "on",
+        "at"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-til",
+      "no": "til",
+      "en": [
+        "to"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-fra",
+      "no": "fra",
+      "en": [
+        "from"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-med",
+      "no": "med",
+      "en": [
+        "with"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-uten",
+      "no": "uten",
+      "en": [
+        "without"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-av",
+      "no": "av",
+      "en": [
+        "of",
+        "by",
+        "off"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-over",
+      "no": "over",
+      "en": [
+        "over",
+        "above"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-under",
+      "no": "under",
+      "en": [
+        "under",
+        "below"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-ved",
+      "no": "ved",
+      "en": [
+        "by",
+        "next to"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-hos",
+      "no": "hos",
+      "en": [
+        "at (someone's place)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-mellom",
+      "no": "mellom",
+      "en": [
+        "between"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-bak",
+      "no": "bak",
+      "en": [
+        "behind"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-foran",
+      "no": "foran",
+      "en": [
+        "in front of"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-ved-siden-av",
+      "no": "ved siden av",
+      "en": [
+        "next to"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-gjennom",
+      "no": "gjennom",
+      "en": [
+        "through"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-rundt",
+      "no": "rundt",
+      "en": [
+        "around"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-mot",
+      "no": "mot",
+      "en": [
+        "towards",
+        "against"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-langs",
+      "no": "langs",
+      "en": [
+        "along"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-utenfor",
+      "no": "utenfor",
+      "en": [
+        "outside"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-innenfor",
+      "no": "innenfor",
+      "en": [
+        "inside",
+        "within"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-blant",
+      "no": "blant",
+      "en": [
+        "among"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-her",
+      "no": "her",
+      "en": [
+        "here"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-der",
+      "no": "der",
+      "en": [
+        "there"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-hit",
+      "no": "hit",
+      "en": [
+        "(to) here"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-dit",
+      "no": "dit",
+      "en": [
+        "(to) there"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-hjem",
+      "no": "hjem",
+      "en": [
+        "home (direction)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-hjemme",
+      "no": "hjemme",
+      "en": [
+        "at home"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-ut",
+      "no": "ut",
+      "en": [
+        "out (direction)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-ute",
+      "no": "ute",
+      "en": [
+        "outside"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-inn",
+      "no": "inn",
+      "en": [
+        "in (direction)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-inne",
+      "no": "inne",
+      "en": [
+        "inside"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-opp",
+      "no": "opp",
+      "en": [
+        "up (direction)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-oppe",
+      "no": "oppe",
+      "en": [
+        "up (position)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-ned",
+      "no": "ned",
+      "en": [
+        "down (direction)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-nede",
+      "no": "nede",
+      "en": [
+        "down (position)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-borte",
+      "no": "borte",
+      "en": [
+        "away",
+        "over there",
+        "gone"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-bort",
+      "no": "bort",
+      "en": [
+        "away (direction)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-fram-frem",
+      "no": "fram / frem",
+      "en": [
+        "forward"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-tilbake",
+      "no": "tilbake",
+      "en": [
+        "back"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-langt",
+      "no": "langt",
+      "en": [
+        "far"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-naer",
+      "no": "nær",
+      "en": [
+        "near",
+        "close"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "position-overalt",
+      "no": "overalt",
+      "en": [
+        "everywhere"
+      ],
+      "pos": "other"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "position-s1",
+      "en": "The cat is under the table.",
+      "no": [
+        "Katten er under bordet.",
+        "Katta er under bordet."
+      ],
+      "distractors": [
+        "på",
+        "bord",
+        "over"
+      ]
+    },
+    {
+      "id": "position-s2",
+      "en": "I am at home.",
+      "no": [
+        "Jeg er hjemme."
+      ],
+      "distractors": [
+        "hjem",
+        "hos",
+        "på"
+      ]
+    },
+    {
+      "id": "position-s3",
+      "en": "We are going home.",
+      "no": [
+        "Vi går hjem.",
+        "Vi drar hjem."
+      ],
+      "distractors": [
+        "hjemme",
+        "til",
+        "ute"
+      ]
+    },
+    {
+      "id": "position-s4",
+      "en": "She lives next to the school.",
+      "no": [
+        "Hun bor ved siden av skolen.",
+        "Hun bor ved skolen."
+      ],
+      "distractors": [
+        "i",
+        "skole",
+        "bak"
+      ]
+    },
+    {
+      "id": "position-s5",
+      "en": "The children are playing outside.",
+      "no": [
+        "Barna leker ute."
+      ],
+      "distractors": [
+        "ut",
+        "inne",
+        "barn"
+      ]
+    },
+    {
+      "id": "position-s6",
+      "en": "Come here!",
+      "no": [
+        "Kom hit!"
+      ],
+      "distractors": [
+        "her",
+        "dit",
+        "der"
+      ]
+    },
+    {
+      "id": "position-s7",
+      "en": "The book is on the table.",
+      "no": [
+        "Boka ligger på bordet.",
+        "Boken ligger på bordet.",
+        "Boka er på bordet.",
+        "Boken er på bordet."
+      ],
+      "distractors": [
+        "i",
+        "under",
+        "står"
+      ]
+    },
+    {
+      "id": "position-s8",
+      "en": "I am going to Bergen with my mother.",
+      "no": [
+        "Jeg reiser til Bergen med moren min.",
+        "Jeg drar til Bergen med mora mi.",
+        "Jeg reiser til Bergen med mora mi.",
+        "Jeg drar til Bergen med moren min."
+      ],
+      "distractors": [
+        "fra",
+        "uten",
+        "i"
+      ]
+    },
+    {
+      "id": "position-s9",
+      "en": "Is it far from here?",
+      "no": [
+        "Er det langt herfra?",
+        "Er det langt fra her?"
+      ],
+      "distractors": [
+        "nær",
+        "der",
+        "til"
+      ]
+    },
+    {
+      "id": "position-s10",
+      "en": "The dog runs through the park.",
+      "no": [
+        "Hunden løper gjennom parken."
+      ],
+      "distractors": [
+        "rundt",
+        "park",
+        "i"
+      ]
+    }
+  ],
+  "inflectionDrills": []
+}

@@ -1,0 +1,542 @@
+{
+  "id": "free-time",
+  "title": "Free time",
+  "description": "Hobbies, sports, music and going out.",
+  "emoji": "⚽",
+  "order": 26,
+  "words": [
+    {
+      "id": "free-time-fritid",
+      "no": "fritid",
+      "en": [
+        "free time"
+      ],
+      "pos": "noun",
+      "lemma": "fritid"
+    },
+    {
+      "id": "free-time-en-hobby",
+      "no": "en hobby",
+      "en": [
+        "a hobby"
+      ],
+      "pos": "noun",
+      "lemma": "hobby"
+    },
+    {
+      "id": "free-time-en-sport",
+      "no": "en sport",
+      "en": [
+        "a sport"
+      ],
+      "pos": "noun",
+      "lemma": "sport"
+    },
+    {
+      "id": "free-time-en-fotball",
+      "no": "en fotball",
+      "en": [
+        "a football"
+      ],
+      "pos": "noun",
+      "lemma": "fotball"
+    },
+    {
+      "id": "free-time-en-ball",
+      "no": "en ball",
+      "en": [
+        "a ball"
+      ],
+      "pos": "noun",
+      "lemma": "ball"
+    },
+    {
+      "id": "free-time-en-kamp",
+      "no": "en kamp",
+      "en": [
+        "a match",
+        "a fight"
+      ],
+      "pos": "noun",
+      "lemma": "kamp"
+    },
+    {
+      "id": "free-time-et-lag",
+      "no": "et lag",
+      "en": [
+        "a team"
+      ],
+      "pos": "noun",
+      "lemma": "lag"
+    },
+    {
+      "id": "free-time-et-spill",
+      "no": "et spill",
+      "en": [
+        "a game"
+      ],
+      "pos": "noun",
+      "lemma": "spill"
+    },
+    {
+      "id": "free-time-musikk",
+      "no": "musikk",
+      "en": [
+        "music"
+      ],
+      "pos": "noun",
+      "lemma": "musikk"
+    },
+    {
+      "id": "free-time-en-sang",
+      "no": "en sang",
+      "en": [
+        "a song"
+      ],
+      "pos": "noun",
+      "lemma": "sang"
+    },
+    {
+      "id": "free-time-et-instrument",
+      "no": "et instrument",
+      "en": [
+        "an instrument"
+      ],
+      "pos": "noun",
+      "lemma": "instrument"
+    },
+    {
+      "id": "free-time-en-gitar",
+      "no": "en gitar",
+      "en": [
+        "a guitar"
+      ],
+      "pos": "noun",
+      "lemma": "gitar"
+    },
+    {
+      "id": "free-time-et-piano",
+      "no": "et piano",
+      "en": [
+        "a piano"
+      ],
+      "pos": "noun",
+      "lemma": "piano"
+    },
+    {
+      "id": "free-time-en-film",
+      "no": "en film",
+      "en": [
+        "a film",
+        "a movie"
+      ],
+      "pos": "noun",
+      "lemma": "film"
+    },
+    {
+      "id": "free-time-en-konsert",
+      "no": "en konsert",
+      "en": [
+        "a concert"
+      ],
+      "pos": "noun",
+      "lemma": "konsert"
+    },
+    {
+      "id": "free-time-en-fest",
+      "no": "en fest",
+      "en": [
+        "a party"
+      ],
+      "pos": "noun",
+      "lemma": "fest"
+    },
+    {
+      "id": "free-time-et-selskap",
+      "no": "et selskap",
+      "en": [
+        "a party",
+        "a company"
+      ],
+      "pos": "noun",
+      "lemma": "selskap"
+    },
+    {
+      "id": "free-time-en-bok",
+      "no": "en bok",
+      "en": [
+        "a book"
+      ],
+      "pos": "noun",
+      "lemma": "bok"
+    },
+    {
+      "id": "free-time-et-bilde",
+      "no": "et bilde",
+      "en": [
+        "a picture",
+        "a photo"
+      ],
+      "pos": "noun",
+      "lemma": "bilde"
+    },
+    {
+      "id": "free-time-en-tegning",
+      "no": "en tegning",
+      "en": [
+        "a drawing"
+      ],
+      "pos": "noun",
+      "lemma": "tegning"
+    },
+    {
+      "id": "free-time-en-ski",
+      "no": "en ski",
+      "en": [
+        "a ski"
+      ],
+      "pos": "noun",
+      "lemma": "ski"
+    },
+    {
+      "id": "free-time-en-hytte",
+      "no": "en hytte",
+      "en": [
+        "a cabin"
+      ],
+      "pos": "noun",
+      "lemma": "hytte"
+    },
+    {
+      "id": "free-time-et-vennskap",
+      "no": "et vennskap",
+      "en": [
+        "a friendship"
+      ],
+      "pos": "noun",
+      "lemma": "vennskap"
+    },
+    {
+      "id": "free-time-a-spille",
+      "no": "å spille",
+      "en": [
+        "to play (a game, an instrument)"
+      ],
+      "pos": "verb",
+      "lemma": "spille"
+    },
+    {
+      "id": "free-time-a-leke",
+      "no": "å leke",
+      "en": [
+        "to play (children)"
+      ],
+      "pos": "verb",
+      "lemma": "leke"
+    },
+    {
+      "id": "free-time-a-se-pa-tv",
+      "no": "å se på TV",
+      "en": [
+        "to watch TV"
+      ],
+      "pos": "verb",
+      "lemma": "se"
+    },
+    {
+      "id": "free-time-a-ga-pa-ski",
+      "no": "å gå på ski",
+      "en": [
+        "to go skiing"
+      ],
+      "pos": "verb",
+      "lemma": "gå"
+    },
+    {
+      "id": "free-time-a-ga-pa-tur",
+      "no": "å gå på tur",
+      "en": [
+        "to go hiking"
+      ],
+      "pos": "verb",
+      "lemma": "gå"
+    },
+    {
+      "id": "free-time-a-fiske",
+      "no": "å fiske",
+      "en": [
+        "to fish"
+      ],
+      "pos": "verb",
+      "lemma": "fiske"
+    },
+    {
+      "id": "free-time-a-tegne",
+      "no": "å tegne",
+      "en": [
+        "to draw"
+      ],
+      "pos": "verb",
+      "lemma": "tegne"
+    },
+    {
+      "id": "free-time-a-ta-bilder",
+      "no": "å ta bilder",
+      "en": [
+        "to take pictures"
+      ],
+      "pos": "verb",
+      "lemma": "ta"
+    },
+    {
+      "id": "free-time-a-feire",
+      "no": "å feire",
+      "en": [
+        "to celebrate"
+      ],
+      "pos": "verb",
+      "lemma": "feire"
+    },
+    {
+      "id": "free-time-a-invitere",
+      "no": "å invitere",
+      "en": [
+        "to invite"
+      ],
+      "pos": "verb",
+      "lemma": "invitere"
+    },
+    {
+      "id": "free-time-a-vinne",
+      "no": "å vinne",
+      "en": [
+        "to win"
+      ],
+      "pos": "verb",
+      "lemma": "vinne"
+    },
+    {
+      "id": "free-time-a-tape",
+      "no": "å tape",
+      "en": [
+        "to lose (a game)"
+      ],
+      "pos": "verb",
+      "lemma": "tape"
+    },
+    {
+      "id": "free-time-a-slappe-av",
+      "no": "å slappe av",
+      "en": [
+        "to relax"
+      ],
+      "pos": "verb",
+      "lemma": "slappe"
+    },
+    {
+      "id": "free-time-a-more-seg",
+      "no": "å more seg",
+      "en": [
+        "to have fun"
+      ],
+      "pos": "verb",
+      "lemma": "more"
+    },
+    {
+      "id": "free-time-goy",
+      "no": "gøy",
+      "en": [
+        "fun"
+      ],
+      "pos": "adj",
+      "lemma": "gøy"
+    },
+    {
+      "id": "free-time-spennende",
+      "no": "spennende",
+      "en": [
+        "exciting"
+      ],
+      "pos": "adj",
+      "lemma": "spennende"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "free-time-s1",
+      "en": "I play football on Saturdays.",
+      "no": [
+        "Jeg spiller fotball på lørdager.",
+        "Jeg spiller fotball hver lørdag."
+      ],
+      "distractors": [
+        "leker",
+        "lørdag",
+        "i"
+      ]
+    },
+    {
+      "id": "free-time-s2",
+      "en": "Do you want to go to the cinema?",
+      "no": [
+        "Vil du gå på kino?",
+        "Har du lyst til å gå på kino?"
+      ],
+      "distractors": [
+        "til",
+        "kinoen",
+        "kan"
+      ]
+    },
+    {
+      "id": "free-time-s3",
+      "en": "We are going skiing this weekend.",
+      "no": [
+        "Vi skal på ski i helga.",
+        "Vi går på ski i helgen.",
+        "Vi skal gå på ski i helga."
+      ],
+      "distractors": [
+        "til",
+        "helg",
+        "tur"
+      ]
+    },
+    {
+      "id": "free-time-s4",
+      "en": "She plays the guitar.",
+      "no": [
+        "Hun spiller gitar."
+      ],
+      "distractors": [
+        "leker",
+        "piano",
+        "han"
+      ]
+    },
+    {
+      "id": "free-time-s5",
+      "en": "The children are playing in the garden.",
+      "no": [
+        "Barna leker i hagen."
+      ],
+      "distractors": [
+        "spiller",
+        "hage",
+        "på"
+      ]
+    },
+    {
+      "id": "free-time-s6",
+      "en": "The party was fun.",
+      "no": [
+        "Festen var gøy.",
+        "Festen var morsom."
+      ],
+      "distractors": [
+        "fest",
+        "er",
+        "kjedelig"
+      ]
+    },
+    {
+      "id": "free-time-s7",
+      "en": "Our team won the match.",
+      "no": [
+        "Laget vårt vant kampen."
+      ],
+      "distractors": [
+        "tapte",
+        "lag",
+        "kamp"
+      ]
+    },
+    {
+      "id": "free-time-s8",
+      "en": "I like to read books.",
+      "no": [
+        "Jeg liker å lese bøker."
+      ],
+      "distractors": [
+        "bok",
+        "leser",
+        "skrive"
+      ]
+    },
+    {
+      "id": "free-time-s9",
+      "en": "We are celebrating my birthday.",
+      "no": [
+        "Vi feirer bursdagen min."
+      ],
+      "distractors": [
+        "bursdag",
+        "feiret",
+        "mitt"
+      ]
+    },
+    {
+      "id": "free-time-s10",
+      "en": "Relax and have fun!",
+      "no": [
+        "Slapp av og kos deg!",
+        "Slapp av og ha det gøy!"
+      ],
+      "distractors": [
+        "slappe",
+        "eller",
+        "meg"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "free-time-d1",
+      "no": "Vi ___ kampen i går.",
+      "en": "We won the match yesterday.",
+      "lemma": "vinne",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "free-time-d2",
+      "no": "Hun har ___ piano i ti år.",
+      "en": "She has played the piano for ten years.",
+      "lemma": "spille",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "free-time-d3",
+      "no": "Jeg har sett alle ___ hans.",
+      "en": "I have seen all his films.",
+      "lemma": "film",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "free-time-d4",
+      "no": "Vi ___ jul hos besteforeldrene.",
+      "en": "We celebrated Christmas at our grandparents'.",
+      "lemma": "feire",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "free-time-d5",
+      "no": "Han kjenner mange norske ___.",
+      "en": "He knows many Norwegian songs.",
+      "lemma": "sang",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "free-time-d6",
+      "no": "___ var spennende.",
+      "en": "The match was exciting.",
+      "lemma": "kamp",
+      "pos": "noun",
+      "form": "defSg"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "id": "action-verbs",
+  "title": "Action verbs",
+  "description": "Move, carry, open, close and other things you do with your body.",
+  "emoji": "🏃",
+  "order": 10,
+  "words": [
+    {
+      "id": "action-verbs-a-lope",
+      "no": "å løpe",
+      "en": [
+        "to run"
+      ],
+      "pos": "verb",
+      "lemma": "løpe"
+    },
+    {
+      "id": "action-verbs-a-springe",
+      "no": "å springe",
+      "en": [
+        "to run"
+      ],
+      "pos": "verb",
+      "lemma": "springe"
+    },
+    {
+      "id": "action-verbs-a-hoppe",
+      "no": "å hoppe",
+      "en": [
+        "to jump"
+      ],
+      "pos": "verb",
+      "lemma": "hoppe"
+    },
+    {
+      "id": "action-verbs-a-danse",
+      "no": "å danse",
+      "en": [
+        "to dance"
+      ],
+      "pos": "verb",
+      "lemma": "danse"
+    },
+    {
+      "id": "action-verbs-a-svomme",
+      "no": "å svømme",
+      "en": [
+        "to swim"
+      ],
+      "pos": "verb",
+      "lemma": "svømme"
+    },
+    {
+      "id": "action-verbs-a-kjore",
+      "no": "å kjøre",
+      "en": [
+        "to drive"
+      ],
+      "pos": "verb",
+      "lemma": "kjøre"
+    },
+    {
+      "id": "action-verbs-a-sykle",
+      "no": "å sykle",
+      "en": [
+        "to cycle"
+      ],
+      "pos": "verb",
+      "lemma": "sykle"
+    },
+    {
+      "id": "action-verbs-a-fly",
+      "no": "å fly",
+      "en": [
+        "to fly"
+      ],
+      "pos": "verb",
+      "lemma": "fly"
+    },
+    {
+      "id": "action-verbs-a-dra",
+      "no": "å dra",
+      "en": [
+        "to go",
+        "to leave",
+        "to pull"
+      ],
+      "pos": "verb",
+      "lemma": "dra"
+    },
+    {
+      "id": "action-verbs-a-reise",
+      "no": "å reise",
+      "en": [
+        "to travel"
+      ],
+      "pos": "verb",
+      "lemma": "reise"
+    },
+    {
+      "id": "action-verbs-a-flytte",
+      "no": "å flytte",
+      "en": [
+        "to move (house)"
+      ],
+      "pos": "verb",
+      "lemma": "flytte"
+    },
+    {
+      "id": "action-verbs-a-folge",
+      "no": "å følge",
+      "en": [
+        "to follow",
+        "to accompany"
+      ],
+      "pos": "verb",
+      "lemma": "følge"
+    },
+    {
+      "id": "action-verbs-a-baere",
+      "no": "å bære",
+      "en": [
+        "to carry"
+      ],
+      "pos": "verb",
+      "lemma": "bære"
+    },
+    {
+      "id": "action-verbs-a-hente",
+      "no": "å hente",
+      "en": [
+        "to fetch",
+        "to pick up"
+      ],
+      "pos": "verb",
+      "lemma": "hente"
+    },
+    {
+      "id": "action-verbs-a-bringe",
+      "no": "å bringe",
+      "en": [
+        "to bring"
+      ],
+      "pos": "verb",
+      "lemma": "bringe"
+    },
+    {
+      "id": "action-verbs-a-sende",
+      "no": "å sende",
+      "en": [
+        "to send"
+      ],
+      "pos": "verb",
+      "lemma": "sende"
+    },
+    {
+      "id": "action-verbs-a-apne",
+      "no": "å åpne",
+      "en": [
+        "to open"
+      ],
+      "pos": "verb",
+      "lemma": "åpne"
+    },
+    {
+      "id": "action-verbs-a-lukke",
+      "no": "å lukke",
+      "en": [
+        "to close"
+      ],
+      "pos": "verb",
+      "lemma": "lukke"
+    },
+    {
+      "id": "action-verbs-a-stenge",
+      "no": "å stenge",
+      "en": [
+        "to close",
+        "to shut"
+      ],
+      "pos": "verb",
+      "lemma": "stenge"
+    },
+    {
+      "id": "action-verbs-a-kaste",
+      "no": "å kaste",
+      "en": [
+        "to throw"
+      ],
+      "pos": "verb",
+      "lemma": "kaste"
+    },
+    {
+      "id": "action-verbs-a-fange",
+      "no": "å fange",
+      "en": [
+        "to catch"
+      ],
+      "pos": "verb",
+      "lemma": "fange"
+    },
+    {
+      "id": "action-verbs-a-holde",
+      "no": "å holde",
+      "en": [
+        "to hold",
+        "to keep"
+      ],
+      "pos": "verb",
+      "lemma": "holde"
+    },
+    {
+      "id": "action-verbs-a-slippe",
+      "no": "å slippe",
+      "en": [
+        "to let go",
+        "to drop",
+        "to avoid"
+      ],
+      "pos": "verb",
+      "lemma": "slippe"
+    },
+    {
+      "id": "action-verbs-a-miste",
+      "no": "å miste",
+      "en": [
+        "to lose",
+        "to drop"
+      ],
+      "pos": "verb",
+      "lemma": "miste"
+    },
+    {
+      "id": "action-verbs-a-falle",
+      "no": "å falle",
+      "en": [
+        "to fall"
+      ],
+      "pos": "verb",
+      "lemma": "falle"
+    },
+    {
+      "id": "action-verbs-a-sla",
+      "no": "å slå",
+      "en": [
+        "to hit",
+        "to beat"
+      ],
+      "pos": "verb",
+      "lemma": "slå"
+    },
+    {
+      "id": "action-verbs-a-trekke",
+      "no": "å trekke",
+      "en": [
+        "to pull"
+      ],
+      "pos": "verb",
+      "lemma": "trekke"
+    },
+    {
+      "id": "action-verbs-a-dytte",
+      "no": "å dytte",
+      "en": [
+        "to push"
+      ],
+      "pos": "verb",
+      "lemma": "dytte"
+    },
+    {
+      "id": "action-verbs-a-snu",
+      "no": "å snu",
+      "en": [
+        "to turn"
+      ],
+      "pos": "verb",
+      "lemma": "snu"
+    },
+    {
+      "id": "action-verbs-a-stoppe",
+      "no": "å stoppe",
+      "en": [
+        "to stop"
+      ],
+      "pos": "verb",
+      "lemma": "stoppe"
+    },
+    {
+      "id": "action-verbs-a-sove",
+      "no": "å sove",
+      "en": [
+        "to sleep"
+      ],
+      "pos": "verb",
+      "lemma": "sove"
+    },
+    {
+      "id": "action-verbs-a-vakne",
+      "no": "å våkne",
+      "en": [
+        "to wake up"
+      ],
+      "pos": "verb",
+      "lemma": "våkne"
+    },
+    {
+      "id": "action-verbs-a-sta-opp",
+      "no": "å stå opp",
+      "en": [
+        "to get up"
+      ],
+      "pos": "verb",
+      "lemma": "stå"
+    },
+    {
+      "id": "action-verbs-a-legge-seg",
+      "no": "å legge seg",
+      "en": [
+        "to go to bed"
+      ],
+      "pos": "verb",
+      "lemma": "legge"
+    },
+    {
+      "id": "action-verbs-a-vaske",
+      "no": "å vaske",
+      "en": [
+        "to wash"
+      ],
+      "pos": "verb",
+      "lemma": "vaske"
+    },
+    {
+      "id": "action-verbs-a-rydde",
+      "no": "å rydde",
+      "en": [
+        "to tidy"
+      ],
+      "pos": "verb",
+      "lemma": "rydde"
+    },
+    {
+      "id": "action-verbs-a-bygge",
+      "no": "å bygge",
+      "en": [
+        "to build"
+      ],
+      "pos": "verb",
+      "lemma": "bygge"
+    },
+    {
+      "id": "action-verbs-a-reparere",
+      "no": "å reparere",
+      "en": [
+        "to repair"
+      ],
+      "pos": "verb",
+      "lemma": "reparere"
+    },
+    {
+      "id": "action-verbs-a-fikse",
+      "no": "å fikse",
+      "en": [
+        "to fix"
+      ],
+      "pos": "verb",
+      "lemma": "fikse"
+    },
+    {
+      "id": "action-verbs-a-lage",
+      "no": "å lage",
+      "en": [
+        "to make"
+      ],
+      "pos": "verb",
+      "lemma": "lage"
+    },
+    {
+      "id": "action-verbs-a-male",
+      "no": "å male",
+      "en": [
+        "to paint"
+      ],
+      "pos": "verb",
+      "lemma": "male",
+      "ordbankId": 81720
+    },
+    {
+      "id": "action-verbs-a-skjaere",
+      "no": "å skjære",
+      "en": [
+        "to cut"
+      ],
+      "pos": "verb",
+      "lemma": "skjære"
+    },
+    {
+      "id": "action-verbs-a-rore",
+      "no": "å røre",
+      "en": [
+        "to touch",
+        "to stir"
+      ],
+      "pos": "verb",
+      "lemma": "røre"
+    },
+    {
+      "id": "action-verbs-a-vise",
+      "no": "å vise",
+      "en": [
+        "to show"
+      ],
+      "pos": "verb",
+      "lemma": "vise"
+    },
+    {
+      "id": "action-verbs-a-gjemme",
+      "no": "å gjemme",
+      "en": [
+        "to hide"
+      ],
+      "pos": "verb",
+      "lemma": "gjemme"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "action-verbs-s1",
+      "en": "I run every morning.",
+      "no": [
+        "Jeg løper hver morgen."
+      ],
+      "distractors": [
+        "går",
+        "kveld",
+        "løp"
+      ]
+    },
+    {
+      "id": "action-verbs-s2",
+      "en": "Can you open the window?",
+      "no": [
+        "Kan du åpne vinduet?"
+      ],
+      "distractors": [
+        "lukke",
+        "vindu",
+        "døra"
+      ]
+    },
+    {
+      "id": "action-verbs-s3",
+      "en": "She drives to work.",
+      "no": [
+        "Hun kjører til jobben.",
+        "Hun kjører til jobb."
+      ],
+      "distractors": [
+        "går",
+        "fra",
+        "han"
+      ]
+    },
+    {
+      "id": "action-verbs-s4",
+      "en": "We are moving to Trondheim.",
+      "no": [
+        "Vi flytter til Trondheim."
+      ],
+      "distractors": [
+        "reiser",
+        "fra",
+        "bor"
+      ]
+    },
+    {
+      "id": "action-verbs-s5",
+      "en": "Close the door, please.",
+      "no": [
+        "Lukk døra, takk.",
+        "Lukk døren, takk.",
+        "Kan du lukke døra?",
+        "Kan du lukke døren?"
+      ],
+      "distractors": [
+        "åpne",
+        "vindu",
+        "dør"
+      ]
+    },
+    {
+      "id": "action-verbs-s6",
+      "en": "I wake up at seven.",
+      "no": [
+        "Jeg våkner klokka sju.",
+        "Jeg våkner klokken sju.",
+        "Jeg våkner klokka syv.",
+        "Jeg våkner klokken syv."
+      ],
+      "distractors": [
+        "sover",
+        "åtte",
+        "legger"
+      ]
+    },
+    {
+      "id": "action-verbs-s7",
+      "en": "He washes the car.",
+      "no": [
+        "Han vasker bilen."
+      ],
+      "distractors": [
+        "bil",
+        "hun",
+        "rydder"
+      ]
+    },
+    {
+      "id": "action-verbs-s8",
+      "en": "Can you show me the way?",
+      "no": [
+        "Kan du vise meg veien?"
+      ],
+      "distractors": [
+        "vei",
+        "se",
+        "jeg"
+      ]
+    },
+    {
+      "id": "action-verbs-s9",
+      "en": "The child fell.",
+      "no": [
+        "Barnet falt."
+      ],
+      "distractors": [
+        "barn",
+        "faller",
+        "sov"
+      ]
+    },
+    {
+      "id": "action-verbs-s10",
+      "en": "I lost my key.",
+      "no": [
+        "Jeg mistet nøkkelen min.",
+        "Jeg har mistet nøkkelen min.",
+        "Jeg mista nøkkelen min."
+      ],
+      "distractors": [
+        "fant",
+        "nøkkel",
+        "mitt"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "action-verbs-d1",
+      "no": "Hun ___ til jobben i går.",
+      "en": "She ran to work yesterday.",
+      "lemma": "løpe",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "action-verbs-d2",
+      "no": "Jeg har ___ i ti timer.",
+      "en": "I have slept for ten hours.",
+      "lemma": "sove",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "action-verbs-d3",
+      "no": "Han ___ huset selv.",
+      "en": "He built the house himself.",
+      "lemma": "bygge",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "action-verbs-d4",
+      "no": "___ døra!",
+      "en": "Close the door!",
+      "lemma": "lukke",
+      "pos": "verb",
+      "form": "imperative"
+    },
+    {
+      "id": "action-verbs-d5",
+      "no": "Vi ___ til Oslo i fjor.",
+      "en": "We moved to Oslo last year.",
+      "lemma": "flytte",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "action-verbs-d6",
+      "no": "Hvem ___ vinduet?",
+      "en": "Who opened the window?",
+      "lemma": "åpne",
+      "pos": "verb",
+      "form": "past"
+    }
+  ]
+}

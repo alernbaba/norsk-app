@@ -1,0 +1,494 @@
+{
+  "id": "everyday",
+  "title": "Everyday phrases",
+  "description": "Short phrases you hear and use all the time.",
+  "emoji": "💬",
+  "order": 2,
+  "words": [
+    {
+      "id": "everyday-ja",
+      "no": "ja",
+      "en": [
+        "yes"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-nei",
+      "no": "nei",
+      "en": [
+        "no"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-jo",
+      "no": "jo",
+      "en": [
+        "yes (to a negative question)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-kanskje",
+      "no": "kanskje",
+      "en": [
+        "maybe",
+        "perhaps"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-selvfolgelig",
+      "no": "selvfølgelig",
+      "en": [
+        "of course"
+      ],
+      "pos": "adj",
+      "lemma": "selvfølgelig"
+    },
+    {
+      "id": "everyday-greit",
+      "no": "greit",
+      "en": [
+        "OK",
+        "fine"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-ok",
+      "no": "ok",
+      "en": [
+        "OK"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-det-gar-bra",
+      "no": "det går bra",
+      "en": [
+        "it's fine",
+        "it's going well"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-ikke-noe-problem",
+      "no": "ikke noe problem",
+      "en": [
+        "no problem"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-det-gjor-ingenting",
+      "no": "Det gjør ingenting.",
+      "en": [
+        "It doesn't matter."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-jeg-vet-ikke",
+      "no": "Jeg vet ikke.",
+      "en": [
+        "I don't know."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-jeg-forstar-ikke",
+      "no": "Jeg forstår ikke.",
+      "en": [
+        "I don't understand."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-kan-du-si-det-igjen",
+      "no": "Kan du si det igjen?",
+      "en": [
+        "Can you say that again?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-kan-du-snakke-saktere",
+      "no": "Kan du snakke saktere?",
+      "en": [
+        "Can you speak more slowly?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-hva-betyr-det",
+      "no": "Hva betyr det?",
+      "en": [
+        "What does that mean?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-hvordan-sier-man-pa-norsk",
+      "no": "Hvordan sier man … på norsk?",
+      "en": [
+        "How do you say … in Norwegian?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-snakker-du-engelsk",
+      "no": "Snakker du engelsk?",
+      "en": [
+        "Do you speak English?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-jeg-snakker-litt-norsk",
+      "no": "Jeg snakker litt norsk.",
+      "en": [
+        "I speak a little Norwegian."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-et-oyeblikk",
+      "no": "Et øyeblikk.",
+      "en": [
+        "One moment."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-vent-litt",
+      "no": "Vent litt!",
+      "en": [
+        "Wait a moment!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-kom-igjen",
+      "no": "Kom igjen!",
+      "en": [
+        "Come on!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-pass-pa",
+      "no": "Pass på!",
+      "en": [
+        "Watch out!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-lykke-til",
+      "no": "Lykke til!",
+      "en": [
+        "Good luck!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-gratulerer",
+      "no": "Gratulerer!",
+      "en": [
+        "Congratulations!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-gratulerer-med-dagen",
+      "no": "Gratulerer med dagen!",
+      "en": [
+        "Happy birthday!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-god-tur",
+      "no": "God tur!",
+      "en": [
+        "Have a good trip!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-god-helg",
+      "no": "God helg!",
+      "en": [
+        "Have a nice weekend!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-god-jul",
+      "no": "God jul!",
+      "en": [
+        "Merry Christmas!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-godt-nytt-ar",
+      "no": "Godt nytt år!",
+      "en": [
+        "Happy New Year!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-god-bedring",
+      "no": "God bedring!",
+      "en": [
+        "Get well soon!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-skal",
+      "no": "Skål!",
+      "en": [
+        "Cheers!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-velbekomme",
+      "no": "Velbekomme!",
+      "en": [
+        "Enjoy your meal! (reply to \"takk for maten\")"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-hva-skjer",
+      "no": "Hva skjer?",
+      "en": [
+        "What's up?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-det-er-sant",
+      "no": "Det er sant.",
+      "en": [
+        "That's true."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-det-stemmer",
+      "no": "Det stemmer.",
+      "en": [
+        "That's right."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-jeg-er-enig",
+      "no": "Jeg er enig.",
+      "en": [
+        "I agree."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-jeg-er-ikke-enig",
+      "no": "Jeg er ikke enig.",
+      "en": [
+        "I don't agree."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-det-var-synd",
+      "no": "Det var synd.",
+      "en": [
+        "That's a shame."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-sa-bra",
+      "no": "Så bra!",
+      "en": [
+        "How nice!",
+        "Great!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-herlig",
+      "no": "Herlig!",
+      "en": [
+        "Lovely!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-aesj",
+      "no": "Æsj!",
+      "en": [
+        "Yuck!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-uff",
+      "no": "Uff!",
+      "en": [
+        "Oh dear!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-oi",
+      "no": "Oi!",
+      "en": [
+        "Oops!",
+        "Wow!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "everyday-hjelp",
+      "no": "Hjelp!",
+      "en": [
+        "Help!"
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "everyday-s1",
+      "en": "I don't understand.",
+      "no": [
+        "Jeg forstår ikke.",
+        "Jeg skjønner ikke."
+      ],
+      "distractors": [
+        "vet",
+        "er",
+        "du"
+      ]
+    },
+    {
+      "id": "everyday-s2",
+      "en": "Can you say that again?",
+      "no": [
+        "Kan du si det igjen?"
+      ],
+      "distractors": [
+        "snakke",
+        "en",
+        "jeg"
+      ]
+    },
+    {
+      "id": "everyday-s3",
+      "en": "I speak a little Norwegian.",
+      "no": [
+        "Jeg snakker litt norsk."
+      ],
+      "distractors": [
+        "engelsk",
+        "mye",
+        "er"
+      ]
+    },
+    {
+      "id": "everyday-s4",
+      "en": "What does that mean?",
+      "no": [
+        "Hva betyr det?"
+      ],
+      "distractors": [
+        "hvordan",
+        "er",
+        "si"
+      ]
+    },
+    {
+      "id": "everyday-s5",
+      "en": "Wait a moment, please.",
+      "no": [
+        "Vent litt, takk.",
+        "Vent litt, er du snill."
+      ],
+      "distractors": [
+        "kom",
+        "mye",
+        "jeg"
+      ]
+    },
+    {
+      "id": "everyday-s6",
+      "en": "Good luck with the exam!",
+      "no": [
+        "Lykke til med eksamen!"
+      ],
+      "distractors": [
+        "på",
+        "god",
+        "for"
+      ]
+    },
+    {
+      "id": "everyday-s7",
+      "en": "Happy birthday!",
+      "no": [
+        "Gratulerer med dagen!"
+      ],
+      "distractors": [
+        "dag",
+        "god",
+        "til"
+      ]
+    },
+    {
+      "id": "everyday-s8",
+      "en": "That's true.",
+      "no": [
+        "Det er sant.",
+        "Det stemmer."
+      ],
+      "distractors": [
+        "var",
+        "ikke",
+        "han"
+      ]
+    },
+    {
+      "id": "everyday-s9",
+      "en": "I agree with you.",
+      "no": [
+        "Jeg er enig med deg."
+      ],
+      "distractors": [
+        "du",
+        "til",
+        "har"
+      ]
+    },
+    {
+      "id": "everyday-s10",
+      "en": "Have a nice weekend!",
+      "no": [
+        "God helg!",
+        "Ha en fin helg!"
+      ],
+      "distractors": [
+        "dag",
+        "jul",
+        "takk"
+      ]
+    }
+  ],
+  "inflectionDrills": []
+}

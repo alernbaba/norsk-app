@@ -1,0 +1,607 @@
+{
+  "id": "good-to-know",
+  "title": "Good to know",
+  "description": "Frequent words from everyday conversation that don't fit anywhere else.",
+  "emoji": "📌",
+  "order": 35,
+  "words": [
+    {
+      "id": "good-to-know-en-fyr",
+      "no": "en fyr",
+      "en": [
+        "a guy",
+        "a fellow"
+      ],
+      "pos": "noun",
+      "lemma": "fyr"
+    },
+    {
+      "id": "good-to-know-en-unge",
+      "no": "en unge",
+      "en": [
+        "a kid"
+      ],
+      "pos": "noun",
+      "lemma": "unge"
+    },
+    {
+      "id": "good-to-know-en-forelder",
+      "no": "en forelder",
+      "en": [
+        "a parent"
+      ],
+      "pos": "noun",
+      "lemma": "forelder"
+    },
+    {
+      "id": "good-to-know-en-partner",
+      "no": "en partner",
+      "en": [
+        "a partner"
+      ],
+      "pos": "noun",
+      "lemma": "partner"
+    },
+    {
+      "id": "good-to-know-en-kamerat",
+      "no": "en kamerat",
+      "en": [
+        "a friend",
+        "a comrade"
+      ],
+      "pos": "noun",
+      "lemma": "kamerat"
+    },
+    {
+      "id": "good-to-know-en-pasient",
+      "no": "en pasient",
+      "en": [
+        "a patient"
+      ],
+      "pos": "noun",
+      "lemma": "pasient"
+    },
+    {
+      "id": "good-to-know-en-doktor",
+      "no": "en doktor",
+      "en": [
+        "a doctor"
+      ],
+      "pos": "noun",
+      "lemma": "doktor"
+    },
+    {
+      "id": "good-to-know-en-president",
+      "no": "en president",
+      "en": [
+        "a president"
+      ],
+      "pos": "noun",
+      "lemma": "president"
+    },
+    {
+      "id": "good-to-know-en-dommer",
+      "no": "en dommer",
+      "en": [
+        "a judge",
+        "a referee"
+      ],
+      "pos": "noun",
+      "lemma": "dommer"
+    },
+    {
+      "id": "good-to-know-et-team",
+      "no": "et team",
+      "en": [
+        "a team"
+      ],
+      "pos": "noun",
+      "lemma": "team"
+    },
+    {
+      "id": "good-to-know-et-system",
+      "no": "et system",
+      "en": [
+        "a system"
+      ],
+      "pos": "noun",
+      "lemma": "system"
+    },
+    {
+      "id": "good-to-know-en-rest",
+      "no": "en rest",
+      "en": [
+        "a rest",
+        "leftovers"
+      ],
+      "pos": "noun",
+      "lemma": "rest"
+    },
+    {
+      "id": "good-to-know-ei-sjel",
+      "no": "ei sjel",
+      "en": [
+        "a soul"
+      ],
+      "pos": "noun",
+      "lemma": "sjel"
+    },
+    {
+      "id": "good-to-know-en-skatt",
+      "no": "en skatt",
+      "en": [
+        "a tax",
+        "a treasure"
+      ],
+      "pos": "noun",
+      "lemma": "skatt"
+    },
+    {
+      "id": "good-to-know-respekt",
+      "no": "respekt",
+      "en": [
+        "respect"
+      ],
+      "pos": "noun",
+      "lemma": "respekt"
+    },
+    {
+      "id": "good-to-know-en-rapport",
+      "no": "en rapport",
+      "en": [
+        "a report"
+      ],
+      "pos": "noun",
+      "lemma": "rapport"
+    },
+    {
+      "id": "good-to-know-en-skjebne",
+      "no": "en skjebne",
+      "en": [
+        "a fate",
+        "a destiny"
+      ],
+      "pos": "noun",
+      "lemma": "skjebne"
+    },
+    {
+      "id": "good-to-know-trobbel",
+      "no": "trøbbel",
+      "en": [
+        "trouble"
+      ],
+      "pos": "noun",
+      "lemma": "trøbbel"
+    },
+    {
+      "id": "good-to-know-et-ekteskap",
+      "no": "et ekteskap",
+      "en": [
+        "a marriage"
+      ],
+      "pos": "noun",
+      "lemma": "ekteskap"
+    },
+    {
+      "id": "good-to-know-et-rykte",
+      "no": "et rykte",
+      "en": [
+        "a rumour",
+        "a reputation"
+      ],
+      "pos": "noun",
+      "lemma": "rykte"
+    },
+    {
+      "id": "good-to-know-rund",
+      "no": "rund",
+      "en": [
+        "round"
+      ],
+      "pos": "adj",
+      "lemma": "rund"
+    },
+    {
+      "id": "good-to-know-svaer",
+      "no": "svær",
+      "en": [
+        "huge"
+      ],
+      "pos": "adj",
+      "lemma": "svær"
+    },
+    {
+      "id": "good-to-know-lik",
+      "no": "lik",
+      "en": [
+        "alike",
+        "similar"
+      ],
+      "pos": "adj",
+      "lemma": "lik"
+    },
+    {
+      "id": "good-to-know-uskyldig",
+      "no": "uskyldig",
+      "en": [
+        "innocent"
+      ],
+      "pos": "adj",
+      "lemma": "uskyldig"
+    },
+    {
+      "id": "good-to-know-levende",
+      "no": "levende",
+      "en": [
+        "alive",
+        "living"
+      ],
+      "pos": "adj",
+      "lemma": "levende"
+    },
+    {
+      "id": "good-to-know-serios",
+      "no": "seriøs",
+      "en": [
+        "serious"
+      ],
+      "pos": "adj",
+      "lemma": "seriøs"
+    },
+    {
+      "id": "good-to-know-gravid",
+      "no": "gravid",
+      "en": [
+        "pregnant"
+      ],
+      "pos": "adj",
+      "lemma": "gravid"
+    },
+    {
+      "id": "good-to-know-stakkars",
+      "no": "stakkars",
+      "en": [
+        "poor (pitiful)"
+      ],
+      "pos": "adj",
+      "lemma": "stakkars"
+    },
+    {
+      "id": "good-to-know-los",
+      "no": "løs",
+      "en": [
+        "loose"
+      ],
+      "pos": "adj",
+      "lemma": "løs"
+    },
+    {
+      "id": "good-to-know-ille",
+      "no": "ille",
+      "en": [
+        "bad"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-nodt-til",
+      "no": "nødt til",
+      "en": [
+        "forced to",
+        "have to"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "good-to-know-enkelt",
+      "no": "enkelt",
+      "en": [
+        "simply",
+        "easily"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-unna",
+      "no": "unna",
+      "en": [
+        "away",
+        "out of the way"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-herfra",
+      "no": "herfra",
+      "en": [
+        "from here"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-derfra",
+      "no": "derfra",
+      "en": [
+        "from there"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-imot",
+      "no": "imot",
+      "en": [
+        "against"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-fremdeles",
+      "no": "fremdeles",
+      "en": [
+        "still"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-engang",
+      "no": "engang",
+      "en": [
+        "even",
+        "once"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-noensinne",
+      "no": "noensinne",
+      "en": [
+        "ever"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "good-to-know-a-gratulere",
+      "no": "å gratulere",
+      "en": [
+        "to congratulate"
+      ],
+      "pos": "verb",
+      "lemma": "gratulere"
+    },
+    {
+      "id": "good-to-know-a-stjele",
+      "no": "å stjele",
+      "en": [
+        "to steal"
+      ],
+      "pos": "verb",
+      "lemma": "stjele"
+    },
+    {
+      "id": "good-to-know-a-angripe",
+      "no": "å angripe",
+      "en": [
+        "to attack"
+      ],
+      "pos": "verb",
+      "lemma": "angripe"
+    },
+    {
+      "id": "good-to-know-a-slass",
+      "no": "å slåss",
+      "en": [
+        "to fight"
+      ],
+      "pos": "verb",
+      "lemma": "slåss"
+    },
+    {
+      "id": "good-to-know-a-tvinge",
+      "no": "å tvinge",
+      "en": [
+        "to force"
+      ],
+      "pos": "verb",
+      "lemma": "tvinge"
+    },
+    {
+      "id": "good-to-know-a-avslutte",
+      "no": "å avslutte",
+      "en": [
+        "to end",
+        "to finish"
+      ],
+      "pos": "verb",
+      "lemma": "avslutte"
+    },
+    {
+      "id": "good-to-know-a-klage",
+      "no": "å klage",
+      "en": [
+        "to complain"
+      ],
+      "pos": "verb",
+      "lemma": "klage"
+    },
+    {
+      "id": "good-to-know-a-feile",
+      "no": "å feile",
+      "en": [
+        "to fail",
+        "to be wrong"
+      ],
+      "pos": "verb",
+      "lemma": "feile"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "good-to-know-s1",
+      "en": "Who is that guy?",
+      "no": [
+        "Hvem er den fyren?",
+        "Hvem er fyren?"
+      ],
+      "distractors": [
+        "hva",
+        "fyr",
+        "der"
+      ]
+    },
+    {
+      "id": "good-to-know-s2",
+      "en": "My parents live in Stavanger.",
+      "no": [
+        "Foreldrene mine bor i Stavanger.",
+        "Mine foreldre bor i Stavanger."
+      ],
+      "distractors": [
+        "forelder",
+        "på",
+        "bodde"
+      ]
+    },
+    {
+      "id": "good-to-know-s3",
+      "en": "The patient is better now.",
+      "no": [
+        "Pasienten er bedre nå."
+      ],
+      "distractors": [
+        "pasient",
+        "god",
+        "da"
+      ]
+    },
+    {
+      "id": "good-to-know-s4",
+      "en": "Is there anything left?",
+      "no": [
+        "Er det noe igjen?"
+      ],
+      "distractors": [
+        "noen",
+        "ingen",
+        "var"
+      ]
+    },
+    {
+      "id": "good-to-know-s5",
+      "en": "We are forced to wait.",
+      "no": [
+        "Vi er nødt til å vente.",
+        "Vi må vente."
+      ],
+      "distractors": [
+        "venter",
+        "på",
+        "de"
+      ]
+    },
+    {
+      "id": "good-to-know-s6",
+      "en": "Congratulations on the new job!",
+      "no": [
+        "Gratulerer med ny jobb!",
+        "Gratulerer med den nye jobben!"
+      ],
+      "distractors": [
+        "på",
+        "nytt",
+        "for"
+      ]
+    },
+    {
+      "id": "good-to-know-s7",
+      "en": "Someone stole my bicycle.",
+      "no": [
+        "Noen stjal sykkelen min.",
+        "Noen har stjålet sykkelen min."
+      ],
+      "distractors": [
+        "stjeler",
+        "sykkel",
+        "mitt"
+      ]
+    },
+    {
+      "id": "good-to-know-s8",
+      "en": "She is pregnant.",
+      "no": [
+        "Hun er gravid."
+      ],
+      "distractors": [
+        "han",
+        "var",
+        "gift"
+      ]
+    },
+    {
+      "id": "good-to-know-s9",
+      "en": "I have never seen it before.",
+      "no": [
+        "Jeg har aldri sett det før."
+      ],
+      "distractors": [
+        "noensinne",
+        "ser",
+        "etter"
+      ]
+    },
+    {
+      "id": "good-to-know-s10",
+      "en": "Get out of the way!",
+      "no": [
+        "Gå unna!",
+        "Flytt deg!"
+      ],
+      "distractors": [
+        "herfra",
+        "kom",
+        "til"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "good-to-know-d1",
+      "no": "Noen ___ bilen vår i natt.",
+      "en": "Someone stole our car last night.",
+      "lemma": "stjele",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "good-to-know-d2",
+      "no": "Hun har to ___.",
+      "en": "She has two kids.",
+      "lemma": "unge",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "good-to-know-d3",
+      "no": "Barna ___ hele tiden.",
+      "en": "The children fight all the time.",
+      "lemma": "slåss",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "good-to-know-d4",
+      "no": "Vi ___ møtet klokka fem.",
+      "en": "We ended the meeting at five o'clock.",
+      "lemma": "avslutte",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "good-to-know-d5",
+      "no": "Bordet er ___.",
+      "en": "The table is round.",
+      "lemma": "rund",
+      "pos": "adj",
+      "form": "n"
+    }
+  ]
+}

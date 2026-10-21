@@ -1,0 +1,708 @@
+{
+  "id": "describing",
+  "title": "Describing things",
+  "description": "Big, small, new, old and other common adjectives.",
+  "emoji": "📏",
+  "order": 23,
+  "words": [
+    {
+      "id": "describing-stor",
+      "no": "stor",
+      "en": [
+        "big",
+        "large"
+      ],
+      "pos": "adj",
+      "lemma": "stor"
+    },
+    {
+      "id": "describing-liten",
+      "no": "liten",
+      "en": [
+        "small"
+      ],
+      "pos": "adj",
+      "lemma": "liten"
+    },
+    {
+      "id": "describing-ny",
+      "no": "ny",
+      "en": [
+        "new"
+      ],
+      "pos": "adj",
+      "lemma": "ny"
+    },
+    {
+      "id": "describing-gammel",
+      "no": "gammel",
+      "en": [
+        "old"
+      ],
+      "pos": "adj",
+      "lemma": "gammel"
+    },
+    {
+      "id": "describing-god",
+      "no": "god",
+      "en": [
+        "good"
+      ],
+      "pos": "adj",
+      "lemma": "god"
+    },
+    {
+      "id": "describing-darlig",
+      "no": "dårlig",
+      "en": [
+        "bad"
+      ],
+      "pos": "adj",
+      "lemma": "dårlig"
+    },
+    {
+      "id": "describing-bra",
+      "no": "bra",
+      "en": [
+        "good",
+        "fine"
+      ],
+      "pos": "adj",
+      "lemma": "bra"
+    },
+    {
+      "id": "describing-lang",
+      "no": "lang",
+      "en": [
+        "long"
+      ],
+      "pos": "adj",
+      "lemma": "lang"
+    },
+    {
+      "id": "describing-kort",
+      "no": "kort",
+      "en": [
+        "short"
+      ],
+      "pos": "adj",
+      "lemma": "kort"
+    },
+    {
+      "id": "describing-hoy",
+      "no": "høy",
+      "en": [
+        "tall",
+        "high",
+        "loud"
+      ],
+      "pos": "adj",
+      "lemma": "høy"
+    },
+    {
+      "id": "describing-lav",
+      "no": "lav",
+      "en": [
+        "low",
+        "short"
+      ],
+      "pos": "adj",
+      "lemma": "lav"
+    },
+    {
+      "id": "describing-tung",
+      "no": "tung",
+      "en": [
+        "heavy"
+      ],
+      "pos": "adj",
+      "lemma": "tung"
+    },
+    {
+      "id": "describing-lett",
+      "no": "lett",
+      "en": [
+        "light",
+        "easy"
+      ],
+      "pos": "adj",
+      "lemma": "lett"
+    },
+    {
+      "id": "describing-vanskelig",
+      "no": "vanskelig",
+      "en": [
+        "difficult"
+      ],
+      "pos": "adj",
+      "lemma": "vanskelig"
+    },
+    {
+      "id": "describing-enkel",
+      "no": "enkel",
+      "en": [
+        "simple",
+        "easy"
+      ],
+      "pos": "adj",
+      "lemma": "enkel"
+    },
+    {
+      "id": "describing-billig",
+      "no": "billig",
+      "en": [
+        "cheap"
+      ],
+      "pos": "adj",
+      "lemma": "billig"
+    },
+    {
+      "id": "describing-dyr",
+      "no": "dyr",
+      "en": [
+        "expensive"
+      ],
+      "pos": "adj",
+      "lemma": "dyr"
+    },
+    {
+      "id": "describing-rask",
+      "no": "rask",
+      "en": [
+        "fast"
+      ],
+      "pos": "adj",
+      "lemma": "rask"
+    },
+    {
+      "id": "describing-treg",
+      "no": "treg",
+      "en": [
+        "slow"
+      ],
+      "pos": "adj",
+      "lemma": "treg"
+    },
+    {
+      "id": "describing-ren",
+      "no": "ren",
+      "en": [
+        "clean"
+      ],
+      "pos": "adj",
+      "lemma": "ren"
+    },
+    {
+      "id": "describing-skitten",
+      "no": "skitten",
+      "en": [
+        "dirty"
+      ],
+      "pos": "adj",
+      "lemma": "skitten"
+    },
+    {
+      "id": "describing-full",
+      "no": "full",
+      "en": [
+        "full",
+        "drunk"
+      ],
+      "pos": "adj",
+      "lemma": "full"
+    },
+    {
+      "id": "describing-tom",
+      "no": "tom",
+      "en": [
+        "empty"
+      ],
+      "pos": "adj",
+      "lemma": "tom"
+    },
+    {
+      "id": "describing-apen",
+      "no": "åpen",
+      "en": [
+        "open"
+      ],
+      "pos": "adj",
+      "lemma": "åpen"
+    },
+    {
+      "id": "describing-stengt",
+      "no": "stengt",
+      "en": [
+        "closed"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "describing-riktig",
+      "no": "riktig",
+      "en": [
+        "right",
+        "correct"
+      ],
+      "pos": "adj",
+      "lemma": "riktig"
+    },
+    {
+      "id": "describing-feil",
+      "no": "feil",
+      "en": [
+        "wrong"
+      ],
+      "pos": "adj",
+      "lemma": "feil"
+    },
+    {
+      "id": "describing-rett",
+      "no": "rett",
+      "en": [
+        "right",
+        "straight"
+      ],
+      "pos": "adj",
+      "lemma": "rett"
+    },
+    {
+      "id": "describing-sann",
+      "no": "sann",
+      "en": [
+        "true"
+      ],
+      "pos": "adj",
+      "lemma": "sann"
+    },
+    {
+      "id": "describing-viktig",
+      "no": "viktig",
+      "en": [
+        "important"
+      ],
+      "pos": "adj",
+      "lemma": "viktig"
+    },
+    {
+      "id": "describing-mulig",
+      "no": "mulig",
+      "en": [
+        "possible"
+      ],
+      "pos": "adj",
+      "lemma": "mulig"
+    },
+    {
+      "id": "describing-umulig",
+      "no": "umulig",
+      "en": [
+        "impossible"
+      ],
+      "pos": "adj",
+      "lemma": "umulig"
+    },
+    {
+      "id": "describing-vanlig",
+      "no": "vanlig",
+      "en": [
+        "usual",
+        "common"
+      ],
+      "pos": "adj",
+      "lemma": "vanlig"
+    },
+    {
+      "id": "describing-rar",
+      "no": "rar",
+      "en": [
+        "strange",
+        "weird"
+      ],
+      "pos": "adj",
+      "lemma": "rar"
+    },
+    {
+      "id": "describing-spesiell",
+      "no": "spesiell",
+      "en": [
+        "special"
+      ],
+      "pos": "adj",
+      "lemma": "spesiell"
+    },
+    {
+      "id": "describing-interessant",
+      "no": "interessant",
+      "en": [
+        "interesting"
+      ],
+      "pos": "adj",
+      "lemma": "interessant"
+    },
+    {
+      "id": "describing-fantastisk",
+      "no": "fantastisk",
+      "en": [
+        "fantastic"
+      ],
+      "pos": "adj",
+      "lemma": "fantastisk"
+    },
+    {
+      "id": "describing-flott",
+      "no": "flott",
+      "en": [
+        "great",
+        "splendid"
+      ],
+      "pos": "adj",
+      "lemma": "flott"
+    },
+    {
+      "id": "describing-deilig",
+      "no": "deilig",
+      "en": [
+        "lovely",
+        "delicious"
+      ],
+      "pos": "adj",
+      "lemma": "deilig"
+    },
+    {
+      "id": "describing-stille",
+      "no": "stille",
+      "en": [
+        "quiet",
+        "still"
+      ],
+      "pos": "adj",
+      "lemma": "stille"
+    },
+    {
+      "id": "describing-bred",
+      "no": "bred",
+      "en": [
+        "wide"
+      ],
+      "pos": "adj",
+      "lemma": "bred"
+    },
+    {
+      "id": "describing-smal",
+      "no": "smal",
+      "en": [
+        "narrow"
+      ],
+      "pos": "adj",
+      "lemma": "smal"
+    },
+    {
+      "id": "describing-tykk",
+      "no": "tykk",
+      "en": [
+        "thick",
+        "fat"
+      ],
+      "pos": "adj",
+      "lemma": "tykk"
+    },
+    {
+      "id": "describing-tynn",
+      "no": "tynn",
+      "en": [
+        "thin"
+      ],
+      "pos": "adj",
+      "lemma": "tynn"
+    },
+    {
+      "id": "describing-myk",
+      "no": "myk",
+      "en": [
+        "soft"
+      ],
+      "pos": "adj",
+      "lemma": "myk"
+    },
+    {
+      "id": "describing-hard",
+      "no": "hard",
+      "en": [
+        "hard"
+      ],
+      "pos": "adj",
+      "lemma": "hard"
+    },
+    {
+      "id": "describing-sterk",
+      "no": "sterk",
+      "en": [
+        "strong"
+      ],
+      "pos": "adj",
+      "lemma": "sterk"
+    },
+    {
+      "id": "describing-svak",
+      "no": "svak",
+      "en": [
+        "weak"
+      ],
+      "pos": "adj",
+      "lemma": "svak"
+    },
+    {
+      "id": "describing-rik",
+      "no": "rik",
+      "en": [
+        "rich"
+      ],
+      "pos": "adj",
+      "lemma": "rik"
+    },
+    {
+      "id": "describing-fattig",
+      "no": "fattig",
+      "en": [
+        "poor"
+      ],
+      "pos": "adj",
+      "lemma": "fattig"
+    },
+    {
+      "id": "describing-klar",
+      "no": "klar",
+      "en": [
+        "clear",
+        "ready"
+      ],
+      "pos": "adj",
+      "lemma": "klar"
+    },
+    {
+      "id": "describing-ferdig",
+      "no": "ferdig",
+      "en": [
+        "finished",
+        "done"
+      ],
+      "pos": "adj",
+      "lemma": "ferdig"
+    },
+    {
+      "id": "describing-sikker",
+      "no": "sikker",
+      "en": [
+        "sure",
+        "safe"
+      ],
+      "pos": "adj",
+      "lemma": "sikker"
+    },
+    {
+      "id": "describing-farlig",
+      "no": "farlig",
+      "en": [
+        "dangerous"
+      ],
+      "pos": "adj",
+      "lemma": "farlig"
+    },
+    {
+      "id": "describing-trygg",
+      "no": "trygg",
+      "en": [
+        "safe"
+      ],
+      "pos": "adj",
+      "lemma": "trygg"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "describing-s1",
+      "en": "This is a big house.",
+      "no": [
+        "Dette er et stort hus."
+      ],
+      "distractors": [
+        "stor",
+        "en",
+        "lite"
+      ]
+    },
+    {
+      "id": "describing-s2",
+      "en": "The car is new.",
+      "no": [
+        "Bilen er ny."
+      ],
+      "distractors": [
+        "nytt",
+        "gammel",
+        "bil"
+      ]
+    },
+    {
+      "id": "describing-s3",
+      "en": "The question is difficult.",
+      "no": [
+        "Spørsmålet er vanskelig."
+      ],
+      "distractors": [
+        "spørsmål",
+        "lett",
+        "svar"
+      ]
+    },
+    {
+      "id": "describing-s4",
+      "en": "That is not possible.",
+      "no": [
+        "Det er ikke mulig.",
+        "Det går ikke."
+      ],
+      "distractors": [
+        "umulig",
+        "har",
+        "var"
+      ]
+    },
+    {
+      "id": "describing-s5",
+      "en": "The shop is closed.",
+      "no": [
+        "Butikken er stengt."
+      ],
+      "distractors": [
+        "åpen",
+        "butikk",
+        "stenger"
+      ]
+    },
+    {
+      "id": "describing-s6",
+      "en": "Your answer is correct.",
+      "no": [
+        "Svaret ditt er riktig."
+      ],
+      "distractors": [
+        "feil",
+        "svar",
+        "din"
+      ]
+    },
+    {
+      "id": "describing-s7",
+      "en": "This is very important.",
+      "no": [
+        "Dette er veldig viktig.",
+        "Det er veldig viktig."
+      ],
+      "distractors": [
+        "litt",
+        "mulig",
+        "denne"
+      ]
+    },
+    {
+      "id": "describing-s8",
+      "en": "The food was delicious.",
+      "no": [
+        "Maten var deilig.",
+        "Maten var god."
+      ],
+      "distractors": [
+        "mat",
+        "er",
+        "kald"
+      ]
+    },
+    {
+      "id": "describing-s9",
+      "en": "The bag is heavy.",
+      "no": [
+        "Veska er tung.",
+        "Vesken er tung.",
+        "Sekken er tung."
+      ],
+      "distractors": [
+        "lett",
+        "veske",
+        "tungt"
+      ]
+    },
+    {
+      "id": "describing-s10",
+      "en": "Are you ready?",
+      "no": [
+        "Er du klar?",
+        "Er du ferdig?"
+      ],
+      "distractors": [
+        "klart",
+        "har",
+        "deg"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "describing-d1",
+      "no": "Oslo er ___ enn Bergen.",
+      "en": "Oslo is bigger than Bergen.",
+      "lemma": "stor",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "describing-d2",
+      "no": "Det er et ___ hus.",
+      "en": "It is a small house.",
+      "lemma": "liten",
+      "pos": "adj",
+      "form": "n"
+    },
+    {
+      "id": "describing-d3",
+      "no": "Vi har ___ naboer.",
+      "en": "We have new neighbours.",
+      "lemma": "ny",
+      "pos": "adj",
+      "form": "pl"
+    },
+    {
+      "id": "describing-d4",
+      "no": "Dette er den ___ dagen i mitt liv.",
+      "en": "This is the best day of my life.",
+      "lemma": "god",
+      "pos": "adj",
+      "form": "superlativeDef"
+    },
+    {
+      "id": "describing-d5",
+      "no": "Bussen er ___ enn toget.",
+      "en": "The bus is cheaper than the train.",
+      "lemma": "billig",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "describing-d6",
+      "no": "Det var en ___ dag.",
+      "en": "It was a long day.",
+      "lemma": "lang",
+      "pos": "adj",
+      "form": "mf"
+    },
+    {
+      "id": "describing-d7",
+      "no": "Rommet er ___.",
+      "en": "The room is empty.",
+      "lemma": "tom",
+      "pos": "adj",
+      "form": "n"
+    }
+  ]
+}

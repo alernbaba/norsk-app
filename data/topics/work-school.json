@@ -1,0 +1,593 @@
+{
+  "id": "work-school",
+  "title": "Work and school",
+  "description": "Offices, meetings, lessons and exams.",
+  "emoji": "💼",
+  "order": 24,
+  "words": [
+    {
+      "id": "work-school-et-arbeid",
+      "no": "et arbeid",
+      "en": [
+        "work",
+        "labour"
+      ],
+      "pos": "noun",
+      "lemma": "arbeid"
+    },
+    {
+      "id": "work-school-et-kontor",
+      "no": "et kontor",
+      "en": [
+        "an office"
+      ],
+      "pos": "noun",
+      "lemma": "kontor"
+    },
+    {
+      "id": "work-school-et-mote",
+      "no": "et møte",
+      "en": [
+        "a meeting"
+      ],
+      "pos": "noun",
+      "lemma": "møte"
+    },
+    {
+      "id": "work-school-en-avtale",
+      "no": "en avtale",
+      "en": [
+        "an appointment",
+        "an agreement"
+      ],
+      "pos": "noun",
+      "lemma": "avtale"
+    },
+    {
+      "id": "work-school-en-oppgave",
+      "no": "en oppgave",
+      "en": [
+        "a task",
+        "an assignment"
+      ],
+      "pos": "noun",
+      "lemma": "oppgave"
+    },
+    {
+      "id": "work-school-et-prosjekt",
+      "no": "et prosjekt",
+      "en": [
+        "a project"
+      ],
+      "pos": "noun",
+      "lemma": "prosjekt"
+    },
+    {
+      "id": "work-school-en-plan",
+      "no": "en plan",
+      "en": [
+        "a plan"
+      ],
+      "pos": "noun",
+      "lemma": "plan"
+    },
+    {
+      "id": "work-school-et-firma",
+      "no": "et firma",
+      "en": [
+        "a company"
+      ],
+      "pos": "noun",
+      "lemma": "firma"
+    },
+    {
+      "id": "work-school-en-bedrift",
+      "no": "en bedrift",
+      "en": [
+        "a business",
+        "a company"
+      ],
+      "pos": "noun",
+      "lemma": "bedrift"
+    },
+    {
+      "id": "work-school-en-lonn",
+      "no": "en lønn",
+      "en": [
+        "a salary",
+        "wages"
+      ],
+      "pos": "noun",
+      "lemma": "lønn"
+    },
+    {
+      "id": "work-school-en-pause",
+      "no": "en pause",
+      "en": [
+        "a break"
+      ],
+      "pos": "noun",
+      "lemma": "pause"
+    },
+    {
+      "id": "work-school-en-skole",
+      "no": "en skole",
+      "en": [
+        "a school"
+      ],
+      "pos": "noun",
+      "lemma": "skole"
+    },
+    {
+      "id": "work-school-en-klasse",
+      "no": "en klasse",
+      "en": [
+        "a class"
+      ],
+      "pos": "noun",
+      "lemma": "klasse"
+    },
+    {
+      "id": "work-school-et-klasserom",
+      "no": "et klasserom",
+      "en": [
+        "a classroom"
+      ],
+      "pos": "noun",
+      "lemma": "klasserom"
+    },
+    {
+      "id": "work-school-en-lekse",
+      "no": "en lekse",
+      "en": [
+        "a homework assignment"
+      ],
+      "pos": "noun",
+      "lemma": "lekse"
+    },
+    {
+      "id": "work-school-en-eksamen",
+      "no": "en eksamen",
+      "en": [
+        "an exam"
+      ],
+      "pos": "noun",
+      "lemma": "eksamen"
+    },
+    {
+      "id": "work-school-en-prove",
+      "no": "en prøve",
+      "en": [
+        "a test"
+      ],
+      "pos": "noun",
+      "lemma": "prøve"
+    },
+    {
+      "id": "work-school-et-kurs",
+      "no": "et kurs",
+      "en": [
+        "a course"
+      ],
+      "pos": "noun",
+      "lemma": "kurs",
+      "ordbankId": 38546
+    },
+    {
+      "id": "work-school-et-fag",
+      "no": "et fag",
+      "en": [
+        "a subject"
+      ],
+      "pos": "noun",
+      "lemma": "fag"
+    },
+    {
+      "id": "work-school-ei-bok",
+      "no": "ei bok",
+      "en": [
+        "a book"
+      ],
+      "pos": "noun",
+      "lemma": "bok"
+    },
+    {
+      "id": "work-school-et-papir",
+      "no": "et papir",
+      "en": [
+        "a paper"
+      ],
+      "pos": "noun",
+      "lemma": "papir"
+    },
+    {
+      "id": "work-school-en-penn",
+      "no": "en penn",
+      "en": [
+        "a pen"
+      ],
+      "pos": "noun",
+      "lemma": "penn"
+    },
+    {
+      "id": "work-school-en-blyant",
+      "no": "en blyant",
+      "en": [
+        "a pencil"
+      ],
+      "pos": "noun",
+      "lemma": "blyant"
+    },
+    {
+      "id": "work-school-ei-tavle",
+      "no": "ei tavle",
+      "en": [
+        "a board (blackboard)"
+      ],
+      "pos": "noun",
+      "lemma": "tavle"
+    },
+    {
+      "id": "work-school-en-karakter",
+      "no": "en karakter",
+      "en": [
+        "a grade",
+        "a character"
+      ],
+      "pos": "noun",
+      "lemma": "karakter"
+    },
+    {
+      "id": "work-school-en-utdanning",
+      "no": "en utdanning",
+      "en": [
+        "an education"
+      ],
+      "pos": "noun",
+      "lemma": "utdanning"
+    },
+    {
+      "id": "work-school-en-erfaring",
+      "no": "en erfaring",
+      "en": [
+        "an experience"
+      ],
+      "pos": "noun",
+      "lemma": "erfaring"
+    },
+    {
+      "id": "work-school-a-studere",
+      "no": "å studere",
+      "en": [
+        "to study"
+      ],
+      "pos": "verb",
+      "lemma": "studere"
+    },
+    {
+      "id": "work-school-a-ove",
+      "no": "å øve",
+      "en": [
+        "to practise"
+      ],
+      "pos": "verb",
+      "lemma": "øve"
+    },
+    {
+      "id": "work-school-a-undervise",
+      "no": "å undervise",
+      "en": [
+        "to teach"
+      ],
+      "pos": "verb",
+      "lemma": "undervise"
+    },
+    {
+      "id": "work-school-a-besta",
+      "no": "å bestå",
+      "en": [
+        "to pass (an exam)"
+      ],
+      "pos": "verb",
+      "lemma": "bestå"
+    },
+    {
+      "id": "work-school-a-stryke",
+      "no": "å stryke",
+      "en": [
+        "to fail (an exam)"
+      ],
+      "pos": "verb",
+      "lemma": "stryke"
+    },
+    {
+      "id": "work-school-a-soke",
+      "no": "å søke",
+      "en": [
+        "to apply",
+        "to search"
+      ],
+      "pos": "verb",
+      "lemma": "søke"
+    },
+    {
+      "id": "work-school-a-ansette",
+      "no": "å ansette",
+      "en": [
+        "to hire",
+        "to employ"
+      ],
+      "pos": "verb",
+      "lemma": "ansette"
+    },
+    {
+      "id": "work-school-a-motes",
+      "no": "å møtes",
+      "en": [
+        "to meet (each other)"
+      ],
+      "pos": "verb",
+      "lemma": "møtes"
+    },
+    {
+      "id": "work-school-a-avtale",
+      "no": "å avtale",
+      "en": [
+        "to agree on",
+        "to arrange"
+      ],
+      "pos": "verb",
+      "lemma": "avtale"
+    },
+    {
+      "id": "work-school-a-planlegge",
+      "no": "å planlegge",
+      "en": [
+        "to plan"
+      ],
+      "pos": "verb",
+      "lemma": "planlegge"
+    },
+    {
+      "id": "work-school-a-ordne",
+      "no": "å ordne",
+      "en": [
+        "to arrange",
+        "to sort out"
+      ],
+      "pos": "verb",
+      "lemma": "ordne"
+    },
+    {
+      "id": "work-school-a-klare",
+      "no": "å klare",
+      "en": [
+        "to manage",
+        "to cope"
+      ],
+      "pos": "verb",
+      "lemma": "klare",
+      "ordbankId": 35313
+    },
+    {
+      "id": "work-school-a-bli-ferdig",
+      "no": "å bli ferdig",
+      "en": [
+        "to finish"
+      ],
+      "pos": "verb",
+      "lemma": "bli"
+    },
+    {
+      "id": "work-school-travel",
+      "no": "travel",
+      "en": [
+        "busy"
+      ],
+      "pos": "adj",
+      "lemma": "travel"
+    },
+    {
+      "id": "work-school-opptatt",
+      "no": "opptatt",
+      "en": [
+        "busy",
+        "occupied"
+      ],
+      "pos": "adj",
+      "lemma": "opptatt"
+    },
+    {
+      "id": "work-school-ledig",
+      "no": "ledig",
+      "en": [
+        "free",
+        "available"
+      ],
+      "pos": "adj",
+      "lemma": "ledig"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "work-school-s1",
+      "en": "I have a meeting at ten.",
+      "no": [
+        "Jeg har et møte klokka ti.",
+        "Jeg har møte klokka ti.",
+        "Jeg har et møte klokken ti.",
+        "Jeg har møte klokken ti."
+      ],
+      "distractors": [
+        "en",
+        "møtet",
+        "to"
+      ]
+    },
+    {
+      "id": "work-school-s2",
+      "en": "She studies at the university.",
+      "no": [
+        "Hun studerer på universitetet.",
+        "Hun studerer ved universitetet."
+      ],
+      "distractors": [
+        "i",
+        "universitet",
+        "han"
+      ]
+    },
+    {
+      "id": "work-school-s3",
+      "en": "The children do their homework.",
+      "no": [
+        "Barna gjør leksene sine.",
+        "Barna gjør lekser."
+      ],
+      "distractors": [
+        "lekse",
+        "deres",
+        "barn"
+      ]
+    },
+    {
+      "id": "work-school-s4",
+      "en": "I passed the exam!",
+      "no": [
+        "Jeg besto eksamen!",
+        "Jeg har bestått eksamen!",
+        "Jeg besto eksamenen!"
+      ],
+      "distractors": [
+        "strøk",
+        "eksamenen",
+        "bestå"
+      ]
+    },
+    {
+      "id": "work-school-s5",
+      "en": "Are you busy now?",
+      "no": [
+        "Er du opptatt nå?",
+        "Har du det travelt nå?"
+      ],
+      "distractors": [
+        "ledig",
+        "har",
+        "da"
+      ]
+    },
+    {
+      "id": "work-school-s6",
+      "en": "We need a plan.",
+      "no": [
+        "Vi trenger en plan."
+      ],
+      "distractors": [
+        "et",
+        "planen",
+        "har"
+      ]
+    },
+    {
+      "id": "work-school-s7",
+      "en": "He works in a big company.",
+      "no": [
+        "Han jobber i et stort firma.",
+        "Han jobber i en stor bedrift."
+      ],
+      "distractors": [
+        "liten",
+        "firmaet",
+        "på"
+      ]
+    },
+    {
+      "id": "work-school-s8",
+      "en": "Can we take a break?",
+      "no": [
+        "Kan vi ta en pause?"
+      ],
+      "distractors": [
+        "pausen",
+        "gjøre",
+        "har"
+      ]
+    },
+    {
+      "id": "work-school-s9",
+      "en": "Practise every day!",
+      "no": [
+        "Øv hver dag!"
+      ],
+      "distractors": [
+        "øver",
+        "alle",
+        "uke"
+      ]
+    },
+    {
+      "id": "work-school-s10",
+      "en": "I have to finish the task today.",
+      "no": [
+        "Jeg må bli ferdig med oppgaven i dag.",
+        "Jeg må gjøre ferdig oppgaven i dag."
+      ],
+      "distractors": [
+        "oppgave",
+        "skal",
+        "kan"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "work-school-d1",
+      "no": "Hun har ___ norsk i to år.",
+      "en": "She has studied Norwegian for two years.",
+      "lemma": "studere",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "work-school-d2",
+      "no": "Vi har mange ___ i dag.",
+      "en": "We have many meetings today.",
+      "lemma": "møte",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "work-school-d3",
+      "no": "Han ___ eksamen i fjor.",
+      "en": "He passed the exam last year.",
+      "lemma": "bestå",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "work-school-d4",
+      "no": "Jeg har lest alle ___.",
+      "en": "I have read all the books.",
+      "lemma": "bok",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "work-school-d5",
+      "no": "Han er ___ enn meg.",
+      "en": "He is busier than me.",
+      "lemma": "travel",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "work-school-d6",
+      "no": "___ var vanskelig.",
+      "en": "The task was difficult.",
+      "lemma": "oppgave",
+      "pos": "noun",
+      "form": "defSg"
+    }
+  ]
+}

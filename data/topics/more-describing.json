@@ -1,0 +1,742 @@
+{
+  "id": "more-describing",
+  "title": "More describing words",
+  "description": "Whole, only, careful, strange and other useful adjectives and adverbs.",
+  "emoji": "✨",
+  "order": 31,
+  "words": [
+    {
+      "id": "more-describing-hel",
+      "no": "hel",
+      "en": [
+        "whole",
+        "entire"
+      ],
+      "pos": "adj",
+      "lemma": "hel"
+    },
+    {
+      "id": "more-describing-eneste",
+      "no": "eneste",
+      "en": [
+        "only",
+        "single"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-utrolig",
+      "no": "utrolig",
+      "en": [
+        "incredible",
+        "incredibly"
+      ],
+      "pos": "adj",
+      "lemma": "utrolig"
+    },
+    {
+      "id": "more-describing-selvsagt",
+      "no": "selvsagt",
+      "en": [
+        "of course",
+        "obvious"
+      ],
+      "pos": "adj",
+      "lemma": "selvsagt"
+    },
+    {
+      "id": "more-describing-forsiktig",
+      "no": "forsiktig",
+      "en": [
+        "careful"
+      ],
+      "pos": "adj",
+      "lemma": "forsiktig"
+    },
+    {
+      "id": "more-describing-kjaer",
+      "no": "kjær",
+      "en": [
+        "dear"
+      ],
+      "pos": "adj",
+      "lemma": "kjær"
+    },
+    {
+      "id": "more-describing-best",
+      "no": "best",
+      "en": [
+        "best"
+      ],
+      "pos": "adj",
+      "lemma": "god"
+    },
+    {
+      "id": "more-describing-bedre",
+      "no": "bedre",
+      "en": [
+        "better"
+      ],
+      "pos": "adj",
+      "lemma": "god"
+    },
+    {
+      "id": "more-describing-verre",
+      "no": "verre",
+      "en": [
+        "worse"
+      ],
+      "pos": "adj",
+      "lemma": "vond"
+    },
+    {
+      "id": "more-describing-mindre",
+      "no": "mindre",
+      "en": [
+        "smaller",
+        "less"
+      ],
+      "pos": "adj",
+      "lemma": "liten"
+    },
+    {
+      "id": "more-describing-perfekt",
+      "no": "perfekt",
+      "en": [
+        "perfect"
+      ],
+      "pos": "adj",
+      "lemma": "perfekt"
+    },
+    {
+      "id": "more-describing-gal",
+      "no": "gal",
+      "en": [
+        "crazy",
+        "wrong"
+      ],
+      "pos": "adj",
+      "lemma": "gal"
+    },
+    {
+      "id": "more-describing-kjent",
+      "no": "kjent",
+      "en": [
+        "known",
+        "famous"
+      ],
+      "pos": "adj",
+      "lemma": "kjent"
+    },
+    {
+      "id": "more-describing-skikkelig",
+      "no": "skikkelig",
+      "en": [
+        "proper",
+        "really"
+      ],
+      "pos": "adj",
+      "lemma": "skikkelig"
+    },
+    {
+      "id": "more-describing-endelig",
+      "no": "endelig",
+      "en": [
+        "finally",
+        "final"
+      ],
+      "pos": "adj",
+      "lemma": "endelig"
+    },
+    {
+      "id": "more-describing-ond",
+      "no": "ond",
+      "en": [
+        "evil"
+      ],
+      "pos": "adj",
+      "lemma": "ond"
+    },
+    {
+      "id": "more-describing-annerledes",
+      "no": "annerledes",
+      "en": [
+        "different"
+      ],
+      "pos": "adj",
+      "lemma": "annerledes"
+    },
+    {
+      "id": "more-describing-forskjellig",
+      "no": "forskjellig",
+      "en": [
+        "different",
+        "various"
+      ],
+      "pos": "adj",
+      "lemma": "forskjellig"
+    },
+    {
+      "id": "more-describing-verdt",
+      "no": "verdt",
+      "en": [
+        "worth"
+      ],
+      "pos": "adj",
+      "lemma": "verdt"
+    },
+    {
+      "id": "more-describing-personlig",
+      "no": "personlig",
+      "en": [
+        "personal"
+      ],
+      "pos": "adj",
+      "lemma": "personlig"
+    },
+    {
+      "id": "more-describing-alvorlig",
+      "no": "alvorlig",
+      "en": [
+        "serious"
+      ],
+      "pos": "adj",
+      "lemma": "alvorlig"
+    },
+    {
+      "id": "more-describing-heldig",
+      "no": "heldig",
+      "en": [
+        "lucky"
+      ],
+      "pos": "adj",
+      "lemma": "heldig"
+    },
+    {
+      "id": "more-describing-merkelig",
+      "no": "merkelig",
+      "en": [
+        "strange"
+      ],
+      "pos": "adj",
+      "lemma": "merkelig"
+    },
+    {
+      "id": "more-describing-vennlig",
+      "no": "vennlig",
+      "en": [
+        "friendly"
+      ],
+      "pos": "adj",
+      "lemma": "vennlig"
+    },
+    {
+      "id": "more-describing-dyp",
+      "no": "dyp",
+      "en": [
+        "deep"
+      ],
+      "pos": "adj",
+      "lemma": "dyp"
+    },
+    {
+      "id": "more-describing-nydelig",
+      "no": "nydelig",
+      "en": [
+        "lovely",
+        "gorgeous"
+      ],
+      "pos": "adj",
+      "lemma": "nydelig"
+    },
+    {
+      "id": "more-describing-fri",
+      "no": "fri",
+      "en": [
+        "free"
+      ],
+      "pos": "adj",
+      "lemma": "fri"
+    },
+    {
+      "id": "more-describing-hemmelig",
+      "no": "hemmelig",
+      "en": [
+        "secret"
+      ],
+      "pos": "adj",
+      "lemma": "hemmelig"
+    },
+    {
+      "id": "more-describing-fast",
+      "no": "fast",
+      "en": [
+        "firm",
+        "fixed",
+        "permanent"
+      ],
+      "pos": "adj",
+      "lemma": "fast"
+    },
+    {
+      "id": "more-describing-stygg",
+      "no": "stygg",
+      "en": [
+        "ugly",
+        "nasty"
+      ],
+      "pos": "adj",
+      "lemma": "stygg"
+    },
+    {
+      "id": "more-describing-forferdelig",
+      "no": "forferdelig",
+      "en": [
+        "terrible"
+      ],
+      "pos": "adj",
+      "lemma": "forferdelig"
+    },
+    {
+      "id": "more-describing-fryktelig",
+      "no": "fryktelig",
+      "en": [
+        "terrible",
+        "terribly"
+      ],
+      "pos": "adj",
+      "lemma": "fryktelig"
+    },
+    {
+      "id": "more-describing-forrige",
+      "no": "forrige",
+      "en": [
+        "previous",
+        "last"
+      ],
+      "pos": "adj",
+      "lemma": "forrige"
+    },
+    {
+      "id": "more-describing-ordentlig",
+      "no": "ordentlig",
+      "en": [
+        "proper",
+        "tidy"
+      ],
+      "pos": "adj",
+      "lemma": "ordentlig"
+    },
+    {
+      "id": "more-describing-normal",
+      "no": "normal",
+      "en": [
+        "normal"
+      ],
+      "pos": "adj",
+      "lemma": "normal"
+    },
+    {
+      "id": "more-describing-nodvendig",
+      "no": "nødvendig",
+      "en": [
+        "necessary"
+      ],
+      "pos": "adj",
+      "lemma": "nødvendig"
+    },
+    {
+      "id": "more-describing-toff",
+      "no": "tøff",
+      "en": [
+        "tough",
+        "cool"
+      ],
+      "pos": "adj",
+      "lemma": "tøff"
+    },
+    {
+      "id": "more-describing-ekstra",
+      "no": "ekstra",
+      "en": [
+        "extra"
+      ],
+      "pos": "adj",
+      "lemma": "ekstra"
+    },
+    {
+      "id": "more-describing-noyaktig",
+      "no": "nøyaktig",
+      "en": [
+        "exact",
+        "accurate"
+      ],
+      "pos": "adj",
+      "lemma": "nøyaktig"
+    },
+    {
+      "id": "more-describing-skyldig",
+      "no": "skyldig",
+      "en": [
+        "guilty"
+      ],
+      "pos": "adj",
+      "lemma": "skyldig"
+    },
+    {
+      "id": "more-describing-absolutt",
+      "no": "absolutt",
+      "en": [
+        "absolute",
+        "absolutely"
+      ],
+      "pos": "adj",
+      "lemma": "absolutt"
+    },
+    {
+      "id": "more-describing-ekte",
+      "no": "ekte",
+      "en": [
+        "real",
+        "genuine"
+      ],
+      "pos": "adj",
+      "lemma": "ekte"
+    },
+    {
+      "id": "more-describing-falsk",
+      "no": "falsk",
+      "en": [
+        "false",
+        "fake"
+      ],
+      "pos": "adj",
+      "lemma": "falsk"
+    },
+    {
+      "id": "more-describing-enorm",
+      "no": "enorm",
+      "en": [
+        "enormous"
+      ],
+      "pos": "adj",
+      "lemma": "enorm"
+    },
+    {
+      "id": "more-describing-vaken",
+      "no": "våken",
+      "en": [
+        "awake"
+      ],
+      "pos": "adj",
+      "lemma": "våken"
+    },
+    {
+      "id": "more-describing-bestemt",
+      "no": "bestemt",
+      "en": [
+        "certain",
+        "determined"
+      ],
+      "pos": "adj",
+      "lemma": "bestemt"
+    },
+    {
+      "id": "more-describing-gjerne",
+      "no": "gjerne",
+      "en": [
+        "gladly",
+        "happily (would like to)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-uansett",
+      "no": "uansett",
+      "en": [
+        "anyway",
+        "no matter what"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-vekk",
+      "no": "vekk",
+      "en": [
+        "away"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-visst",
+      "no": "visst",
+      "en": [
+        "apparently",
+        "certainly"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-helst",
+      "no": "helst",
+      "en": [
+        "preferably"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-kun",
+      "no": "kun",
+      "en": [
+        "only"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-enda",
+      "no": "enda",
+      "en": [
+        "even",
+        "still"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-lenger",
+      "no": "lenger",
+      "en": [
+        "longer",
+        "any longer"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-midt",
+      "no": "midt",
+      "en": [
+        "in the middle"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-forresten",
+      "no": "forresten",
+      "en": [
+        "by the way"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-dessuten",
+      "no": "dessuten",
+      "en": [
+        "besides",
+        "moreover"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-i-hvert-fall",
+      "no": "i hvert fall",
+      "en": [
+        "at least",
+        "in any case"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-ifolge",
+      "no": "ifølge",
+      "en": [
+        "according to"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "more-describing-forbi",
+      "no": "forbi",
+      "en": [
+        "past",
+        "over"
+      ],
+      "pos": "other"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "more-describing-s1",
+      "en": "I would like a coffee.",
+      "no": [
+        "Jeg vil gjerne ha en kaffe.",
+        "Jeg vil gjerne ha kaffe."
+      ],
+      "distractors": [
+        "liker",
+        "kan",
+        "et"
+      ]
+    },
+    {
+      "id": "more-describing-s2",
+      "en": "Be careful!",
+      "no": [
+        "Vær forsiktig!"
+      ],
+      "distractors": [
+        "er",
+        "forsiktige",
+        "rolig"
+      ]
+    },
+    {
+      "id": "more-describing-s3",
+      "en": "The whole family is here.",
+      "no": [
+        "Hele familien er her."
+      ],
+      "distractors": [
+        "hel",
+        "familie",
+        "der"
+      ]
+    },
+    {
+      "id": "more-describing-s4",
+      "en": "She is my only friend.",
+      "no": [
+        "Hun er min eneste venn.",
+        "Hun er den eneste vennen min."
+      ],
+      "distractors": [
+        "enkelt",
+        "venner",
+        "hans"
+      ]
+    },
+    {
+      "id": "more-describing-s5",
+      "en": "That is incredible!",
+      "no": [
+        "Det er utrolig!"
+      ],
+      "distractors": [
+        "utrolige",
+        "var",
+        "den"
+      ]
+    },
+    {
+      "id": "more-describing-s6",
+      "en": "We were lucky.",
+      "no": [
+        "Vi var heldige.",
+        "Vi hadde flaks."
+      ],
+      "distractors": [
+        "heldig",
+        "er",
+        "de"
+      ]
+    },
+    {
+      "id": "more-describing-s7",
+      "en": "By the way, where is Per?",
+      "no": [
+        "Forresten, hvor er Per?",
+        "Hvor er Per, forresten?"
+      ],
+      "distractors": [
+        "hva",
+        "dessuten",
+        "når"
+      ]
+    },
+    {
+      "id": "more-describing-s8",
+      "en": "It is not worth it.",
+      "no": [
+        "Det er ikke verdt det."
+      ],
+      "distractors": [
+        "verd",
+        "var",
+        "den"
+      ]
+    },
+    {
+      "id": "more-describing-s9",
+      "en": "The summer is over.",
+      "no": [
+        "Sommeren er forbi.",
+        "Sommeren er over."
+      ],
+      "distractors": [
+        "sommer",
+        "vinteren",
+        "var"
+      ]
+    },
+    {
+      "id": "more-describing-s10",
+      "en": "It is a serious problem.",
+      "no": [
+        "Det er et alvorlig problem."
+      ],
+      "distractors": [
+        "alvorlige",
+        "en",
+        "problemet"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "more-describing-d1",
+      "no": "Han spiste ___ kaka.",
+      "en": "He ate the whole cake.",
+      "lemma": "hel",
+      "pos": "adj",
+      "form": "def"
+    },
+    {
+      "id": "more-describing-d2",
+      "no": "Dette er en ___ dag.",
+      "en": "This is a perfect day.",
+      "lemma": "perfekt",
+      "pos": "adj",
+      "form": "mf"
+    },
+    {
+      "id": "more-describing-d3",
+      "no": "Det var et ___ møte.",
+      "en": "It was a serious meeting.",
+      "lemma": "alvorlig",
+      "pos": "adj",
+      "form": "n"
+    },
+    {
+      "id": "more-describing-d4",
+      "no": "Hun er den ___ i klassen.",
+      "en": "She is the luckiest in the class.",
+      "lemma": "heldig",
+      "pos": "adj",
+      "form": "superlativeDef"
+    },
+    {
+      "id": "more-describing-d5",
+      "no": "Vi bor i et ___ hus.",
+      "en": "We live in an ugly house.",
+      "lemma": "stygg",
+      "pos": "adj",
+      "form": "n"
+    },
+    {
+      "id": "more-describing-d6",
+      "no": "Sjøen er ___ her enn der.",
+      "en": "The lake is deeper here than there.",
+      "lemma": "dyp",
+      "pos": "adj",
+      "form": "comparative"
+    }
+  ]
+}

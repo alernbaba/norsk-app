@@ -1,0 +1,612 @@
+{
+  "id": "feelings",
+  "title": "Feelings and character",
+  "description": "Happy, sad, angry, kind and other ways to describe people.",
+  "emoji": "😊",
+  "order": 22,
+  "words": [
+    {
+      "id": "feelings-en-folelse",
+      "no": "en følelse",
+      "en": [
+        "a feeling"
+      ],
+      "pos": "noun",
+      "lemma": "følelse"
+    },
+    {
+      "id": "feelings-en-glede",
+      "no": "en glede",
+      "en": [
+        "a joy"
+      ],
+      "pos": "noun",
+      "lemma": "glede"
+    },
+    {
+      "id": "feelings-kjaerlighet",
+      "no": "kjærlighet",
+      "en": [
+        "love"
+      ],
+      "pos": "noun",
+      "lemma": "kjærlighet"
+    },
+    {
+      "id": "feelings-et-hap",
+      "no": "et håp",
+      "en": [
+        "a hope"
+      ],
+      "pos": "noun",
+      "lemma": "håp"
+    },
+    {
+      "id": "feelings-en-frykt",
+      "no": "en frykt",
+      "en": [
+        "a fear"
+      ],
+      "pos": "noun",
+      "lemma": "frykt"
+    },
+    {
+      "id": "feelings-en-sorg",
+      "no": "en sorg",
+      "en": [
+        "grief",
+        "sorrow"
+      ],
+      "pos": "noun",
+      "lemma": "sorg"
+    },
+    {
+      "id": "feelings-et-humor",
+      "no": "et humør",
+      "en": [
+        "a mood"
+      ],
+      "pos": "noun",
+      "lemma": "humør"
+    },
+    {
+      "id": "feelings-glad",
+      "no": "glad",
+      "en": [
+        "happy",
+        "glad"
+      ],
+      "pos": "adj",
+      "lemma": "glad"
+    },
+    {
+      "id": "feelings-lykkelig",
+      "no": "lykkelig",
+      "en": [
+        "happy"
+      ],
+      "pos": "adj",
+      "lemma": "lykkelig"
+    },
+    {
+      "id": "feelings-trist",
+      "no": "trist",
+      "en": [
+        "sad"
+      ],
+      "pos": "adj",
+      "lemma": "trist"
+    },
+    {
+      "id": "feelings-lei-seg",
+      "no": "lei seg",
+      "en": [
+        "sad",
+        "sorry"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "feelings-sint",
+      "no": "sint",
+      "en": [
+        "angry"
+      ],
+      "pos": "adj",
+      "lemma": "sint"
+    },
+    {
+      "id": "feelings-redd",
+      "no": "redd",
+      "en": [
+        "afraid",
+        "scared"
+      ],
+      "pos": "adj",
+      "lemma": "redd"
+    },
+    {
+      "id": "feelings-nervos",
+      "no": "nervøs",
+      "en": [
+        "nervous"
+      ],
+      "pos": "adj",
+      "lemma": "nervøs"
+    },
+    {
+      "id": "feelings-rolig",
+      "no": "rolig",
+      "en": [
+        "calm",
+        "quiet"
+      ],
+      "pos": "adj",
+      "lemma": "rolig"
+    },
+    {
+      "id": "feelings-stolt",
+      "no": "stolt",
+      "en": [
+        "proud"
+      ],
+      "pos": "adj",
+      "lemma": "stolt"
+    },
+    {
+      "id": "feelings-flau",
+      "no": "flau",
+      "en": [
+        "embarrassed"
+      ],
+      "pos": "adj",
+      "lemma": "flau"
+    },
+    {
+      "id": "feelings-overrasket",
+      "no": "overrasket",
+      "en": [
+        "surprised"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "feelings-skuffet",
+      "no": "skuffet",
+      "en": [
+        "disappointed"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "feelings-bekymret",
+      "no": "bekymret",
+      "en": [
+        "worried"
+      ],
+      "pos": "adj",
+      "lemma": "bekymret"
+    },
+    {
+      "id": "feelings-ensom",
+      "no": "ensom",
+      "en": [
+        "lonely"
+      ],
+      "pos": "adj",
+      "lemma": "ensom"
+    },
+    {
+      "id": "feelings-forelsket",
+      "no": "forelsket",
+      "en": [
+        "in love"
+      ],
+      "pos": "adj",
+      "lemma": "forelsket"
+    },
+    {
+      "id": "feelings-fornoyd",
+      "no": "fornøyd",
+      "en": [
+        "satisfied",
+        "pleased"
+      ],
+      "pos": "adj",
+      "lemma": "fornøyd"
+    },
+    {
+      "id": "feelings-takknemlig",
+      "no": "takknemlig",
+      "en": [
+        "grateful"
+      ],
+      "pos": "adj",
+      "lemma": "takknemlig"
+    },
+    {
+      "id": "feelings-snill",
+      "no": "snill",
+      "en": [
+        "kind",
+        "nice"
+      ],
+      "pos": "adj",
+      "lemma": "snill"
+    },
+    {
+      "id": "feelings-hyggelig",
+      "no": "hyggelig",
+      "en": [
+        "nice",
+        "pleasant"
+      ],
+      "pos": "adj",
+      "lemma": "hyggelig"
+    },
+    {
+      "id": "feelings-grei",
+      "no": "grei",
+      "en": [
+        "nice",
+        "easy-going",
+        "OK"
+      ],
+      "pos": "adj",
+      "lemma": "grei"
+    },
+    {
+      "id": "feelings-morsom",
+      "no": "morsom",
+      "en": [
+        "funny"
+      ],
+      "pos": "adj",
+      "lemma": "morsom"
+    },
+    {
+      "id": "feelings-kjedelig",
+      "no": "kjedelig",
+      "en": [
+        "boring"
+      ],
+      "pos": "adj",
+      "lemma": "kjedelig"
+    },
+    {
+      "id": "feelings-dum",
+      "no": "dum",
+      "en": [
+        "stupid"
+      ],
+      "pos": "adj",
+      "lemma": "dum"
+    },
+    {
+      "id": "feelings-smart",
+      "no": "smart",
+      "en": [
+        "smart",
+        "clever"
+      ],
+      "pos": "adj",
+      "lemma": "smart"
+    },
+    {
+      "id": "feelings-flink",
+      "no": "flink",
+      "en": [
+        "clever",
+        "good at something"
+      ],
+      "pos": "adj",
+      "lemma": "flink"
+    },
+    {
+      "id": "feelings-lat",
+      "no": "lat",
+      "en": [
+        "lazy"
+      ],
+      "pos": "adj",
+      "lemma": "lat"
+    },
+    {
+      "id": "feelings-modig",
+      "no": "modig",
+      "en": [
+        "brave"
+      ],
+      "pos": "adj",
+      "lemma": "modig"
+    },
+    {
+      "id": "feelings-aerlig",
+      "no": "ærlig",
+      "en": [
+        "honest"
+      ],
+      "pos": "adj",
+      "lemma": "ærlig"
+    },
+    {
+      "id": "feelings-hoflig",
+      "no": "høflig",
+      "en": [
+        "polite"
+      ],
+      "pos": "adj",
+      "lemma": "høflig"
+    },
+    {
+      "id": "feelings-frekk",
+      "no": "frekk",
+      "en": [
+        "rude",
+        "cheeky"
+      ],
+      "pos": "adj",
+      "lemma": "frekk"
+    },
+    {
+      "id": "feelings-sjenert",
+      "no": "sjenert",
+      "en": [
+        "shy"
+      ],
+      "pos": "adj",
+      "lemma": "sjenert"
+    },
+    {
+      "id": "feelings-a-fole",
+      "no": "å føle",
+      "en": [
+        "to feel"
+      ],
+      "pos": "verb",
+      "lemma": "føle"
+    },
+    {
+      "id": "feelings-a-fole-seg",
+      "no": "å føle seg",
+      "en": [
+        "to feel (well, bad)"
+      ],
+      "pos": "verb",
+      "lemma": "føle"
+    },
+    {
+      "id": "feelings-a-bli-glad",
+      "no": "å bli glad",
+      "en": [
+        "to become happy"
+      ],
+      "pos": "verb",
+      "lemma": "bli"
+    },
+    {
+      "id": "feelings-a-vaere-redd-for",
+      "no": "å være redd for",
+      "en": [
+        "to be afraid of"
+      ],
+      "pos": "verb",
+      "lemma": "være"
+    },
+    {
+      "id": "feelings-a-glede-seg",
+      "no": "å glede seg",
+      "en": [
+        "to look forward"
+      ],
+      "pos": "verb",
+      "lemma": "glede"
+    },
+    {
+      "id": "feelings-a-bekymre-seg",
+      "no": "å bekymre seg",
+      "en": [
+        "to worry"
+      ],
+      "pos": "verb",
+      "lemma": "bekymre"
+    },
+    {
+      "id": "feelings-a-kose-seg",
+      "no": "å kose seg",
+      "en": [
+        "to have a nice time"
+      ],
+      "pos": "verb",
+      "lemma": "kose"
+    },
+    {
+      "id": "feelings-a-kjede-seg",
+      "no": "å kjede seg",
+      "en": [
+        "to be bored"
+      ],
+      "pos": "verb",
+      "lemma": "kjede"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "feelings-s1",
+      "en": "I am very happy today.",
+      "no": [
+        "Jeg er veldig glad i dag."
+      ],
+      "distractors": [
+        "trist",
+        "litt",
+        "var"
+      ]
+    },
+    {
+      "id": "feelings-s2",
+      "en": "She is sad.",
+      "no": [
+        "Hun er lei seg.",
+        "Hun er trist."
+      ],
+      "distractors": [
+        "glad",
+        "han",
+        "sint"
+      ]
+    },
+    {
+      "id": "feelings-s3",
+      "en": "Are you angry with me?",
+      "no": [
+        "Er du sint på meg?"
+      ],
+      "distractors": [
+        "glad",
+        "til",
+        "deg"
+      ]
+    },
+    {
+      "id": "feelings-s4",
+      "en": "He is afraid of dogs.",
+      "no": [
+        "Han er redd for hunder.",
+        "Han er redd hunder."
+      ],
+      "distractors": [
+        "hund",
+        "sint",
+        "hun"
+      ]
+    },
+    {
+      "id": "feelings-s5",
+      "en": "I am looking forward to the summer.",
+      "no": [
+        "Jeg gleder meg til sommeren."
+      ],
+      "distractors": [
+        "glad",
+        "sommer",
+        "på"
+      ]
+    },
+    {
+      "id": "feelings-s6",
+      "en": "We had a nice time.",
+      "no": [
+        "Vi koste oss.",
+        "Vi hadde det hyggelig.",
+        "Vi hadde det fint."
+      ],
+      "distractors": [
+        "kose",
+        "de",
+        "kjedet"
+      ]
+    },
+    {
+      "id": "feelings-s7",
+      "en": "My teacher is kind.",
+      "no": [
+        "Læreren min er snill.",
+        "Læreren min er grei."
+      ],
+      "distractors": [
+        "lærer",
+        "sint",
+        "mitt"
+      ]
+    },
+    {
+      "id": "feelings-s8",
+      "en": "The film was boring.",
+      "no": [
+        "Filmen var kjedelig."
+      ],
+      "distractors": [
+        "film",
+        "morsom",
+        "er"
+      ]
+    },
+    {
+      "id": "feelings-s9",
+      "en": "I feel tired.",
+      "no": [
+        "Jeg føler meg trøtt.",
+        "Jeg føler meg sliten."
+      ],
+      "distractors": [
+        "glad",
+        "føle",
+        "er"
+      ]
+    },
+    {
+      "id": "feelings-s10",
+      "en": "He is proud of his daughter.",
+      "no": [
+        "Han er stolt av dattera si.",
+        "Han er stolt av datteren sin."
+      ],
+      "distractors": [
+        "hans",
+        "på",
+        "sønn"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "feelings-d1",
+      "no": "Barna er ___.",
+      "en": "The children are happy.",
+      "lemma": "glad",
+      "pos": "adj",
+      "form": "pl"
+    },
+    {
+      "id": "feelings-d2",
+      "no": "Hun er ___ av alle.",
+      "en": "She is the kindest of all.",
+      "lemma": "snill",
+      "pos": "adj",
+      "form": "superlative"
+    },
+    {
+      "id": "feelings-d3",
+      "no": "Filmen var ___ enn boka.",
+      "en": "The film was funnier than the book.",
+      "lemma": "morsom",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "feelings-d4",
+      "no": "Jeg ___ meg syk i går.",
+      "en": "I felt sick yesterday.",
+      "lemma": "føle",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "feelings-d5",
+      "no": "Det var et ___ svar.",
+      "en": "That was a stupid answer.",
+      "lemma": "dum",
+      "pos": "adj",
+      "form": "n"
+    },
+    {
+      "id": "feelings-d6",
+      "no": "De er de ___ lærerne på skolen.",
+      "en": "They are the nicest teachers at the school.",
+      "lemma": "hyggelig",
+      "pos": "adj",
+      "form": "superlativeDef"
+    }
+  ]
+}

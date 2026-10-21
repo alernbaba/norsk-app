@@ -1,0 +1,686 @@
+{
+  "id": "food",
+  "title": "Food and drink",
+  "description": "Meals, groceries and eating at the table.",
+  "emoji": "🍎",
+  "order": 12,
+  "words": [
+    {
+      "id": "food-mat",
+      "no": "mat",
+      "en": [
+        "food"
+      ],
+      "pos": "noun",
+      "lemma": "mat"
+    },
+    {
+      "id": "food-et-maltid",
+      "no": "et måltid",
+      "en": [
+        "a meal"
+      ],
+      "pos": "noun",
+      "lemma": "måltid"
+    },
+    {
+      "id": "food-en-frokost",
+      "no": "en frokost",
+      "en": [
+        "a breakfast"
+      ],
+      "pos": "noun",
+      "lemma": "frokost"
+    },
+    {
+      "id": "food-en-lunsj",
+      "no": "en lunsj",
+      "en": [
+        "a lunch"
+      ],
+      "pos": "noun",
+      "lemma": "lunsj"
+    },
+    {
+      "id": "food-en-middag",
+      "no": "en middag",
+      "en": [
+        "a dinner"
+      ],
+      "pos": "noun",
+      "lemma": "middag"
+    },
+    {
+      "id": "food-kveldsmat",
+      "no": "kveldsmat",
+      "en": [
+        "supper",
+        "evening meal"
+      ],
+      "pos": "noun",
+      "lemma": "kveldsmat"
+    },
+    {
+      "id": "food-et-brod",
+      "no": "et brød",
+      "en": [
+        "a bread"
+      ],
+      "pos": "noun",
+      "lemma": "brød"
+    },
+    {
+      "id": "food-ei-skive",
+      "no": "ei skive",
+      "en": [
+        "a slice"
+      ],
+      "pos": "noun",
+      "lemma": "skive"
+    },
+    {
+      "id": "food-smor",
+      "no": "smør",
+      "en": [
+        "butter"
+      ],
+      "pos": "noun",
+      "lemma": "smør"
+    },
+    {
+      "id": "food-en-ost",
+      "no": "en ost",
+      "en": [
+        "a cheese"
+      ],
+      "pos": "noun",
+      "lemma": "ost"
+    },
+    {
+      "id": "food-et-egg",
+      "no": "et egg",
+      "en": [
+        "an egg"
+      ],
+      "pos": "noun",
+      "lemma": "egg"
+    },
+    {
+      "id": "food-melk",
+      "no": "melk",
+      "en": [
+        "milk"
+      ],
+      "pos": "noun",
+      "lemma": "melk"
+    },
+    {
+      "id": "food-vann",
+      "no": "vann",
+      "en": [
+        "water"
+      ],
+      "pos": "noun",
+      "lemma": "vann"
+    },
+    {
+      "id": "food-en-kaffe",
+      "no": "en kaffe",
+      "en": [
+        "a coffee"
+      ],
+      "pos": "noun",
+      "lemma": "kaffe"
+    },
+    {
+      "id": "food-en-te",
+      "no": "en te",
+      "en": [
+        "a tea"
+      ],
+      "pos": "noun",
+      "lemma": "te"
+    },
+    {
+      "id": "food-en-juice",
+      "no": "en juice",
+      "en": [
+        "a juice"
+      ],
+      "pos": "noun",
+      "lemma": "juice"
+    },
+    {
+      "id": "food-et-ol",
+      "no": "et øl",
+      "en": [
+        "a beer"
+      ],
+      "pos": "noun",
+      "lemma": "øl",
+      "ordbankId": 80959
+    },
+    {
+      "id": "food-en-vin",
+      "no": "en vin",
+      "en": [
+        "a wine"
+      ],
+      "pos": "noun",
+      "lemma": "vin"
+    },
+    {
+      "id": "food-et-glass",
+      "no": "et glass",
+      "en": [
+        "a glass"
+      ],
+      "pos": "noun",
+      "lemma": "glass"
+    },
+    {
+      "id": "food-en-kopp",
+      "no": "en kopp",
+      "en": [
+        "a cup"
+      ],
+      "pos": "noun",
+      "lemma": "kopp"
+    },
+    {
+      "id": "food-en-flaske",
+      "no": "en flaske",
+      "en": [
+        "a bottle"
+      ],
+      "pos": "noun",
+      "lemma": "flaske"
+    },
+    {
+      "id": "food-en-tallerken",
+      "no": "en tallerken",
+      "en": [
+        "a plate"
+      ],
+      "pos": "noun",
+      "lemma": "tallerken"
+    },
+    {
+      "id": "food-en-kniv",
+      "no": "en kniv",
+      "en": [
+        "a knife"
+      ],
+      "pos": "noun",
+      "lemma": "kniv"
+    },
+    {
+      "id": "food-ei-gaffel",
+      "no": "ei gaffel",
+      "en": [
+        "a fork"
+      ],
+      "pos": "noun",
+      "lemma": "gaffel"
+    },
+    {
+      "id": "food-ei-skje",
+      "no": "ei skje",
+      "en": [
+        "a spoon"
+      ],
+      "pos": "noun",
+      "lemma": "skje"
+    },
+    {
+      "id": "food-kjott",
+      "no": "kjøtt",
+      "en": [
+        "meat"
+      ],
+      "pos": "noun",
+      "lemma": "kjøtt"
+    },
+    {
+      "id": "food-en-fisk",
+      "no": "en fisk",
+      "en": [
+        "a fish"
+      ],
+      "pos": "noun",
+      "lemma": "fisk"
+    },
+    {
+      "id": "food-en-kylling",
+      "no": "en kylling",
+      "en": [
+        "a chicken"
+      ],
+      "pos": "noun",
+      "lemma": "kylling"
+    },
+    {
+      "id": "food-ei-polse",
+      "no": "ei pølse",
+      "en": [
+        "a sausage"
+      ],
+      "pos": "noun",
+      "lemma": "pølse"
+    },
+    {
+      "id": "food-en-pizza",
+      "no": "en pizza",
+      "en": [
+        "a pizza"
+      ],
+      "pos": "noun",
+      "lemma": "pizza"
+    },
+    {
+      "id": "food-en-suppe",
+      "no": "en suppe",
+      "en": [
+        "a soup"
+      ],
+      "pos": "noun",
+      "lemma": "suppe"
+    },
+    {
+      "id": "food-en-potet",
+      "no": "en potet",
+      "en": [
+        "a potato"
+      ],
+      "pos": "noun",
+      "lemma": "potet"
+    },
+    {
+      "id": "food-ris",
+      "no": "ris",
+      "en": [
+        "rice"
+      ],
+      "pos": "noun",
+      "lemma": "ris"
+    },
+    {
+      "id": "food-en-gronnsak",
+      "no": "en grønnsak",
+      "en": [
+        "a vegetable"
+      ],
+      "pos": "noun",
+      "lemma": "grønnsak"
+    },
+    {
+      "id": "food-en-frukt",
+      "no": "en frukt",
+      "en": [
+        "a fruit"
+      ],
+      "pos": "noun",
+      "lemma": "frukt"
+    },
+    {
+      "id": "food-et-eple",
+      "no": "et eple",
+      "en": [
+        "an apple"
+      ],
+      "pos": "noun",
+      "lemma": "eple"
+    },
+    {
+      "id": "food-en-appelsin",
+      "no": "en appelsin",
+      "en": [
+        "an orange"
+      ],
+      "pos": "noun",
+      "lemma": "appelsin"
+    },
+    {
+      "id": "food-en-banan",
+      "no": "en banan",
+      "en": [
+        "a banana"
+      ],
+      "pos": "noun",
+      "lemma": "banan"
+    },
+    {
+      "id": "food-et-baer",
+      "no": "et bær",
+      "en": [
+        "a berry"
+      ],
+      "pos": "noun",
+      "lemma": "bær"
+    },
+    {
+      "id": "food-ei-kake",
+      "no": "ei kake",
+      "en": [
+        "a cake"
+      ],
+      "pos": "noun",
+      "lemma": "kake"
+    },
+    {
+      "id": "food-en-is",
+      "no": "en is",
+      "en": [
+        "an ice cream",
+        "ice"
+      ],
+      "pos": "noun",
+      "lemma": "is"
+    },
+    {
+      "id": "food-sukker",
+      "no": "sukker",
+      "en": [
+        "sugar"
+      ],
+      "pos": "noun",
+      "lemma": "sukker"
+    },
+    {
+      "id": "food-salt",
+      "no": "salt",
+      "en": [
+        "salt"
+      ],
+      "pos": "noun",
+      "lemma": "salt"
+    },
+    {
+      "id": "food-a-spise",
+      "no": "å spise",
+      "en": [
+        "to eat"
+      ],
+      "pos": "verb",
+      "lemma": "spise"
+    },
+    {
+      "id": "food-a-drikke",
+      "no": "å drikke",
+      "en": [
+        "to drink"
+      ],
+      "pos": "verb",
+      "lemma": "drikke"
+    },
+    {
+      "id": "food-a-smake",
+      "no": "å smake",
+      "en": [
+        "to taste"
+      ],
+      "pos": "verb",
+      "lemma": "smake"
+    },
+    {
+      "id": "food-a-koke",
+      "no": "å koke",
+      "en": [
+        "to boil",
+        "to cook"
+      ],
+      "pos": "verb",
+      "lemma": "koke"
+    },
+    {
+      "id": "food-a-steke",
+      "no": "å steke",
+      "en": [
+        "to fry",
+        "to roast"
+      ],
+      "pos": "verb",
+      "lemma": "steke"
+    },
+    {
+      "id": "food-a-bake",
+      "no": "å bake",
+      "en": [
+        "to bake"
+      ],
+      "pos": "verb",
+      "lemma": "bake"
+    },
+    {
+      "id": "food-a-bestille",
+      "no": "å bestille",
+      "en": [
+        "to order",
+        "to book"
+      ],
+      "pos": "verb",
+      "lemma": "bestille"
+    },
+    {
+      "id": "food-sulten",
+      "no": "sulten",
+      "en": [
+        "hungry"
+      ],
+      "pos": "adj",
+      "lemma": "sulten"
+    },
+    {
+      "id": "food-torst",
+      "no": "tørst",
+      "en": [
+        "thirsty"
+      ],
+      "pos": "adj",
+      "lemma": "tørst"
+    },
+    {
+      "id": "food-mett",
+      "no": "mett",
+      "en": [
+        "full (after eating)"
+      ],
+      "pos": "adj",
+      "lemma": "mett"
+    },
+    {
+      "id": "food-sot",
+      "no": "søt",
+      "en": [
+        "sweet",
+        "cute"
+      ],
+      "pos": "adj",
+      "lemma": "søt"
+    },
+    {
+      "id": "food-sur",
+      "no": "sur",
+      "en": [
+        "sour"
+      ],
+      "pos": "adj",
+      "lemma": "sur"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "food-s1",
+      "en": "I eat an apple.",
+      "no": [
+        "Jeg spiser et eple."
+      ],
+      "distractors": [
+        "en",
+        "spiste",
+        "eplet"
+      ]
+    },
+    {
+      "id": "food-s2",
+      "en": "She drinks coffee in the morning.",
+      "no": [
+        "Hun drikker kaffe om morgenen.",
+        "Hun drikker kaffe på morgenen."
+      ],
+      "distractors": [
+        "han",
+        "drakk",
+        "kveld"
+      ]
+    },
+    {
+      "id": "food-s3",
+      "en": "We eat fish for dinner.",
+      "no": [
+        "Vi spiser fisk til middag."
+      ],
+      "distractors": [
+        "frokost",
+        "for",
+        "kjøtt"
+      ]
+    },
+    {
+      "id": "food-s4",
+      "en": "I am hungry.",
+      "no": [
+        "Jeg er sulten."
+      ],
+      "distractors": [
+        "har",
+        "tørst",
+        "du"
+      ]
+    },
+    {
+      "id": "food-s5",
+      "en": "Can I have a glass of water?",
+      "no": [
+        "Kan jeg få et glass vann?"
+      ],
+      "distractors": [
+        "melk",
+        "av",
+        "en"
+      ]
+    },
+    {
+      "id": "food-s6",
+      "en": "The cake is very good.",
+      "no": [
+        "Kaka er veldig god.",
+        "Kaken er veldig god."
+      ],
+      "distractors": [
+        "kake",
+        "godt",
+        "litt"
+      ]
+    },
+    {
+      "id": "food-s7",
+      "en": "He makes breakfast.",
+      "no": [
+        "Han lager frokost."
+      ],
+      "distractors": [
+        "hun",
+        "middag",
+        "lage"
+      ]
+    },
+    {
+      "id": "food-s8",
+      "en": "Do you want cheese on the bread?",
+      "no": [
+        "Vil du ha ost på brødet?"
+      ],
+      "distractors": [
+        "brød",
+        "osten",
+        "i"
+      ]
+    },
+    {
+      "id": "food-s9",
+      "en": "We would like to order, please.",
+      "no": [
+        "Vi vil gjerne bestille, takk.",
+        "Vi vil gjerne bestille."
+      ],
+      "distractors": [
+        "kan",
+        "betale",
+        "de"
+      ]
+    },
+    {
+      "id": "food-s10",
+      "en": "Thank you for the meal!",
+      "no": [
+        "Takk for maten!"
+      ],
+      "distractors": [
+        "mat",
+        "til",
+        "tusen"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "food-d1",
+      "no": "Jeg ___ middag i går.",
+      "en": "I ate dinner yesterday.",
+      "lemma": "spise",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "food-d2",
+      "no": "Hun ___ all kaffen.",
+      "en": "She has drunk all the coffee.",
+      "lemma": "drikke",
+      "pos": "verb",
+      "form": "perfect"
+    },
+    {
+      "id": "food-d3",
+      "no": "Vi kjøpte to ___.",
+      "en": "We bought two bananas.",
+      "lemma": "banan",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "food-d4",
+      "no": "___ er i kjøleskapet.",
+      "en": "The cheese is in the fridge.",
+      "lemma": "ost",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "food-d5",
+      "no": "Denne kaka er ___ enn den andre.",
+      "en": "This cake is better than the other one.",
+      "lemma": "god",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "food-d6",
+      "no": "Han ___ brød hver søndag.",
+      "en": "He bakes bread every Sunday.",
+      "lemma": "bake",
+      "pos": "verb",
+      "form": "present"
+    }
+  ]
+}

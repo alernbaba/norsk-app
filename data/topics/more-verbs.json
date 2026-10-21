@@ -1,0 +1,609 @@
+{
+  "id": "more-verbs",
+  "title": "More useful verbs",
+  "description": "Change, keep, fix, share and other verbs that come up often.",
+  "emoji": "🔧",
+  "order": 29,
+  "words": [
+    {
+      "id": "more-verbs-a-do",
+      "no": "å dø",
+      "en": [
+        "to die"
+      ],
+      "pos": "verb",
+      "lemma": "dø"
+    },
+    {
+      "id": "more-verbs-a-finnes",
+      "no": "å finnes",
+      "en": [
+        "to exist",
+        "there is"
+      ],
+      "pos": "verb",
+      "lemma": "finnes"
+    },
+    {
+      "id": "more-verbs-a-kalle",
+      "no": "å kalle",
+      "en": [
+        "to call",
+        "to name"
+      ],
+      "pos": "verb",
+      "lemma": "kalle"
+    },
+    {
+      "id": "more-verbs-a-redde",
+      "no": "å redde",
+      "en": [
+        "to save",
+        "to rescue"
+      ],
+      "pos": "verb",
+      "lemma": "redde"
+    },
+    {
+      "id": "more-verbs-a-odelegge",
+      "no": "å ødelegge",
+      "en": [
+        "to destroy",
+        "to ruin"
+      ],
+      "pos": "verb",
+      "lemma": "ødelegge"
+    },
+    {
+      "id": "more-verbs-a-stole-pa",
+      "no": "å stole på",
+      "en": [
+        "to trust"
+      ],
+      "pos": "verb",
+      "lemma": "stole"
+    },
+    {
+      "id": "more-verbs-a-bry-seg-om",
+      "no": "å bry seg om",
+      "en": [
+        "to care about"
+      ],
+      "pos": "verb",
+      "lemma": "bry"
+    },
+    {
+      "id": "more-verbs-a-forlate",
+      "no": "å forlate",
+      "en": [
+        "to leave (a place, a person)"
+      ],
+      "pos": "verb",
+      "lemma": "forlate"
+    },
+    {
+      "id": "more-verbs-a-sjekke",
+      "no": "å sjekke",
+      "en": [
+        "to check"
+      ],
+      "pos": "verb",
+      "lemma": "sjekke"
+    },
+    {
+      "id": "more-verbs-a-forsvinne",
+      "no": "å forsvinne",
+      "en": [
+        "to disappear"
+      ],
+      "pos": "verb",
+      "lemma": "forsvinne"
+    },
+    {
+      "id": "more-verbs-a-dele",
+      "no": "å dele",
+      "en": [
+        "to share",
+        "to divide"
+      ],
+      "pos": "verb",
+      "lemma": "dele"
+    },
+    {
+      "id": "more-verbs-a-virke",
+      "no": "å virke",
+      "en": [
+        "to seem",
+        "to work (function)"
+      ],
+      "pos": "verb",
+      "lemma": "virke"
+    },
+    {
+      "id": "more-verbs-a-beskytte",
+      "no": "å beskytte",
+      "en": [
+        "to protect"
+      ],
+      "pos": "verb",
+      "lemma": "beskytte"
+    },
+    {
+      "id": "more-verbs-a-skaffe",
+      "no": "å skaffe",
+      "en": [
+        "to get",
+        "to obtain"
+      ],
+      "pos": "verb",
+      "lemma": "skaffe"
+    },
+    {
+      "id": "more-verbs-a-starte",
+      "no": "å starte",
+      "en": [
+        "to start"
+      ],
+      "pos": "verb",
+      "lemma": "starte"
+    },
+    {
+      "id": "more-verbs-a-stikke",
+      "no": "å stikke",
+      "en": [
+        "to sting",
+        "to leave quickly"
+      ],
+      "pos": "verb",
+      "lemma": "stikke"
+    },
+    {
+      "id": "more-verbs-a-lyve",
+      "no": "å lyve",
+      "en": [
+        "to lie (not tell the truth)"
+      ],
+      "pos": "verb",
+      "lemma": "lyve"
+    },
+    {
+      "id": "more-verbs-a-ane",
+      "no": "å ane",
+      "en": [
+        "to have an idea",
+        "to suspect"
+      ],
+      "pos": "verb",
+      "lemma": "ane"
+    },
+    {
+      "id": "more-verbs-a-forandre",
+      "no": "å forandre",
+      "en": [
+        "to change"
+      ],
+      "pos": "verb",
+      "lemma": "forandre"
+    },
+    {
+      "id": "more-verbs-a-endre",
+      "no": "å endre",
+      "en": [
+        "to change"
+      ],
+      "pos": "verb",
+      "lemma": "endre"
+    },
+    {
+      "id": "more-verbs-a-bryte",
+      "no": "å bryte",
+      "en": [
+        "to break"
+      ],
+      "pos": "verb",
+      "lemma": "bryte"
+    },
+    {
+      "id": "more-verbs-a-skape",
+      "no": "å skape",
+      "en": [
+        "to create"
+      ],
+      "pos": "verb",
+      "lemma": "skape"
+    },
+    {
+      "id": "more-verbs-a-fungere",
+      "no": "å fungere",
+      "en": [
+        "to work",
+        "to function"
+      ],
+      "pos": "verb",
+      "lemma": "fungere"
+    },
+    {
+      "id": "more-verbs-a-bevise",
+      "no": "å bevise",
+      "en": [
+        "to prove"
+      ],
+      "pos": "verb",
+      "lemma": "bevise"
+    },
+    {
+      "id": "more-verbs-a-anta",
+      "no": "å anta",
+      "en": [
+        "to assume"
+      ],
+      "pos": "verb",
+      "lemma": "anta"
+    },
+    {
+      "id": "more-verbs-a-brenne",
+      "no": "å brenne",
+      "en": [
+        "to burn"
+      ],
+      "pos": "verb",
+      "lemma": "brenne"
+    },
+    {
+      "id": "more-verbs-a-forega",
+      "no": "å foregå",
+      "en": [
+        "to take place",
+        "to go on"
+      ],
+      "pos": "verb",
+      "lemma": "foregå"
+    },
+    {
+      "id": "more-verbs-a-sorge-for",
+      "no": "å sørge for",
+      "en": [
+        "to make sure"
+      ],
+      "pos": "verb",
+      "lemma": "sørge"
+    },
+    {
+      "id": "more-verbs-a-hores",
+      "no": "å høres",
+      "en": [
+        "to sound"
+      ],
+      "pos": "verb",
+      "lemma": "høres"
+    },
+    {
+      "id": "more-verbs-a-lide",
+      "no": "å lide",
+      "en": [
+        "to suffer"
+      ],
+      "pos": "verb",
+      "lemma": "lide"
+    },
+    {
+      "id": "more-verbs-a-skynde-seg",
+      "no": "å skynde seg",
+      "en": [
+        "to hurry"
+      ],
+      "pos": "verb",
+      "lemma": "skynde"
+    },
+    {
+      "id": "more-verbs-a-skjule",
+      "no": "å skjule",
+      "en": [
+        "to hide"
+      ],
+      "pos": "verb",
+      "lemma": "skjule"
+    },
+    {
+      "id": "more-verbs-a-knuse",
+      "no": "å knuse",
+      "en": [
+        "to smash",
+        "to crush"
+      ],
+      "pos": "verb",
+      "lemma": "knuse"
+    },
+    {
+      "id": "more-verbs-a-henge",
+      "no": "å henge",
+      "en": [
+        "to hang"
+      ],
+      "pos": "verb",
+      "lemma": "henge"
+    },
+    {
+      "id": "more-verbs-a-overleve",
+      "no": "å overleve",
+      "en": [
+        "to survive"
+      ],
+      "pos": "verb",
+      "lemma": "overleve"
+    },
+    {
+      "id": "more-verbs-a-levere",
+      "no": "å levere",
+      "en": [
+        "to deliver",
+        "to hand in"
+      ],
+      "pos": "verb",
+      "lemma": "levere"
+    },
+    {
+      "id": "more-verbs-a-nyte",
+      "no": "å nyte",
+      "en": [
+        "to enjoy"
+      ],
+      "pos": "verb",
+      "lemma": "nyte"
+    },
+    {
+      "id": "more-verbs-a-fortjene",
+      "no": "å fortjene",
+      "en": [
+        "to deserve"
+      ],
+      "pos": "verb",
+      "lemma": "fortjene"
+    },
+    {
+      "id": "more-verbs-a-kontakte",
+      "no": "å kontakte",
+      "en": [
+        "to contact"
+      ],
+      "pos": "verb",
+      "lemma": "kontakte"
+    },
+    {
+      "id": "more-verbs-a-kjempe",
+      "no": "å kjempe",
+      "en": [
+        "to fight",
+        "to struggle"
+      ],
+      "pos": "verb",
+      "lemma": "kjempe"
+    },
+    {
+      "id": "more-verbs-a-tilgi",
+      "no": "å tilgi",
+      "en": [
+        "to forgive"
+      ],
+      "pos": "verb",
+      "lemma": "tilgi"
+    },
+    {
+      "id": "more-verbs-a-forsoke",
+      "no": "å forsøke",
+      "en": [
+        "to try",
+        "to attempt"
+      ],
+      "pos": "verb",
+      "lemma": "forsøke"
+    },
+    {
+      "id": "more-verbs-a-foles",
+      "no": "å føles",
+      "en": [
+        "to feel (seem)"
+      ],
+      "pos": "verb",
+      "lemma": "føles"
+    },
+    {
+      "id": "more-verbs-a-nevne",
+      "no": "å nevne",
+      "en": [
+        "to mention"
+      ],
+      "pos": "verb",
+      "lemma": "nevne"
+    },
+    {
+      "id": "more-verbs-a-pleie",
+      "no": "å pleie",
+      "en": [
+        "to usually do",
+        "to care for"
+      ],
+      "pos": "verb",
+      "lemma": "pleie",
+      "ordbankId": 52210
+    }
+  ],
+  "sentences": [
+    {
+      "id": "more-verbs-s1",
+      "en": "There is a problem.",
+      "no": [
+        "Det finnes et problem.",
+        "Det er et problem."
+      ],
+      "distractors": [
+        "finne",
+        "en",
+        "har"
+      ]
+    },
+    {
+      "id": "more-verbs-s2",
+      "en": "I trust you.",
+      "no": [
+        "Jeg stoler på deg."
+      ],
+      "distractors": [
+        "du",
+        "til",
+        "stole"
+      ]
+    },
+    {
+      "id": "more-verbs-s3",
+      "en": "He cares about his friends.",
+      "no": [
+        "Han bryr seg om vennene sine."
+      ],
+      "distractors": [
+        "hans",
+        "på",
+        "bry"
+      ]
+    },
+    {
+      "id": "more-verbs-s4",
+      "en": "Can you check the door?",
+      "no": [
+        "Kan du sjekke døra?",
+        "Kan du sjekke døren?"
+      ],
+      "distractors": [
+        "dør",
+        "se",
+        "jeg"
+      ]
+    },
+    {
+      "id": "more-verbs-s5",
+      "en": "The keys disappeared.",
+      "no": [
+        "Nøklene forsvant.",
+        "Nøklene har forsvunnet."
+      ],
+      "distractors": [
+        "nøkkel",
+        "forsvinner",
+        "kom"
+      ]
+    },
+    {
+      "id": "more-verbs-s6",
+      "en": "We share the cake.",
+      "no": [
+        "Vi deler kaka.",
+        "Vi deler kaken."
+      ],
+      "distractors": [
+        "kake",
+        "del",
+        "de"
+      ]
+    },
+    {
+      "id": "more-verbs-s7",
+      "en": "It sounds good.",
+      "no": [
+        "Det høres bra ut.",
+        "Det høres godt ut."
+      ],
+      "distractors": [
+        "hører",
+        "god",
+        "inn"
+      ]
+    },
+    {
+      "id": "more-verbs-s8",
+      "en": "Hurry up!",
+      "no": [
+        "Skynd deg!"
+      ],
+      "distractors": [
+        "skynde",
+        "meg",
+        "sakte"
+      ]
+    },
+    {
+      "id": "more-verbs-s9",
+      "en": "The machine doesn't work.",
+      "no": [
+        "Maskinen fungerer ikke.",
+        "Maskinen virker ikke."
+      ],
+      "distractors": [
+        "maskin",
+        "gjør",
+        "går"
+      ]
+    },
+    {
+      "id": "more-verbs-s10",
+      "en": "I usually drink tea.",
+      "no": [
+        "Jeg pleier å drikke te."
+      ],
+      "distractors": [
+        "pleie",
+        "kaffe",
+        "drakk"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "more-verbs-d1",
+      "no": "Han ___ løftet sitt.",
+      "en": "He broke his promise.",
+      "lemma": "bryte",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "more-verbs-d2",
+      "no": "Katten ___ under sofaen.",
+      "en": "The cat disappeared under the sofa.",
+      "lemma": "forsvinne",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "more-verbs-d3",
+      "no": "Hun har ___ alt hun hadde.",
+      "en": "She has shared everything she had.",
+      "lemma": "dele",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "more-verbs-d4",
+      "no": "Vi ___ dem fra brannen.",
+      "en": "We rescued them from the fire.",
+      "lemma": "redde",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "more-verbs-d5",
+      "no": "___ meg i morgen!",
+      "en": "Contact me tomorrow!",
+      "lemma": "kontakte",
+      "pos": "verb",
+      "form": "imperative"
+    },
+    {
+      "id": "more-verbs-d6",
+      "no": "Han ___ meg aldri.",
+      "en": "He never forgave me.",
+      "lemma": "tilgi",
+      "pos": "verb",
+      "form": "past"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+LOEPENR	LEMMA_ID	OPPSLAG	TAG	PARADIGME_ID	BOY_NUMMER	FRADATO	TILDATO	NORMERING
+113049	7999	bok	subst fem appell ent ub normert	900	1	1996.01.01	4000	normert
+113050	7999	bok	subst mask appell ent ub normert	700	1	2005.07.01	4000	normert
+113051	8000	bok	subst fem appell ent ub normert	952	1	1996.01.01	4000	normert
+113052	8000	bok	subst mask appell ent ub normert	769	1	1996.01.01	4000	normert
+113053	7999	boka	subst fem appell ent be normert	900	2	1996.01.01	4000	normert
+113054	8000	boka	subst fem appell ent be normert	952	2	1996.01.01	4000	normert
+113179	7999	boken	subst mask appell ent be normert	700	2	2005.07.01	4000	normert
+113180	8000	boken	subst mask appell ent be normert	769	2	1996.01.01	4000	normert
+113181	7999	bokene	subst mask appell fl be normert	700	4	2005.07.01	4000	normert
+113182	7999	bokene	subst fem appell fl be normert	900	4	1996.01.01	4000	normert
+113183	7999	boker	subst fem appell fl ub normert	900	3	1996.01.01	4000	normert
+113184	7999	boker	subst mask appell fl ub normert	700	3	2005.07.01	4000	normert
+143360	8000	bøkene	subst fem appell fl be normert	952	4	1996.01.01	4000	normert
+143361	8000	bøkene	subst mask appell fl be normert	769	4	1996.01.01	4000	normert
+143371	8000	bøker	subst mask appell fl ub normert	769	3	1996.01.01	4000	normert
+143373	8000	bøker	subst fem appell fl ub normert	952	3	1996.01.01	4000	normert
+202034	80034	er	verb pres <predik1> <predik2> <aux1/perf_part> <adv5> normert	335	2	1996.01.01	4000	normert
+214982	17088	fantes	verb pret <s-verb> <intrans2> normert	400	3	1996.01.01	4000	normert
+214983	17088	fantes	verb pret <s-verb> <intrans2> normert	401B	3	2015.12.11	4000	normert
+232729	17088	finnes	verb pres <s-verb> <intrans2> normert	400	2	1996.01.01	4000	normert
+232730	17088	finnes	verb inf <s-verb> <intrans2> normert	401B	1	2015.12.11	4000	normert
+232731	17088	finnes	verb inf <s-verb> <intrans2> normert	400	1	1996.01.01	4000	normert
+232732	17088	finnes	verb imp <s-verb> <intrans2> normert	401B	5	2015.12.11	4000	normert
+233031	17088	fins	verb pres <s-verb> <intrans2> normert	401B	2	2015.12.11	4000	normert
+301536	17088	funnes	verb perf-part <s-verb> <intrans2> normert	400	4	1996.01.01	4000	normert
+301537	17088	funnes	verb perf-part <s-verb> <intrans2> normert	401B	4	2015.12.11	4000	normert
+591325	41179	lille	adj pos be ent normert	666	4	1996.01.01	4000	normert
+591326	41179	lille	adj pos be ent normert	665A	4	1996.01.01	4000	normert
+591327	41179	lille	adj pos be ent normert	665	4	1996.01.01	4000	normert
+591329	41179	lille	adj pos be ent normert	666A	4	1996.01.01	4000	normert
+593348	41179	lita	adj pos fem ub ent normert	665	2	1996.01.01	4000	normert
+593350	41179	lita	adj pos fem ub ent normert	669A	2	1996.01.01	4000	normert
+593351	41179	lita	adj pos fem ub ent normert	669	2	1996.01.01	4000	normert
+593352	41179	lita	adj pos fem ub ent normert	666	2	1996.01.01	4000	normert
+593400	41179	lite	adj pos nøyt ub ent normert	670	3	1996.01.01	4000	normert
+593401	41179	lite	adj pos nøyt ub ent normert	669	3	1996.01.01	4000	normert
+593402	41179	lite	adj pos nøyt ub ent normert	665A	3	1996.01.01	4000	normert
+593403	41179	lite	adj pos nøyt ub ent normert	665	3	1996.01.01	4000	normert
+593409	41179	liten	adj pos fem ub ent normert	670A	2	1996.01.01	4000	normert
+593411	41179	liten	adj pos fem ub ent normert	665A	2	1996.01.01	4000	normert
+593412	41179	liten	adj pos fem ub ent normert	666A	2	1996.01.01	4000	normert
+593413	41179	liten	adj pos m/f ub ent normert	670A	1	1996.01.01	4000	normert
+593414	41179	liten	adj pos m/f ub ent normert	669A	1	1996.01.01	4000	normert
+593415	41179	liten	adj pos m/f ub ent normert	669	1	1996.01.01	4000	normert
+593416	41179	liten	adj pos m/f ub ent normert	666A	1	1996.01.01	4000	normert
+593417	41179	liten	adj pos m/f ub ent normert	666	1	1996.01.01	4000	normert
+593418	41179	liten	adj pos m/f ub ent normert	665A	1	1996.01.01	4000	normert
+593419	41179	liten	adj pos m/f ub ent normert	665	1	1996.01.01	4000	normert
+593420	41179	liten	adj pos fem ub ent normert	670	2	1996.01.01	4000	normert
+593421	41179	liten	adj pos m/f ub ent normert	670	1	1996.01.01	4000	normert
+643033	41179	mindre	adj komp normert	665	6	1996.01.01	4000	normert
+643034	41179	mindre	adj komp normert	665A	6	1996.01.01	4000	normert
+643035	41179	mindre	adj komp normert	666	6	1996.01.01	4000	normert
+643036	41179	mindre	adj komp normert	666A	6	1996.01.01	4000	normert
+643037	41179	mindre	adj komp normert	669	6	1996.01.01	4000	normert
+643038	41179	mindre	adj komp normert	669A	6	1996.01.01	4000	normert
+643039	41179	mindre	adj komp normert	670	6	1996.01.01	4000	normert
+643040	41179	mindre	adj komp normert	670A	6	1996.01.01	4000	normert
+644893	41179	minst	adj sup ub normert	665	7	1996.01.01	4000	normert
+644894	41179	minst	adj sup ub normert	665A	7	1996.01.01	4000	normert
+644895	41179	minst	adj sup ub normert	666	7	1996.01.01	4000	normert
+644896	41179	minst	adj sup ub normert	666A	7	1996.01.01	4000	normert
+644897	41179	minst	adj sup ub normert	669	7	1996.01.01	4000	normert
+644898	41179	minst	adj sup ub normert	669A	7	1996.01.01	4000	normert
+644899	41179	minst	adj sup ub normert	670	7	1996.01.01	4000	normert
+644900	41179	minst	adj sup ub normert	670A	7	1996.01.01	4000	normert
+644905	41179	minste	adj sup be normert	665	8	1996.01.01	4000	normert
+644906	41179	minste	adj sup be normert	665A	8	1996.01.01	4000	normert
+644907	41179	minste	adj sup be normert	666	8	1996.01.01	4000	normert
+644908	41179	minste	adj sup be normert	666A	8	1996.01.01	4000	normert
+644909	41179	minste	adj sup be normert	669	8	1996.01.01	4000	normert
+644910	41179	minste	adj sup be normert	669A	8	1996.01.01	4000	normert
+644911	41179	minste	adj sup be normert	670	8	1996.01.01	4000	normert
+644912	41179	minste	adj sup be normert	670A	8	1996.01.01	4000	normert
+898568	41179	små	adj pos fl normert	666A	5	1996.01.01	4000	normert
+898569	41179	små	adj pos fl normert	669	5	1996.01.01	4000	normert
+898570	41179	små	adj pos fl normert	669A	5	1996.01.01	4000	normert
+898571	41179	små	adj pos fl normert	670	5	1996.01.01	4000	normert
+898572	41179	små	adj pos fl normert	670A	5	1996.01.01	4000	normert
+898573	41179	små	adj pos fl normert	665	5	1996.01.01	4000	normert
+898574	41179	små	adj pos fl normert	665A	5	1996.01.01	4000	normert
+898575	41179	små	adj pos fl normert	666	5	1996.01.01	4000	normert
+900303	41179	smått	adj pos nøyt ub ent normert	666	3	1996.01.01	4000	normert
+900304	41179	smått	adj pos nøyt ub ent normert	666A	3	1996.01.01	4000	normert
+900305	41179	smått	adj pos nøyt ub ent normert	669A	3	1996.01.01	4000	normert
+900306	41179	smått	adj pos nøyt ub ent normert	670A	3	1996.01.01	4000	normert
+919961	64622	spis	verb imp <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	11	1996.01.01	4000	normert
+919962	64622	spise	verb inf <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	1	1996.01.01	4000	normert
+920026	64622	spisende	adj <pres-part> <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	10	1996.01.01	4000	normert
+920070	64622	spiser	verb pres <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	2	1996.01.01	4000	normert
+920108	64622	spises	verb inf pres pass <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	3	1996.01.01	4000	normert
+920478	64622	spist	verb perf-part <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	5	1996.01.01	4000	normert
+920479	64622	spist	adj <perf-part> nøyt ub ent <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	6	1996.01.01	4000	normert
+920480	64622	spist	adj <perf-part> m/f ub ent <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	7	1996.01.01	4000	normert
+920481	64622	spiste	verb pret <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	4	1996.01.01	4000	normert
+920482	64622	spiste	adj <perf-part> fl <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	9	1996.01.01	4000	normert
+920483	64622	spiste	adj <perf-part> be ent <intrans1> <trans1> <trans11/opp> <trans11/på> <predik6> <refl9/innpå> <trans4> <part3/i> normert	020	8	1996.01.01	4000	normert
+939362	65721	stor	adj pos m/f ub ent normert	602	1	1996.01.01	4000	normert
+939577	65721	store	adj pos fl normert	602	2	1996.01.01	4000	normert
+939578	65721	store	adj pos be ent normert	602	3	1996.01.01	4000	normert
+941268	65721	stort	adj pos nøyt ub ent normert	602	4	1996.01.01	4000	normert
+952378	65721	større	adj komp normert	602	5	1996.01.01	4000	normert
+952407	65721	størst	adj sup ub normert	602	6	1996.01.01	4000	normert
+952410	65721	største	adj sup be normert	602	7	1996.01.01	4000	normert
+1090091	80034	var	verb pret <predik1> <predik2> <aux1/perf_part> <adv5> normert	335	4	1996.01.01	4000	normert
+1110626	41179	vesle	adj pos be ent normert	670A	4	1996.01.01	4000	normert
+1110631	41179	vesle	adj pos be ent normert	669	4	1996.01.01	4000	normert
+1110632	41179	vesle	adj pos be ent normert	669A	4	1996.01.01	4000	normert
+1110633	41179	vesle	adj pos be ent normert	670	4	1996.01.01	4000	normert
+1128945	80034	vær	verb imp <predik1> <predik2> <aux1/perf_part> <adv5> normert	335	11	1996.01.01	4000	normert
+1129010	80034	være	verb inf <predik1> <predik2> <aux1/perf_part> <adv5> normert	335	1	1996.01.01	4000	normert
+1129060	80034	værende	adj <pres-part> <predik1> <predik2> <aux1/perf_part> <adv5> normert	335	10	1996.01.01	4000	normert
+1129306	80034	vært	verb perf-part <predik1> <predik2> <aux1/perf_part> <adv5> normert	335	5	1996.01.01	4000	normert
+1129307	80034	vært	adj <perf-part> nøyt ub ent <predik1> <predik2> <aux1/perf_part> <adv5> normert	335	6	1996.01.01	4000	normert

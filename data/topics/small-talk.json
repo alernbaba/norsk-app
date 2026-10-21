@@ -1,0 +1,395 @@
+{
+  "id": "small-talk",
+  "title": "Small talk",
+  "description": "Chat about yourself, the weather and your plans.",
+  "emoji": "☕",
+  "order": 33,
+  "words": [
+    {
+      "id": "small-talk-hva-jobber-du-med",
+      "no": "Hva jobber du med?",
+      "en": [
+        "What do you do for a living?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-jeg-jobber-som",
+      "no": "Jeg jobber som …",
+      "en": [
+        "I work as a …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hvor-bor-du",
+      "no": "Hvor bor du?",
+      "en": [
+        "Where do you live?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-jeg-bor-i",
+      "no": "Jeg bor i …",
+      "en": [
+        "I live in …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hvor-gammel-er-du",
+      "no": "Hvor gammel er du?",
+      "en": [
+        "How old are you?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-jeg-er-ar",
+      "no": "Jeg er … år.",
+      "en": [
+        "I am … years old."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-har-du-barn",
+      "no": "Har du barn?",
+      "en": [
+        "Do you have children?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hva-liker-du-a-gjore",
+      "no": "Hva liker du å gjøre?",
+      "en": [
+        "What do you like to do?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-jeg-liker-a",
+      "no": "Jeg liker å …",
+      "en": [
+        "I like to …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hva-skal-du-gjore-i-helga",
+      "no": "Hva skal du gjøre i helga?",
+      "en": [
+        "What are you doing this weekend?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-har-du-planer-i-kveld",
+      "no": "Har du planer i kveld?",
+      "en": [
+        "Do you have plans tonight?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-har-du-lyst-til-a",
+      "no": "Har du lyst til å …?",
+      "en": [
+        "Would you like to …?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-gjerne",
+      "no": "Gjerne!",
+      "en": [
+        "I'd love to!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-det-hores-bra-ut",
+      "no": "Det høres bra ut.",
+      "en": [
+        "That sounds good."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-fint-vaer-i-dag-ikke-sant",
+      "no": "Fint vær i dag, ikke sant?",
+      "en": [
+        "Nice weather today, isn't it?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-ikke-sant",
+      "no": "Ikke sant?",
+      "en": [
+        "Right?",
+        "Isn't it?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-sa-hyggelig",
+      "no": "Så hyggelig!",
+      "en": [
+        "How nice!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hvor-lenge-har-du-bodd-her",
+      "no": "Hvor lenge har du bodd her?",
+      "en": [
+        "How long have you lived here?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hvor-lenge-har-du-laert-norsk",
+      "no": "Hvor lenge har du lært norsk?",
+      "en": [
+        "How long have you been learning Norwegian?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-du-snakker-godt-norsk",
+      "no": "Du snakker godt norsk!",
+      "en": [
+        "You speak Norwegian well!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hvordan-gikk-det",
+      "no": "Hvordan gikk det?",
+      "en": [
+        "How did it go?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-det-gikk-fint",
+      "no": "Det gikk fint.",
+      "en": [
+        "It went well."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hva-synes-du",
+      "no": "Hva synes du?",
+      "en": [
+        "What do you think?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-jeg-tror-det",
+      "no": "Jeg tror det.",
+      "en": [
+        "I think so."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-jeg-tror-ikke-det",
+      "no": "Jeg tror ikke det.",
+      "en": [
+        "I don't think so."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-det-kommer-an-pa",
+      "no": "Det kommer an på.",
+      "en": [
+        "It depends."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-same-her",
+      "no": "Same her.",
+      "en": [
+        "Same here."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-vi-snakkes",
+      "no": "Vi snakkes!",
+      "en": [
+        "Talk to you later!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-hils-fra-meg",
+      "no": "Hils … fra meg!",
+      "en": [
+        "Say hello to … from me!"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "small-talk-a-ha-lyst-pa",
+      "no": "å ha lyst på",
+      "en": [
+        "to feel like having",
+        "to want"
+      ],
+      "pos": "verb",
+      "lemma": "ha"
+    },
+    {
+      "id": "small-talk-a-ha-lyst-til",
+      "no": "å ha lyst til",
+      "en": [
+        "to feel like doing",
+        "to want to"
+      ],
+      "pos": "verb",
+      "lemma": "ha"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "small-talk-s1",
+      "en": "What do you do for a living?",
+      "no": [
+        "Hva jobber du med?",
+        "Hva jobber du som?"
+      ],
+      "distractors": [
+        "hvor",
+        "jobb",
+        "er"
+      ]
+    },
+    {
+      "id": "small-talk-s2",
+      "en": "I have lived here for two years.",
+      "no": [
+        "Jeg har bodd her i to år."
+      ],
+      "distractors": [
+        "bor",
+        "tre",
+        "der"
+      ]
+    },
+    {
+      "id": "small-talk-s3",
+      "en": "Would you like to go for a walk?",
+      "no": [
+        "Har du lyst til å gå en tur?",
+        "Vil du gå en tur?",
+        "Har du lyst til å gå tur?"
+      ],
+      "distractors": [
+        "på",
+        "turen",
+        "kan"
+      ]
+    },
+    {
+      "id": "small-talk-s4",
+      "en": "That sounds good.",
+      "no": [
+        "Det høres bra ut.",
+        "Det høres godt ut."
+      ],
+      "distractors": [
+        "hører",
+        "er",
+        "god"
+      ]
+    },
+    {
+      "id": "small-talk-s5",
+      "en": "What do you think?",
+      "no": [
+        "Hva synes du?",
+        "Hva tror du?",
+        "Hva mener du?"
+      ],
+      "distractors": [
+        "hvem",
+        "deg",
+        "er"
+      ]
+    },
+    {
+      "id": "small-talk-s6",
+      "en": "It depends.",
+      "no": [
+        "Det kommer an på."
+      ],
+      "distractors": [
+        "går",
+        "var",
+        "til"
+      ]
+    },
+    {
+      "id": "small-talk-s7",
+      "en": "You speak Norwegian well!",
+      "no": [
+        "Du snakker godt norsk!",
+        "Du snakker bra norsk!"
+      ],
+      "distractors": [
+        "engelsk",
+        "god",
+        "er"
+      ]
+    },
+    {
+      "id": "small-talk-s8",
+      "en": "How did the exam go?",
+      "no": [
+        "Hvordan gikk eksamen?",
+        "Hvordan gikk det på eksamen?"
+      ],
+      "distractors": [
+        "går",
+        "hva",
+        "eksamenen"
+      ]
+    },
+    {
+      "id": "small-talk-s9",
+      "en": "Nice weather today, isn't it?",
+      "no": [
+        "Fint vær i dag, ikke sant?",
+        "Det er fint vær i dag, ikke sant?"
+      ],
+      "distractors": [
+        "været",
+        "går",
+        "er"
+      ]
+    },
+    {
+      "id": "small-talk-s10",
+      "en": "Say hello to your mother from me!",
+      "no": [
+        "Hils moren din fra meg!",
+        "Hils mora di fra meg!"
+      ],
+      "distractors": [
+        "min",
+        "til",
+        "hilse"
+      ]
+    }
+  ],
+  "inflectionDrills": []
+}

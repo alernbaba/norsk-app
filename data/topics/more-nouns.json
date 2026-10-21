@@ -1,0 +1,616 @@
+{
+  "id": "more-nouns",
+  "title": "More useful nouns",
+  "description": "Situation, information, group, result and other words for ideas and things.",
+  "emoji": "📦",
+  "order": 32,
+  "words": [
+    {
+      "id": "more-nouns-ei-skyld",
+      "no": "ei skyld",
+      "en": [
+        "a fault",
+        "blame"
+      ],
+      "pos": "noun",
+      "lemma": "skyld"
+    },
+    {
+      "id": "more-nouns-et-par",
+      "no": "et par",
+      "en": [
+        "a pair",
+        "a couple"
+      ],
+      "pos": "noun",
+      "lemma": "par"
+    },
+    {
+      "id": "more-nouns-en-tjeneste",
+      "no": "en tjeneste",
+      "en": [
+        "a favour",
+        "a service"
+      ],
+      "pos": "noun",
+      "lemma": "tjeneste"
+    },
+    {
+      "id": "more-nouns-et-omrade",
+      "no": "et område",
+      "en": [
+        "an area"
+      ],
+      "pos": "noun",
+      "lemma": "område"
+    },
+    {
+      "id": "more-nouns-et-poeng",
+      "no": "et poeng",
+      "en": [
+        "a point"
+      ],
+      "pos": "noun",
+      "lemma": "poeng"
+    },
+    {
+      "id": "more-nouns-en-kontroll",
+      "no": "en kontroll",
+      "en": [
+        "a control",
+        "a check"
+      ],
+      "pos": "noun",
+      "lemma": "kontroll"
+    },
+    {
+      "id": "more-nouns-en-situasjon",
+      "no": "en situasjon",
+      "en": [
+        "a situation"
+      ],
+      "pos": "noun",
+      "lemma": "situasjon"
+    },
+    {
+      "id": "more-nouns-informasjon",
+      "no": "informasjon",
+      "en": [
+        "information"
+      ],
+      "pos": "noun",
+      "lemma": "informasjon"
+    },
+    {
+      "id": "more-nouns-en-hemmelighet",
+      "no": "en hemmelighet",
+      "en": [
+        "a secret"
+      ],
+      "pos": "noun",
+      "lemma": "hemmelighet"
+    },
+    {
+      "id": "more-nouns-ro",
+      "no": "ro",
+      "en": [
+        "peace and quiet",
+        "calm"
+      ],
+      "pos": "noun",
+      "lemma": "ro"
+    },
+    {
+      "id": "more-nouns-et-bevis",
+      "no": "et bevis",
+      "en": [
+        "a proof",
+        "evidence"
+      ],
+      "pos": "noun",
+      "lemma": "bevis"
+    },
+    {
+      "id": "more-nouns-en-unnskyldning",
+      "no": "en unnskyldning",
+      "en": [
+        "an apology",
+        "an excuse"
+      ],
+      "pos": "noun",
+      "lemma": "unnskyldning"
+    },
+    {
+      "id": "more-nouns-en-kontakt",
+      "no": "en kontakt",
+      "en": [
+        "a contact"
+      ],
+      "pos": "noun",
+      "lemma": "kontakt"
+    },
+    {
+      "id": "more-nouns-en-type",
+      "no": "en type",
+      "en": [
+        "a type",
+        "a guy"
+      ],
+      "pos": "noun",
+      "lemma": "type"
+    },
+    {
+      "id": "more-nouns-en-hjerne",
+      "no": "en hjerne",
+      "en": [
+        "a brain"
+      ],
+      "pos": "noun",
+      "lemma": "hjerne"
+    },
+    {
+      "id": "more-nouns-et-forhold",
+      "no": "et forhold",
+      "en": [
+        "a relationship",
+        "a ratio"
+      ],
+      "pos": "noun",
+      "lemma": "forhold"
+    },
+    {
+      "id": "more-nouns-ei-kraft",
+      "no": "ei kraft",
+      "en": [
+        "a force",
+        "power"
+      ],
+      "pos": "noun",
+      "lemma": "kraft"
+    },
+    {
+      "id": "more-nouns-ei-stund",
+      "no": "ei stund",
+      "en": [
+        "a while"
+      ],
+      "pos": "noun",
+      "lemma": "stund"
+    },
+    {
+      "id": "more-nouns-en-regel",
+      "no": "en regel",
+      "en": [
+        "a rule"
+      ],
+      "pos": "noun",
+      "lemma": "regel"
+    },
+    {
+      "id": "more-nouns-sikkerhet",
+      "no": "sikkerhet",
+      "en": [
+        "safety",
+        "security"
+      ],
+      "pos": "noun",
+      "lemma": "sikkerhet"
+    },
+    {
+      "id": "more-nouns-et-tilfelle",
+      "no": "et tilfelle",
+      "en": [
+        "a case",
+        "a coincidence"
+      ],
+      "pos": "noun",
+      "lemma": "tilfelle"
+    },
+    {
+      "id": "more-nouns-ei-gruppe",
+      "no": "ei gruppe",
+      "en": [
+        "a group"
+      ],
+      "pos": "noun",
+      "lemma": "gruppe"
+    },
+    {
+      "id": "more-nouns-et-minne",
+      "no": "et minne",
+      "en": [
+        "a memory"
+      ],
+      "pos": "noun",
+      "lemma": "minne"
+    },
+    {
+      "id": "more-nouns-gull",
+      "no": "gull",
+      "en": [
+        "gold"
+      ],
+      "pos": "noun",
+      "lemma": "gull"
+    },
+    {
+      "id": "more-nouns-et-merke",
+      "no": "et merke",
+      "en": [
+        "a mark",
+        "a brand"
+      ],
+      "pos": "noun",
+      "lemma": "merke"
+    },
+    {
+      "id": "more-nouns-en-overraskelse",
+      "no": "en overraskelse",
+      "en": [
+        "a surprise"
+      ],
+      "pos": "noun",
+      "lemma": "overraskelse"
+    },
+    {
+      "id": "more-nouns-en-samtale",
+      "no": "en samtale",
+      "en": [
+        "a conversation"
+      ],
+      "pos": "noun",
+      "lemma": "samtale"
+    },
+    {
+      "id": "more-nouns-en-ulykke",
+      "no": "en ulykke",
+      "en": [
+        "an accident"
+      ],
+      "pos": "noun",
+      "lemma": "ulykke"
+    },
+    {
+      "id": "more-nouns-et-rad",
+      "no": "et råd",
+      "en": [
+        "a piece of advice"
+      ],
+      "pos": "noun",
+      "lemma": "råd"
+    },
+    {
+      "id": "more-nouns-en-forskjell",
+      "no": "en forskjell",
+      "en": [
+        "a difference"
+      ],
+      "pos": "noun",
+      "lemma": "forskjell"
+    },
+    {
+      "id": "more-nouns-en-masse",
+      "no": "en masse",
+      "en": [
+        "a lot",
+        "a mass"
+      ],
+      "pos": "noun",
+      "lemma": "masse"
+    },
+    {
+      "id": "more-nouns-en-begynnelse",
+      "no": "en begynnelse",
+      "en": [
+        "a beginning"
+      ],
+      "pos": "noun",
+      "lemma": "begynnelse"
+    },
+    {
+      "id": "more-nouns-en-slutt",
+      "no": "en slutt",
+      "en": [
+        "an end"
+      ],
+      "pos": "noun",
+      "lemma": "slutt"
+    },
+    {
+      "id": "more-nouns-en-rolle",
+      "no": "en rolle",
+      "en": [
+        "a role"
+      ],
+      "pos": "noun",
+      "lemma": "rolle"
+    },
+    {
+      "id": "more-nouns-ei-grense",
+      "no": "ei grense",
+      "en": [
+        "a border",
+        "a limit"
+      ],
+      "pos": "noun",
+      "lemma": "grense"
+    },
+    {
+      "id": "more-nouns-en-vilje",
+      "no": "en vilje",
+      "en": [
+        "a will"
+      ],
+      "pos": "noun",
+      "lemma": "vilje"
+    },
+    {
+      "id": "more-nouns-en-alder",
+      "no": "en alder",
+      "en": [
+        "an age"
+      ],
+      "pos": "noun",
+      "lemma": "alder"
+    },
+    {
+      "id": "more-nouns-en-maskin",
+      "no": "en maskin",
+      "en": [
+        "a machine"
+      ],
+      "pos": "noun",
+      "lemma": "maskin"
+    },
+    {
+      "id": "more-nouns-et-resultat",
+      "no": "et resultat",
+      "en": [
+        "a result"
+      ],
+      "pos": "noun",
+      "lemma": "resultat"
+    },
+    {
+      "id": "more-nouns-en-interesse",
+      "no": "en interesse",
+      "en": [
+        "an interest"
+      ],
+      "pos": "noun",
+      "lemma": "interesse"
+    },
+    {
+      "id": "more-nouns-en-fiende",
+      "no": "en fiende",
+      "en": [
+        "an enemy"
+      ],
+      "pos": "noun",
+      "lemma": "fiende"
+    },
+    {
+      "id": "more-nouns-et-fengsel",
+      "no": "et fengsel",
+      "en": [
+        "a prison"
+      ],
+      "pos": "noun",
+      "lemma": "fengsel"
+    },
+    {
+      "id": "more-nouns-en-utsikt",
+      "no": "en utsikt",
+      "en": [
+        "a view"
+      ],
+      "pos": "noun",
+      "lemma": "utsikt"
+    },
+    {
+      "id": "more-nouns-en-lyd",
+      "no": "en lyd",
+      "en": [
+        "a sound"
+      ],
+      "pos": "noun",
+      "lemma": "lyd"
+    },
+    {
+      "id": "more-nouns-en-lukt",
+      "no": "en lukt",
+      "en": [
+        "a smell"
+      ],
+      "pos": "noun",
+      "lemma": "lukt"
+    },
+    {
+      "id": "more-nouns-en-smak",
+      "no": "en smak",
+      "en": [
+        "a taste"
+      ],
+      "pos": "noun",
+      "lemma": "smak"
+    },
+    {
+      "id": "more-nouns-farvel",
+      "no": "farvel",
+      "en": [
+        "goodbye",
+        "farewell"
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "more-nouns-s1",
+      "en": "Whose fault is it?",
+      "no": [
+        "Hvem sin skyld er det?",
+        "Hvem har skylda?",
+        "Hvem har skylden?"
+      ],
+      "distractors": [
+        "hva",
+        "skylda",
+        "var"
+      ]
+    },
+    {
+      "id": "more-nouns-s2",
+      "en": "Can you do me a favour?",
+      "no": [
+        "Kan du gjøre meg en tjeneste?"
+      ],
+      "distractors": [
+        "tjenesten",
+        "jeg",
+        "et"
+      ]
+    },
+    {
+      "id": "more-nouns-s3",
+      "en": "The situation is difficult.",
+      "no": [
+        "Situasjonen er vanskelig."
+      ],
+      "distractors": [
+        "situasjon",
+        "lett",
+        "var"
+      ]
+    },
+    {
+      "id": "more-nouns-s4",
+      "en": "I have a secret.",
+      "no": [
+        "Jeg har en hemmelighet."
+      ],
+      "distractors": [
+        "hemmeligheten",
+        "et",
+        "er"
+      ]
+    },
+    {
+      "id": "more-nouns-s5",
+      "en": "They have a good relationship.",
+      "no": [
+        "De har et godt forhold."
+      ],
+      "distractors": [
+        "god",
+        "en",
+        "forholdet"
+      ]
+    },
+    {
+      "id": "more-nouns-s6",
+      "en": "Wait a while.",
+      "no": [
+        "Vent en stund.",
+        "Vent litt."
+      ],
+      "distractors": [
+        "stunden",
+        "et",
+        "venter"
+      ]
+    },
+    {
+      "id": "more-nouns-s7",
+      "en": "It was an accident.",
+      "no": [
+        "Det var en ulykke."
+      ],
+      "distractors": [
+        "ulykken",
+        "er",
+        "et"
+      ]
+    },
+    {
+      "id": "more-nouns-s8",
+      "en": "Can you give me some advice?",
+      "no": [
+        "Kan du gi meg et råd?",
+        "Kan du gi meg noen råd?"
+      ],
+      "distractors": [
+        "rådet",
+        "en",
+        "jeg"
+      ]
+    },
+    {
+      "id": "more-nouns-s9",
+      "en": "What is the difference?",
+      "no": [
+        "Hva er forskjellen?"
+      ],
+      "distractors": [
+        "forskjell",
+        "hvem",
+        "var"
+      ]
+    },
+    {
+      "id": "more-nouns-s10",
+      "en": "The view is beautiful.",
+      "no": [
+        "Utsikten er vakker.",
+        "Utsikten er nydelig."
+      ],
+      "distractors": [
+        "utsikt",
+        "vakkert",
+        "var"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "more-nouns-d1",
+      "no": "Jeg har mange gode ___.",
+      "en": "I have many good memories.",
+      "lemma": "minne",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "more-nouns-d2",
+      "no": "___ er enkle.",
+      "en": "The rules are simple.",
+      "lemma": "regel",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "more-nouns-d3",
+      "no": "Vi har tre ___ i klassen.",
+      "en": "We have three groups in the class.",
+      "lemma": "gruppe",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "more-nouns-d4",
+      "no": "___ var bra.",
+      "en": "The result was good.",
+      "lemma": "resultat",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "more-nouns-d5",
+      "no": "Jeg hørte mange rare ___.",
+      "en": "I heard many strange sounds.",
+      "lemma": "lyd",
+      "pos": "noun",
+      "form": "indefPl"
+    }
+  ]
+}

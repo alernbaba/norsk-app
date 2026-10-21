@@ -1,0 +1,529 @@
+{
+  "id": "travel",
+  "title": "Travel and transport",
+  "description": "Trains, tickets, airports and getting around.",
+  "emoji": "🚆",
+  "order": 19,
+  "words": [
+    {
+      "id": "travel-en-tur",
+      "no": "en tur",
+      "en": [
+        "a trip",
+        "a walk",
+        "a hike"
+      ],
+      "pos": "noun",
+      "lemma": "tur"
+    },
+    {
+      "id": "travel-ei-reise",
+      "no": "ei reise",
+      "en": [
+        "a journey"
+      ],
+      "pos": "noun",
+      "lemma": "reise"
+    },
+    {
+      "id": "travel-et-tog",
+      "no": "et tog",
+      "en": [
+        "a train"
+      ],
+      "pos": "noun",
+      "lemma": "tog"
+    },
+    {
+      "id": "travel-en-buss",
+      "no": "en buss",
+      "en": [
+        "a bus"
+      ],
+      "pos": "noun",
+      "lemma": "buss"
+    },
+    {
+      "id": "travel-et-fly",
+      "no": "et fly",
+      "en": [
+        "a plane"
+      ],
+      "pos": "noun",
+      "lemma": "fly"
+    },
+    {
+      "id": "travel-en-bil",
+      "no": "en bil",
+      "en": [
+        "a car"
+      ],
+      "pos": "noun",
+      "lemma": "bil"
+    },
+    {
+      "id": "travel-en-sykkel",
+      "no": "en sykkel",
+      "en": [
+        "a bicycle"
+      ],
+      "pos": "noun",
+      "lemma": "sykkel"
+    },
+    {
+      "id": "travel-en-bat",
+      "no": "en båt",
+      "en": [
+        "a boat"
+      ],
+      "pos": "noun",
+      "lemma": "båt"
+    },
+    {
+      "id": "travel-ei-ferje",
+      "no": "ei ferje",
+      "en": [
+        "a ferry"
+      ],
+      "pos": "noun",
+      "lemma": "ferje"
+    },
+    {
+      "id": "travel-en-trikk",
+      "no": "en trikk",
+      "en": [
+        "a tram"
+      ],
+      "pos": "noun",
+      "lemma": "trikk"
+    },
+    {
+      "id": "travel-en-t-bane",
+      "no": "en T-bane",
+      "en": [
+        "an underground",
+        "a metro"
+      ],
+      "pos": "noun",
+      "lemma": "t-bane"
+    },
+    {
+      "id": "travel-en-taxi-drosje",
+      "no": "en taxi / drosje",
+      "en": [
+        "a taxi"
+      ],
+      "pos": "noun",
+      "lemma": "taxi"
+    },
+    {
+      "id": "travel-en-billett",
+      "no": "en billett",
+      "en": [
+        "a ticket"
+      ],
+      "pos": "noun",
+      "lemma": "billett"
+    },
+    {
+      "id": "travel-en-stasjon",
+      "no": "en stasjon",
+      "en": [
+        "a station"
+      ],
+      "pos": "noun",
+      "lemma": "stasjon"
+    },
+    {
+      "id": "travel-en-holdeplass",
+      "no": "en holdeplass",
+      "en": [
+        "a stop (bus, tram)"
+      ],
+      "pos": "noun",
+      "lemma": "holdeplass"
+    },
+    {
+      "id": "travel-en-flyplass",
+      "no": "en flyplass",
+      "en": [
+        "an airport"
+      ],
+      "pos": "noun",
+      "lemma": "flyplass"
+    },
+    {
+      "id": "travel-en-havn",
+      "no": "en havn",
+      "en": [
+        "a harbour"
+      ],
+      "pos": "noun",
+      "lemma": "havn"
+    },
+    {
+      "id": "travel-et-pass",
+      "no": "et pass",
+      "en": [
+        "a passport"
+      ],
+      "pos": "noun",
+      "lemma": "pass",
+      "ordbankId": 81762
+    },
+    {
+      "id": "travel-en-koffert",
+      "no": "en koffert",
+      "en": [
+        "a suitcase"
+      ],
+      "pos": "noun",
+      "lemma": "koffert"
+    },
+    {
+      "id": "travel-en-sekk",
+      "no": "en sekk",
+      "en": [
+        "a backpack"
+      ],
+      "pos": "noun",
+      "lemma": "sekk"
+    },
+    {
+      "id": "travel-bagasje",
+      "no": "bagasje",
+      "en": [
+        "luggage"
+      ],
+      "pos": "noun",
+      "lemma": "bagasje"
+    },
+    {
+      "id": "travel-et-kart",
+      "no": "et kart",
+      "en": [
+        "a map"
+      ],
+      "pos": "noun",
+      "lemma": "kart"
+    },
+    {
+      "id": "travel-en-turist",
+      "no": "en turist",
+      "en": [
+        "a tourist"
+      ],
+      "pos": "noun",
+      "lemma": "turist"
+    },
+    {
+      "id": "travel-utland",
+      "no": "utland",
+      "en": [
+        "abroad"
+      ],
+      "pos": "noun",
+      "lemma": "utland"
+    },
+    {
+      "id": "travel-a-ankomme",
+      "no": "å ankomme",
+      "en": [
+        "to arrive"
+      ],
+      "pos": "verb",
+      "lemma": "ankomme"
+    },
+    {
+      "id": "travel-a-lande",
+      "no": "å lande",
+      "en": [
+        "to land"
+      ],
+      "pos": "verb",
+      "lemma": "lande"
+    },
+    {
+      "id": "travel-a-parkere",
+      "no": "å parkere",
+      "en": [
+        "to park"
+      ],
+      "pos": "verb",
+      "lemma": "parkere"
+    },
+    {
+      "id": "travel-a-rekke",
+      "no": "å rekke",
+      "en": [
+        "to catch (in time)"
+      ],
+      "pos": "verb",
+      "lemma": "rekke"
+    },
+    {
+      "id": "travel-a-bytte",
+      "no": "å bytte",
+      "en": [
+        "to change",
+        "to swap",
+        "to exchange"
+      ],
+      "pos": "verb",
+      "lemma": "bytte"
+    },
+    {
+      "id": "travel-en-forsinkelse",
+      "no": "en forsinkelse",
+      "en": [
+        "a delay"
+      ],
+      "pos": "noun",
+      "lemma": "forsinkelse"
+    },
+    {
+      "id": "travel-forsinket",
+      "no": "forsinket",
+      "en": [
+        "delayed"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "travel-direkte",
+      "no": "direkte",
+      "en": [
+        "direct"
+      ],
+      "pos": "adj",
+      "lemma": "direkte"
+    },
+    {
+      "id": "travel-hvor-gar-toget",
+      "no": "Hvor går toget?",
+      "en": [
+        "Where does the train go?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "travel-nar-gar-neste-buss",
+      "no": "Når går neste buss?",
+      "en": [
+        "When is the next bus?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "travel-hva-koster-det",
+      "no": "Hva koster det?",
+      "en": [
+        "How much does it cost?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "travel-en-billett-til-oslo-takk",
+      "no": "En billett til Oslo, takk.",
+      "en": [
+        "A ticket to Oslo, please."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "travel-hvor-er-toalettet",
+      "no": "Hvor er toalettet?",
+      "en": [
+        "Where is the toilet?"
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "travel-s1",
+      "en": "The train leaves at eight.",
+      "no": [
+        "Toget går klokka åtte.",
+        "Toget går klokken åtte."
+      ],
+      "distractors": [
+        "tog",
+        "kommer",
+        "sju"
+      ]
+    },
+    {
+      "id": "travel-s2",
+      "en": "I want to buy a ticket.",
+      "no": [
+        "Jeg vil kjøpe en billett.",
+        "Jeg vil kjøpe billett."
+      ],
+      "distractors": [
+        "kjøpte",
+        "et",
+        "billetten"
+      ]
+    },
+    {
+      "id": "travel-s3",
+      "en": "Where is the station?",
+      "no": [
+        "Hvor er stasjonen?"
+      ],
+      "distractors": [
+        "hva",
+        "stasjon",
+        "en"
+      ]
+    },
+    {
+      "id": "travel-s4",
+      "en": "We are travelling to Norway.",
+      "no": [
+        "Vi reiser til Norge.",
+        "Vi drar til Norge."
+      ],
+      "distractors": [
+        "reise",
+        "i",
+        "de"
+      ]
+    },
+    {
+      "id": "travel-s5",
+      "en": "My suitcase is at the airport.",
+      "no": [
+        "Kofferten min er på flyplassen."
+      ],
+      "distractors": [
+        "koffert",
+        "i",
+        "mitt"
+      ]
+    },
+    {
+      "id": "travel-s6",
+      "en": "The bus is late.",
+      "no": [
+        "Bussen er forsinket.",
+        "Bussen er sen."
+      ],
+      "distractors": [
+        "buss",
+        "tidlig",
+        "tog"
+      ]
+    },
+    {
+      "id": "travel-s7",
+      "en": "I cannot find my passport.",
+      "no": [
+        "Jeg finner ikke passet mitt.",
+        "Jeg kan ikke finne passet mitt.",
+        "Jeg finner ikke passet."
+      ],
+      "distractors": [
+        "fant",
+        "min",
+        "pass"
+      ]
+    },
+    {
+      "id": "travel-s8",
+      "en": "When does the plane land?",
+      "no": [
+        "Når lander flyet?"
+      ],
+      "distractors": [
+        "hvor",
+        "fly",
+        "går"
+      ]
+    },
+    {
+      "id": "travel-s9",
+      "en": "I cycle to work.",
+      "no": [
+        "Jeg sykler til jobben.",
+        "Jeg sykler til jobb."
+      ],
+      "distractors": [
+        "kjører",
+        "fra",
+        "sykkel"
+      ]
+    },
+    {
+      "id": "travel-s10",
+      "en": "Do I have to change trains?",
+      "no": [
+        "Må jeg bytte tog?"
+      ],
+      "distractors": [
+        "kan",
+        "buss",
+        "toget"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "travel-d1",
+      "no": "Vi ___ til Bergen i fjor.",
+      "en": "We travelled to Bergen last year.",
+      "lemma": "reise",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "travel-d2",
+      "no": "Hun ___ hjem nå.",
+      "en": "She is walking home now.",
+      "lemma": "gå",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "travel-d3",
+      "no": "Jeg ___ en billett.",
+      "en": "I have bought a ticket.",
+      "lemma": "kjøpe",
+      "pos": "verb",
+      "form": "perfect"
+    },
+    {
+      "id": "travel-d4",
+      "no": "Toget er ___ enn bussen.",
+      "en": "The train is more expensive than the bus.",
+      "lemma": "dyr",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "travel-d5",
+      "no": "Han ___ nøklene sine i går.",
+      "en": "He found his keys yesterday.",
+      "lemma": "finne",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "travel-d6",
+      "no": "___ er rask.",
+      "en": "The boat is fast.",
+      "lemma": "båt",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "travel-d7",
+      "no": "Vi har to ___.",
+      "en": "We have two bicycles.",
+      "lemma": "sykkel",
+      "pos": "noun",
+      "form": "indefPl"
+    }
+  ]
+}

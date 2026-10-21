@@ -1,0 +1,564 @@
+{
+  "id": "clothes",
+  "title": "Clothes and colours",
+  "description": "What you wear and what colour it is.",
+  "emoji": "👕",
+  "order": 17,
+  "words": [
+    {
+      "id": "clothes-klaer",
+      "no": "klær",
+      "en": [
+        "clothes"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "clothes-en-genser",
+      "no": "en genser",
+      "en": [
+        "a sweater",
+        "a jumper"
+      ],
+      "pos": "noun",
+      "lemma": "genser"
+    },
+    {
+      "id": "clothes-ei-skjorte",
+      "no": "ei skjorte",
+      "en": [
+        "a shirt"
+      ],
+      "pos": "noun",
+      "lemma": "skjorte"
+    },
+    {
+      "id": "clothes-en-t-skjorte",
+      "no": "en T-skjorte",
+      "en": [
+        "a T-shirt"
+      ],
+      "pos": "noun",
+      "lemma": "t-skjorte"
+    },
+    {
+      "id": "clothes-ei-bukse",
+      "no": "ei bukse",
+      "en": [
+        "a pair of trousers"
+      ],
+      "pos": "noun",
+      "lemma": "bukse"
+    },
+    {
+      "id": "clothes-en-kjole",
+      "no": "en kjole",
+      "en": [
+        "a dress"
+      ],
+      "pos": "noun",
+      "lemma": "kjole"
+    },
+    {
+      "id": "clothes-et-skjort",
+      "no": "et skjørt",
+      "en": [
+        "a skirt"
+      ],
+      "pos": "noun",
+      "lemma": "skjørt"
+    },
+    {
+      "id": "clothes-ei-jakke",
+      "no": "ei jakke",
+      "en": [
+        "a jacket"
+      ],
+      "pos": "noun",
+      "lemma": "jakke"
+    },
+    {
+      "id": "clothes-en-frakk",
+      "no": "en frakk",
+      "en": [
+        "a coat"
+      ],
+      "pos": "noun",
+      "lemma": "frakk"
+    },
+    {
+      "id": "clothes-en-sko",
+      "no": "en sko",
+      "en": [
+        "a shoe"
+      ],
+      "pos": "noun",
+      "lemma": "sko"
+    },
+    {
+      "id": "clothes-en-stovel",
+      "no": "en støvel",
+      "en": [
+        "a boot"
+      ],
+      "pos": "noun",
+      "lemma": "støvel"
+    },
+    {
+      "id": "clothes-en-sokk",
+      "no": "en sokk",
+      "en": [
+        "a sock"
+      ],
+      "pos": "noun",
+      "lemma": "sokk"
+    },
+    {
+      "id": "clothes-ei-lue",
+      "no": "ei lue",
+      "en": [
+        "a hat (knitted)"
+      ],
+      "pos": "noun",
+      "lemma": "lue"
+    },
+    {
+      "id": "clothes-en-hatt",
+      "no": "en hatt",
+      "en": [
+        "a hat"
+      ],
+      "pos": "noun",
+      "lemma": "hatt"
+    },
+    {
+      "id": "clothes-et-skjerf",
+      "no": "et skjerf",
+      "en": [
+        "a scarf"
+      ],
+      "pos": "noun",
+      "lemma": "skjerf"
+    },
+    {
+      "id": "clothes-en-vott",
+      "no": "en vott",
+      "en": [
+        "a mitten"
+      ],
+      "pos": "noun",
+      "lemma": "vott"
+    },
+    {
+      "id": "clothes-en-hanske",
+      "no": "en hanske",
+      "en": [
+        "a glove"
+      ],
+      "pos": "noun",
+      "lemma": "hanske"
+    },
+    {
+      "id": "clothes-ei-veske",
+      "no": "ei veske",
+      "en": [
+        "a bag",
+        "a handbag"
+      ],
+      "pos": "noun",
+      "lemma": "veske"
+    },
+    {
+      "id": "clothes-en-lomme",
+      "no": "en lomme",
+      "en": [
+        "a pocket"
+      ],
+      "pos": "noun",
+      "lemma": "lomme"
+    },
+    {
+      "id": "clothes-en-paraply",
+      "no": "en paraply",
+      "en": [
+        "an umbrella"
+      ],
+      "pos": "noun",
+      "lemma": "paraply"
+    },
+    {
+      "id": "clothes-en-ring",
+      "no": "en ring",
+      "en": [
+        "a ring"
+      ],
+      "pos": "noun",
+      "lemma": "ring"
+    },
+    {
+      "id": "clothes-en-farge",
+      "no": "en farge",
+      "en": [
+        "a colour"
+      ],
+      "pos": "noun",
+      "lemma": "farge"
+    },
+    {
+      "id": "clothes-rod",
+      "no": "rød",
+      "en": [
+        "red"
+      ],
+      "pos": "adj",
+      "lemma": "rød"
+    },
+    {
+      "id": "clothes-bla",
+      "no": "blå",
+      "en": [
+        "blue"
+      ],
+      "pos": "adj",
+      "lemma": "blå"
+    },
+    {
+      "id": "clothes-gronn",
+      "no": "grønn",
+      "en": [
+        "green"
+      ],
+      "pos": "adj",
+      "lemma": "grønn"
+    },
+    {
+      "id": "clothes-gul",
+      "no": "gul",
+      "en": [
+        "yellow"
+      ],
+      "pos": "adj",
+      "lemma": "gul"
+    },
+    {
+      "id": "clothes-hvit",
+      "no": "hvit",
+      "en": [
+        "white"
+      ],
+      "pos": "adj",
+      "lemma": "hvit"
+    },
+    {
+      "id": "clothes-svart",
+      "no": "svart",
+      "en": [
+        "black"
+      ],
+      "pos": "adj",
+      "lemma": "svart"
+    },
+    {
+      "id": "clothes-gra",
+      "no": "grå",
+      "en": [
+        "grey"
+      ],
+      "pos": "adj",
+      "lemma": "grå"
+    },
+    {
+      "id": "clothes-brun",
+      "no": "brun",
+      "en": [
+        "brown"
+      ],
+      "pos": "adj",
+      "lemma": "brun"
+    },
+    {
+      "id": "clothes-rosa",
+      "no": "rosa",
+      "en": [
+        "pink"
+      ],
+      "pos": "adj",
+      "lemma": "rosa"
+    },
+    {
+      "id": "clothes-lilla",
+      "no": "lilla",
+      "en": [
+        "purple"
+      ],
+      "pos": "adj",
+      "lemma": "lilla"
+    },
+    {
+      "id": "clothes-oransje",
+      "no": "oransje",
+      "en": [
+        "orange"
+      ],
+      "pos": "adj",
+      "lemma": "oransje"
+    },
+    {
+      "id": "clothes-mork",
+      "no": "mørk",
+      "en": [
+        "dark"
+      ],
+      "pos": "adj",
+      "lemma": "mørk"
+    },
+    {
+      "id": "clothes-lys",
+      "no": "lys",
+      "en": [
+        "light",
+        "bright"
+      ],
+      "pos": "adj",
+      "lemma": "lys"
+    },
+    {
+      "id": "clothes-a-kle-pa-seg",
+      "no": "å kle på seg",
+      "en": [
+        "to get dressed"
+      ],
+      "pos": "verb",
+      "lemma": "kle"
+    },
+    {
+      "id": "clothes-a-ta-pa",
+      "no": "å ta på",
+      "en": [
+        "to put on"
+      ],
+      "pos": "verb",
+      "lemma": "ta"
+    },
+    {
+      "id": "clothes-a-ta-av",
+      "no": "å ta av",
+      "en": [
+        "to take off"
+      ],
+      "pos": "verb",
+      "lemma": "ta"
+    },
+    {
+      "id": "clothes-a-prove-pa",
+      "no": "å prøve på",
+      "en": [
+        "to try on"
+      ],
+      "pos": "verb",
+      "lemma": "prøve"
+    },
+    {
+      "id": "clothes-a-ha-pa-seg",
+      "no": "å ha på seg",
+      "en": [
+        "to wear"
+      ],
+      "pos": "verb",
+      "lemma": "ha"
+    },
+    {
+      "id": "clothes-a-passe",
+      "no": "å passe",
+      "en": [
+        "to fit",
+        "to suit"
+      ],
+      "pos": "verb",
+      "lemma": "passe"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "clothes-s1",
+      "en": "I am wearing a blue sweater.",
+      "no": [
+        "Jeg har på meg en blå genser.",
+        "Jeg bruker en blå genser."
+      ],
+      "distractors": [
+        "blått",
+        "et",
+        "bruker"
+      ]
+    },
+    {
+      "id": "clothes-s2",
+      "en": "The dress is red.",
+      "no": [
+        "Kjolen er rød."
+      ],
+      "distractors": [
+        "kjole",
+        "rødt",
+        "blå"
+      ]
+    },
+    {
+      "id": "clothes-s3",
+      "en": "Put on your jacket!",
+      "no": [
+        "Ta på deg jakka!",
+        "Ta på deg jakken!",
+        "Ta på jakka!",
+        "Ta på jakken!"
+      ],
+      "distractors": [
+        "av",
+        "jakke",
+        "din"
+      ]
+    },
+    {
+      "id": "clothes-s4",
+      "en": "These shoes are too small.",
+      "no": [
+        "Disse skoene er for små.",
+        "Skoene er for små."
+      ],
+      "distractors": [
+        "liten",
+        "sko",
+        "denne"
+      ]
+    },
+    {
+      "id": "clothes-s5",
+      "en": "Can I try on these trousers?",
+      "no": [
+        "Kan jeg prøve denne buksa?",
+        "Kan jeg prøve disse buksene?",
+        "Kan jeg prøve denne buksen?"
+      ],
+      "distractors": [
+        "bukse",
+        "vil",
+        "på"
+      ]
+    },
+    {
+      "id": "clothes-s6",
+      "en": "Her hat is black.",
+      "no": [
+        "Lua hennes er svart.",
+        "Hatten hennes er svart."
+      ],
+      "distractors": [
+        "hans",
+        "svarte",
+        "hvit"
+      ]
+    },
+    {
+      "id": "clothes-s7",
+      "en": "What is your favourite colour?",
+      "no": [
+        "Hva er favorittfargen din?",
+        "Hvilken farge liker du best?"
+      ],
+      "distractors": [
+        "hvem",
+        "farge",
+        "min"
+      ]
+    },
+    {
+      "id": "clothes-s8",
+      "en": "It fits well.",
+      "no": [
+        "Den passer bra.",
+        "Den passer godt.",
+        "Det passer bra."
+      ],
+      "distractors": [
+        "god",
+        "ikke",
+        "passe"
+      ]
+    },
+    {
+      "id": "clothes-s9",
+      "en": "I need new socks.",
+      "no": [
+        "Jeg trenger nye sokker."
+      ],
+      "distractors": [
+        "ny",
+        "sokk",
+        "vil"
+      ]
+    },
+    {
+      "id": "clothes-s10",
+      "en": "The house is white.",
+      "no": [
+        "Huset er hvitt."
+      ],
+      "distractors": [
+        "hvit",
+        "hus",
+        "svart"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "clothes-d1",
+      "no": "Huset er ___.",
+      "en": "The house is red.",
+      "lemma": "rød",
+      "pos": "adj",
+      "form": "n"
+    },
+    {
+      "id": "clothes-d2",
+      "no": "Hun har mange ___.",
+      "en": "She has many dresses.",
+      "lemma": "kjole",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "clothes-d3",
+      "no": "___ er våte.",
+      "en": "The shoes are wet.",
+      "lemma": "sko",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "clothes-d4",
+      "no": "Han har ___ øyne.",
+      "en": "He has blue eyes.",
+      "lemma": "blå",
+      "pos": "adj",
+      "form": "pl"
+    },
+    {
+      "id": "clothes-d5",
+      "no": "Bilen er ___.",
+      "en": "The car is green.",
+      "lemma": "grønn",
+      "pos": "adj",
+      "form": "mf"
+    },
+    {
+      "id": "clothes-d6",
+      "no": "___ er for stor.",
+      "en": "The jacket is too big.",
+      "lemma": "jakke",
+      "pos": "noun",
+      "form": "defSg"
+    }
+  ]
+}

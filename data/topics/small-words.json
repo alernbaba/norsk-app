@@ -1,0 +1,452 @@
+{
+  "id": "small-words",
+  "title": "Little helper words",
+  "description": "Not, also, only, very and other words that glue sentences together.",
+  "emoji": "🧩",
+  "order": 6,
+  "words": [
+    {
+      "id": "small-words-ikke",
+      "no": "ikke",
+      "en": [
+        "not"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-ogsa",
+      "no": "også",
+      "en": [
+        "also",
+        "too"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-bare",
+      "no": "bare",
+      "en": [
+        "only",
+        "just"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-veldig",
+      "no": "veldig",
+      "en": [
+        "very"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-ganske",
+      "no": "ganske",
+      "en": [
+        "quite",
+        "rather"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-litt",
+      "no": "litt",
+      "en": [
+        "a little",
+        "a bit"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-mye",
+      "no": "mye",
+      "en": [
+        "much",
+        "a lot"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-mer",
+      "no": "mer",
+      "en": [
+        "more"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-mest",
+      "no": "mest",
+      "en": [
+        "most"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-nok",
+      "no": "nok",
+      "en": [
+        "enough",
+        "probably"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-for-mye",
+      "no": "for mye",
+      "en": [
+        "too much"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-altfor",
+      "no": "altfor",
+      "en": [
+        "far too"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-nesten",
+      "no": "nesten",
+      "en": [
+        "almost"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-helt",
+      "no": "helt",
+      "en": [
+        "completely",
+        "quite"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-virkelig",
+      "no": "virkelig",
+      "en": [
+        "really"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-egentlig",
+      "no": "egentlig",
+      "en": [
+        "actually"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-faktisk",
+      "no": "faktisk",
+      "en": [
+        "actually",
+        "in fact"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-akkurat",
+      "no": "akkurat",
+      "en": [
+        "exactly",
+        "just"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-nettopp",
+      "no": "nettopp",
+      "en": [
+        "just (now)",
+        "exactly"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-sikkert",
+      "no": "sikkert",
+      "en": [
+        "surely",
+        "probably"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-vel",
+      "no": "vel",
+      "en": [
+        "well",
+        "I suppose"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-jo",
+      "no": "jo",
+      "en": [
+        "after all",
+        "you know"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-igjen",
+      "no": "igjen",
+      "en": [
+        "again"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-sammen",
+      "no": "sammen",
+      "en": [
+        "together"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-alene",
+      "no": "alene",
+      "en": [
+        "alone"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-heller",
+      "no": "heller",
+      "en": [
+        "rather",
+        "either (with not)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-ellers",
+      "no": "ellers",
+      "en": [
+        "otherwise",
+        "else"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-til-og-med",
+      "no": "til og med",
+      "en": [
+        "even"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-for-eksempel",
+      "no": "for eksempel",
+      "en": [
+        "for example"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-omtrent",
+      "no": "omtrent",
+      "en": [
+        "about",
+        "approximately"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-spesielt",
+      "no": "spesielt",
+      "en": [
+        "especially"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-saerlig",
+      "no": "særlig",
+      "en": [
+        "especially"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-dessverre",
+      "no": "dessverre",
+      "en": [
+        "unfortunately"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-heldigvis",
+      "no": "heldigvis",
+      "en": [
+        "fortunately"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-plutselig",
+      "no": "plutselig",
+      "en": [
+        "suddenly"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-sakte",
+      "no": "sakte",
+      "en": [
+        "slowly"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "small-words-fort",
+      "no": "fort",
+      "en": [
+        "fast",
+        "quickly"
+      ],
+      "pos": "other"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "small-words-s1",
+      "en": "I don't like coffee.",
+      "no": [
+        "Jeg liker ikke kaffe."
+      ],
+      "distractors": [
+        "også",
+        "bare",
+        "har"
+      ]
+    },
+    {
+      "id": "small-words-s2",
+      "en": "She also speaks German.",
+      "no": [
+        "Hun snakker også tysk.",
+        "Hun snakker tysk også."
+      ],
+      "distractors": [
+        "ikke",
+        "bare",
+        "han"
+      ]
+    },
+    {
+      "id": "small-words-s3",
+      "en": "It is very cold today.",
+      "no": [
+        "Det er veldig kaldt i dag."
+      ],
+      "distractors": [
+        "litt",
+        "varm",
+        "kald"
+      ]
+    },
+    {
+      "id": "small-words-s4",
+      "en": "I only have ten kroner.",
+      "no": [
+        "Jeg har bare ti kroner."
+      ],
+      "distractors": [
+        "mye",
+        "også",
+        "er"
+      ]
+    },
+    {
+      "id": "small-words-s5",
+      "en": "We eat dinner together.",
+      "no": [
+        "Vi spiser middag sammen."
+      ],
+      "distractors": [
+        "alene",
+        "frokost",
+        "de"
+      ]
+    },
+    {
+      "id": "small-words-s6",
+      "en": "Unfortunately I can't come.",
+      "no": [
+        "Dessverre kan jeg ikke komme.",
+        "Jeg kan dessverre ikke komme."
+      ],
+      "distractors": [
+        "heldigvis",
+        "gå",
+        "vil"
+      ]
+    },
+    {
+      "id": "small-words-s7",
+      "en": "Can you say it again?",
+      "no": [
+        "Kan du si det igjen?"
+      ],
+      "distractors": [
+        "en",
+        "vil",
+        "også"
+      ]
+    },
+    {
+      "id": "small-words-s8",
+      "en": "It is almost ten o'clock.",
+      "no": [
+        "Klokka er nesten ti.",
+        "Klokken er nesten ti."
+      ],
+      "distractors": [
+        "nok",
+        "helt",
+        "to"
+      ]
+    },
+    {
+      "id": "small-words-s9",
+      "en": "Actually, I am tired.",
+      "no": [
+        "Egentlig er jeg trøtt.",
+        "Jeg er egentlig trøtt.",
+        "Egentlig er jeg sliten.",
+        "Jeg er egentlig sliten."
+      ],
+      "distractors": [
+        "faktisk",
+        "glad",
+        "har"
+      ]
+    },
+    {
+      "id": "small-words-s10",
+      "en": "He drives too fast.",
+      "no": [
+        "Han kjører altfor fort.",
+        "Han kjører for fort."
+      ],
+      "distractors": [
+        "sakte",
+        "hun",
+        "går"
+      ]
+    }
+  ],
+  "inflectionDrills": []
+}

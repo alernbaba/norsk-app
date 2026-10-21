@@ -1,0 +1,592 @@
+{
+  "id": "communication",
+  "title": "Talking and thinking",
+  "description": "Speak, ask, answer, understand and remember.",
+  "emoji": "🗣️",
+  "order": 11,
+  "words": [
+    {
+      "id": "communication-a-snakke",
+      "no": "å snakke",
+      "en": [
+        "to speak",
+        "to talk"
+      ],
+      "pos": "verb",
+      "lemma": "snakke"
+    },
+    {
+      "id": "communication-a-prate",
+      "no": "å prate",
+      "en": [
+        "to chat"
+      ],
+      "pos": "verb",
+      "lemma": "prate"
+    },
+    {
+      "id": "communication-a-fortelle",
+      "no": "å fortelle",
+      "en": [
+        "to tell"
+      ],
+      "pos": "verb",
+      "lemma": "fortelle"
+    },
+    {
+      "id": "communication-a-sporre",
+      "no": "å spørre",
+      "en": [
+        "to ask"
+      ],
+      "pos": "verb",
+      "lemma": "spørre"
+    },
+    {
+      "id": "communication-a-svare",
+      "no": "å svare",
+      "en": [
+        "to answer"
+      ],
+      "pos": "verb",
+      "lemma": "svare"
+    },
+    {
+      "id": "communication-a-forklare",
+      "no": "å forklare",
+      "en": [
+        "to explain"
+      ],
+      "pos": "verb",
+      "lemma": "forklare"
+    },
+    {
+      "id": "communication-a-forsta",
+      "no": "å forstå",
+      "en": [
+        "to understand"
+      ],
+      "pos": "verb",
+      "lemma": "forstå"
+    },
+    {
+      "id": "communication-a-skjonne",
+      "no": "å skjønne",
+      "en": [
+        "to understand"
+      ],
+      "pos": "verb",
+      "lemma": "skjønne"
+    },
+    {
+      "id": "communication-a-huske",
+      "no": "å huske",
+      "en": [
+        "to remember"
+      ],
+      "pos": "verb",
+      "lemma": "huske"
+    },
+    {
+      "id": "communication-a-glemme",
+      "no": "å glemme",
+      "en": [
+        "to forget"
+      ],
+      "pos": "verb",
+      "lemma": "glemme"
+    },
+    {
+      "id": "communication-a-laere",
+      "no": "å lære",
+      "en": [
+        "to learn",
+        "to teach"
+      ],
+      "pos": "verb",
+      "lemma": "lære"
+    },
+    {
+      "id": "communication-a-lese",
+      "no": "å lese",
+      "en": [
+        "to read"
+      ],
+      "pos": "verb",
+      "lemma": "lese"
+    },
+    {
+      "id": "communication-a-skrive",
+      "no": "å skrive",
+      "en": [
+        "to write"
+      ],
+      "pos": "verb",
+      "lemma": "skrive"
+    },
+    {
+      "id": "communication-a-hore",
+      "no": "å høre",
+      "en": [
+        "to hear",
+        "to listen"
+      ],
+      "pos": "verb",
+      "lemma": "høre"
+    },
+    {
+      "id": "communication-a-lytte",
+      "no": "å lytte",
+      "en": [
+        "to listen"
+      ],
+      "pos": "verb",
+      "lemma": "lytte"
+    },
+    {
+      "id": "communication-a-ringe",
+      "no": "å ringe",
+      "en": [
+        "to call",
+        "to ring"
+      ],
+      "pos": "verb",
+      "lemma": "ringe"
+    },
+    {
+      "id": "communication-a-rope",
+      "no": "å rope",
+      "en": [
+        "to shout"
+      ],
+      "pos": "verb",
+      "lemma": "rope"
+    },
+    {
+      "id": "communication-a-synge",
+      "no": "å synge",
+      "en": [
+        "to sing"
+      ],
+      "pos": "verb",
+      "lemma": "synge"
+    },
+    {
+      "id": "communication-a-le",
+      "no": "å le",
+      "en": [
+        "to laugh"
+      ],
+      "pos": "verb",
+      "lemma": "le"
+    },
+    {
+      "id": "communication-a-smile",
+      "no": "å smile",
+      "en": [
+        "to smile"
+      ],
+      "pos": "verb",
+      "lemma": "smile"
+    },
+    {
+      "id": "communication-a-grate",
+      "no": "å gråte",
+      "en": [
+        "to cry"
+      ],
+      "pos": "verb",
+      "lemma": "gråte"
+    },
+    {
+      "id": "communication-a-love",
+      "no": "å love",
+      "en": [
+        "to promise"
+      ],
+      "pos": "verb",
+      "lemma": "love",
+      "ordbankId": 81707
+    },
+    {
+      "id": "communication-a-be",
+      "no": "å be",
+      "en": [
+        "to ask (for)",
+        "to pray"
+      ],
+      "pos": "verb",
+      "lemma": "be"
+    },
+    {
+      "id": "communication-a-takke",
+      "no": "å takke",
+      "en": [
+        "to thank"
+      ],
+      "pos": "verb",
+      "lemma": "takke"
+    },
+    {
+      "id": "communication-a-unnskylde",
+      "no": "å unnskylde",
+      "en": [
+        "to excuse"
+      ],
+      "pos": "verb",
+      "lemma": "unnskylde"
+    },
+    {
+      "id": "communication-a-beklage",
+      "no": "å beklage",
+      "en": [
+        "to apologize",
+        "to regret"
+      ],
+      "pos": "verb",
+      "lemma": "beklage"
+    },
+    {
+      "id": "communication-a-bestemme",
+      "no": "å bestemme",
+      "en": [
+        "to decide"
+      ],
+      "pos": "verb",
+      "lemma": "bestemme"
+    },
+    {
+      "id": "communication-a-velge",
+      "no": "å velge",
+      "en": [
+        "to choose"
+      ],
+      "pos": "verb",
+      "lemma": "velge"
+    },
+    {
+      "id": "communication-a-hape",
+      "no": "å håpe",
+      "en": [
+        "to hope"
+      ],
+      "pos": "verb",
+      "lemma": "håpe"
+    },
+    {
+      "id": "communication-a-dromme",
+      "no": "å drømme",
+      "en": [
+        "to dream"
+      ],
+      "pos": "verb",
+      "lemma": "drømme"
+    },
+    {
+      "id": "communication-a-lure-pa",
+      "no": "å lure på",
+      "en": [
+        "to wonder"
+      ],
+      "pos": "verb",
+      "lemma": "lure",
+      "ordbankId": 41903
+    },
+    {
+      "id": "communication-a-foresla",
+      "no": "å foreslå",
+      "en": [
+        "to suggest"
+      ],
+      "pos": "verb",
+      "lemma": "foreslå"
+    },
+    {
+      "id": "communication-a-diskutere",
+      "no": "å diskutere",
+      "en": [
+        "to discuss"
+      ],
+      "pos": "verb",
+      "lemma": "diskutere"
+    },
+    {
+      "id": "communication-et-sporsmal",
+      "no": "et spørsmål",
+      "en": [
+        "a question"
+      ],
+      "pos": "noun",
+      "lemma": "spørsmål"
+    },
+    {
+      "id": "communication-et-svar",
+      "no": "et svar",
+      "en": [
+        "an answer"
+      ],
+      "pos": "noun",
+      "lemma": "svar"
+    },
+    {
+      "id": "communication-et-ord",
+      "no": "et ord",
+      "en": [
+        "a word"
+      ],
+      "pos": "noun",
+      "lemma": "ord"
+    },
+    {
+      "id": "communication-et-sprak",
+      "no": "et språk",
+      "en": [
+        "a language"
+      ],
+      "pos": "noun",
+      "lemma": "språk"
+    },
+    {
+      "id": "communication-en-setning",
+      "no": "en setning",
+      "en": [
+        "a sentence"
+      ],
+      "pos": "noun",
+      "lemma": "setning"
+    },
+    {
+      "id": "communication-ei-historie",
+      "no": "ei historie",
+      "en": [
+        "a story",
+        "history"
+      ],
+      "pos": "noun",
+      "lemma": "historie"
+    },
+    {
+      "id": "communication-en-ide",
+      "no": "en idé",
+      "en": [
+        "an idea"
+      ],
+      "pos": "noun",
+      "lemma": "idé"
+    },
+    {
+      "id": "communication-en-mening",
+      "no": "en mening",
+      "en": [
+        "an opinion",
+        "a meaning"
+      ],
+      "pos": "noun",
+      "lemma": "mening"
+    },
+    {
+      "id": "communication-en-beskjed",
+      "no": "en beskjed",
+      "en": [
+        "a message"
+      ],
+      "pos": "noun",
+      "lemma": "beskjed"
+    },
+    {
+      "id": "communication-ei-melding",
+      "no": "ei melding",
+      "en": [
+        "a message",
+        "a text message"
+      ],
+      "pos": "noun",
+      "lemma": "melding"
+    },
+    {
+      "id": "communication-et-brev",
+      "no": "et brev",
+      "en": [
+        "a letter"
+      ],
+      "pos": "noun",
+      "lemma": "brev"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "communication-s1",
+      "en": "Do you speak Norwegian?",
+      "no": [
+        "Snakker du norsk?"
+      ],
+      "distractors": [
+        "engelsk",
+        "er",
+        "prater"
+      ]
+    },
+    {
+      "id": "communication-s2",
+      "en": "Can I ask you about something?",
+      "no": [
+        "Kan jeg spørre deg om noe?"
+      ],
+      "distractors": [
+        "du",
+        "svare",
+        "til"
+      ]
+    },
+    {
+      "id": "communication-s3",
+      "en": "I don't remember his name.",
+      "no": [
+        "Jeg husker ikke navnet hans."
+      ],
+      "distractors": [
+        "glemmer",
+        "navn",
+        "hennes"
+      ]
+    },
+    {
+      "id": "communication-s4",
+      "en": "She is learning Norwegian.",
+      "no": [
+        "Hun lærer norsk.",
+        "Hun lærer seg norsk."
+      ],
+      "distractors": [
+        "leser",
+        "han",
+        "engelsk"
+      ]
+    },
+    {
+      "id": "communication-s5",
+      "en": "He read the book in one day.",
+      "no": [
+        "Han leste boka på en dag.",
+        "Han leste boken på en dag."
+      ],
+      "distractors": [
+        "leser",
+        "bok",
+        "i"
+      ]
+    },
+    {
+      "id": "communication-s6",
+      "en": "I will call you tomorrow.",
+      "no": [
+        "Jeg ringer deg i morgen.",
+        "Jeg skal ringe deg i morgen."
+      ],
+      "distractors": [
+        "du",
+        "ringte",
+        "sender"
+      ]
+    },
+    {
+      "id": "communication-s7",
+      "en": "Can you explain the word?",
+      "no": [
+        "Kan du forklare ordet?"
+      ],
+      "distractors": [
+        "ord",
+        "si",
+        "jeg"
+      ]
+    },
+    {
+      "id": "communication-s8",
+      "en": "We laughed a lot.",
+      "no": [
+        "Vi lo mye."
+      ],
+      "distractors": [
+        "ler",
+        "litt",
+        "gråt"
+      ]
+    },
+    {
+      "id": "communication-s9",
+      "en": "I forgot my phone.",
+      "no": [
+        "Jeg glemte telefonen min.",
+        "Jeg har glemt telefonen min."
+      ],
+      "distractors": [
+        "husket",
+        "telefon",
+        "mitt"
+      ]
+    },
+    {
+      "id": "communication-s10",
+      "en": "Write a sentence in Norwegian.",
+      "no": [
+        "Skriv en setning på norsk."
+      ],
+      "distractors": [
+        "les",
+        "i",
+        "ord"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "communication-d1",
+      "no": "Han ___ meg en historie.",
+      "en": "He told me a story.",
+      "lemma": "fortelle",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "communication-d2",
+      "no": "Jeg ___ ikke hva du sa.",
+      "en": "I didn't understand what you said.",
+      "lemma": "forstå",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "communication-d3",
+      "no": "Hun har ___ tre bøker i år.",
+      "en": "She has written three books this year.",
+      "lemma": "skrive",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "communication-d4",
+      "no": "Hva ___ læreren?",
+      "en": "What did the teacher ask?",
+      "lemma": "spørre",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "communication-d5",
+      "no": "Jeg kan mange norske ___.",
+      "en": "I know many Norwegian words.",
+      "lemma": "ord",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "communication-d6",
+      "no": "___ på meg!",
+      "en": "Listen to me!",
+      "lemma": "høre",
+      "pos": "verb",
+      "form": "imperative"
+    }
+  ]
+}

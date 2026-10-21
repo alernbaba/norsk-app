@@ -1,0 +1,574 @@
+{
+  "id": "nature",
+  "title": "Nature and weather",
+  "description": "Mountains, sea, sun, rain and snow.",
+  "emoji": "🏔️",
+  "order": 20,
+  "words": [
+    {
+      "id": "nature-natur",
+      "no": "natur",
+      "en": [
+        "nature"
+      ],
+      "pos": "noun",
+      "lemma": "natur"
+    },
+    {
+      "id": "nature-vaer",
+      "no": "vær",
+      "en": [
+        "weather"
+      ],
+      "pos": "noun",
+      "lemma": "vær"
+    },
+    {
+      "id": "nature-ei-sol",
+      "no": "ei sol",
+      "en": [
+        "a sun"
+      ],
+      "pos": "noun",
+      "lemma": "sol"
+    },
+    {
+      "id": "nature-en-mane",
+      "no": "en måne",
+      "en": [
+        "a moon"
+      ],
+      "pos": "noun",
+      "lemma": "måne"
+    },
+    {
+      "id": "nature-ei-stjerne",
+      "no": "ei stjerne",
+      "en": [
+        "a star"
+      ],
+      "pos": "noun",
+      "lemma": "stjerne"
+    },
+    {
+      "id": "nature-en-himmel",
+      "no": "en himmel",
+      "en": [
+        "a sky",
+        "heaven"
+      ],
+      "pos": "noun",
+      "lemma": "himmel"
+    },
+    {
+      "id": "nature-en-sky",
+      "no": "en sky",
+      "en": [
+        "a cloud"
+      ],
+      "pos": "noun",
+      "lemma": "sky"
+    },
+    {
+      "id": "nature-regn",
+      "no": "regn",
+      "en": [
+        "rain"
+      ],
+      "pos": "noun",
+      "lemma": "regn"
+    },
+    {
+      "id": "nature-sno",
+      "no": "snø",
+      "en": [
+        "snow"
+      ],
+      "pos": "noun",
+      "lemma": "snø"
+    },
+    {
+      "id": "nature-en-vind",
+      "no": "en vind",
+      "en": [
+        "a wind"
+      ],
+      "pos": "noun",
+      "lemma": "vind"
+    },
+    {
+      "id": "nature-en-storm",
+      "no": "en storm",
+      "en": [
+        "a storm"
+      ],
+      "pos": "noun",
+      "lemma": "storm"
+    },
+    {
+      "id": "nature-en-temperatur",
+      "no": "en temperatur",
+      "en": [
+        "a temperature"
+      ],
+      "pos": "noun",
+      "lemma": "temperatur"
+    },
+    {
+      "id": "nature-en-grad",
+      "no": "en grad",
+      "en": [
+        "a degree"
+      ],
+      "pos": "noun",
+      "lemma": "grad"
+    },
+    {
+      "id": "nature-et-fjell",
+      "no": "et fjell",
+      "en": [
+        "a mountain"
+      ],
+      "pos": "noun",
+      "lemma": "fjell"
+    },
+    {
+      "id": "nature-en-dal",
+      "no": "en dal",
+      "en": [
+        "a valley"
+      ],
+      "pos": "noun",
+      "lemma": "dal"
+    },
+    {
+      "id": "nature-en-fjord",
+      "no": "en fjord",
+      "en": [
+        "a fjord"
+      ],
+      "pos": "noun",
+      "lemma": "fjord"
+    },
+    {
+      "id": "nature-et-hav",
+      "no": "et hav",
+      "en": [
+        "a sea",
+        "an ocean"
+      ],
+      "pos": "noun",
+      "lemma": "hav"
+    },
+    {
+      "id": "nature-en-sjo",
+      "no": "en sjø",
+      "en": [
+        "a sea",
+        "a lake"
+      ],
+      "pos": "noun",
+      "lemma": "sjø"
+    },
+    {
+      "id": "nature-en-innsjo",
+      "no": "en innsjø",
+      "en": [
+        "a lake"
+      ],
+      "pos": "noun",
+      "lemma": "innsjø"
+    },
+    {
+      "id": "nature-ei-elv",
+      "no": "ei elv",
+      "en": [
+        "a river"
+      ],
+      "pos": "noun",
+      "lemma": "elv"
+    },
+    {
+      "id": "nature-ei-strand",
+      "no": "ei strand",
+      "en": [
+        "a beach"
+      ],
+      "pos": "noun",
+      "lemma": "strand"
+    },
+    {
+      "id": "nature-ei-oy",
+      "no": "ei øy",
+      "en": [
+        "an island"
+      ],
+      "pos": "noun",
+      "lemma": "øy"
+    },
+    {
+      "id": "nature-en-skog",
+      "no": "en skog",
+      "en": [
+        "a forest"
+      ],
+      "pos": "noun",
+      "lemma": "skog"
+    },
+    {
+      "id": "nature-et-tre",
+      "no": "et tre",
+      "en": [
+        "a tree"
+      ],
+      "pos": "noun",
+      "lemma": "tre"
+    },
+    {
+      "id": "nature-en-blomst",
+      "no": "en blomst",
+      "en": [
+        "a flower"
+      ],
+      "pos": "noun",
+      "lemma": "blomst"
+    },
+    {
+      "id": "nature-gress",
+      "no": "gress",
+      "en": [
+        "grass"
+      ],
+      "pos": "noun",
+      "lemma": "gress"
+    },
+    {
+      "id": "nature-en-stein",
+      "no": "en stein",
+      "en": [
+        "a stone",
+        "a rock"
+      ],
+      "pos": "noun",
+      "lemma": "stein"
+    },
+    {
+      "id": "nature-ei-jord",
+      "no": "ei jord",
+      "en": [
+        "earth",
+        "soil"
+      ],
+      "pos": "noun",
+      "lemma": "jord"
+    },
+    {
+      "id": "nature-luft",
+      "no": "luft",
+      "en": [
+        "air"
+      ],
+      "pos": "noun",
+      "lemma": "luft"
+    },
+    {
+      "id": "nature-a-regne",
+      "no": "å regne",
+      "en": [
+        "to rain"
+      ],
+      "pos": "verb",
+      "lemma": "regne"
+    },
+    {
+      "id": "nature-a-sno",
+      "no": "å snø",
+      "en": [
+        "to snow"
+      ],
+      "pos": "verb",
+      "lemma": "snø"
+    },
+    {
+      "id": "nature-a-skinne",
+      "no": "å skinne",
+      "en": [
+        "to shine"
+      ],
+      "pos": "verb",
+      "lemma": "skinne"
+    },
+    {
+      "id": "nature-a-blase",
+      "no": "å blåse",
+      "en": [
+        "to blow"
+      ],
+      "pos": "verb",
+      "lemma": "blåse"
+    },
+    {
+      "id": "nature-varm",
+      "no": "varm",
+      "en": [
+        "warm",
+        "hot"
+      ],
+      "pos": "adj",
+      "lemma": "varm"
+    },
+    {
+      "id": "nature-kald",
+      "no": "kald",
+      "en": [
+        "cold"
+      ],
+      "pos": "adj",
+      "lemma": "kald"
+    },
+    {
+      "id": "nature-vat",
+      "no": "våt",
+      "en": [
+        "wet"
+      ],
+      "pos": "adj",
+      "lemma": "våt"
+    },
+    {
+      "id": "nature-torr",
+      "no": "tørr",
+      "en": [
+        "dry"
+      ],
+      "pos": "adj",
+      "lemma": "tørr"
+    },
+    {
+      "id": "nature-pen",
+      "no": "pen",
+      "en": [
+        "pretty",
+        "nice (weather)"
+      ],
+      "pos": "adj",
+      "lemma": "pen"
+    },
+    {
+      "id": "nature-fin",
+      "no": "fin",
+      "en": [
+        "fine",
+        "nice"
+      ],
+      "pos": "adj",
+      "lemma": "fin"
+    },
+    {
+      "id": "nature-vakker",
+      "no": "vakker",
+      "en": [
+        "beautiful"
+      ],
+      "pos": "adj",
+      "lemma": "vakker"
+    },
+    {
+      "id": "nature-det-regner",
+      "no": "Det regner.",
+      "en": [
+        "It's raining."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "nature-det-er-fint-vaer-i-dag",
+      "no": "Det er fint vær i dag.",
+      "en": [
+        "It's nice weather today."
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "nature-s1",
+      "en": "The sun is shining.",
+      "no": [
+        "Sola skinner.",
+        "Solen skinner."
+      ],
+      "distractors": [
+        "sol",
+        "regner",
+        "månen"
+      ]
+    },
+    {
+      "id": "nature-s2",
+      "en": "It is raining today.",
+      "no": [
+        "Det regner i dag."
+      ],
+      "distractors": [
+        "snør",
+        "regnet",
+        "var"
+      ]
+    },
+    {
+      "id": "nature-s3",
+      "en": "It is cold in winter.",
+      "no": [
+        "Det er kaldt om vinteren.",
+        "Det er kaldt på vinteren."
+      ],
+      "distractors": [
+        "kald",
+        "sommeren",
+        "varmt"
+      ]
+    },
+    {
+      "id": "nature-s4",
+      "en": "We are going to the mountains.",
+      "no": [
+        "Vi skal på fjellet.",
+        "Vi drar til fjells.",
+        "Vi skal til fjells."
+      ],
+      "distractors": [
+        "fjell",
+        "i",
+        "sjøen"
+      ]
+    },
+    {
+      "id": "nature-s5",
+      "en": "The water is cold.",
+      "no": [
+        "Vannet er kaldt."
+      ],
+      "distractors": [
+        "kald",
+        "vann",
+        "varm"
+      ]
+    },
+    {
+      "id": "nature-s6",
+      "en": "There are many trees in the forest.",
+      "no": [
+        "Det er mange trær i skogen."
+      ],
+      "distractors": [
+        "tre",
+        "skog",
+        "mye"
+      ]
+    },
+    {
+      "id": "nature-s7",
+      "en": "It is twenty degrees today.",
+      "no": [
+        "Det er tjue grader i dag."
+      ],
+      "distractors": [
+        "grad",
+        "tolv",
+        "ti"
+      ]
+    },
+    {
+      "id": "nature-s8",
+      "en": "The beach is beautiful.",
+      "no": [
+        "Stranda er vakker.",
+        "Stranden er vakker.",
+        "Stranda er fin.",
+        "Stranden er fin."
+      ],
+      "distractors": [
+        "strand",
+        "vakkert",
+        "sjøen"
+      ]
+    },
+    {
+      "id": "nature-s9",
+      "en": "It snowed a lot last night.",
+      "no": [
+        "Det snødde mye i natt."
+      ],
+      "distractors": [
+        "regnet",
+        "litt",
+        "snør"
+      ]
+    },
+    {
+      "id": "nature-s10",
+      "en": "The wind is blowing hard.",
+      "no": [
+        "Det blåser mye.",
+        "Vinden blåser kraftig.",
+        "Det blåser kraftig."
+      ],
+      "distractors": [
+        "vind",
+        "litt",
+        "regner"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "nature-d1",
+      "no": "Det er mange ___ i parken.",
+      "en": "There are many trees in the park.",
+      "lemma": "tre",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "nature-d2",
+      "no": "I går ___ det hele dagen.",
+      "en": "Yesterday it rained all day.",
+      "lemma": "regne",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "nature-d3",
+      "no": "Det er ___ i dag enn i går.",
+      "en": "It is warmer today than yesterday.",
+      "lemma": "varm",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "nature-d4",
+      "no": "___ er høyt.",
+      "en": "The mountain is high.",
+      "lemma": "fjell",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "nature-d5",
+      "no": "Sommeren var ___ i år.",
+      "en": "The summer was cold this year.",
+      "lemma": "kald",
+      "pos": "adj",
+      "form": "mf"
+    },
+    {
+      "id": "nature-d6",
+      "no": "Hun plukket noen ___.",
+      "en": "She picked some flowers.",
+      "lemma": "blomst",
+      "pos": "noun",
+      "form": "indefPl"
+    }
+  ]
+}

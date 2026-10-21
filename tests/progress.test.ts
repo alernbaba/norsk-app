@@ -1,0 +1,91 @@
+import { describe, expect, it } from "vitest";
+import { currentStreak, recordAnswer, topicStats, updateStreak } from "@/lib/progress";
+import { LocalStorageAdapter, MemoryStore, STORAGE_KEY } from "@/lib/storage";
+import type { Topic } from "@/lib/types";
+
+describe("updateStreak", () => {
+  it("starts at 1 on the first active day", () => {
+    expect(updateStreak({ streak: 0, lastActiveDate: null }, "2026-10-21")).toEqual({ streak: 1, lastActiveDate: "2026-10-21" });
+  });
+
+  it("does not change on the same day", () => {
+    const p = { streak: 3, lastActiveDate: "2026-10-21" };
+    expect(updateStreak(p, "2026-10-21")).toBe(p);
+  });
+
+  it("grows on the next day, also across months", () => {
+    expect(updateStreak({ streak: 3, lastActiveDate: "2026-10-21" }, "2026-10-22").streak).toBe(4);
+    expect(updateStreak({ streak: 3, lastActiveDate: "2026-10-31" }, "2026-11-01").streak).toBe(4);
+  });
+
+  it("starts again after a missed day", () => {
+    expect(updateStreak({ streak: 9, lastActiveDate: "2026-10-19" }, "2026-10-21")).toEqual({ streak: 1, lastActiveDate: "2026-10-21" });
+  });
+});
+
+describe("currentStreak", () => {
+  it("still shows yesterday's streak, but 0 after a missed day", () => {
+    const p = { streak: 5, lastActiveDate: "2026-10-20" };
+    expect(currentStreak(p, "2026-10-20")).toBe(5);
+    expect(currentStreak(p, "2026-10-21")).toBe(5);
+    expect(currentStreak(p, "2026-10-22")).toBe(0);
+    expect(currentStreak({ streak: 0, lastActiveDate: null }, "2026-10-22")).toBe(0);
+  });
+});
+
+describe("storage + recordAnswer", () => {
+  it("saves progress per item and updates the streak", async () => {
+    const storage = new LocalStorageAdapter(new MemoryStore());
+    await recordAnswer(storage, "w1", true, "2026-10-21");
+    await recordAnswer(storage, "w1", false, "2026-10-22");
+    const all = await storage.getAllProgress();
+    expect(all.w1).toMatchObject({ attempts: 2, correct: 1, box: 1, nextReview: "2026-10-22" });
+    expect(await storage.getProfile()).toEqual({ streak: 2, lastActiveDate: "2026-10-22" });
+  });
+
+  it("reset clears progress and streak but keeps settings", async () => {
+    const storage = new LocalStorageAdapter(new MemoryStore());
+    await storage.saveSettings({ slowSpeech: true, autoPlay: true });
+    await recordAnswer(storage, "w1", true, "2026-10-21");
+    await storage.reset();
+    expect(await storage.getAllProgress()).toEqual({});
+    expect(await storage.getProfile()).toEqual({ streak: 0, lastActiveDate: null });
+    expect(await storage.getSettings()).toEqual({ slowSpeech: true, autoPlay: true });
+  });
+
+  it("survives corrupt stored data", async () => {
+    const store = new MemoryStore();
+    store.setItem(STORAGE_KEY, "{not json");
+    const storage = new LocalStorageAdapter(store);
+    expect(await storage.getAllProgress()).toEqual({});
+    expect(await storage.getSettings()).toEqual({ slowSpeech: false, autoPlay: false });
+  });
+});
+
+describe("topicStats", () => {
+  it("counts learned words, practised and due items", () => {
+    const topic: Topic = {
+      id: "t",
+      title: "T",
+      description: "",
+      emoji: "",
+      order: 1,
+      words: [
+        { id: "w1", no: "et eple", en: ["an apple"], pos: "noun" },
+        { id: "w2", no: "en banan", en: ["a banana"], pos: "noun" },
+      ],
+      sentences: [{ id: "s1", en: "Hi", no: ["Hei"], distractors: [] }],
+      inflectionDrills: [],
+    };
+    const base = { attempts: 1, correct: 1, lastSeen: "2026-10-01" };
+    const stats = topicStats(
+      topic,
+      {
+        w1: { ...base, itemId: "w1", box: 4, nextReview: "2026-11-01" },
+        s1: { ...base, itemId: "s1", box: 1, nextReview: "2026-10-21" },
+      },
+      "2026-10-21",
+    );
+    expect(stats).toEqual({ topicId: "t", words: 2, learnedWords: 1, practised: 2, total: 3, due: 1 });
+  });
+});

@@ -1,0 +1,477 @@
+{
+  "id": "shopping",
+  "title": "Shopping and money",
+  "description": "Prices, paying and buying things.",
+  "emoji": "🛒",
+  "order": 25,
+  "words": [
+    {
+      "id": "shopping-penger",
+      "no": "penger",
+      "en": [
+        "money"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "shopping-en-krone",
+      "no": "en krone",
+      "en": [
+        "a krone"
+      ],
+      "pos": "noun",
+      "lemma": "krone"
+    },
+    {
+      "id": "shopping-en-pris",
+      "no": "en pris",
+      "en": [
+        "a price"
+      ],
+      "pos": "noun",
+      "lemma": "pris"
+    },
+    {
+      "id": "shopping-et-kort",
+      "no": "et kort",
+      "en": [
+        "a card"
+      ],
+      "pos": "noun",
+      "lemma": "kort"
+    },
+    {
+      "id": "shopping-en-kontant",
+      "no": "en kontant",
+      "en": [
+        "cash"
+      ],
+      "pos": "noun",
+      "lemma": "kontant"
+    },
+    {
+      "id": "shopping-en-kvittering",
+      "no": "en kvittering",
+      "en": [
+        "a receipt"
+      ],
+      "pos": "noun",
+      "lemma": "kvittering"
+    },
+    {
+      "id": "shopping-et-tilbud",
+      "no": "et tilbud",
+      "en": [
+        "an offer",
+        "a sale"
+      ],
+      "pos": "noun",
+      "lemma": "tilbud"
+    },
+    {
+      "id": "shopping-et-salg",
+      "no": "et salg",
+      "en": [
+        "a sale"
+      ],
+      "pos": "noun",
+      "lemma": "salg"
+    },
+    {
+      "id": "shopping-en-kasse",
+      "no": "en kasse",
+      "en": [
+        "a till",
+        "a checkout"
+      ],
+      "pos": "noun",
+      "lemma": "kasse"
+    },
+    {
+      "id": "shopping-en-vare",
+      "no": "en vare",
+      "en": [
+        "an item",
+        "goods"
+      ],
+      "pos": "noun",
+      "lemma": "vare"
+    },
+    {
+      "id": "shopping-en-storrelse",
+      "no": "en størrelse",
+      "en": [
+        "a size"
+      ],
+      "pos": "noun",
+      "lemma": "størrelse"
+    },
+    {
+      "id": "shopping-en-kilo",
+      "no": "en kilo",
+      "en": [
+        "a kilo"
+      ],
+      "pos": "noun",
+      "lemma": "kilo"
+    },
+    {
+      "id": "shopping-en-liter",
+      "no": "en liter",
+      "en": [
+        "a litre"
+      ],
+      "pos": "noun",
+      "lemma": "liter"
+    },
+    {
+      "id": "shopping-en-pakke",
+      "no": "en pakke",
+      "en": [
+        "a package"
+      ],
+      "pos": "noun",
+      "lemma": "pakke"
+    },
+    {
+      "id": "shopping-ei-regning",
+      "no": "ei regning",
+      "en": [
+        "a bill"
+      ],
+      "pos": "noun",
+      "lemma": "regning"
+    },
+    {
+      "id": "shopping-en-gave",
+      "no": "en gave",
+      "en": [
+        "a present",
+        "a gift"
+      ],
+      "pos": "noun",
+      "lemma": "gave"
+    },
+    {
+      "id": "shopping-en-matbutikk",
+      "no": "en matbutikk",
+      "en": [
+        "a grocery shop"
+      ],
+      "pos": "noun",
+      "lemma": "matbutikk"
+    },
+    {
+      "id": "shopping-et-kjopesenter",
+      "no": "et kjøpesenter",
+      "en": [
+        "a shopping centre"
+      ],
+      "pos": "noun",
+      "lemma": "kjøpesenter"
+    },
+    {
+      "id": "shopping-a-kjope",
+      "no": "å kjøpe",
+      "en": [
+        "to buy"
+      ],
+      "pos": "verb",
+      "lemma": "kjøpe"
+    },
+    {
+      "id": "shopping-a-selge",
+      "no": "å selge",
+      "en": [
+        "to sell"
+      ],
+      "pos": "verb",
+      "lemma": "selge"
+    },
+    {
+      "id": "shopping-a-betale",
+      "no": "å betale",
+      "en": [
+        "to pay"
+      ],
+      "pos": "verb",
+      "lemma": "betale"
+    },
+    {
+      "id": "shopping-a-koste",
+      "no": "å koste",
+      "en": [
+        "to cost"
+      ],
+      "pos": "verb",
+      "lemma": "koste"
+    },
+    {
+      "id": "shopping-a-spare",
+      "no": "å spare",
+      "en": [
+        "to save"
+      ],
+      "pos": "verb",
+      "lemma": "spare"
+    },
+    {
+      "id": "shopping-a-lane",
+      "no": "å låne",
+      "en": [
+        "to borrow",
+        "to lend"
+      ],
+      "pos": "verb",
+      "lemma": "låne"
+    },
+    {
+      "id": "shopping-a-handle",
+      "no": "å handle",
+      "en": [
+        "to shop",
+        "to act"
+      ],
+      "pos": "verb",
+      "lemma": "handle"
+    },
+    {
+      "id": "shopping-a-onske",
+      "no": "å ønske",
+      "en": [
+        "to wish",
+        "to want"
+      ],
+      "pos": "verb",
+      "lemma": "ønske"
+    },
+    {
+      "id": "shopping-gratis",
+      "no": "gratis",
+      "en": [
+        "free (of charge)"
+      ],
+      "pos": "adj",
+      "lemma": "gratis"
+    },
+    {
+      "id": "shopping-hva-koster-dette",
+      "no": "Hva koster dette?",
+      "en": [
+        "How much is this?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "shopping-kan-jeg-betale-med-kort",
+      "no": "Kan jeg betale med kort?",
+      "en": [
+        "Can I pay by card?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "shopping-jeg-bare-ser",
+      "no": "Jeg bare ser.",
+      "en": [
+        "I'm just looking."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "shopping-trenger-du-pose",
+      "no": "Trenger du pose?",
+      "en": [
+        "Do you need a bag?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "shopping-det-blir-hundre-kroner",
+      "no": "Det blir hundre kroner.",
+      "en": [
+        "That will be a hundred kroner."
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "shopping-s1",
+      "en": "How much does it cost?",
+      "no": [
+        "Hva koster det?",
+        "Hvor mye koster det?"
+      ],
+      "distractors": [
+        "hvor",
+        "kostet",
+        "er"
+      ]
+    },
+    {
+      "id": "shopping-s2",
+      "en": "Can I pay by card?",
+      "no": [
+        "Kan jeg betale med kort?"
+      ],
+      "distractors": [
+        "kortet",
+        "på",
+        "vil"
+      ]
+    },
+    {
+      "id": "shopping-s3",
+      "en": "I buy bread and milk.",
+      "no": [
+        "Jeg kjøper brød og melk."
+      ],
+      "distractors": [
+        "selger",
+        "kjøpte",
+        "eller"
+      ]
+    },
+    {
+      "id": "shopping-s4",
+      "en": "It is too expensive.",
+      "no": [
+        "Det er for dyrt.",
+        "Den er for dyr."
+      ],
+      "distractors": [
+        "billig",
+        "dyr",
+        "mye"
+      ]
+    },
+    {
+      "id": "shopping-s5",
+      "en": "Do you have this in a bigger size?",
+      "no": [
+        "Har du denne i en større størrelse?",
+        "Har dere denne i større størrelse?"
+      ],
+      "distractors": [
+        "stor",
+        "størrelsen",
+        "liten"
+      ]
+    },
+    {
+      "id": "shopping-s6",
+      "en": "I need a receipt.",
+      "no": [
+        "Jeg trenger en kvittering.",
+        "Kan jeg få kvittering?"
+      ],
+      "distractors": [
+        "kvitteringen",
+        "vil",
+        "et"
+      ]
+    },
+    {
+      "id": "shopping-s7",
+      "en": "He sold his car.",
+      "no": [
+        "Han solgte bilen sin.",
+        "Han har solgt bilen sin."
+      ],
+      "distractors": [
+        "kjøpte",
+        "hans",
+        "bil"
+      ]
+    },
+    {
+      "id": "shopping-s8",
+      "en": "We are saving money for a holiday.",
+      "no": [
+        "Vi sparer penger til ferie.",
+        "Vi sparer penger til en ferie."
+      ],
+      "distractors": [
+        "bruker",
+        "ferien",
+        "for"
+      ]
+    },
+    {
+      "id": "shopping-s9",
+      "en": "Can I borrow a hundred kroner?",
+      "no": [
+        "Kan jeg låne hundre kroner?",
+        "Kan jeg få låne hundre kroner?"
+      ],
+      "distractors": [
+        "krone",
+        "tusen",
+        "betale"
+      ]
+    },
+    {
+      "id": "shopping-s10",
+      "en": "It's free!",
+      "no": [
+        "Det er gratis!"
+      ],
+      "distractors": [
+        "billig",
+        "koster",
+        "var"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "shopping-d1",
+      "no": "Jeg ___ en ny jakke i går.",
+      "en": "I bought a new jacket yesterday.",
+      "lemma": "kjøpe",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "shopping-d2",
+      "no": "Hun har ___ huset sitt.",
+      "en": "She has sold her house.",
+      "lemma": "selge",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "shopping-d3",
+      "no": "Hvor mye ___ billetten?",
+      "en": "How much did the ticket cost?",
+      "lemma": "koste",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "shopping-d4",
+      "no": "___ er høye i Norge.",
+      "en": "Prices are high in Norway.",
+      "lemma": "pris",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "shopping-d5",
+      "no": "Jeg fikk mange ___ til jul.",
+      "en": "I got many presents for Christmas.",
+      "lemma": "gave",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "shopping-d6",
+      "no": "Hvem ___ for maten?",
+      "en": "Who paid for the food?",
+      "lemma": "betale",
+      "pos": "verb",
+      "form": "past"
+    }
+  ]
+}

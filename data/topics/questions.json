@@ -1,0 +1,430 @@
+{
+  "id": "questions",
+  "title": "Questions and linking words",
+  "description": "Ask questions and connect sentences.",
+  "emoji": "❓",
+  "order": 4,
+  "words": [
+    {
+      "id": "questions-hva",
+      "no": "hva",
+      "en": [
+        "what"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvem",
+      "no": "hvem",
+      "en": [
+        "who"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvor",
+      "no": "hvor",
+      "en": [
+        "where",
+        "how (+ adjective)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvorfor",
+      "no": "hvorfor",
+      "en": [
+        "why"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvordan",
+      "no": "hvordan",
+      "en": [
+        "how"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-nar",
+      "no": "når",
+      "en": [
+        "when"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvilken-hvilket-hvilke",
+      "no": "hvilken / hvilket / hvilke",
+      "en": [
+        "which"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hva-slags",
+      "no": "hva slags",
+      "en": [
+        "what kind of"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvor-mye",
+      "no": "hvor mye",
+      "en": [
+        "how much"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvor-mange",
+      "no": "hvor mange",
+      "en": [
+        "how many"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvor-lenge",
+      "no": "hvor lenge",
+      "en": [
+        "how long"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvor-gammel",
+      "no": "hvor gammel",
+      "en": [
+        "how old"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-og",
+      "no": "og",
+      "en": [
+        "and"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-men",
+      "no": "men",
+      "en": [
+        "but"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-eller",
+      "no": "eller",
+      "en": [
+        "or"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-for",
+      "no": "for",
+      "en": [
+        "for",
+        "because"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-fordi",
+      "no": "fordi",
+      "en": [
+        "because"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-at",
+      "no": "at",
+      "en": [
+        "that"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-om",
+      "no": "om",
+      "en": [
+        "if",
+        "whether",
+        "about",
+        "in (time)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-hvis",
+      "no": "hvis",
+      "en": [
+        "if"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-da",
+      "no": "da",
+      "en": [
+        "when (in the past)",
+        "then",
+        "(softens a request)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-som",
+      "no": "som",
+      "en": [
+        "who",
+        "which",
+        "that",
+        "like"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-sa",
+      "no": "så",
+      "en": [
+        "so",
+        "then"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-enn",
+      "no": "enn",
+      "en": [
+        "than"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-bade-og",
+      "no": "både … og",
+      "en": [
+        "both … and"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-enten-eller",
+      "no": "enten … eller",
+      "en": [
+        "either … or"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-verken-eller",
+      "no": "verken … eller",
+      "en": [
+        "neither … nor"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-mens",
+      "no": "mens",
+      "en": [
+        "while"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-siden",
+      "no": "siden",
+      "en": [
+        "since"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-for-2",
+      "no": "før",
+      "en": [
+        "before"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-etter-at",
+      "no": "etter at",
+      "en": [
+        "after"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-selv-om",
+      "no": "selv om",
+      "en": [
+        "even though"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-derfor",
+      "no": "derfor",
+      "en": [
+        "therefore",
+        "that's why"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-altsa",
+      "no": "altså",
+      "en": [
+        "so",
+        "that is"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "questions-likevel",
+      "no": "likevel",
+      "en": [
+        "still",
+        "anyway"
+      ],
+      "pos": "other"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "questions-s1",
+      "en": "What is that?",
+      "no": [
+        "Hva er det?"
+      ],
+      "distractors": [
+        "hvem",
+        "den",
+        "hvor"
+      ]
+    },
+    {
+      "id": "questions-s2",
+      "en": "Who is she?",
+      "no": [
+        "Hvem er hun?"
+      ],
+      "distractors": [
+        "hva",
+        "henne",
+        "han"
+      ]
+    },
+    {
+      "id": "questions-s3",
+      "en": "Where do you live?",
+      "no": [
+        "Hvor bor du?"
+      ],
+      "distractors": [
+        "når",
+        "hva",
+        "deg"
+      ]
+    },
+    {
+      "id": "questions-s4",
+      "en": "Why are you sad?",
+      "no": [
+        "Hvorfor er du lei deg?",
+        "Hvorfor er du trist?"
+      ],
+      "distractors": [
+        "hvordan",
+        "glad",
+        "han"
+      ]
+    },
+    {
+      "id": "questions-s5",
+      "en": "When does the shop open?",
+      "no": [
+        "Når åpner butikken?"
+      ],
+      "distractors": [
+        "hvor",
+        "butikk",
+        "stenger"
+      ]
+    },
+    {
+      "id": "questions-s6",
+      "en": "How many children do you have?",
+      "no": [
+        "Hvor mange barn har du?"
+      ],
+      "distractors": [
+        "mye",
+        "hva",
+        "er"
+      ]
+    },
+    {
+      "id": "questions-s7",
+      "en": "I stay at home because I am sick.",
+      "no": [
+        "Jeg blir hjemme fordi jeg er syk.",
+        "Jeg er hjemme fordi jeg er syk."
+      ],
+      "distractors": [
+        "men",
+        "så",
+        "glad"
+      ]
+    },
+    {
+      "id": "questions-s8",
+      "en": "Do you want tea or coffee?",
+      "no": [
+        "Vil du ha te eller kaffe?"
+      ],
+      "distractors": [
+        "og",
+        "men",
+        "melk"
+      ]
+    },
+    {
+      "id": "questions-s9",
+      "en": "He is taller than me.",
+      "no": [
+        "Han er høyere enn meg.",
+        "Han er høyere enn jeg."
+      ],
+      "distractors": [
+        "som",
+        "høy",
+        "du"
+      ]
+    },
+    {
+      "id": "questions-s10",
+      "en": "I know that you are tired.",
+      "no": [
+        "Jeg vet at du er trøtt.",
+        "Jeg vet at du er sliten."
+      ],
+      "distractors": [
+        "om",
+        "deg",
+        "hvis"
+      ]
+    }
+  ],
+  "inflectionDrills": []
+}

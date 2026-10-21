@@ -1,0 +1,606 @@
+{
+  "id": "society",
+  "title": "Society and big ideas",
+  "description": "Countries, laws, problems, reasons and other abstract words.",
+  "emoji": "🌍",
+  "order": 28,
+  "words": [
+    {
+      "id": "society-et-land",
+      "no": "et land",
+      "en": [
+        "a country",
+        "land"
+      ],
+      "pos": "noun",
+      "lemma": "land"
+    },
+    {
+      "id": "society-en-verden",
+      "no": "en verden",
+      "en": [
+        "a world"
+      ],
+      "pos": "noun",
+      "lemma": "verden"
+    },
+    {
+      "id": "society-et-samfunn",
+      "no": "et samfunn",
+      "en": [
+        "a society"
+      ],
+      "pos": "noun",
+      "lemma": "samfunn"
+    },
+    {
+      "id": "society-en-stat",
+      "no": "en stat",
+      "en": [
+        "a state"
+      ],
+      "pos": "noun",
+      "lemma": "stat"
+    },
+    {
+      "id": "society-ei-regjering",
+      "no": "ei regjering",
+      "en": [
+        "a government"
+      ],
+      "pos": "noun",
+      "lemma": "regjering"
+    },
+    {
+      "id": "society-en-konge",
+      "no": "en konge",
+      "en": [
+        "a king"
+      ],
+      "pos": "noun",
+      "lemma": "konge"
+    },
+    {
+      "id": "society-ei-dronning",
+      "no": "ei dronning",
+      "en": [
+        "a queen"
+      ],
+      "pos": "noun",
+      "lemma": "dronning"
+    },
+    {
+      "id": "society-en-lov",
+      "no": "en lov",
+      "en": [
+        "a law"
+      ],
+      "pos": "noun",
+      "lemma": "lov"
+    },
+    {
+      "id": "society-en-rett",
+      "no": "en rett",
+      "en": [
+        "a right",
+        "a court",
+        "a dish"
+      ],
+      "pos": "noun",
+      "lemma": "rett"
+    },
+    {
+      "id": "society-en-frihet",
+      "no": "en frihet",
+      "en": [
+        "freedom"
+      ],
+      "pos": "noun",
+      "lemma": "frihet"
+    },
+    {
+      "id": "society-fred",
+      "no": "fred",
+      "en": [
+        "peace"
+      ],
+      "pos": "noun",
+      "lemma": "fred"
+    },
+    {
+      "id": "society-en-krig",
+      "no": "en krig",
+      "en": [
+        "a war"
+      ],
+      "pos": "noun",
+      "lemma": "krig"
+    },
+    {
+      "id": "society-makt",
+      "no": "makt",
+      "en": [
+        "power"
+      ],
+      "pos": "noun",
+      "lemma": "makt"
+    },
+    {
+      "id": "society-politikk",
+      "no": "politikk",
+      "en": [
+        "politics",
+        "policy"
+      ],
+      "pos": "noun",
+      "lemma": "politikk"
+    },
+    {
+      "id": "society-et-valg",
+      "no": "et valg",
+      "en": [
+        "an election",
+        "a choice"
+      ],
+      "pos": "noun",
+      "lemma": "valg"
+    },
+    {
+      "id": "society-en-stemme",
+      "no": "en stemme",
+      "en": [
+        "a voice",
+        "a vote"
+      ],
+      "pos": "noun",
+      "lemma": "stemme"
+    },
+    {
+      "id": "society-en-sak",
+      "no": "en sak",
+      "en": [
+        "a matter",
+        "a case",
+        "a cause"
+      ],
+      "pos": "noun",
+      "lemma": "sak"
+    },
+    {
+      "id": "society-et-problem",
+      "no": "et problem",
+      "en": [
+        "a problem"
+      ],
+      "pos": "noun",
+      "lemma": "problem"
+    },
+    {
+      "id": "society-en-losning",
+      "no": "en løsning",
+      "en": [
+        "a solution"
+      ],
+      "pos": "noun",
+      "lemma": "løsning"
+    },
+    {
+      "id": "society-en-grunn",
+      "no": "en grunn",
+      "en": [
+        "a reason",
+        "ground"
+      ],
+      "pos": "noun",
+      "lemma": "grunn"
+    },
+    {
+      "id": "society-en-mate",
+      "no": "en måte",
+      "en": [
+        "a way",
+        "a manner"
+      ],
+      "pos": "noun",
+      "lemma": "måte"
+    },
+    {
+      "id": "society-en-del",
+      "no": "en del",
+      "en": [
+        "a part",
+        "a share"
+      ],
+      "pos": "noun",
+      "lemma": "del"
+    },
+    {
+      "id": "society-en-side",
+      "no": "en side",
+      "en": [
+        "a side",
+        "a page"
+      ],
+      "pos": "noun",
+      "lemma": "side"
+    },
+    {
+      "id": "society-et-eksempel",
+      "no": "et eksempel",
+      "en": [
+        "an example"
+      ],
+      "pos": "noun",
+      "lemma": "eksempel"
+    },
+    {
+      "id": "society-en-mulighet",
+      "no": "en mulighet",
+      "en": [
+        "a possibility",
+        "a chance"
+      ],
+      "pos": "noun",
+      "lemma": "mulighet"
+    },
+    {
+      "id": "society-en-sjanse",
+      "no": "en sjanse",
+      "en": [
+        "a chance"
+      ],
+      "pos": "noun",
+      "lemma": "sjanse"
+    },
+    {
+      "id": "society-hjelp",
+      "no": "hjelp",
+      "en": [
+        "help"
+      ],
+      "pos": "noun",
+      "lemma": "hjelp"
+    },
+    {
+      "id": "society-et-ansvar",
+      "no": "et ansvar",
+      "en": [
+        "a responsibility"
+      ],
+      "pos": "noun",
+      "lemma": "ansvar"
+    },
+    {
+      "id": "society-en-sannhet",
+      "no": "en sannhet",
+      "en": [
+        "a truth"
+      ],
+      "pos": "noun",
+      "lemma": "sannhet"
+    },
+    {
+      "id": "society-en-logn",
+      "no": "en løgn",
+      "en": [
+        "a lie"
+      ],
+      "pos": "noun",
+      "lemma": "løgn"
+    },
+    {
+      "id": "society-en-feil",
+      "no": "en feil",
+      "en": [
+        "a mistake",
+        "an error"
+      ],
+      "pos": "noun",
+      "lemma": "feil"
+    },
+    {
+      "id": "society-et-mal",
+      "no": "et mål",
+      "en": [
+        "a goal",
+        "a measure"
+      ],
+      "pos": "noun",
+      "lemma": "mål"
+    },
+    {
+      "id": "society-en-framtid",
+      "no": "en framtid",
+      "en": [
+        "a future"
+      ],
+      "pos": "noun",
+      "lemma": "framtid"
+    },
+    {
+      "id": "society-en-fortid",
+      "no": "en fortid",
+      "en": [
+        "a past"
+      ],
+      "pos": "noun",
+      "lemma": "fortid"
+    },
+    {
+      "id": "society-et-liv",
+      "no": "et liv",
+      "en": [
+        "a life"
+      ],
+      "pos": "noun",
+      "lemma": "liv"
+    },
+    {
+      "id": "society-dod",
+      "no": "død",
+      "en": [
+        "death"
+      ],
+      "pos": "noun",
+      "lemma": "død"
+    },
+    {
+      "id": "society-en-tanke",
+      "no": "en tanke",
+      "en": [
+        "a thought"
+      ],
+      "pos": "noun",
+      "lemma": "tanke"
+    },
+    {
+      "id": "society-en-drom",
+      "no": "en drøm",
+      "en": [
+        "a dream"
+      ],
+      "pos": "noun",
+      "lemma": "drøm"
+    },
+    {
+      "id": "society-en-kultur",
+      "no": "en kultur",
+      "en": [
+        "a culture"
+      ],
+      "pos": "noun",
+      "lemma": "kultur"
+    },
+    {
+      "id": "society-en-historie",
+      "no": "en historie",
+      "en": [
+        "a history"
+      ],
+      "pos": "noun",
+      "lemma": "historie"
+    },
+    {
+      "id": "society-en-religion",
+      "no": "en religion",
+      "en": [
+        "a religion"
+      ],
+      "pos": "noun",
+      "lemma": "religion"
+    },
+    {
+      "id": "society-en-gud",
+      "no": "en gud",
+      "en": [
+        "a god"
+      ],
+      "pos": "noun",
+      "lemma": "gud"
+    },
+    {
+      "id": "society-norsk",
+      "no": "norsk",
+      "en": [
+        "Norwegian"
+      ],
+      "pos": "adj",
+      "lemma": "norsk"
+    },
+    {
+      "id": "society-engelsk",
+      "no": "engelsk",
+      "en": [
+        "English"
+      ],
+      "pos": "adj",
+      "lemma": "engelsk"
+    },
+    {
+      "id": "society-utenlandsk",
+      "no": "utenlandsk",
+      "en": [
+        "foreign"
+      ],
+      "pos": "adj",
+      "lemma": "utenlandsk"
+    },
+    {
+      "id": "society-norge",
+      "no": "Norge",
+      "en": [
+        "Norway"
+      ],
+      "pos": "other"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "society-s1",
+      "en": "Norway is a beautiful country.",
+      "no": [
+        "Norge er et vakkert land.",
+        "Norge er et fint land."
+      ],
+      "distractors": [
+        "vakker",
+        "en",
+        "landet"
+      ]
+    },
+    {
+      "id": "society-s2",
+      "en": "We have a problem.",
+      "no": [
+        "Vi har et problem."
+      ],
+      "distractors": [
+        "en",
+        "problemet",
+        "er"
+      ]
+    },
+    {
+      "id": "society-s3",
+      "en": "There is no solution.",
+      "no": [
+        "Det finnes ingen løsning.",
+        "Det er ingen løsning."
+      ],
+      "distractors": [
+        "noen",
+        "løsningen",
+        "har"
+      ]
+    },
+    {
+      "id": "society-s4",
+      "en": "What is the reason?",
+      "no": [
+        "Hva er grunnen?"
+      ],
+      "distractors": [
+        "hvem",
+        "grunn",
+        "hvorfor"
+      ]
+    },
+    {
+      "id": "society-s5",
+      "en": "Everyone makes mistakes.",
+      "no": [
+        "Alle gjør feil."
+      ],
+      "distractors": [
+        "ingen",
+        "feilen",
+        "lager"
+      ]
+    },
+    {
+      "id": "society-s6",
+      "en": "This is the best way.",
+      "no": [
+        "Dette er den beste måten."
+      ],
+      "distractors": [
+        "måte",
+        "god",
+        "det"
+      ]
+    },
+    {
+      "id": "society-s7",
+      "en": "Life is beautiful.",
+      "no": [
+        "Livet er vakkert.",
+        "Livet er fint."
+      ],
+      "distractors": [
+        "liv",
+        "vakker",
+        "var"
+      ]
+    },
+    {
+      "id": "society-s8",
+      "en": "I want peace in the world.",
+      "no": [
+        "Jeg vil ha fred i verden.",
+        "Jeg ønsker fred i verden."
+      ],
+      "distractors": [
+        "krig",
+        "verdenen",
+        "på"
+      ]
+    },
+    {
+      "id": "society-s9",
+      "en": "He tells the truth.",
+      "no": [
+        "Han forteller sannheten.",
+        "Han sier sannheten."
+      ],
+      "distractors": [
+        "løgn",
+        "sannhet",
+        "hun"
+      ]
+    },
+    {
+      "id": "society-s10",
+      "en": "That is a good example.",
+      "no": [
+        "Det er et godt eksempel."
+      ],
+      "distractors": [
+        "god",
+        "eksemplet",
+        "en"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "society-d1",
+      "no": "Det finnes mange ___ i verden.",
+      "en": "There are many countries in the world.",
+      "lemma": "land",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "society-d2",
+      "no": "Vi har to store ___.",
+      "en": "We have two big problems.",
+      "lemma": "problem",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "society-d3",
+      "no": "___ var lang.",
+      "en": "The war was long.",
+      "lemma": "krig",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "society-d4",
+      "no": "Jeg har mange ___ for framtida.",
+      "en": "I have many dreams for the future.",
+      "lemma": "drøm",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "society-d5",
+      "no": "Hun forteller alltid ___.",
+      "en": "She always tells the truth.",
+      "lemma": "sannhet",
+      "pos": "noun",
+      "form": "defSg"
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "id": "body",
+  "title": "Body and health",
+  "description": "Parts of the body, feeling ill and going to the doctor.",
+  "emoji": "🩺",
+  "order": 15,
+  "words": [
+    {
+      "id": "body-en-kropp",
+      "no": "en kropp",
+      "en": [
+        "a body"
+      ],
+      "pos": "noun",
+      "lemma": "kropp"
+    },
+    {
+      "id": "body-et-hode",
+      "no": "et hode",
+      "en": [
+        "a head"
+      ],
+      "pos": "noun",
+      "lemma": "hode"
+    },
+    {
+      "id": "body-et-ansikt",
+      "no": "et ansikt",
+      "en": [
+        "a face"
+      ],
+      "pos": "noun",
+      "lemma": "ansikt"
+    },
+    {
+      "id": "body-et-oye",
+      "no": "et øye",
+      "en": [
+        "an eye"
+      ],
+      "pos": "noun",
+      "lemma": "øye"
+    },
+    {
+      "id": "body-et-ore",
+      "no": "et øre",
+      "en": [
+        "an ear"
+      ],
+      "pos": "noun",
+      "lemma": "øre"
+    },
+    {
+      "id": "body-en-nese",
+      "no": "en nese",
+      "en": [
+        "a nose"
+      ],
+      "pos": "noun",
+      "lemma": "nese"
+    },
+    {
+      "id": "body-en-munn",
+      "no": "en munn",
+      "en": [
+        "a mouth"
+      ],
+      "pos": "noun",
+      "lemma": "munn"
+    },
+    {
+      "id": "body-ei-tann",
+      "no": "ei tann",
+      "en": [
+        "a tooth"
+      ],
+      "pos": "noun",
+      "lemma": "tann"
+    },
+    {
+      "id": "body-et-har",
+      "no": "et hår",
+      "en": [
+        "a hair",
+        "hair"
+      ],
+      "pos": "noun",
+      "lemma": "hår"
+    },
+    {
+      "id": "body-en-hals",
+      "no": "en hals",
+      "en": [
+        "a neck",
+        "a throat"
+      ],
+      "pos": "noun",
+      "lemma": "hals"
+    },
+    {
+      "id": "body-en-skulder",
+      "no": "en skulder",
+      "en": [
+        "a shoulder"
+      ],
+      "pos": "noun",
+      "lemma": "skulder"
+    },
+    {
+      "id": "body-en-arm",
+      "no": "en arm",
+      "en": [
+        "an arm"
+      ],
+      "pos": "noun",
+      "lemma": "arm"
+    },
+    {
+      "id": "body-ei-hand",
+      "no": "ei hånd",
+      "en": [
+        "a hand"
+      ],
+      "pos": "noun",
+      "lemma": "hånd"
+    },
+    {
+      "id": "body-en-finger",
+      "no": "en finger",
+      "en": [
+        "a finger"
+      ],
+      "pos": "noun",
+      "lemma": "finger"
+    },
+    {
+      "id": "body-en-mage",
+      "no": "en mage",
+      "en": [
+        "a stomach",
+        "a belly"
+      ],
+      "pos": "noun",
+      "lemma": "mage"
+    },
+    {
+      "id": "body-en-rygg",
+      "no": "en rygg",
+      "en": [
+        "a back"
+      ],
+      "pos": "noun",
+      "lemma": "rygg"
+    },
+    {
+      "id": "body-et-bein",
+      "no": "et bein",
+      "en": [
+        "a leg",
+        "a bone"
+      ],
+      "pos": "noun",
+      "lemma": "bein"
+    },
+    {
+      "id": "body-et-kne",
+      "no": "et kne",
+      "en": [
+        "a knee"
+      ],
+      "pos": "noun",
+      "lemma": "kne"
+    },
+    {
+      "id": "body-en-fot",
+      "no": "en fot",
+      "en": [
+        "a foot"
+      ],
+      "pos": "noun",
+      "lemma": "fot"
+    },
+    {
+      "id": "body-et-hjerte",
+      "no": "et hjerte",
+      "en": [
+        "a heart"
+      ],
+      "pos": "noun",
+      "lemma": "hjerte"
+    },
+    {
+      "id": "body-blod",
+      "no": "blod",
+      "en": [
+        "blood"
+      ],
+      "pos": "noun",
+      "lemma": "blod"
+    },
+    {
+      "id": "body-hud",
+      "no": "hud",
+      "en": [
+        "skin"
+      ],
+      "pos": "noun",
+      "lemma": "hud"
+    },
+    {
+      "id": "body-helse",
+      "no": "helse",
+      "en": [
+        "health"
+      ],
+      "pos": "noun",
+      "lemma": "helse"
+    },
+    {
+      "id": "body-en-sykdom",
+      "no": "en sykdom",
+      "en": [
+        "an illness"
+      ],
+      "pos": "noun",
+      "lemma": "sykdom"
+    },
+    {
+      "id": "body-en-smerte",
+      "no": "en smerte",
+      "en": [
+        "a pain"
+      ],
+      "pos": "noun",
+      "lemma": "smerte"
+    },
+    {
+      "id": "body-en-feber",
+      "no": "en feber",
+      "en": [
+        "a fever"
+      ],
+      "pos": "noun",
+      "lemma": "feber"
+    },
+    {
+      "id": "body-en-forkjolelse",
+      "no": "en forkjølelse",
+      "en": [
+        "a cold"
+      ],
+      "pos": "noun",
+      "lemma": "forkjølelse"
+    },
+    {
+      "id": "body-en-medisin",
+      "no": "en medisin",
+      "en": [
+        "a medicine"
+      ],
+      "pos": "noun",
+      "lemma": "medisin"
+    },
+    {
+      "id": "body-en-tablett",
+      "no": "en tablett",
+      "en": [
+        "a pill"
+      ],
+      "pos": "noun",
+      "lemma": "tablett"
+    },
+    {
+      "id": "body-et-sykehus",
+      "no": "et sykehus",
+      "en": [
+        "a hospital"
+      ],
+      "pos": "noun",
+      "lemma": "sykehus"
+    },
+    {
+      "id": "body-et-legekontor",
+      "no": "et legekontor",
+      "en": [
+        "a doctor's office"
+      ],
+      "pos": "noun",
+      "lemma": "legekontor"
+    },
+    {
+      "id": "body-syk",
+      "no": "syk",
+      "en": [
+        "sick",
+        "ill"
+      ],
+      "pos": "adj",
+      "lemma": "syk"
+    },
+    {
+      "id": "body-frisk",
+      "no": "frisk",
+      "en": [
+        "healthy",
+        "well"
+      ],
+      "pos": "adj",
+      "lemma": "frisk"
+    },
+    {
+      "id": "body-sliten",
+      "no": "sliten",
+      "en": [
+        "tired"
+      ],
+      "pos": "adj",
+      "lemma": "sliten"
+    },
+    {
+      "id": "body-trott",
+      "no": "trøtt",
+      "en": [
+        "tired",
+        "sleepy"
+      ],
+      "pos": "adj",
+      "lemma": "trøtt"
+    },
+    {
+      "id": "body-vond",
+      "no": "vond",
+      "en": [
+        "sore",
+        "painful"
+      ],
+      "pos": "adj",
+      "lemma": "vond"
+    },
+    {
+      "id": "body-a-ha-vondt",
+      "no": "å ha vondt",
+      "en": [
+        "to be in pain"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "body-a-hoste",
+      "no": "å hoste",
+      "en": [
+        "to cough"
+      ],
+      "pos": "verb",
+      "lemma": "hoste"
+    },
+    {
+      "id": "body-a-nyse",
+      "no": "å nyse",
+      "en": [
+        "to sneeze"
+      ],
+      "pos": "verb",
+      "lemma": "nyse"
+    },
+    {
+      "id": "body-a-puste",
+      "no": "å puste",
+      "en": [
+        "to breathe"
+      ],
+      "pos": "verb",
+      "lemma": "puste"
+    },
+    {
+      "id": "body-a-blo",
+      "no": "å blø",
+      "en": [
+        "to bleed"
+      ],
+      "pos": "verb",
+      "lemma": "blø"
+    },
+    {
+      "id": "body-a-skade",
+      "no": "å skade",
+      "en": [
+        "to hurt",
+        "to injure"
+      ],
+      "pos": "verb",
+      "lemma": "skade"
+    },
+    {
+      "id": "body-a-hvile",
+      "no": "å hvile",
+      "en": [
+        "to rest"
+      ],
+      "pos": "verb",
+      "lemma": "hvile"
+    },
+    {
+      "id": "body-a-trene",
+      "no": "å trene",
+      "en": [
+        "to exercise",
+        "to train"
+      ],
+      "pos": "verb",
+      "lemma": "trene"
+    },
+    {
+      "id": "body-jeg-har-vondt-i-hodet",
+      "no": "Jeg har vondt i hodet.",
+      "en": [
+        "I have a headache."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "body-jeg-trenger-en-lege",
+      "no": "Jeg trenger en lege.",
+      "en": [
+        "I need a doctor."
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "body-s1",
+      "en": "I have a headache.",
+      "no": [
+        "Jeg har vondt i hodet.",
+        "Jeg har hodepine."
+      ],
+      "distractors": [
+        "på",
+        "hode",
+        "er"
+      ]
+    },
+    {
+      "id": "body-s2",
+      "en": "My stomach hurts.",
+      "no": [
+        "Jeg har vondt i magen.",
+        "Magen min gjør vondt."
+      ],
+      "distractors": [
+        "mage",
+        "på",
+        "er"
+      ]
+    },
+    {
+      "id": "body-s3",
+      "en": "She is sick today.",
+      "no": [
+        "Hun er syk i dag."
+      ],
+      "distractors": [
+        "frisk",
+        "han",
+        "var"
+      ]
+    },
+    {
+      "id": "body-s4",
+      "en": "I need a doctor.",
+      "no": [
+        "Jeg trenger en lege."
+      ],
+      "distractors": [
+        "lærer",
+        "et",
+        "vil"
+      ]
+    },
+    {
+      "id": "body-s5",
+      "en": "He broke his leg.",
+      "no": [
+        "Han brakk beinet.",
+        "Han brakk beinet sitt."
+      ],
+      "distractors": [
+        "bein",
+        "hans",
+        "arm"
+      ]
+    },
+    {
+      "id": "body-s6",
+      "en": "Wash your hands!",
+      "no": [
+        "Vask hendene!",
+        "Vask hendene dine!"
+      ],
+      "distractors": [
+        "hånd",
+        "din",
+        "vasker"
+      ]
+    },
+    {
+      "id": "body-s7",
+      "en": "I am very tired.",
+      "no": [
+        "Jeg er veldig trøtt.",
+        "Jeg er veldig sliten."
+      ],
+      "distractors": [
+        "syk",
+        "litt",
+        "har"
+      ]
+    },
+    {
+      "id": "body-s8",
+      "en": "Take the medicine twice a day.",
+      "no": [
+        "Ta medisinen to ganger om dagen.",
+        "Ta medisinen to ganger daglig."
+      ],
+      "distractors": [
+        "medisin",
+        "tre",
+        "i"
+      ]
+    },
+    {
+      "id": "body-s9",
+      "en": "He exercises every day.",
+      "no": [
+        "Han trener hver dag."
+      ],
+      "distractors": [
+        "trente",
+        "alle",
+        "hun"
+      ]
+    },
+    {
+      "id": "body-s10",
+      "en": "Breathe slowly.",
+      "no": [
+        "Pust sakte.",
+        "Pust rolig."
+      ],
+      "distractors": [
+        "fort",
+        "puste",
+        "hvil"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "body-d1",
+      "no": "Hun har blå ___.",
+      "en": "She has blue eyes.",
+      "lemma": "øye",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "body-d2",
+      "no": "Vask ___ før du spiser.",
+      "en": "Wash your hands before you eat.",
+      "lemma": "hånd",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "body-d3",
+      "no": "Jeg har vondt i ___.",
+      "en": "My feet hurt.",
+      "lemma": "fot",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "body-d4",
+      "no": "Barnet har to nye ___.",
+      "en": "The child has two new teeth.",
+      "lemma": "tann",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "body-d5",
+      "no": "Han ___ i går, men i dag er han frisk.",
+      "en": "He was resting yesterday, but today he is well.",
+      "lemma": "hvile",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "body-d6",
+      "no": "Jeg er ___ enn deg.",
+      "en": "I am more tired than you.",
+      "lemma": "trøtt",
+      "pos": "adj",
+      "form": "comparative"
+    }
+  ]
+}
