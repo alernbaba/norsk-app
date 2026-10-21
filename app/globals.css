@@ -3,13 +3,16 @@
 @import "@fontsource-variable/fraunces/full-italic.css";
 @import "@fontsource-variable/instrument-sans/wdth.css";
 
-@custom-variant dark (@media (prefers-color-scheme: dark));
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 /*
  * "Fjord & paper": warm cream paper and ink in daylight, polar-night blue after dark.
  * Colours are CSS variables so components rarely need dark: variants.
+ * <html data-theme> is set before first paint by the script in app/layout.tsx,
+ * from the saved choice or the system setting.
  */
 :root {
+  color-scheme: light;
   --paper: #f4eee2;
   --card: #fffbf3;
   --sunk: #ebe3d3;
@@ -27,24 +30,23 @@
   --press: #c9bca4;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #11161c;
-    --card: #19212a;
-    --sunk: #0d1116;
-    --ink: #ece4d3;
-    --muted: #9b9484;
-    --line: #2a3541;
-    --fjord: #93bdd3;
-    --fjord-soft: #1d3240;
-    --rust: #e88a72;
-    --rust-soft: #3b221d;
-    --moss: #a3cc9c;
-    --moss-soft: #1d3021;
-    --ochre: #e4b862;
-    --ochre-soft: #362b16;
-    --press: #05080b;
-  }
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #11161c;
+  --card: #19212a;
+  --sunk: #0d1116;
+  --ink: #ece4d3;
+  --muted: #9b9484;
+  --line: #2a3541;
+  --fjord: #93bdd3;
+  --fjord-soft: #1d3240;
+  --rust: #e88a72;
+  --rust-soft: #3b221d;
+  --moss: #a3cc9c;
+  --moss-soft: #1d3021;
+  --ochre: #e4b862;
+  --ochre-soft: #362b16;
+  --press: #05080b;
 }
 
 @theme inline {
@@ -68,7 +70,6 @@
 
 html {
   background: var(--paper);
-  color-scheme: light dark;
 }
 
 body {
@@ -108,12 +109,10 @@ h2,
       0 1px 2px rgb(60 45 20 / 0.05),
       0 6px 18px -10px rgb(60 45 20 / 0.18);
   }
-  @media (prefers-color-scheme: dark) {
-    .sheet {
-      box-shadow:
-        0 1px 0 rgb(255 255 255 / 0.03) inset,
-        0 8px 20px -12px rgb(0 0 0 / 0.6);
-    }
+  [data-theme="dark"] .sheet {
+    box-shadow:
+      0 1px 0 rgb(255 255 255 / 0.03) inset,
+      0 8px 20px -12px rgb(0 0 0 / 0.6);
   }
 
   /* Buttons press down like a key. */
