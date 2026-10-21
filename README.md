@@ -2,7 +2,7 @@
 
 En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Grensesnittet er på engelsk eller norsk (velges under Settings / Innstillinger).
 
-- **Flashcards** med enkel spaced repetition (Leitner-bokser) og bøyingsformer på baksiden
+- **Flashcards** begge veier (norsk → engelsk og engelsk → norsk, med egen fremgang per retning), enkel spaced repetition (Leitner-bokser) og bøyingsformer på baksiden
 - **Build the sentence**: bygg den norske setningen med ordbrikker (inkludert feil ord)
 - **Write it**: skriv oversettelsen selv, med tolerant sjekk og knapper for æ, ø og å
 - **Inflection**: fyll inn riktig bøyingsform i en setning

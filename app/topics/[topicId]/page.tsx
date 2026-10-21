@@ -5,6 +5,7 @@ import { Msg, TopicText } from "@/components/i18n";
 import { TopicStats } from "@/components/TopicStats";
 import { getTopic, getTopics } from "@/lib/content";
 import { MODES } from "@/lib/modes";
+import { topicItemIds } from "@/lib/progress";
 
 export function generateStaticParams() {
   return getTopics().map((t) => ({ topicId: t.id }));
@@ -29,6 +30,7 @@ async function TopicContent({ params }: { params: Params }) {
 
   const counts = {
     flashcards: topic.words.length,
+    reverse: topic.words.length,
     tiles: topic.sentences.length,
     write: topic.sentences.length,
     inflection: topic.inflectionDrills.length,
@@ -50,7 +52,7 @@ async function TopicContent({ params }: { params: Params }) {
 
       <TopicStats
         wordIds={topic.words.map((w) => w.id)}
-        itemIds={[...topic.words, ...topic.sentences, ...topic.inflectionDrills].map((i) => i.id)}
+        itemIds={topicItemIds(topic)}
       />
 
       <ul className="grid gap-3">

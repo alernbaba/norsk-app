@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState, type ReactNode } from "react";
 import { capitalize, drillAnswers, drillHint } from "@/lib/inflection";
-import type { Mode } from "@/lib/modes";
+import { reverseId, wordIdFromReverse, type Mode } from "@/lib/modes";
 import type { InflectionTable, ItemProgress, Settings, Topic } from "@/lib/types";
 import { useT, useTopicText } from "../i18n";
 import { ProgressBar } from "../ProgressBar";
@@ -24,6 +24,7 @@ export function Practice({ topic, mode, inflections }: Props) {
 
   const itemIds = useMemo(() => {
     if (mode === "flashcards") return topic.words.map((w) => w.id);
+    if (mode === "reverse") return topic.words.map((w) => reverseId(w.id));
     if (mode === "inflection") return topic.inflectionDrills.filter((d) => drillAnswers(d, inflections).length > 0).map((d) => d.id);
     return topic.sentences.map((s) => s.id);
   }, [topic, mode, inflections]);
@@ -98,12 +99,13 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
         </div>
       </div>
     );
-  } else if (id && mode === "flashcards") {
-    const word = topic.words.find((w) => w.id === id)!;
+  } else if (id && (mode === "flashcards" || mode === "reverse")) {
+    const word = topic.words.find((w) => w.id === wordIdFromReverse(id))!;
     body = (
       <Flashcard
         key={id}
         word={word}
+        reverse={mode === "reverse"}
         inflections={inflections}
         settings={settings}
         onAnswer={(knewIt) => {
