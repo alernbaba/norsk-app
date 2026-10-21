@@ -59,3 +59,20 @@ export function topicSummaries(): TopicSummary[] {
     itemIds: [...t.words.map((w) => w.id), ...t.sentences.map((s) => s.id), ...t.inflectionDrills.map((d) => d.id)],
   }));
 }
+
+export type ReviewItem = { id: string; kind: "word" | "sentence" | "drill"; no: string; en: string };
+export type ReviewTopic = Pick<Topic, "id" | "title" | "emoji"> & { items: ReviewItem[] };
+
+/** Every practice item with its display text, for the "due today" list. */
+export function reviewTopics(): ReviewTopic[] {
+  return getTopics().map((t) => ({
+    id: t.id,
+    title: t.title,
+    emoji: t.emoji,
+    items: [
+      ...t.words.map((w): ReviewItem => ({ id: w.id, kind: "word", no: w.no, en: w.en.join(", ") })),
+      ...t.sentences.map((s): ReviewItem => ({ id: s.id, kind: "sentence", no: s.no[0], en: s.en })),
+      ...t.inflectionDrills.map((d): ReviewItem => ({ id: d.id, kind: "drill", no: d.no, en: d.en })),
+    ],
+  }));
+}

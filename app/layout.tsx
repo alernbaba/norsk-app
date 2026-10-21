@@ -26,6 +26,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/" className="hover:text-emerald-700">
                 Overview
               </Link>
+              <Link href="/due" className="hover:text-emerald-700">
+                Due
+              </Link>
               <Link href="/settings" className="hover:text-emerald-700">
                 Settings
               </Link>

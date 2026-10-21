@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { BOX_INTERVALS, buildExtraPractice, buildSession, isDue, isLearned, newProgress, review } from "@/lib/srs";
+import { BOX_INTERVALS, buildExtraPractice, buildSession, isDue, isLearned, isMastered, newProgress, review } from "@/lib/srs";
 import type { ItemProgress } from "@/lib/types";
 
 const DAY = "2026-10-21";
@@ -49,10 +49,13 @@ describe("isDue / isLearned", () => {
     expect(isDue(p, "2026-11-01")).toBe(true);
   });
 
-  it("counts box 4 and up as learned", () => {
+  it("counts an item as learned after a right answer, and mastered from box 4", () => {
     expect(isLearned(undefined)).toBe(false);
-    expect(isLearned({ ...newProgress("w", DAY), box: 3 })).toBe(false);
-    expect(isLearned({ ...newProgress("w", DAY), box: 4 })).toBe(true);
+    expect(isLearned(newProgress("w", DAY))).toBe(false);
+    expect(isLearned(review(undefined, "w", true, DAY))).toBe(true);
+    expect(isLearned(review(review(undefined, "w", true, DAY), "w", false, DAY))).toBe(false);
+    expect(isMastered({ ...newProgress("w", DAY), box: 3 })).toBe(false);
+    expect(isMastered({ ...newProgress("w", DAY), box: 4 })).toBe(true);
   });
 });
 

@@ -7,8 +7,11 @@ import type { Box, ItemProgress } from "./types";
 /** Days until the next review for each box. */
 export const BOX_INTERVALS: Record<Box, number> = { 1: 0, 2: 1, 3: 3, 4: 7, 5: 14 };
 
-/** An item counts as learned from this box upwards. */
-export const LEARNED_BOX: Box = 4;
+/** An item counts as learned once answered right (and not missed since). */
+export const LEARNED_BOX: Box = 2;
+
+/** An item counts as mastered once it has been remembered over several days. */
+export const MASTERED_BOX: Box = 4;
 
 export function newProgress(itemId: string, date: string): ItemProgress {
   return { itemId, attempts: 0, correct: 0, box: 1, nextReview: date, lastSeen: date };
@@ -38,6 +41,10 @@ export function isDue(progress: ItemProgress, date: string): boolean {
 
 export function isLearned(progress: ItemProgress | undefined): boolean {
   return !!progress && progress.box >= LEARNED_BOX;
+}
+
+export function isMastered(progress: ItemProgress | undefined): boolean {
+  return !!progress && progress.box >= MASTERED_BOX;
 }
 
 export type SessionOptions = {

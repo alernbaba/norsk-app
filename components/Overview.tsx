@@ -3,7 +3,7 @@
 import Link from "next/link";
 import type { TopicSummary } from "@/lib/content";
 import { currentStreak } from "@/lib/progress";
-import { isLearned } from "@/lib/srs";
+import { isLearned, isMastered } from "@/lib/srs";
 import { ProgressBar } from "./ProgressBar";
 import { useAppState } from "./useAppState";
 
@@ -11,6 +11,7 @@ export function Overview({ topics }: { topics: TopicSummary[] }) {
   const { ready, date, progress, profile } = useAppState();
   const totalWords = topics.reduce((n, t) => n + t.wordIds.length, 0);
   const learned = topics.reduce((n, t) => n + t.wordIds.filter((id) => isLearned(progress[id])).length, 0);
+  const mastered = topics.reduce((n, t) => n + t.wordIds.filter((id) => isMastered(progress[id])).length, 0);
   const due = topics.reduce((n, t) => n + t.itemIds.filter((id) => progress[id] && progress[id].nextReview <= date).length, 0);
   const streak = currentStreak(profile, date);
 
@@ -18,8 +19,14 @@ export function Overview({ topics }: { topics: TopicSummary[] }) {
     <div className="space-y-6">
       <section className="grid grid-cols-3 gap-3">
         <Stat label="Day streak" value={ready ? `${streak} 🔥` : "–"} />
-        <Stat label="Words learned" value={ready ? `${learned}` : "–"} sub={`of ${totalWords}`} />
-        <Stat label="Due today" value={ready ? `${due}` : "–"} />
+        <Stat
+          label="Words learned"
+          value={ready ? `${learned}` : "–"}
+          sub={`of ${totalWords}${ready && mastered ? ` · ${mastered} mastered` : ""}`}
+        />
+        <Link href="/due" className="block rounded-2xl transition hover:ring-2 hover:ring-emerald-400">
+          <Stat label="Due today ›" value={ready ? `${due}` : "–"} />
+        </Link>
       </section>
 
       <section className="space-y-3">

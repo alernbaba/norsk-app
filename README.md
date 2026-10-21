@@ -7,7 +7,8 @@ En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Gre
 - **Write it**: skriv oversettelsen selv, med tolerant sjekk og knapper for æ, ø og å
 - **Inflection**: fyll inn riktig bøyingsform i en setning
 - 🔊 **Uttale** med nettleserens norske stemme, sakte tale og automatisk avspilling
-- **Oversikt** med fremgang per tema, lærte ord, streak og nullstilling
+- **Oversikt** med fremgang per tema, lærte og mestrede ord, streak og nullstilling
+- **Due today**: liste over alt som skal repeteres i dag, med forklaring av boksene
 
 Innholdet er 35 temaer med ca. 1350 ord, 146 vanlige uttrykk, 350 setninger og 167 bøyingsøvelser.
 
