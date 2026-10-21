@@ -164,7 +164,12 @@ const en = {
     listenLabel: (text: string) => `Listen to "${text}"`,
     noVoiceNotice:
       "Pronunciation is off: this device has no Norwegian voice. On most phones and computers you can add one under the system's language or text-to-speech settings.",
-    voice: (label: string) => `Voice: ${label}`,
+    voicePicker: "Voice",
+    voicePickerDescription: "Pick which Norwegian voice reads aloud. It is saved on this device.",
+    automatic: "Automatic",
+    automaticWith: (label: string) => `Automatic (${label})`,
+    moreVoicesHint:
+      "Want more voices? On iPhone, go to Settings → Accessibility → Spoken Content → Voices → Norwegian and download one, then reload this page.",
   },
   settings: {
     title: "Settings",
@@ -365,7 +370,12 @@ const nb: Messages = {
     listenLabel: (text) => `Lytt til «${text}»`,
     noVoiceNotice:
       "Uttale er slått av: denne enheten har ingen norsk stemme. På de fleste telefoner og datamaskiner kan du legge til en under systemets innstillinger for språk eller tekst til tale.",
-    voice: (label) => `Stemme: ${label}`,
+    voicePicker: "Stemme",
+    voicePickerDescription: "Velg hvilken norsk stemme som leser opp. Valget lagres på denne enheten.",
+    automatic: "Automatisk",
+    automaticWith: (label) => `Automatisk (${label})`,
+    moreVoicesHint:
+      "Vil du ha flere stemmer? På iPhone går du til Innstillinger → Tilgjengelighet → Opplest innhold → Stemmer → Norsk og laster ned en, og så laster du inn siden på nytt.",
   },
   settings: {
     title: "Innstillinger",

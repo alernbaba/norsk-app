@@ -4,7 +4,7 @@ import { useState, type ReactNode } from "react";
 import { LANGUAGES } from "@/lib/i18n/messages";
 import { GOAL_CHOICES } from "@/lib/stats";
 import { setLanguage, useLanguage, useT } from "./i18n";
-import { NoVoiceNotice, SpeakButton, VoiceInfo } from "./SpeakButton";
+import { NoVoiceNotice, SpeakButton, VoicePicker } from "./SpeakButton";
 import { setTheme, THEME_CHOICES, useTheme } from "./theme";
 import { useAppState } from "./useAppState";
 
@@ -73,11 +73,11 @@ export function SettingsForm() {
           disabled={!ready}
           onChange={(autoPlay) => updateSettings({ ...settings, autoPlay })}
         />
+        <VoicePicker sample="Hei! Velkommen til norsk." slow={settings.slowSpeech} />
         <div className="flex items-center gap-3 rounded-xl bg-sunk/70 p-3 text-sm text-muted">
           <SpeakButton text="Hei! Velkommen til norsk." slow={settings.slowSpeech} />
           <span className="font-display text-base text-ink italic">{t.settings.tryIt("Hei! Velkommen til norsk.")}</span>
         </div>
-        <VoiceInfo />
       </section>
 
       <section className="space-y-3 rounded-[1.25rem] border border-dashed border-rust/50 p-5">

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { pickNorwegianVoice } from "@/lib/speech";
+import { chooseVoice, norwegianVoices, pickNorwegianVoice } from "@/lib/speech";
 import { buildTiles, sentenceToWords } from "@/lib/tiles";
 
 describe("tiles", () => {
@@ -34,5 +34,32 @@ describe("pickNorwegianVoice", () => {
   it("returns null without a Norwegian voice", () => {
     expect(pickNorwegianVoice([v("en-US"), v("sv-SE"), v("da-DK")])).toBeNull();
     expect(pickNorwegianVoice([])).toBeNull();
+  });
+});
+
+describe("chooseVoice", () => {
+  const nora = { lang: "nb-NO", name: "Nora", voiceURI: "com.apple.voice.compact.nb-NO.Nora" };
+  const noraPlus = { lang: "nb-NO", name: "Nora (Enhanced)", voiceURI: "com.apple.voice.enhanced.nb-NO.Nora" };
+  const henrik = { lang: "no-NO", name: "Henrik", voiceURI: "henrik" };
+  const daniel = { lang: "en-GB", name: "Daniel", voiceURI: "daniel" };
+  const all = [daniel, nora, noraPlus, henrik];
+
+  it("lists only Norwegian voices", () => {
+    expect(norwegianVoices(all).map((v) => v.name)).toEqual(["Nora", "Nora (Enhanced)", "Henrik"]);
+  });
+
+  it("uses the picked voice when the device has it", () => {
+    expect(chooseVoice(all, "henrik")?.name).toBe("Henrik");
+    expect(chooseVoice(all, noraPlus.voiceURI)?.name).toBe("Nora (Enhanced)");
+  });
+
+  it("falls back to the automatic choice", () => {
+    expect(chooseVoice(all, null)?.name).toBe("Nora");
+    expect(chooseVoice(all, "gone")?.name).toBe("Nora");
+  });
+
+  it("never picks a non-Norwegian voice, even if it was saved", () => {
+    expect(chooseVoice(all, "daniel")?.name).toBe("Nora");
+    expect(chooseVoice([daniel], "daniel")).toBeNull();
   });
 });

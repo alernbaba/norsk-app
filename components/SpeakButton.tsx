@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getSpeech } from "@/lib/speech";
+import { getSpeech, type VoiceOption } from "@/lib/speech";
 import { useT } from "./i18n";
 
 /** Whether a Norwegian voice exists: null while checking. */
@@ -75,11 +75,57 @@ export function NoVoiceNotice() {
   );
 }
 
-/** Names the voice in use, which helps when speech is silent on a device. */
-export function VoiceInfo() {
+type VoiceState = { voices: VoiceOption[]; preferred: string | null; current: string | null };
+
+function readVoiceState(): VoiceState {
+  const speech = getSpeech();
+  return { voices: speech.voices(), preferred: speech.preferredVoice(), current: speech.voiceLabel() };
+}
+
+/** Lets the user pick one of the device's Norwegian voices, or leave it automatic. */
+export function VoicePicker({ sample, slow }: { sample: string; slow: boolean }) {
   const available = useNorwegianVoice();
   const t = useT();
-  const label = available ? getSpeech().voiceLabel() : null;
-  if (!label) return null;
-  return <p className="text-xs text-muted">{t.speech.voice(label)}</p>;
+  const [state, setState] = useState<VoiceState | null>(null);
+
+  useEffect(() => {
+    if (!available) return;
+    let active = true;
+    const update = () => active && setState(readVoiceState());
+    void getSpeech().ready().then(update);
+    const unsubscribe = getSpeech().subscribe(update);
+    return () => {
+      active = false;
+      unsubscribe();
+    };
+  }, [available]);
+
+  if (!available || !state) return null;
+  const autoLabel = state.preferred ? t.speech.automatic : t.speech.automaticWith(state.current ?? "");
+
+  return (
+    <div className="space-y-2">
+      <label className="block">
+        <span className="block font-medium">{t.speech.voicePicker}</span>
+        <span className="block text-sm text-muted">{t.speech.voicePickerDescription}</span>
+        <select
+          value={state.preferred ?? ""}
+          onChange={(e) => {
+            getSpeech().setPreferredVoice(e.target.value || null);
+            // Changing the voice is a tap, so iOS lets us play a sample right away.
+            getSpeech().speak(sample, { slow });
+          }}
+          className="mt-2 w-full rounded-xl border border-line bg-card px-3 py-2.5 text-ink"
+        >
+          <option value="">{autoLabel}</option>
+          {state.voices.map((v) => (
+            <option key={v.id} value={v.id}>
+              {v.name} ({v.lang})
+            </option>
+          ))}
+        </select>
+      </label>
+      {state.voices.length < 2 && <p className="text-xs text-muted">{t.speech.moreVoicesHint}</p>}
+    </div>
+  );
 }

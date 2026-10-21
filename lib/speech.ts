@@ -3,31 +3,69 @@
 
 export type SpeakOptions = { slow?: boolean };
 
+/** A Norwegian voice the device offers, for the voice picker in Settings. */
+export type VoiceOption = { id: string; name: string; lang: string };
+
 export interface SpeechEngine {
   /** Resolves once we know whether a Norwegian voice exists. */
   ready(): Promise<boolean>;
   isAvailable(): boolean;
   /** The chosen voice, e.g. "Nora (nb-NO)", for troubleshooting. */
   voiceLabel(): string | null;
+  /** All Norwegian voices on the device. */
+  voices(): VoiceOption[];
+  /** The voice the user picked, or null for the automatic choice. */
+  preferredVoice(): string | null;
+  setPreferredVoice(id: string | null): void;
+  /** Calls back when the voice list or the chosen voice changes. */
+  subscribe(onChange: () => void): () => void;
   speak(text: string, options?: SpeakOptions): void;
 }
 
 const LANG_PREFERENCE = ["nb-no", "no-no"];
 
-type VoiceLike = Pick<SpeechSynthesisVoice, "lang" | "name"> & { localService?: boolean };
+type VoiceLike = Pick<SpeechSynthesisVoice, "lang" | "name"> & { localService?: boolean; voiceURI?: string };
 
 const isLocal = (v: VoiceLike) => v.localService !== false;
+const langOf = (v: VoiceLike) => v.lang.toLowerCase().replace("_", "-");
+const voiceId = (v: VoiceLike) => v.voiceURI || v.name;
+
+/** Every Norwegian voice (nb or no), never voices for other languages. */
+export function norwegianVoices<V extends VoiceLike>(voices: V[]): V[] {
+  return voices.filter((v) => /^(nb|no)\b/.test(langOf(v)));
+}
+
+/**
+ * The voice to use: the user's pick if the device still has it (and it is
+ * Norwegian), otherwise the automatic choice.
+ */
+export function chooseVoice<V extends VoiceLike>(voices: V[], preferredId: string | null): V | null {
+  const preferred = preferredId ? norwegianVoices(voices).find((v) => voiceId(v) === preferredId) : undefined;
+  return preferred ?? pickNorwegianVoice(voices);
+}
 
 /** Picks the best Norwegian voice: nb-NO, then no-NO, then anything starting with nb/no. */
 export function pickNorwegianVoice<V extends VoiceLike>(voices: V[]): V | null {
-  const lang = (v: V) => v.lang.toLowerCase().replace("_", "-");
+  const lang = langOf;
   // Prefer voices installed on the device over network ones.
   voices = [...voices].sort((x, y) => Number(isLocal(y)) - Number(isLocal(x)));
   for (const pref of LANG_PREFERENCE) {
     const match = voices.find((v) => lang(v) === pref);
     if (match) return match;
   }
-  return voices.find((v) => /^(nb|no)\b/.test(lang(v))) ?? null;
+  return norwegianVoices(voices)[0] ?? null;
+}
+
+// The picked voice is kept per device (voices differ between devices), apart
+// from the progress storage.
+const VOICE_KEY = "norsk-app:voice";
+
+function readPreferredVoice(): string | null {
+  try {
+    return window.localStorage.getItem(VOICE_KEY);
+  } catch {
+    return null;
+  }
 }
 
 export const NORMAL_RATE = 1;
@@ -37,6 +75,9 @@ class BrowserSpeech implements SpeechEngine {
   private voice: SpeechSynthesisVoice | null = null;
   private readyPromise: Promise<boolean> | null = null;
   private current: SpeechSynthesisUtterance | null = null;
+  private preferred: string | null | undefined;
+  private listeners = new Set<() => void>();
+  private watching = false;
 
   private synth(): SpeechSynthesis | null {
     return typeof window !== "undefined" && "speechSynthesis" in window ? window.speechSynthesis : null;
@@ -48,10 +89,7 @@ class BrowserSpeech implements SpeechEngine {
     if (!synth) return (this.readyPromise = Promise.resolve(false));
 
     this.readyPromise = new Promise((resolve) => {
-      const tryPick = () => {
-        this.voice = pickNorwegianVoice(synth.getVoices());
-        return this.voice !== null;
-      };
+      const tryPick = () => this.pick() !== null;
       if (tryPick()) return resolve(true);
       // The voice list loads asynchronously. Safari on iOS often never fires
       // voiceschanged, so poll as well as listening for the event.
@@ -68,7 +106,56 @@ class BrowserSpeech implements SpeechEngine {
       const poll = setInterval(onChange, 250);
       const timeout = setTimeout(() => finish(tryPick()), 5000);
     });
+    // Better voices can show up after the first one (iOS loads them in steps).
+    if (!this.watching) {
+      this.watching = true;
+      synth.addEventListener("voiceschanged", () => {
+        this.pick();
+        this.notify();
+      });
+    }
     return this.readyPromise;
+  }
+
+  private pick() {
+    const synth = this.synth();
+    if (this.preferred === undefined) this.preferred = readPreferredVoice();
+    this.voice = synth ? chooseVoice(synth.getVoices(), this.preferred) : null;
+    return this.voice;
+  }
+
+  private notify() {
+    this.listeners.forEach((l) => l());
+  }
+
+  voices() {
+    const synth = this.synth();
+    if (!synth) return [];
+    return norwegianVoices(synth.getVoices()).map((v) => ({ id: voiceId(v), name: v.name, lang: v.lang }));
+  }
+
+  preferredVoice() {
+    if (this.preferred === undefined) this.preferred = readPreferredVoice();
+    return this.preferred;
+  }
+
+  setPreferredVoice(id: string | null) {
+    this.preferred = id;
+    try {
+      if (id) window.localStorage.setItem(VOICE_KEY, id);
+      else window.localStorage.removeItem(VOICE_KEY);
+    } catch {
+      // Storage blocked: the choice lasts until the page is closed.
+    }
+    this.pick();
+    this.notify();
+  }
+
+  subscribe(onChange: () => void) {
+    this.listeners.add(onChange);
+    return () => {
+      this.listeners.delete(onChange);
+    };
   }
 
   isAvailable() {
