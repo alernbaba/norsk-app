@@ -53,6 +53,7 @@ const en = {
     tiles: { title: "Build the sentence", description: "Translate from English by tapping word tiles." },
     write: { title: "Write it", description: "Type the Norwegian translation yourself." },
     inflection: { title: "Inflection", description: "Fill in the right form of a word in a sentence." },
+    listen: { title: "Listening", description: "Hear a Norwegian word or sentence and type what you hear." },
   } satisfies Record<Mode, { title: string; description: string }>,
   forms: {
     indefSg: "indefinite singular",
@@ -94,6 +95,13 @@ const en = {
     knewIt: "I knew it",
     tapInOrder: "Tap the words in the right order",
     typeNorwegian: "Type in Norwegian…",
+    listenPrompt: "Listen and type what you hear",
+    listenTap: "Tap to listen",
+    playAgain: "Play again",
+    playSlowly: "Slowly",
+    typeWhatYouHear: "Type what you hear…",
+    meaning: "Meaning: ",
+    listenNeedsVoice: "Listening needs a Norwegian voice on this device.",
   },
   feedback: {
     correct: "Correct!",
@@ -142,9 +150,9 @@ const en = {
     dueExplained:
       "An item is due when its review date has come. Items you have never practised are not due; they show up as new items in practice instead. A word counts as learned once you get it right, and as mastered from box 4.",
     nothingDue: "Nothing is due right now. 🎉 Pick a topic on the overview to learn something new.",
-    review: (n: number, kind: "word" | "reverse" | "sentence" | "drill") =>
+    review: (n: number, kind: "word" | "reverse" | "sentence" | "drill" | "listen") =>
       `Review ${n} ${
-        { word: plural(n, "word", "words"), reverse: `${plural(n, "word", "words")} (English → Norwegian)`, sentence: plural(n, "sentence", "sentences"), drill: plural(n, "inflection drill", "inflection drills") }[kind]
+        { word: plural(n, "word", "words"), reverse: `${plural(n, "word", "words")} (English → Norwegian)`, sentence: plural(n, "sentence", "sentences"), drill: plural(n, "inflection drill", "inflection drills"), listen: `${plural(n, "item", "items")} by ear` }[kind]
       }`,
     box: (box: number) => `Box ${box}`,
     missedLastTime: "missed last time",
@@ -195,6 +203,7 @@ const nb: Messages = {
     tiles: { title: "Bygg setningen", description: "Oversett fra engelsk ved å trykke på ordbrikker." },
     write: { title: "Skriv det", description: "Skriv den norske oversettelsen selv." },
     inflection: { title: "Bøying", description: "Fyll inn riktig form av et ord i en setning." },
+    listen: { title: "Lytting", description: "Hør et norsk ord eller en setning, og skriv det du hører." },
   },
   forms: {
     indefSg: "ubestemt entall",
@@ -236,6 +245,13 @@ const nb: Messages = {
     knewIt: "Jeg kunne det",
     tapInOrder: "Trykk på ordene i riktig rekkefølge",
     typeNorwegian: "Skriv på norsk…",
+    listenPrompt: "Lytt og skriv det du hører",
+    listenTap: "Trykk for å lytte",
+    playAgain: "Spill av igjen",
+    playSlowly: "Sakte",
+    typeWhatYouHear: "Skriv det du hører…",
+    meaning: "Betyr: ",
+    listenNeedsVoice: "Lytteøvelsen trenger en norsk stemme på denne enheten.",
   },
   feedback: {
     correct: "Riktig!",
@@ -285,7 +301,7 @@ const nb: Messages = {
     nothingDue: "Ingenting skal repeteres akkurat nå. 🎉 Velg et emne i oversikten for å lære noe nytt.",
     review: (n, kind) =>
       `Repeter ${n} ${
-        { word: "ord", reverse: "ord (engelsk → norsk)", sentence: plural(n, "setning", "setninger"), drill: plural(n, "bøyingsøvelse", "bøyingsøvelser") }[kind]
+        { word: "ord", reverse: "ord (engelsk → norsk)", sentence: plural(n, "setning", "setninger"), drill: plural(n, "bøyingsøvelse", "bøyingsøvelser"), listen: plural(n, "lytteøvelse", "lytteøvelser") }[kind]
       }`,
     box: (box) => `Boks ${box}`,
     missedLastTime: "feil sist",

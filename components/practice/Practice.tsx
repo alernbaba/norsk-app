@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { useMemo, useState, type ReactNode } from "react";
 import { capitalize, drillAnswers, drillHint } from "@/lib/inflection";
-import { reverseId, wordIdFromReverse, type Mode } from "@/lib/modes";
+import { idFromListen, reverseId, wordIdFromReverse, type Mode } from "@/lib/modes";
+import { listenItemIds } from "@/lib/progress";
+import { getSpeech } from "@/lib/speech";
 import type { InflectionTable, ItemProgress, Settings, Topic } from "@/lib/types";
 import { BackLink } from "../BackLink";
 import { useT, useTopicText } from "../i18n";
@@ -12,6 +14,7 @@ import { ProgressBar } from "../ProgressBar";
 import { NoVoiceNotice } from "../SpeakButton";
 import { useAppState } from "../useAppState";
 import { Flashcard } from "./Flashcards";
+import { ListenPrompt } from "./Listen";
 import { TileBuilder } from "./TileBuilder";
 import { useSession } from "./useSession";
 import { WriteAnswer } from "./WriteAnswer";
@@ -27,6 +30,7 @@ export function Practice({ topic, mode, inflections }: Props) {
   const itemIds = useMemo(() => {
     if (mode === "flashcards") return topic.words.map((w) => w.id);
     if (mode === "reverse") return topic.words.map((w) => reverseId(w.id));
+    if (mode === "listen") return listenItemIds(topic);
     if (mode === "inflection") return topic.inflectionDrills.filter((d) => drillAnswers(d, inflections).length > 0).map((d) => d.id);
     return topic.sentences.map((s) => s.id);
   }, [topic, mode, inflections]);
@@ -86,6 +90,23 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
     void record(id, correct);
   };
 
+  /** What the listening exercise plays for an item, and the answers it accepts. */
+  const listenTarget = (itemId: string) => {
+    const baseId = idFromListen(itemId);
+    const word = topic.words.find((w) => w.id === baseId);
+    if (word) return { text: word.no, accepted: [word.no], meaning: word.en.join(", ") };
+    const sentence = topic.sentences.find((s) => s.id === baseId)!;
+    return { text: sentence.no[0], accepted: sentence.no, meaning: sentence.en };
+  };
+
+  // iOS only plays speech started from a tap, so the next listening item is
+  // spoken in the "Continue" handler itself rather than when it mounts.
+  const nextAndPlay = () => {
+    const nextId = session.queue[session.index + 1];
+    if (nextId) getSpeech().speak(listenTarget(nextId).text, { slow: settings.slowSpeech });
+    session.next();
+  };
+
   let body: ReactNode = null;
   if (session.done) {
     const right = session.results.filter((r) => r.correct).length;
@@ -134,6 +155,26 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
     const sentence = topic.sentences.find((s) => s.id === id)!;
     body = (
       <WriteAnswer key={id} prompt={<p>{sentence.en}</p>} accepted={sentence.no} settings={settings} onAnswer={handleAnswer} onNext={session.next} />
+    );
+  } else if (id && mode === "listen") {
+    const target = listenTarget(id);
+    body = (
+      <WriteAnswer
+        key={id}
+        prompt={<ListenPrompt text={target.text} settings={settings} autoStarted={session.index > 0} />}
+        accepted={target.accepted}
+        settings={settings}
+        onAnswer={handleAnswer}
+        onNext={nextAndPlay}
+        placeholder={t.practice.typeWhatYouHear}
+        alternatives={[]}
+        note={
+          <p className="text-sm text-muted">
+            {t.practice.meaning}
+            {target.meaning}
+          </p>
+        }
+      />
     );
   } else if (id && mode === "inflection") {
     const drill = topic.inflectionDrills.find((d) => d.id === id)!;

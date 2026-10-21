@@ -40,6 +40,7 @@ async function TopicContent({ params }: { params: Params }) {
     tiles: topic.sentences.length,
     write: topic.sentences.length,
     inflection: topic.inflectionDrills.length,
+    listen: topic.words.length + topic.sentences.length,
   };
 
   return (

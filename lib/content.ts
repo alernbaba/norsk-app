@@ -2,7 +2,7 @@
 
 import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
-import { reverseId } from "./modes";
+import { listenId, reverseId } from "./modes";
 import { topicItemIds } from "./progress";
 import type { InflectionTable, Topic } from "./types";
 
@@ -62,7 +62,7 @@ export function topicSummaries(): TopicSummary[] {
   }));
 }
 
-export type ReviewItem = { id: string; kind: "word" | "reverse" | "sentence" | "drill"; no: string; en: string };
+export type ReviewItem = { id: string; kind: "word" | "reverse" | "sentence" | "drill" | "listen"; no: string; en: string };
 export type ReviewTopic = Pick<Topic, "id" | "title" | "emoji"> & { items: ReviewItem[] };
 
 /** Every practice item with its display text, for the "due today" list. */
@@ -76,6 +76,8 @@ export function reviewTopics(): ReviewTopic[] {
       ...t.words.map((w): ReviewItem => ({ id: reverseId(w.id), kind: "reverse", no: w.no, en: w.en.join(", ") })),
       ...t.sentences.map((s): ReviewItem => ({ id: s.id, kind: "sentence", no: s.no[0], en: s.en })),
       ...t.inflectionDrills.map((d): ReviewItem => ({ id: d.id, kind: "drill", no: d.no, en: d.en })),
+      ...t.words.map((w): ReviewItem => ({ id: listenId(w.id), kind: "listen", no: w.no, en: w.en.join(", ") })),
+      ...t.sentences.map((s): ReviewItem => ({ id: listenId(s.id), kind: "listen", no: s.no[0], en: s.en })),
     ],
   }));
 }

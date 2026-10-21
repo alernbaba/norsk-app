@@ -16,10 +16,24 @@ type Props = {
   placeholder?: string;
   /** Turns the model answer into what is shown and read aloud (e.g. the full drill sentence). */
   formatExpected?: (answer: string) => string;
+  /** Other accepted answers to show; defaults to every variant but the first. */
+  alternatives?: string[];
+  /** Extra line under the feedback, e.g. the meaning in the listening exercise. */
+  note?: ReactNode;
 };
 
-/** A prompt plus a free-text answer, checked tolerantly. Used for "Write it" and "Inflection". */
-export function WriteAnswer({ prompt, accepted, settings, onAnswer, onNext, placeholder, formatExpected = (a) => a }: Props) {
+/** A prompt plus a free-text answer, checked tolerantly. Used for "Write it", "Inflection" and "Listening". */
+export function WriteAnswer({
+  prompt,
+  accepted,
+  settings,
+  onAnswer,
+  onNext,
+  placeholder,
+  formatExpected = (a) => a,
+  alternatives = accepted.slice(1),
+  note,
+}: Props) {
   const t = useT();
   const [value, setValue] = useState("");
   const [result, setResult] = useState<CheckResult | null>(null);
@@ -41,8 +55,9 @@ export function WriteAnswer({ prompt, accepted, settings, onAnswer, onNext, plac
             status={result.status}
             expected={formatExpected(result.expected)}
             slow={settings.slowSpeech}
-            alternatives={accepted.slice(1)}
+            alternatives={alternatives}
           />
+          {note}
           <button type="button" onClick={onNext} autoFocus className="btn btn-ink w-full">
             {t.common.continue}
           </button>

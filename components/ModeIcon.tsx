@@ -35,6 +35,13 @@ const PATHS: Record<Mode, React.ReactNode> = {
       <path d="M16 15l-2 2 2 2" />
     </>
   ),
+  listen: (
+    <>
+      <path d="M4 13v-1a8 8 0 0 1 16 0v1" />
+      <rect x="3.5" y="13" width="4" height="7" rx="1.5" />
+      <rect x="16.5" y="13" width="4" height="7" rx="1.5" />
+    </>
+  ),
 };
 
 export function ModeIcon({ mode, className = "h-6 w-6" }: { mode: Mode; className?: string }) {
