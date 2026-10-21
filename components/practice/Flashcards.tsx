@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { inflectionForWord, inflectionRows } from "@/lib/inflection";
 import { getSpeech } from "@/lib/speech";
 import type { InflectionTable, Settings, Word } from "@/lib/types";
+import { useT } from "../i18n";
 import { SpeakButton } from "../SpeakButton";
 
 type Props = {
@@ -15,6 +16,7 @@ type Props = {
 
 export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
   const [flipped, setFlipped] = useState(false);
+  const t = useT();
   const inflection = inflectionForWord(word, inflections);
 
   useEffect(() => {
@@ -48,7 +50,7 @@ export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
                 <tbody>
                   {inflectionRows(inflection).map((row) => (
                     <tr key={row.form} className="border-t border-slate-100 dark:border-slate-800">
-                      <th className="py-1.5 pr-3 font-normal text-slate-500 dark:text-slate-400">{row.label}</th>
+                      <th className="py-1.5 pr-3 font-normal text-slate-500 dark:text-slate-400">{t.forms[row.form]}</th>
                       <td className="py-1.5">
                         <div className="flex items-center justify-between gap-2">
                           <span lang="nb">{row.values.join(" / ")}</span>
@@ -62,7 +64,7 @@ export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
             )}
           </div>
         ) : (
-          <p className="text-sm text-slate-500">Tap to see the translation</p>
+          <p className="text-sm text-slate-500">{t.practice.tapToSee}</p>
         )}
       </div>
 
@@ -73,14 +75,14 @@ export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
             onClick={() => onAnswer(false)}
             className="rounded-xl bg-rose-100 px-4 py-3 font-semibold text-rose-900 hover:bg-rose-200 dark:bg-rose-950 dark:text-rose-100"
           >
-            I didn&apos;t know it
+            {t.practice.didntKnow}
           </button>
           <button
             type="button"
             onClick={() => onAnswer(true)}
             className="rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white hover:bg-emerald-700"
           >
-            I knew it
+            {t.practice.knewIt}
           </button>
         </div>
       ) : (
@@ -89,7 +91,7 @@ export function Flashcard({ word, inflections, settings, onAnswer }: Props) {
           onClick={() => setFlipped(true)}
           className="w-full rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white hover:bg-slate-700 dark:bg-slate-100 dark:text-slate-900"
         >
-          Show answer
+          {t.practice.showAnswer}
         </button>
       )}
     </div>

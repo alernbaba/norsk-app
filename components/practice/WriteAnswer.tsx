@@ -5,6 +5,7 @@ import { checkAnswer, isCorrect, type CheckResult } from "@/lib/answer-check";
 import type { Settings } from "@/lib/types";
 import { AnswerInput } from "../AnswerInput";
 import { Feedback } from "../Feedback";
+import { useT } from "../i18n";
 
 type Props = {
   prompt: ReactNode;
@@ -19,6 +20,7 @@ type Props = {
 
 /** A prompt plus a free-text answer, checked tolerantly. Used for "Write it" and "Inflection". */
 export function WriteAnswer({ prompt, accepted, settings, onAnswer, onNext, placeholder, formatExpected = (a) => a }: Props) {
+  const t = useT();
   const [value, setValue] = useState("");
   const [result, setResult] = useState<CheckResult | null>(null);
 
@@ -42,7 +44,7 @@ export function WriteAnswer({ prompt, accepted, settings, onAnswer, onNext, plac
             alternatives={accepted.slice(1)}
           />
           <button type="button" onClick={onNext} autoFocus className="w-full rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white dark:bg-slate-100 dark:text-slate-900">
-            Continue
+            {t.common.continue}
           </button>
         </>
       ) : (
@@ -52,7 +54,7 @@ export function WriteAnswer({ prompt, accepted, settings, onAnswer, onNext, plac
           disabled={value.trim() === ""}
           className="w-full rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white hover:bg-emerald-700 disabled:opacity-40"
         >
-          Check
+          {t.common.check}
         </button>
       )}
     </div>

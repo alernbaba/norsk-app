@@ -1,6 +1,6 @@
 # Norsk – lær norsk (bokmål)
 
-En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Grensesnittet er på engelsk.
+En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Grensesnittet er på engelsk eller norsk (velges under Settings / Innstillinger).
 
 - **Flashcards** med enkel spaced repetition (Leitner-bokser) og bøyingsformer på baksiden
 - **Build the sentence**: bygg den norske setningen med ordbrikker (inkludert feil ord)
@@ -9,6 +9,7 @@ En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Gre
 - 🔊 **Uttale** med nettleserens norske stemme, sakte tale og automatisk avspilling
 - **Oversikt** med fremgang per tema, lærte og mestrede ord, streak og nullstilling
 - **Due today**: liste over alt som skal repeteres i dag, med forklaring av boksene
+- 🌐 **Språkvalg** for menyer, knapper og tilbakemeldinger: engelsk (standard) eller norsk bokmål, lagret i nettleseren
 
 Innholdet er 35 temaer med ca. 1350 ord, 146 vanlige uttrykk, 350 setninger og 167 bøyingsøvelser.
 
@@ -75,7 +76,8 @@ tests/                    Vitest
 }
 ```
 
-3. Kjør `npm run import:ordbank` hvis temaet har nye substantiv, verb eller adjektiv (se under), og så `npm test`.
+3. Legg til norsk tittel og beskrivelse for temaet i `lib/i18n/topics.ts` (testene sjekker at alle temaer har det).
+4. Kjør `npm run import:ordbank` hvis temaet har nye substantiv, verb eller adjektiv (se under), og så `npm test`.
 
 Temaet dukker opp på forsiden neste gang du starter `npm run dev`. Testene i `tests/content.test.ts` sjekker at alt henger sammen.
 

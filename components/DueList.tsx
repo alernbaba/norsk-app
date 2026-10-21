@@ -3,89 +3,87 @@
 import Link from "next/link";
 import type { ReviewItem, ReviewTopic } from "@/lib/content";
 import { daysBetween } from "@/lib/dates";
+import type { Messages } from "@/lib/i18n/messages";
 import type { Mode } from "@/lib/modes";
 import { BOX_INTERVALS, isDue } from "@/lib/srs";
 import type { ItemProgress } from "@/lib/types";
+import { useT, useTopicText } from "./i18n";
 import { useAppState } from "./useAppState";
 
-const KIND_MODE: Record<ReviewItem["kind"], { mode: Mode; label: string }> = {
-  word: { mode: "flashcards", label: "words" },
-  sentence: { mode: "write", label: "sentences" },
-  drill: { mode: "inflection", label: "inflection drills" },
+const KIND_MODE: Record<ReviewItem["kind"], Mode> = {
+  word: "flashcards",
+  sentence: "write",
+  drill: "inflection",
 };
 
-function dueLabel(p: ItemProgress, date: string) {
+function dueLabel(p: ItemProgress, date: string, t: Messages) {
   const late = daysBetween(p.nextReview, date);
-  if (p.box === 1) return "missed last time";
-  return late > 0 ? `${late} ${late === 1 ? "day" : "days"} overdue` : "due today";
+  if (p.box === 1) return t.due.missedLastTime;
+  return late > 0 ? t.due.overdue(late) : t.due.dueToday;
 }
 
 export function DueList({ topics }: { topics: ReviewTopic[] }) {
   const { ready, date, progress } = useAppState();
+  const t = useT();
+  const topicText = useTopicText();
   const groups = topics
-    .map((t) => ({ ...t, items: t.items.filter((i) => progress[i.id] && isDue(progress[i.id], date)) }))
-    .filter((t) => t.items.length > 0);
-  const total = groups.reduce((n, t) => n + t.items.length, 0);
+    .map((topic) => ({ ...topic, items: topic.items.filter((i) => progress[i.id] && isDue(progress[i.id], date)) }))
+    .filter((topic) => topic.items.length > 0);
+  const total = groups.reduce((n, topic) => n + topic.items.length, 0);
 
   return (
     <div className="space-y-6">
       <div className="space-y-2">
         <Link href="/" className="text-sm text-slate-500 hover:underline">
-          ← Overview
+          {t.due.back}
         </Link>
-        <h1 className="text-2xl font-bold">Due today {ready && <span className="text-slate-400">({total})</span>}</h1>
+        <h1 className="text-2xl font-bold">
+          {t.due.title} {ready && <span className="text-slate-400">({total})</span>}
+        </h1>
       </div>
 
       <details className="rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
-        <summary className="cursor-pointer font-semibold text-slate-800 dark:text-slate-100">What makes something due?</summary>
+        <summary className="cursor-pointer font-semibold text-slate-800 dark:text-slate-100">{t.due.whatIsDue}</summary>
         <div className="mt-2 space-y-2">
-          <p>
-            Each word, sentence and drill you have practised sits in one of five boxes. A right answer moves it up one
-            box, a wrong answer sends it back to box 1. The box decides when you see it again:
-          </p>
+          <p>{t.due.boxesIntro}</p>
           <ul className="list-inside list-disc">
             {Object.entries(BOX_INTERVALS).map(([box, days]) => (
-              <li key={box}>
-                Box {box}: {days === 0 ? "again the same day" : `after ${days} ${days === 1 ? "day" : "days"}`}
-              </li>
+              <li key={box}>{t.due.boxInterval(box, days)}</li>
             ))}
           </ul>
-          <p>
-            An item is due when its review date has come. Items you have never practised are not due; they show up as
-            new items in practice instead. A word counts as learned once you get it right, and as mastered from box 4.
-          </p>
+          <p>{t.due.dueExplained}</p>
         </div>
       </details>
 
       {!ready ? (
-        <p className="text-slate-500">Loading…</p>
+        <p className="text-slate-500">{t.common.loading}</p>
       ) : groups.length === 0 ? (
         <p className="rounded-2xl border border-slate-200 bg-white p-4 text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
-          Nothing is due right now. 🎉 Pick a topic on the overview to learn something new.
+          {t.due.nothingDue}
         </p>
       ) : (
         <ul className="space-y-4">
-          {groups.map((t) => (
-            <li key={t.id} className="space-y-3 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
+          {groups.map((group) => (
+            <li key={group.id} className="space-y-3 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
               <h2 className="font-semibold">
-                {t.emoji} {t.title} <span className="text-slate-400">({t.items.length})</span>
+                {group.emoji} {topicText(group).title} <span className="text-slate-400">({group.items.length})</span>
               </h2>
               <div className="flex flex-wrap gap-2">
                 {(Object.keys(KIND_MODE) as ReviewItem["kind"][])
-                  .map((kind) => [kind, t.items.filter((i) => i.kind === kind).length] as const)
+                  .map((kind) => [kind, group.items.filter((i) => i.kind === kind).length] as const)
                   .filter(([, n]) => n > 0)
                   .map(([kind, n]) => (
                     <Link
                       key={kind}
-                      href={`/practice/${t.id}/${KIND_MODE[kind].mode}`}
+                      href={`/practice/${group.id}/${KIND_MODE[kind]}`}
                       className="rounded-full bg-emerald-600 px-3 py-1 text-sm font-medium text-white hover:bg-emerald-700"
                     >
-                      Review {n} {KIND_MODE[kind].label}
+                      {t.due.review(n, kind)}
                     </Link>
                   ))}
               </div>
               <ul className="divide-y divide-slate-100 text-sm dark:divide-slate-800">
-                {t.items.map((i) => (
+                {group.items.map((i) => (
                   <li key={i.id} className="flex justify-between gap-4 py-1.5">
                     <span>
                       <span lang="nb" className="font-medium">
@@ -94,8 +92,8 @@ export function DueList({ topics }: { topics: ReviewTopic[] }) {
                       <span className="block text-slate-500">{i.en}</span>
                     </span>
                     <span className="shrink-0 text-right text-xs text-slate-400">
-                      Box {progress[i.id].box}
-                      <span className="block">{dueLabel(progress[i.id], date)}</span>
+                      {t.due.box(progress[i.id].box)}
+                      <span className="block">{dueLabel(progress[i.id], date, t)}</span>
                     </span>
                   </li>
                 ))}

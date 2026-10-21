@@ -1,6 +1,7 @@
 "use client";
 
 import type { CheckStatus } from "@/lib/answer-check";
+import { useT } from "./i18n";
 import { SpeakButton } from "./SpeakButton";
 
 type Props = {
@@ -13,6 +14,7 @@ type Props = {
 };
 
 export function Feedback({ status, expected, slow, alternatives = [] }: Props) {
+  const t = useT();
   const right = status !== "wrong";
   return (
     <div
@@ -23,13 +25,13 @@ export function Feedback({ status, expected, slow, alternatives = [] }: Props) {
           : "bg-rose-50 text-rose-900 dark:bg-rose-950 dark:text-rose-100"
       }`}
     >
-      <p className="font-semibold">{right ? "Correct!" : "Not quite."}</p>
+      <p className="font-semibold">{right ? t.feedback.correct : t.feedback.notQuite}</p>
       {status === "correct-with-hint" && (
-        <p className="mt-1 text-sm">Tip: remember the letters æ, ø and å. You can use the buttons under the text field.</p>
+        <p className="mt-1 text-sm">{t.feedback.letterHint}</p>
       )}
       <div className="mt-2 flex items-center gap-2">
         <p className="text-lg">
-          {right ? "" : "Correct answer: "}
+          {right ? "" : t.feedback.correctAnswer}
           <span className="font-medium" lang="nb">
             {expected}
           </span>
@@ -38,7 +40,8 @@ export function Feedback({ status, expected, slow, alternatives = [] }: Props) {
       </div>
       {alternatives.length > 0 && (
         <p className="mt-1 text-sm opacity-80">
-          Also accepted: <span lang="nb">{alternatives.join(" · ")}</span>
+          {t.feedback.alsoAccepted}
+          <span lang="nb">{alternatives.join(" · ")}</span>
         </p>
       )}
     </div>
