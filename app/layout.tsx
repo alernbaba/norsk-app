@@ -3,6 +3,7 @@ import Link from "next/link";
 import { HtmlLang, Msg } from "@/components/i18n";
 import { Logo } from "@/components/Logo";
 import { HeaderNav, TabBar } from "@/components/NavLinks";
+import { THEME_SCRIPT, ThemeSync } from "@/components/theme";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,9 +23,14 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className="h-full antialiased">
+    // data-theme is set by THEME_SCRIPT before React hydrates.
+    <html lang="en" className="h-full antialiased" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="flex min-h-full flex-col bg-paper text-ink">
         <HtmlLang />
+        <ThemeSync />
         <header className="sticky top-0 z-10 border-b border-line/70 bg-paper/85 backdrop-blur-md">
           <div className="mx-auto flex max-w-2xl items-center justify-between gap-3 px-4 py-3">
             <Link href="/" className="flex items-center gap-2">

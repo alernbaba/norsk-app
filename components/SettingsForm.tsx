@@ -4,6 +4,7 @@ import { useState } from "react";
 import { LANGUAGES } from "@/lib/i18n/messages";
 import { setLanguage, useLanguage, useT } from "./i18n";
 import { NoVoiceNotice, SpeakButton, VoiceInfo } from "./SpeakButton";
+import { setTheme, THEME_CHOICES, useTheme } from "./theme";
 import { useAppState } from "./useAppState";
 
 export function SettingsForm() {
@@ -12,34 +13,27 @@ export function SettingsForm() {
   const [resetDone, setResetDone] = useState(false);
   const t = useT();
   const language = useLanguage();
+  const theme = useTheme();
 
   return (
     <div className="space-y-6">
-      <fieldset className="sheet space-y-3 p-5">
-        <legend className="sr-only">{t.settings.language}</legend>
-        <h2 className="text-xl font-medium" aria-hidden>
-          {t.settings.language}
-        </h2>
-        <p className="text-sm text-muted">{t.settings.languageDescription}</p>
-        <div className="grid grid-cols-2 gap-1 rounded-2xl bg-sunk p-1">
-          {LANGUAGES.map((l) => (
-            <label
-              key={l.id}
-              className="flex cursor-pointer items-center justify-center rounded-xl px-3 py-2.5 text-center text-sm font-semibold text-muted transition has-checked:bg-card has-checked:text-ink has-checked:shadow-sm has-focus-visible:outline-2 has-focus-visible:outline-fjord"
-            >
-              <input
-                type="radio"
-                name="language"
-                value={l.id}
-                checked={language === l.id}
-                onChange={() => setLanguage(l.id)}
-                className="sr-only"
-              />
-              {l.label}
-            </label>
-          ))}
-        </div>
-      </fieldset>
+      <Choice
+        name="language"
+        title={t.settings.language}
+        description={t.settings.languageDescription}
+        options={LANGUAGES}
+        value={language}
+        onChange={setLanguage}
+      />
+
+      <Choice
+        name="theme"
+        title={t.settings.appearance}
+        description={t.settings.appearanceDescription}
+        options={THEME_CHOICES.map((id) => ({ id, label: t.settings.themes[id] }))}
+        value={theme}
+        onChange={setTheme}
+      />
 
       <section className="sheet space-y-5 p-5">
         <h2 className="text-xl font-medium">{t.settings.pronunciation}</h2>
@@ -137,5 +131,43 @@ function Toggle({
         />
       </span>
     </label>
+  );
+}
+
+/** A titled card with a segmented control for picking one option. */
+function Choice<T extends string>({
+  name,
+  title,
+  description,
+  options,
+  value,
+  onChange,
+}: {
+  name: string;
+  title: string;
+  description: string;
+  options: { id: T; label: string }[];
+  value: T;
+  onChange: (value: T) => void;
+}) {
+  return (
+    <fieldset className="sheet space-y-3 p-5">
+      <legend className="sr-only">{title}</legend>
+      <h2 className="text-xl font-medium" aria-hidden>
+        {title}
+      </h2>
+      <p className="text-sm text-muted">{description}</p>
+      <div className="grid auto-cols-fr grid-flow-col gap-1 rounded-2xl bg-sunk p-1">
+        {options.map((o) => (
+          <label
+            key={o.id}
+            className="flex cursor-pointer items-center justify-center rounded-xl px-3 py-2.5 text-center text-sm font-semibold text-muted transition has-checked:bg-card has-checked:text-ink has-checked:shadow-sm has-focus-visible:outline-2 has-focus-visible:outline-fjord"
+          >
+            <input type="radio" name={name} value={o.id} checked={value === o.id} onChange={() => onChange(o.id)} className="sr-only" />
+            {o.label}
+          </label>
+        ))}
+      </div>
+    </fieldset>
   );
 }
