@@ -3,8 +3,9 @@
 import Link from "next/link";
 import { useMemo, useState, type ReactNode } from "react";
 import { capitalize, drillAnswers, drillHint } from "@/lib/inflection";
-import { MODES, type Mode } from "@/lib/modes";
+import type { Mode } from "@/lib/modes";
 import type { InflectionTable, ItemProgress, Settings, Topic } from "@/lib/types";
+import { useT, useTopicText } from "../i18n";
 import { ProgressBar } from "../ProgressBar";
 import { NoVoiceNotice } from "../SpeakButton";
 import { useAppState } from "../useAppState";
@@ -18,7 +19,8 @@ type Props = { topic: Topic; mode: Mode; inflections: InflectionTable };
 export function Practice({ topic, mode, inflections }: Props) {
   const { ready, progress, settings, record } = useAppState();
   const [round, setRound] = useState(0);
-  const modeInfo = MODES.find((m) => m.id === mode)!;
+  const t = useT();
+  const { title } = useTopicText()(topic);
 
   const itemIds = useMemo(() => {
     if (mode === "flashcards") return topic.words.map((w) => w.id);
@@ -30,15 +32,15 @@ export function Practice({ topic, mode, inflections }: Props) {
     <div className="space-y-5">
       <div>
         <Link href={`/topics/${topic.id}`} className="text-sm text-slate-500 hover:underline">
-          ← {topic.emoji} {topic.title}
+          ← {topic.emoji} {title}
         </Link>
-        <h1 className="text-2xl font-bold">{modeInfo.title}</h1>
+        <h1 className="text-2xl font-bold">{t.modes[mode].title}</h1>
       </div>
       <NoVoiceNotice />
       {!ready ? (
-        <p className="text-slate-500">Loading…</p>
+        <p className="text-slate-500">{t.common.loading}</p>
       ) : itemIds.length === 0 ? (
-        <p className="text-slate-500">This topic has nothing to practise in this mode yet.</p>
+        <p className="text-slate-500">{t.practice.nothingInMode}</p>
       ) : (
         <Round
           key={round}
@@ -65,6 +67,8 @@ type RoundProps = Props & {
 };
 
 function Round({ topic, mode, inflections, itemIds, progress, settings, record, onRestart }: RoundProps) {
+  const t = useT();
+  const { title } = useTopicText()(topic);
   const session = useSession(itemIds, progress);
   const id = session.current;
 
@@ -81,15 +85,15 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
       <div className="space-y-4 text-center">
         <p className="text-5xl">{right === session.results.length ? "🎉" : "💪"}</p>
         <p className="text-2xl font-semibold">
-          {right} of {session.results.length} right
+          {t.practice.rightOf(right, session.results.length)}
         </p>
-        <p className="text-slate-600 dark:text-slate-300">Items you missed will come back sooner.</p>
+        <p className="text-slate-600 dark:text-slate-300">{t.practice.missedComeBack}</p>
         <div className="grid gap-3 sm:grid-cols-2">
           <button type="button" onClick={onRestart} className="rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white hover:bg-emerald-700">
-            Practise again
+            {t.practice.again}
           </button>
           <Link href={`/topics/${topic.id}`} className="rounded-xl border border-slate-300 px-4 py-3 font-semibold hover:bg-slate-50 dark:border-slate-600 dark:hover:bg-slate-800">
-            Back to {topic.title}
+            {t.practice.backTo(title)}
           </Link>
         </div>
       </div>
@@ -130,7 +134,7 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
               {after}
             </p>
             <p className="text-base font-normal text-slate-500 dark:text-slate-400">
-              ({drillHint(drill)}) · {drill.en}
+              ({drillHint(drill, t.forms)}) · {drill.en}
             </p>
           </div>
         }
@@ -138,7 +142,7 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
         settings={settings}
         onAnswer={handleAnswer}
         onNext={session.next}
-        placeholder="Type the missing word…"
+        placeholder={t.practice.missingWord}
         formatExpected={(answer) => capitalize(`${before}${answer}${after}`)}
       />
     );
@@ -149,12 +153,12 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
       {!session.done && (
         <>
           <div className="flex items-center gap-3">
-            <ProgressBar value={session.index} max={session.total} label="Session progress" />
+            <ProgressBar value={session.index} max={session.total} label={t.practice.sessionProgress} />
             <span className="shrink-0 text-sm tabular-nums text-slate-500">
               {session.index + 1} / {session.total}
             </span>
           </div>
-          {session.extra && <p className="text-sm text-slate-500">Nothing is due right now, so this is extra practice with your weakest items.</p>}
+          {session.extra && <p className="text-sm text-slate-500">{t.practice.extraPractice}</p>}
         </>
       )}
       {body}

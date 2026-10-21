@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { LANGUAGES } from "@/lib/i18n/messages";
+import { setLanguage, useLanguage, useT } from "./i18n";
 import { NoVoiceNotice, SpeakButton, VoiceInfo } from "./SpeakButton";
 import { useAppState } from "./useAppState";
 
@@ -8,39 +10,65 @@ export function SettingsForm() {
   const { ready, settings, updateSettings, reset } = useAppState();
   const [confirming, setConfirming] = useState(false);
   const [resetDone, setResetDone] = useState(false);
+  const t = useT();
+  const language = useLanguage();
 
   return (
     <div className="space-y-6">
+      <fieldset className="space-y-3 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
+        <legend className="sr-only">{t.settings.language}</legend>
+        <h2 className="font-semibold" aria-hidden>
+          {t.settings.language}
+        </h2>
+        <p className="text-sm text-slate-500 dark:text-slate-400">{t.settings.languageDescription}</p>
+        <div className="grid grid-cols-2 gap-2">
+          {LANGUAGES.map((l) => (
+            <label
+              key={l.id}
+              className="flex cursor-pointer items-center gap-2 rounded-xl border border-slate-300 px-3 py-2 font-medium has-checked:border-emerald-500 has-checked:bg-emerald-50 dark:border-slate-600 dark:has-checked:bg-emerald-950"
+            >
+              <input
+                type="radio"
+                name="language"
+                value={l.id}
+                checked={language === l.id}
+                onChange={() => setLanguage(l.id)}
+                className="accent-emerald-600"
+              />
+              {l.label}
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
       <section className="space-y-4 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900">
-        <h2 className="font-semibold">Pronunciation</h2>
+        <h2 className="font-semibold">{t.settings.pronunciation}</h2>
         <NoVoiceNotice />
         <Toggle
-          label="Slow speech"
-          description="Read Norwegian more slowly. Helpful when you are starting out."
+          label={t.settings.slowSpeech}
+          description={t.settings.slowSpeechDescription}
           checked={settings.slowSpeech}
           disabled={!ready}
           onChange={(slowSpeech) => updateSettings({ ...settings, slowSpeech })}
         />
         <Toggle
-          label="Play automatically"
-          description="Read the word aloud when a new flashcard appears."
+          label={t.settings.autoPlay}
+          description={t.settings.autoPlayDescription}
           checked={settings.autoPlay}
           disabled={!ready}
           onChange={(autoPlay) => updateSettings({ ...settings, autoPlay })}
         />
         <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
           <SpeakButton text="Hei! Velkommen til norsk." slow={settings.slowSpeech} />
-          <span>Try it: “Hei! Velkommen til norsk.”</span>
+          <span>{t.settings.tryIt("Hei! Velkommen til norsk.")}</span>
         </div>
         <VoiceInfo />
       </section>
 
       <section className="space-y-3 rounded-2xl border border-rose-200 bg-white p-4 dark:border-rose-900 dark:bg-slate-900">
-        <h2 className="font-semibold">Reset progress</h2>
-        <p className="text-sm text-slate-600 dark:text-slate-300">
-          Deletes all progress and your streak on this device. Your settings are kept. This cannot be undone.
-        </p>
-        {resetDone && <p className="text-sm font-medium text-emerald-700">Progress has been reset.</p>}
+        <h2 className="font-semibold">{t.settings.reset}</h2>
+        <p className="text-sm text-slate-600 dark:text-slate-300">{t.settings.resetDescription}</p>
+        {resetDone && <p className="text-sm font-medium text-emerald-700">{t.settings.resetDone}</p>}
         {confirming ? (
           <div className="flex flex-wrap gap-3">
             <button
@@ -52,10 +80,10 @@ export function SettingsForm() {
               }}
               className="rounded-xl bg-rose-600 px-4 py-2 font-semibold text-white hover:bg-rose-700"
             >
-              Yes, delete my progress
+              {t.settings.resetConfirm}
             </button>
             <button type="button" onClick={() => setConfirming(false)} className="rounded-xl border border-slate-300 px-4 py-2 font-semibold dark:border-slate-600">
-              Cancel
+              {t.common.cancel}
             </button>
           </div>
         ) : (
@@ -67,7 +95,7 @@ export function SettingsForm() {
             }}
             className="rounded-xl border border-rose-300 px-4 py-2 font-semibold text-rose-700 hover:bg-rose-50 dark:border-rose-800 dark:text-rose-300 dark:hover:bg-rose-950"
           >
-            Reset progress…
+            {t.settings.resetButton}
           </button>
         )}
       </section>

@@ -1,27 +1,9 @@
 // Helpers for showing inflections and checking "Inflection" drills. Safe to use in the browser.
 
+import { MESSAGES } from "./i18n/messages";
 import type { Inflection, InflectionDrill, InflectionForm, InflectionTable, Word } from "./types";
 
-export const FORM_LABELS: Record<InflectionForm, string> = {
-  indefSg: "indefinite singular",
-  defSg: "definite singular",
-  indefPl: "indefinite plural",
-  defPl: "definite plural",
-  infinitive: "infinitive",
-  present: "present",
-  past: "past",
-  perfect: "present perfect",
-  participle: "past participle",
-  imperative: "imperative",
-  mf: "masculine/feminine",
-  f: "feminine",
-  n: "neuter",
-  def: "definite",
-  pl: "plural",
-  comparative: "comparative",
-  superlative: "superlative",
-  superlativeDef: "definite superlative",
-};
+export const FORM_LABELS: Record<InflectionForm, string> = MESSAGES.en.forms;
 
 /** The rows shown on the back of a flashcard, in reading order. */
 const DISPLAY_ORDER: Record<Inflection["pos"], InflectionForm[]> = {
@@ -55,9 +37,9 @@ export function drillAnswers(drill: InflectionDrill, table: InflectionTable): st
 }
 
 /** The hint shown after the blank, e.g. "(å spise, past)". */
-export function drillHint(drill: InflectionDrill): string {
+export function drillHint(drill: InflectionDrill, labels: Record<InflectionForm, string> = FORM_LABELS): string {
   const base = drill.pos === "verb" ? `å ${drill.lemma}` : drill.lemma;
-  return `${base}, ${FORM_LABELS[drill.form]}`;
+  return `${base}, ${labels[drill.form]}`;
 }
 
 /** Puts a sentence's first letter in upper case (drills can start with the blank). */

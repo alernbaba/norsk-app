@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import { useT } from "./i18n";
 
 type Props = {
   value: string;
@@ -14,7 +15,8 @@ type Props = {
 const LETTERS = ["æ", "ø", "å"];
 
 /** Text field with æ/ø/å buttons that insert at the cursor. */
-export function AnswerInput({ value, onChange, onSubmit, disabled, placeholder = "Type in Norwegian…", autoFocus }: Props) {
+export function AnswerInput({ value, onChange, onSubmit, disabled, placeholder, autoFocus }: Props) {
+  const t = useT();
   const ref = useRef<HTMLInputElement>(null);
 
   const insert = (letter: string) => {
@@ -43,7 +45,7 @@ export function AnswerInput({ value, onChange, onSubmit, disabled, placeholder =
           }
         }}
         disabled={disabled}
-        placeholder={placeholder}
+        placeholder={placeholder ?? t.practice.typeNorwegian}
         autoFocus={autoFocus}
         autoComplete="off"
         autoCorrect="off"

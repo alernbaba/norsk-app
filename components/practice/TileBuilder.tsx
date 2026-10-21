@@ -5,6 +5,7 @@ import { checkAnswer, isCorrect, type CheckResult } from "@/lib/answer-check";
 import { buildTiles, type Tile } from "@/lib/tiles";
 import type { Sentence, Settings } from "@/lib/types";
 import { Feedback } from "../Feedback";
+import { useT } from "../i18n";
 
 type Props = {
   sentence: Sentence;
@@ -14,6 +15,7 @@ type Props = {
 };
 
 export function TileBuilder({ sentence, settings, onAnswer, onNext }: Props) {
+  const t = useT();
   const tiles = useMemo(() => buildTiles(sentence), [sentence]);
   const [chosen, setChosen] = useState<Tile[]>([]);
   const [result, setResult] = useState<CheckResult | null>(null);
@@ -31,7 +33,7 @@ export function TileBuilder({ sentence, settings, onAnswer, onNext }: Props) {
       <p className="text-xl font-medium">{sentence.en}</p>
 
       <div className="flex min-h-16 flex-wrap content-start gap-2 rounded-xl border-2 border-dashed border-slate-300 p-3 dark:border-slate-600">
-        {chosen.length === 0 && <span className="self-center text-sm text-slate-400">Tap the words in the right order</span>}
+        {chosen.length === 0 && <span className="self-center text-sm text-slate-400">{t.practice.tapInOrder}</span>}
         {chosen.map((tile) => (
           <button
             key={tile.key}
@@ -65,7 +67,7 @@ export function TileBuilder({ sentence, settings, onAnswer, onNext }: Props) {
         <>
           <Feedback status={result.status} expected={result.expected} slow={settings.slowSpeech} alternatives={sentence.no.slice(1)} />
           <button type="button" onClick={onNext} className="w-full rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white dark:bg-slate-100 dark:text-slate-900">
-            Continue
+            {t.common.continue}
           </button>
         </>
       ) : (
@@ -75,7 +77,7 @@ export function TileBuilder({ sentence, settings, onAnswer, onNext }: Props) {
           disabled={chosen.length === 0}
           className="w-full rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white hover:bg-emerald-700 disabled:opacity-40"
         >
-          Check
+          {t.common.check}
         </button>
       )}
     </div>
