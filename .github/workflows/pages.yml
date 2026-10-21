@@ -30,6 +30,10 @@ jobs:
         env:
           GITHUB_PAGES: "true"
           PAGES_BASE_PATH: /${{ github.event.repository.name }}
+      - name: Generate offline service worker
+        run: npx tsx scripts/build-sw.ts
+        env:
+          PAGES_BASE_PATH: /${{ github.event.repository.name }}
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
