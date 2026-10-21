@@ -61,3 +61,10 @@ export function NoVoiceNotice() {
     </p>
   );
 }
+
+/** Names the voice in use, which helps when speech is silent on a device. */
+export function VoiceInfo() {
+  const available = useNorwegianVoice();
+  if (!available) return null;
+  return <p className="text-xs text-slate-500">Voice: {getSpeech().voiceLabel()}</p>;
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { NoVoiceNotice, SpeakButton } from "./SpeakButton";
+import { NoVoiceNotice, SpeakButton, VoiceInfo } from "./SpeakButton";
 import { useAppState } from "./useAppState";
 
 export function SettingsForm() {
@@ -32,6 +32,7 @@ export function SettingsForm() {
           <SpeakButton text="Hei! Velkommen til norsk." slow={settings.slowSpeech} />
           <span>Try it: “Hei! Velkommen til norsk.”</span>
         </div>
+        <VoiceInfo />
       </section>
 
       <section className="space-y-3 rounded-2xl border border-rose-200 bg-white p-4 dark:border-rose-900 dark:bg-slate-900">

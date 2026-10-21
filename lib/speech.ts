@@ -7,6 +7,8 @@ export interface SpeechEngine {
   /** Resolves once we know whether a Norwegian voice exists. */
   ready(): Promise<boolean>;
   isAvailable(): boolean;
+  /** The chosen voice, e.g. "Nora (nb-NO)", for troubleshooting. */
+  voiceLabel(): string | null;
   speak(text: string, options?: SpeakOptions): void;
 }
 
@@ -71,6 +73,10 @@ class BrowserSpeech implements SpeechEngine {
 
   isAvailable() {
     return this.voice !== null;
+  }
+
+  voiceLabel() {
+    return this.voice ? `${this.voice.name} (${this.voice.lang})` : null;
   }
 
   speak(text: string, { slow = false }: SpeakOptions = {}) {
