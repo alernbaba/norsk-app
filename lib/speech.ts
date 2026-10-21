@@ -12,11 +12,15 @@ export interface SpeechEngine {
 
 const LANG_PREFERENCE = ["nb-no", "no-no"];
 
-type VoiceLike = Pick<SpeechSynthesisVoice, "lang" | "name">;
+type VoiceLike = Pick<SpeechSynthesisVoice, "lang" | "name"> & { localService?: boolean };
+
+const isLocal = (v: VoiceLike) => v.localService !== false;
 
 /** Picks the best Norwegian voice: nb-NO, then no-NO, then anything starting with nb/no. */
 export function pickNorwegianVoice<V extends VoiceLike>(voices: V[]): V | null {
   const lang = (v: V) => v.lang.toLowerCase().replace("_", "-");
+  // Prefer voices installed on the device over network ones.
+  voices = [...voices].sort((x, y) => Number(isLocal(y)) - Number(isLocal(x)));
   for (const pref of LANG_PREFERENCE) {
     const match = voices.find((v) => lang(v) === pref);
     if (match) return match;
@@ -78,15 +82,42 @@ class BrowserSpeech implements SpeechEngine {
     if (synth.speaking || synth.pending) synth.cancel();
     // Safari sometimes leaves the queue paused, after which nothing plays.
     if (synth.paused) synth.resume();
+    this.say(synth, text, slow ? SLOW_RATE : NORMAL_RATE, true);
+  }
+
+  /**
+   * Speaks one utterance. iOS Safari can list a voice it then refuses to use
+   * (silently, or with an error), so if a chosen voice never starts we try once
+   * more with only the language set. That still uses a Norwegian voice.
+   */
+  private say(synth: SpeechSynthesis, text: string, rate: number, withVoice: boolean) {
+    const voice = this.voice!;
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.voice = this.voice;
-    utterance.lang = this.voice.lang;
-    utterance.rate = slow ? SLOW_RATE : NORMAL_RATE;
-    // Keep a reference: Safari can garbage-collect an utterance mid-speech.
-    this.current = utterance;
+    if (withVoice) utterance.voice = voice;
+    utterance.lang = voice.lang.replace("_", "-");
+    utterance.rate = rate;
+
+    let started = false;
+    const retry = () => {
+      if (started || !withVoice || this.current !== utterance) return;
+      clearTimeout(watchdog);
+      synth.cancel();
+      this.say(synth, text, rate, false);
+    };
+    const watchdog = setTimeout(retry, 1200);
+    utterance.onstart = () => {
+      started = true;
+      clearTimeout(watchdog);
+    };
+    utterance.onerror = (e) => {
+      if (e.error !== "interrupted" && e.error !== "canceled") retry();
+    };
     utterance.onend = () => {
+      clearTimeout(watchdog);
       if (this.current === utterance) this.current = null;
     };
+    // Keep a reference: Safari can garbage-collect an utterance mid-speech.
+    this.current = utterance;
     synth.speak(utterance);
   }
 }

@@ -18,6 +18,12 @@ describe("tiles", () => {
 describe("pickNorwegianVoice", () => {
   const v = (lang: string, name = lang) => ({ lang, name });
 
+  it("prefers a voice installed on the device", () => {
+    const remote = { lang: "nb-NO", name: "Remote", localService: false };
+    const local = { lang: "nb-NO", name: "Nora", localService: true };
+    expect(pickNorwegianVoice([remote, local])?.name).toBe("Nora");
+  });
+
   it("prefers nb-NO, then no-NO, then other nb/no voices", () => {
     expect(pickNorwegianVoice([v("en-US"), v("no-NO"), v("nb-NO")])?.lang).toBe("nb-NO");
     expect(pickNorwegianVoice([v("en-US"), v("no-NO")])?.lang).toBe("no-NO");
