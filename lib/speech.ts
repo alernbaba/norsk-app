@@ -30,6 +30,7 @@ export const SLOW_RATE = 0.7;
 class BrowserSpeech implements SpeechEngine {
   private voice: SpeechSynthesisVoice | null = null;
   private readyPromise: Promise<boolean> | null = null;
+  private current: SpeechSynthesisUtterance | null = null;
 
   private synth(): SpeechSynthesis | null {
     return typeof window !== "undefined" && "speechSynthesis" in window ? window.speechSynthesis : null;
@@ -46,19 +47,20 @@ class BrowserSpeech implements SpeechEngine {
         return this.voice !== null;
       };
       if (tryPick()) return resolve(true);
-      // Some browsers load the voice list asynchronously.
-      const onChange = () => {
-        if (tryPick()) {
-          synth.removeEventListener("voiceschanged", onChange);
-          resolve(true);
-        }
-      };
-      synth.addEventListener("voiceschanged", onChange);
-      // Give up after a while if no Norwegian voice ever shows up.
-      setTimeout(() => {
+      // The voice list loads asynchronously. Safari on iOS often never fires
+      // voiceschanged, so poll as well as listening for the event.
+      const finish = (ok: boolean) => {
         synth.removeEventListener("voiceschanged", onChange);
-        resolve(tryPick());
-      }, 3000);
+        clearInterval(poll);
+        clearTimeout(timeout);
+        // Let a later page try again if the voices simply weren't loaded yet.
+        if (!ok) this.readyPromise = null;
+        resolve(ok);
+      };
+      const onChange = () => tryPick() && finish(true);
+      synth.addEventListener("voiceschanged", onChange);
+      const poll = setInterval(onChange, 250);
+      const timeout = setTimeout(() => finish(tryPick()), 5000);
     });
     return this.readyPromise;
   }
@@ -71,11 +73,20 @@ class BrowserSpeech implements SpeechEngine {
     const synth = this.synth();
     // Never fall back to a non-Norwegian voice: wrong pronunciation is worse than none.
     if (!synth || !this.voice) return;
-    synth.cancel();
+    // On iOS, cancel() right before speak() can swallow the new utterance,
+    // so only cancel when something is actually playing.
+    if (synth.speaking || synth.pending) synth.cancel();
+    // Safari sometimes leaves the queue paused, after which nothing plays.
+    if (synth.paused) synth.resume();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.voice = this.voice;
     utterance.lang = this.voice.lang;
     utterance.rate = slow ? SLOW_RATE : NORMAL_RATE;
+    // Keep a reference: Safari can garbage-collect an utterance mid-speech.
+    this.current = utterance;
+    utterance.onend = () => {
+      if (this.current === utterance) this.current = null;
+    };
     synth.speak(utterance);
   }
 }
