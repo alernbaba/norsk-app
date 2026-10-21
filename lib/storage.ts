@@ -1,7 +1,7 @@
 // Storage layer. The rest of the app only talks to StorageAdapter, so the
 // localStorage adapter can later be swapped for a database behind a login.
 
-import type { ItemProgress, Profile, Settings } from "./types";
+import type { ActivityLog, DayActivity, ItemProgress, Profile, Settings } from "./types";
 
 export interface StorageAdapter {
   getAllProgress(): Promise<Record<string, ItemProgress>>;
@@ -10,22 +10,25 @@ export interface StorageAdapter {
   saveProfile(profile: Profile): Promise<void>;
   getSettings(): Promise<Settings>;
   saveSettings(settings: Settings): Promise<void>;
-  /** Clears progress and streak. Settings are kept. */
+  getActivity(): Promise<ActivityLog>;
+  saveDayActivity(date: string, activity: DayActivity): Promise<void>;
+  /** Clears progress, streak and activity. Settings are kept. */
   reset(): Promise<void>;
 }
 
 export const DEFAULT_PROFILE: Profile = { streak: 0, lastActiveDate: null };
-export const DEFAULT_SETTINGS: Settings = { slowSpeech: false, autoPlay: false };
+export const DEFAULT_SETTINGS: Settings = { slowSpeech: false, autoPlay: false, dailyGoal: 20, goalReminder: true };
 
 type StoredState = {
   version: 1;
   progress: Record<string, ItemProgress>;
   profile: Profile;
   settings: Settings;
+  activity: ActivityLog;
 };
 
 function emptyState(settings: Settings = DEFAULT_SETTINGS): StoredState {
-  return { version: 1, progress: {}, profile: { ...DEFAULT_PROFILE }, settings: { ...settings } };
+  return { version: 1, progress: {}, profile: { ...DEFAULT_PROFILE }, settings: { ...settings }, activity: {} };
 }
 
 /** Minimal key/value interface so tests can pass a fake instead of window.localStorage. */
@@ -46,6 +49,7 @@ export class LocalStorageAdapter implements StorageAdapter {
         progress: parsed.progress ?? {},
         profile: { ...DEFAULT_PROFILE, ...parsed.profile },
         settings: { ...DEFAULT_SETTINGS, ...parsed.settings },
+        activity: parsed.activity ?? {},
       };
     } catch {
       return emptyState();
@@ -87,6 +91,16 @@ export class LocalStorageAdapter implements StorageAdapter {
   async saveSettings(settings: Settings) {
     const state = this.read();
     state.settings = settings;
+    this.write(state);
+  }
+
+  async getActivity() {
+    return this.read().activity;
+  }
+
+  async saveDayActivity(date: string, activity: DayActivity) {
+    const state = this.read();
+    state.activity[date] = activity;
     this.write(state);
   }
 

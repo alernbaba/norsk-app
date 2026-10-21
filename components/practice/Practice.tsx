@@ -6,6 +6,7 @@ import { capitalize, drillAnswers, drillHint } from "@/lib/inflection";
 import { idFromListen, reverseId, wordIdFromReverse, type Mode } from "@/lib/modes";
 import { listenItemIds } from "@/lib/progress";
 import { getSpeech } from "@/lib/speech";
+import { goalState, type GoalState } from "@/lib/stats";
 import type { InflectionTable, ItemProgress, Settings, Topic } from "@/lib/types";
 import { BackLink } from "../BackLink";
 import { useT, useTopicText } from "../i18n";
@@ -22,7 +23,7 @@ import { WriteAnswer } from "./WriteAnswer";
 type Props = { topic: Topic; mode: Mode; inflections: InflectionTable };
 
 export function Practice({ topic, mode, inflections }: Props) {
-  const { ready, progress, settings, record } = useAppState();
+  const { ready, date, progress, settings, activity, record } = useAppState();
   const [round, setRound] = useState(0);
   const t = useT();
   const { title } = useTopicText()(topic);
@@ -62,6 +63,7 @@ export function Practice({ topic, mode, inflections }: Props) {
           itemIds={itemIds}
           progress={progress}
           settings={settings}
+          goal={goalState(activity, date, settings.dailyGoal)}
           record={record}
           onRestart={() => setRound((r) => r + 1)}
         />
@@ -74,11 +76,12 @@ type RoundProps = Props & {
   itemIds: string[];
   progress: Record<string, ItemProgress>;
   settings: Settings;
+  goal: GoalState;
   record: (itemId: string, correct: boolean) => Promise<unknown>;
   onRestart: () => void;
 };
 
-function Round({ topic, mode, inflections, itemIds, progress, settings, record, onRestart }: RoundProps) {
+function Round({ topic, mode, inflections, itemIds, progress, settings, goal, record, onRestart }: RoundProps) {
   const t = useT();
   const { title } = useTopicText()(topic);
   const session = useSession(itemIds, progress);
@@ -123,6 +126,14 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, record, 
         <p className="text-muted">
           {right === session.results.length ? t.practice.allRight : t.practice.missedComeBack}
         </p>
+        {goal.met ? (
+          <p className="text-sm font-medium text-moss">{t.practice.goalReached}</p>
+        ) : (
+          <div className="mx-auto flex max-w-xs items-center gap-3">
+            <ProgressBar value={goal.answered} max={goal.goal} label={t.goal.ringLabel} />
+            <span className="shrink-0 text-sm font-medium text-muted tabular-nums">{t.practice.goalToday(goal.answered, goal.goal)}</span>
+          </div>
+        )}
         <div className="grid gap-3 pt-2 sm:grid-cols-2">
           <button type="button" onClick={onRestart} className="btn btn-fjord">
             {t.practice.again}

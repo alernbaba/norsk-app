@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import { LANGUAGES } from "@/lib/i18n/messages";
+import { GOAL_CHOICES } from "@/lib/stats";
 import { setLanguage, useLanguage, useT } from "./i18n";
 import { NoVoiceNotice, SpeakButton, VoiceInfo } from "./SpeakButton";
 import { setTheme, THEME_CHOICES, useTheme } from "./theme";
@@ -34,6 +35,26 @@ export function SettingsForm() {
         value={theme}
         onChange={setTheme}
       />
+
+      <Choice
+        name="daily-goal"
+        title={t.settings.goal}
+        description={t.settings.goalDescription}
+        options={GOAL_CHOICES.map((n) => ({ id: String(n), label: String(n) }))}
+        value={String(settings.dailyGoal)}
+        disabled={!ready}
+        onChange={(goal) => updateSettings({ ...settings, dailyGoal: Number(goal) })}
+      >
+        <div className="pt-2">
+          <Toggle
+            label={t.settings.goalReminder}
+            description={t.settings.goalReminderDescription}
+            checked={settings.goalReminder}
+            disabled={!ready}
+            onChange={(goalReminder) => updateSettings({ ...settings, goalReminder })}
+          />
+        </div>
+      </Choice>
 
       <section className="sheet space-y-5 p-5">
         <h2 className="text-xl font-medium">{t.settings.pronunciation}</h2>
@@ -141,17 +162,21 @@ function Choice<T extends string>({
   description,
   options,
   value,
+  disabled,
   onChange,
+  children,
 }: {
   name: string;
   title: string;
   description: string;
   options: { id: T; label: string }[];
   value: T;
+  disabled?: boolean;
   onChange: (value: T) => void;
+  children?: ReactNode;
 }) {
   return (
-    <fieldset className="sheet space-y-3 p-5">
+    <fieldset className="sheet space-y-3 p-5" disabled={disabled}>
       <legend className="sr-only">{title}</legend>
       <h2 className="text-xl font-medium" aria-hidden>
         {title}
@@ -168,6 +193,7 @@ function Choice<T extends string>({
           </label>
         ))}
       </div>
+      {children}
     </fieldset>
   );
 }

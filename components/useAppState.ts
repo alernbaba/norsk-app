@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { today } from "@/lib/dates";
 import { recordAnswer } from "@/lib/progress";
 import { DEFAULT_PROFILE, DEFAULT_SETTINGS, getStorage } from "@/lib/storage";
-import type { ItemProgress, Profile, Settings } from "@/lib/types";
+import type { ActivityLog, ItemProgress, Profile, Settings } from "@/lib/types";
 
 type State = {
   ready: boolean;
@@ -13,17 +13,23 @@ type State = {
   progress: Record<string, ItemProgress>;
   profile: Profile;
   settings: Settings;
+  activity: ActivityLog;
 };
 
-const INITIAL: State = { ready: false, date: "", progress: {}, profile: DEFAULT_PROFILE, settings: DEFAULT_SETTINGS };
+const INITIAL: State = { ready: false, date: "", progress: {}, profile: DEFAULT_PROFILE, settings: DEFAULT_SETTINGS, activity: {} };
 
 async function readState(): Promise<State> {
   const storage = getStorage();
-  const [progress, profile, settings] = await Promise.all([storage.getAllProgress(), storage.getProfile(), storage.getSettings()]);
-  return { ready: true, date: today(), progress, profile, settings };
+  const [progress, profile, settings, activity] = await Promise.all([
+    storage.getAllProgress(),
+    storage.getProfile(),
+    storage.getSettings(),
+    storage.getActivity(),
+  ]);
+  return { ready: true, date: today(), progress, profile, settings, activity };
 }
 
-/** Progress, streak and settings from the storage layer, loaded after mount. */
+/** Progress, streak, settings and daily activity from the storage layer, loaded after mount. */
 export function useAppState() {
   const [state, setState] = useState<State>(INITIAL);
 
@@ -38,8 +44,8 @@ export function useAppState() {
   const record = useCallback(async (itemId: string, correct: boolean) => {
     const storage = getStorage();
     const next = await recordAnswer(storage, itemId, correct, today());
-    const profile = await storage.getProfile();
-    setState((s) => ({ ...s, progress: { ...s.progress, [itemId]: next }, profile }));
+    const [profile, activity] = await Promise.all([storage.getProfile(), storage.getActivity()]);
+    setState((s) => ({ ...s, progress: { ...s.progress, [itemId]: next }, profile, activity }));
     return next;
   }, []);
 
