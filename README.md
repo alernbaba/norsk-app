@@ -124,6 +124,21 @@ Bøyingsformene kommer fra [Norsk ordbank – bokmål 2005](https://www.nb.no/sp
 
 Valgfritt: legger du en frekvensliste i `data/raw/frequency.txt` (én linje per ord: `ord antall`, f.eks. `no_50k.txt` fra [FrequencyWords](https://github.com/hermitdave/FrequencyWords)), bruker skriptet den til å velge mellom like oppslag. Uten den velges oppslaget med flest former.
 
+## Publisere på GitHub Pages
+
+Appen kjører helt i nettleseren (fremgang lagres i localStorage), så den kan publiseres som en statisk side.
+Workflowen `.github/workflows/pages.yml` kjører testene, bygger en statisk eksport og publiserer den ved hver push til `main`.
+
+Første gang: gå til **Settings → Pages** i repoet og velg **Source: GitHub Actions**. Siden havner på `https://<bruker>.github.io/<repo>/`.
+
+Bygg den statiske versjonen lokalt med:
+
+```bash
+GITHUB_PAGES=true npx next build   # skriver til out/, med basePath /norsk-app
+```
+
+`PAGES_BASE_PATH` overstyrer stien hvis repoet heter noe annet.
+
 ## Bytte til database og innlogging senere
 
 All lesing og skriving av fremgang går gjennom `StorageAdapter` i `lib/storage.ts`. Grensesnittet er asynkront, så en adapter som snakker med et API eller en database kan erstatte `LocalStorageAdapter` i `getStorage()` uten å endre sidene. På samme måte kan `lib/speech.ts` byttes til en skytjeneste for tale (Google Cloud TTS eller Azure) bak den samme `speak(text)`-funksjonen.
