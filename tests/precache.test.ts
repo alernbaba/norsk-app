@@ -11,7 +11,7 @@ describe("precacheUrls", () => {
   });
 
   it("keeps static assets, icons and the manifest", () => {
-    const files = ["_next/static/chunks/a.js", "_next/static/media/font.woff2", "icons/icon-192.png", "manifest.webmanifest"];
+    const files = ["_next/static/chunks/a.js", "_next/static/media/font.woff2", "icons/icon-192.png", "manifest.json"];
     expect(precacheUrls(files, "/norsk-app")).toEqual(files.map((file) => `/norsk-app/${file}`).sort());
   });
 

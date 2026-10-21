@@ -28,7 +28,7 @@ npm run icons      # lager app-ikonene på nytt fra scripts/icon.svg
 
 ### Installerbar app og offline
 
-GitHub Pages-bygget er en PWA. `app/manifest.ts` beskriver appen, ikonene ligger i `public/icons/` og `app/apple-icon.png` (laget fra `scripts/icon.svg`). Etter `next build` lager `scripts/build-sw.ts` filen `out/sw.js`: `scripts/service-worker.js` med en liste over alle sider og filer som skal lagres, og en versjon som endres med hvert bygg. Ved første besøk lagres hele appen i nettleseren, så den virker uten nett. En ny deploy gir en ny versjon som erstatter den gamle lagringen. Service workeren registreres bare i det statiske bygget, ikke i `npm run dev`.
+GitHub Pages-bygget er en PWA. `app/manifest.json` beskriver appen (med relative adresser, så den virker med og uten base path), ikonene ligger i `public/icons/` og `app/apple-icon.png` (laget fra `scripts/icon.svg`). Etter `next build` lager `scripts/build-sw.ts` filen `out/sw.js`: `scripts/service-worker.js` med en liste over alle sider og filer som skal lagres, og en versjon som endres med hvert bygg. Ved første besøk lagres hele appen i nettleseren, så den virker uten nett. En ny deploy gir en ny versjon som erstatter den gamle lagringen. Service workeren registreres bare i det statiske bygget, ikke i `npm run dev`.
 
 Krever Node.js 20 eller nyere.
 
