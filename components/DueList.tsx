@@ -16,6 +16,7 @@ const KIND_MODE: Record<ReviewItem["kind"], Mode> = {
   reverse: "reverse",
   sentence: "write",
   drill: "inflection",
+  listen: "listen",
 };
 
 function dueLabel(p: ItemProgress, date: string, t: Messages) {
