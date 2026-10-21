@@ -4,7 +4,7 @@ import type { NextConfig } from "next";
 const pagesBasePath = process.env.GITHUB_PAGES === "true" ? (process.env.PAGES_BASE_PATH ?? "/norsk-app") : undefined;
 
 const nextConfig: NextConfig = {
-  // The manifest and the service worker registration need these at build time.
+  // The service worker registration needs these at build time.
   // sw.js only exists in the static export (see scripts/build-sw.ts).
   env: {
     NEXT_PUBLIC_BASE_PATH: pagesBasePath ?? "",
