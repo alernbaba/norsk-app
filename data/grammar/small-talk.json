@@ -1,0 +1,40 @@
+{
+  "topicId": "small-talk",
+  "tips": [
+    {
+      "id": "small-talk-think",
+      "title": {
+        "en": "Three ways to think: synes, tror, tenker",
+        "nb": "Tre måter å tenke på: synes, tror, tenker"
+      },
+      "text": {
+        "en": [
+          "English *think* has three Norwegian words. *Synes* is your opinion about something you've experienced: *Jeg synes filmen er bra.*",
+          "*Tror* is what you believe or guess is true: *Jeg tror det blir regn.* *Tenker* is the act of thinking: *Jeg tenker på deg.*"
+        ],
+        "nb": [
+          "Engelsk *think* har tre norske ord. *Synes* er meningen din om noe du har opplevd: *Jeg synes filmen er bra.*",
+          "*Tror* er det du tror eller gjetter er sant: *Jeg tror det blir regn.* *Tenker* er selve tankearbeidet: *Jeg tenker på deg.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg *synes* det er gøy.",
+          "en": "I think it's fun."
+        },
+        {
+          "no": "Jeg *tror* hun kommer.",
+          "en": "I think she's coming."
+        },
+        {
+          "no": "Hva *tenker* du på?",
+          "en": "What are you thinking about?"
+        },
+        {
+          "no": "Hva *synes* du om maten?",
+          "en": "What do you think of the food?"
+        }
+      ]
+    }
+  ]
+}

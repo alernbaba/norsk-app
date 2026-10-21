@@ -1,0 +1,40 @@
+{
+  "topicId": "verbs-3",
+  "tips": [
+    {
+      "id": "verbs-3-imperative",
+      "title": {
+        "en": "Wait! The imperative",
+        "nb": "Vent! Imperativ"
+      },
+      "text": {
+        "en": [
+          "The imperative (an order or request) is the infinitive without *-e*: *vente → vent, lukke → lukk, spise → spis*.",
+          "Verbs that end in another vowel stay as they are: *gå → gå, bo → bo*. Add *er du snill* (please) or *gjerne* to sound friendlier."
+        ],
+        "nb": [
+          "Imperativ (en ordre eller oppfordring) er infinitiv uten *-e*: *vente → vent, lukke → lukk, spise → spis*.",
+          "Verb som ender på en annen vokal, er like: *gå → gå, bo → bo*. Legg til *er du snill* eller *gjerne* for å høres vennligere ut."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*Vent* litt!",
+          "en": "Wait a moment!"
+        },
+        {
+          "no": "*Lukk* døra, er du snill.",
+          "en": "Close the door, please."
+        },
+        {
+          "no": "*Kom* inn!",
+          "en": "Come in!"
+        },
+        {
+          "no": "*Ta* gjerne en kake.",
+          "en": "Help yourself to a cake."
+        }
+      ]
+    }
+  ]
+}

@@ -4,10 +4,11 @@ import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { listenId, reverseId } from "./modes";
 import { topicItemIds } from "./progress";
-import type { InflectionTable, Topic } from "./types";
+import type { GrammarTip, InflectionTable, Topic, TopicGrammar } from "./types";
 
 let topicsCache: Topic[] | null = null;
 let inflectionsCache: InflectionTable | null = null;
+let grammarCache: TopicGrammar[] | null = null;
 
 export function loadTopics(): Topic[] {
   return readdirSync(path.join(process.cwd(), "data", "topics"))
@@ -34,6 +35,19 @@ export function getInflections(): InflectionTable {
     }
   }
   return inflectionsCache;
+}
+
+export function loadGrammar(): TopicGrammar[] {
+  const dir = path.join(process.cwd(), "data", "grammar");
+  return readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => JSON.parse(readFileSync(path.join(dir, f), "utf8")) as TopicGrammar);
+}
+
+/** Grammar tips for one topic, or an empty list. */
+export function grammarForTopic(topicId: string): GrammarTip[] {
+  if (!grammarCache) grammarCache = loadGrammar();
+  return grammarCache.find((g) => g.topicId === topicId)?.tips ?? [];
 }
 
 /** Only the inflections a topic needs, so pages don't ship the whole table. */

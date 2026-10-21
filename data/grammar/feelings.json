@@ -1,0 +1,40 @@
+{
+  "topicId": "feelings",
+  "tips": [
+    {
+      "id": "feelings-reflexive",
+      "title": {
+        "en": "Looking forward: verbs with «seg»",
+        "nb": "Å glede seg: verb med «seg»"
+      },
+      "text": {
+        "en": [
+          "Many verbs about feelings are reflexive: they need *meg, deg, seg, oss, dere* or *seg* pointing back to the subject. English often has no word there.",
+          "*å glede seg* (look forward), *å kjede seg* (be bored), *å bekymre seg* (worry), *å være lei seg* (be sad)."
+        ],
+        "nb": [
+          "Mange verb om følelser er refleksive: de trenger *meg, deg, seg, oss, dere* eller *seg*, som viser tilbake til subjektet. På engelsk står det ofte ikke noe ord der.",
+          "*å glede seg*, *å kjede seg*, *å bekymre seg*, *å være lei seg*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg gleder *meg* til ferien.",
+          "en": "I'm looking forward to the holiday."
+        },
+        {
+          "no": "Kjeder du *deg*?",
+          "en": "Are you bored?"
+        },
+        {
+          "no": "Hun er lei *seg*.",
+          "en": "She is sad."
+        },
+        {
+          "no": "Vi bekymrer *oss* ikke.",
+          "en": "We're not worried."
+        }
+      ]
+    }
+  ]
+}

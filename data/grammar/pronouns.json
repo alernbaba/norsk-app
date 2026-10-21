@@ -1,0 +1,75 @@
+{
+  "topicId": "pronouns",
+  "tips": [
+    {
+      "id": "pronouns-object",
+      "title": {
+        "en": "I and me: subject and object forms",
+        "nb": "Jeg og meg: subjekt- og objektform"
+      },
+      "text": {
+        "en": [
+          "Like English *I / me* and *he / him*, Norwegian pronouns change when they are the object of a verb or come after a preposition.",
+          "*jeg → meg*, *du → deg*, *han → ham* (or *han*), *hun → henne*, *vi → oss*, *dere → dere*, *de → dem*. *Den* and *det* stay the same."
+        ],
+        "nb": [
+          "Som engelsk *I / me* og *he / him* skifter norske pronomen form når de er objekt, eller når de står etter en preposisjon.",
+          "*jeg → meg*, *du → deg*, *han → ham* (eller *han*), *hun → henne*, *vi → oss*, *dere → dere*, *de → dem*. *Den* og *det* er like."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*Jeg* ser *deg*.",
+          "en": "I see you."
+        },
+        {
+          "no": "*Hun* ringer *meg* i kveld.",
+          "en": "She's calling me tonight."
+        },
+        {
+          "no": "Kan du hjelpe *oss*?",
+          "en": "Can you help us?"
+        },
+        {
+          "no": "*De* bor ved siden av *dem*.",
+          "en": "They live next to them."
+        }
+      ]
+    },
+    {
+      "id": "pronouns-possessive",
+      "title": {
+        "en": "My car: possessives usually come after the noun",
+        "nb": "Bilen min: eiendomsordet står oftest etter"
+      },
+      "text": {
+        "en": [
+          "The most common way to say *my car* is *bilen min*: the noun in the definite form, then the possessive. *Min bil* is also correct, but sounds more formal or stresses *my*.",
+          "The possessive agrees with the noun: *min / mi / mitt / mine*. Use *min* with en-words, *mi* with ei-words, *mitt* with et-words and *mine* in the plural. The same goes for *din*."
+        ],
+        "nb": [
+          "Den vanligste måten å si *my car* på er *bilen min*: substantivet i bestemt form og så eiendomsordet. *Min bil* er også riktig, men høres mer formelt ut eller legger trykk på *min*.",
+          "Eiendomsordet bøyes etter substantivet: *min / mi / mitt / mine*. *Min* brukes med en-ord, *mi* med ei-ord, *mitt* med et-ord og *mine* i flertall. Det samme gjelder *din*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*bilen min*",
+          "en": "my car"
+        },
+        {
+          "no": "*boka mi*",
+          "en": "my book"
+        },
+        {
+          "no": "*huset mitt*",
+          "en": "my house"
+        },
+        {
+          "no": "*vennene dine*",
+          "en": "your friends"
+        }
+      ]
+    }
+  ]
+}

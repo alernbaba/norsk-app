@@ -1,0 +1,40 @@
+{
+  "topicId": "family",
+  "tips": [
+    {
+      "id": "family-sin",
+      "title": {
+        "en": "His own: «sin» and «hans»",
+        "nb": "Sin eller hans?"
+      },
+      "text": {
+        "en": [
+          "English *his* can mean his own or someone else's. Norwegian keeps them apart: *sin / si / sitt / sine* points back to the subject of the same clause, while *hans* and *hennes* point to someone else.",
+          "*Sin* is never used about the subject itself, so it can't be part of the subject: *Moren hans er lege*, not *Moren sin*."
+        ],
+        "nb": [
+          "Engelsk *his* kan bety hans egen eller en annens. På norsk skiller vi dem: *sin / si / sitt / sine* viser tilbake til subjektet i samme setning, mens *hans* og *hennes* viser til en annen person.",
+          "*Sin* kan ikke være en del av subjektet selv, så det heter *Moren hans er lege*, ikke *Moren sin er lege*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Per besøker moren *sin*.",
+          "en": "Per visits his (own) mother."
+        },
+        {
+          "no": "Per besøker moren *hans*.",
+          "en": "Per visits his (another man's) mother."
+        },
+        {
+          "no": "Hun ringer søsteren *si*.",
+          "en": "She calls her (own) sister."
+        },
+        {
+          "no": "Moren *hans* er lege.",
+          "en": "His mother is a doctor."
+        }
+      ]
+    }
+  ]
+}

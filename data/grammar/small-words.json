@@ -1,0 +1,40 @@
+{
+  "topicId": "small-words",
+  "tips": [
+    {
+      "id": "small-words-adverb-slot",
+      "title": {
+        "en": "Little words go after the verb",
+        "nb": "Småordene står etter verbet"
+      },
+      "text": {
+        "en": [
+          "Words like *ikke, også, alltid, aldri, ofte, bare, nesten* and *gjerne* share one slot: right after the verb, or after the first verb if there are two.",
+          "In a clause starting with *at, fordi, hvis, når* or *som*, they move in front of the verb instead."
+        ],
+        "nb": [
+          "Ord som *ikke, også, alltid, aldri, ofte, bare, nesten* og *gjerne* har samme plass: rett etter verbet, eller etter det første verbet hvis det er to.",
+          "I en leddsetning som begynner med *at, fordi, hvis, når* eller *som*, flytter de seg foran verbet."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg drikker *aldri* kaffe.",
+          "en": "I never drink coffee."
+        },
+        {
+          "no": "Hun kan *også* komme.",
+          "en": "She can come too."
+        },
+        {
+          "no": "Vi spiser *ofte* fisk.",
+          "en": "We often eat fish."
+        },
+        {
+          "no": "… fordi jeg *ikke* har tid.",
+          "en": "… because I don't have time."
+        }
+      ]
+    }
+  ]
+}

@@ -47,6 +47,15 @@ const en = {
     percentCorrect: (pct: number) => `${pct}% correct`,
     loadingProgress: "Loading progress…",
   },
+  grammar: {
+    tip: "Grammar tip",
+    tips: "Grammar tips",
+    allTips: "All grammar tips",
+    eyebrow: "Grammar",
+    title: "Grammar tips",
+    intro: "Short explanations of the grammar you meet in each topic. Norwegian examples are in bold.",
+    toTopic: "Practise this topic",
+  },
   modes: {
     flashcards: { title: "Flashcards", description: "See a Norwegian word, flip the card, and say if you knew it." },
     reverse: { title: "Flashcards: English → Norwegian", description: "See the English, think of the Norwegian word, then flip the card." },
@@ -239,6 +248,15 @@ const nb: Messages = {
     dueToday: (n) => `${n} å repetere i dag`,
     percentCorrect: (pct) => `${pct} % riktig`,
     loadingProgress: "Laster fremgang…",
+  },
+  grammar: {
+    tip: "Grammatikktips",
+    tips: "Grammatikktips",
+    allTips: "Alle grammatikktips",
+    eyebrow: "Grammatikk",
+    title: "Grammatikktips",
+    intro: "Korte forklaringer av grammatikken du møter i hvert emne. Norske eksempler står i fet skrift.",
+    toTopic: "Øv på dette emnet",
   },
   modes: {
     flashcards: { title: "Ordkort", description: "Se et norsk ord, snu kortet og si om du kunne det." },

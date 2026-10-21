@@ -1,0 +1,40 @@
+{
+  "topicId": "questions",
+  "tips": [
+    {
+      "id": "questions-verb-first",
+      "title": {
+        "en": "Questions: put the verb first",
+        "nb": "Spørsmål: verbet først"
+      },
+      "text": {
+        "en": [
+          "For a yes/no question, swap the subject and the verb, so the verb comes first. There is no *do* or *does*.",
+          "With a question word (*hva, hvor, når, hvem, hvorfor, hvordan*), the question word comes first and the verb right after it."
+        ],
+        "nb": [
+          "I ja/nei-spørsmål bytter subjektet og verbet plass, så verbet kommer først. Det finnes ikke noe *do* eller *does*.",
+          "Med et spørreord (*hva, hvor, når, hvem, hvorfor, hvordan*) står spørreordet først og verbet rett etter."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Du snakker norsk. → *Snakker du* norsk?",
+          "en": "You speak Norwegian. → Do you speak Norwegian?"
+        },
+        {
+          "no": "*Har du* barn?",
+          "en": "Do you have children?"
+        },
+        {
+          "no": "Hvor *bor du*?",
+          "en": "Where do you live?"
+        },
+        {
+          "no": "Når *kommer* toget?",
+          "en": "When does the train come?"
+        }
+      ]
+    }
+  ]
+}

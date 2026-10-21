@@ -1,0 +1,40 @@
+{
+  "topicId": "out-and-help",
+  "tips": [
+    {
+      "id": "out-and-help-polite",
+      "title": {
+        "en": "Asking politely",
+        "nb": "Å spørre høflig"
+      },
+      "text": {
+        "en": [
+          "Norwegian has no single word for *please*. Politeness comes from the way you ask: *Kan jeg få …?* (Can I have …?), *Jeg vil gjerne ha …* (I'd like …), *Kunne du …?* (Could you …?).",
+          "Saying *takk* afterwards matters more than any *please*. *Er du snill* can be added, but sounds a bit like asking a favour."
+        ],
+        "nb": [
+          "Norsk har ikke ett ord for *please*. Høfligheten ligger i måten du spør på: *Kan jeg få …?*, *Jeg vil gjerne ha …*, *Kunne du …?*.",
+          "Å si *takk* etterpå betyr mer enn noe *please*. *Er du snill* kan legges til, men høres litt ut som å be om en tjeneste."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*Kan jeg få* regningen?",
+          "en": "Can I have the bill, please?"
+        },
+        {
+          "no": "*Jeg vil gjerne ha* en kaffe.",
+          "en": "I'd like a coffee."
+        },
+        {
+          "no": "*Kunne du* hjelpe meg?",
+          "en": "Could you help me?"
+        },
+        {
+          "no": "Ja, takk. / Nei, takk.",
+          "en": "Yes, please. / No, thanks."
+        }
+      ]
+    }
+  ]
+}

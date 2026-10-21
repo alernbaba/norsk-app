@@ -1,0 +1,40 @@
+{
+  "topicId": "food",
+  "tips": [
+    {
+      "id": "food-plurals",
+      "title": {
+        "en": "Plurals: -er, -ene and short et-words",
+        "nb": "Flertall: -er, -ene og korte et-ord"
+      },
+      "text": {
+        "en": [
+          "Most nouns add *-er* in the plural and *-ene* for *the …*: *en banan, bananer, bananene*.",
+          "Et-words with one syllable usually get no ending in the indefinite plural: *et egg – mange egg, et brød – to brød*. In the definite plural they still take *-ene* (or *-a*): *eggene / egga*."
+        ],
+        "nb": [
+          "De fleste substantiv får *-er* i ubestemt flertall og *-ene* i bestemt flertall: *en banan, bananer, bananene*.",
+          "Et-ord med én stavelse får som regel ingen endelse i ubestemt flertall: *et egg – mange egg, et brød – to brød*. I bestemt flertall får de likevel *-ene* (eller *-a*): *eggene / egga*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "en banan → to *bananer* → *bananene*",
+          "en": "a banana → two bananas → the bananas"
+        },
+        {
+          "no": "et eple → tre *epler* → *eplene*",
+          "en": "an apple → three apples → the apples"
+        },
+        {
+          "no": "et egg → seks *egg* → *eggene*",
+          "en": "an egg → six eggs → the eggs"
+        },
+        {
+          "no": "Jeg kjøper to *brød*.",
+          "en": "I'm buying two loaves of bread."
+        }
+      ]
+    }
+  ]
+}

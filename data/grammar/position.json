@@ -1,0 +1,75 @@
+{
+  "topicId": "position",
+  "tips": [
+    {
+      "id": "position-place-direction",
+      "title": {
+        "en": "Here or hither: place and direction",
+        "nb": "Her og hit: sted og retning"
+      },
+      "text": {
+        "en": [
+          "Norwegian has two words for many places: one for *being there* and one for *going there*.",
+          "*hjemme / hjem* (at home / home), *ute / ut* (outside / out), *inne / inn* (inside / in), *oppe / opp*, *nede / ned*, *her / hit*, *der / dit*. With verbs of movement, use the short form."
+        ],
+        "nb": [
+          "Norsk har to ord for mange steder: ett for å *være* der og ett for å *bevege seg* dit.",
+          "*hjemme / hjem*, *ute / ut*, *inne / inn*, *oppe / opp*, *nede / ned*, *her / hit*, *der / dit*. Med verb som viser bevegelse, bruker du den korte formen."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg er *hjemme*.",
+          "en": "I'm at home."
+        },
+        {
+          "no": "Jeg går *hjem*.",
+          "en": "I'm going home."
+        },
+        {
+          "no": "Barna leker *ute*.",
+          "en": "The children are playing outside."
+        },
+        {
+          "no": "Kom *hit*!",
+          "en": "Come here!"
+        }
+      ]
+    },
+    {
+      "id": "position-i-pa",
+      "title": {
+        "en": "«i» or «på»?",
+        "nb": "«i» eller «på»?"
+      },
+      "text": {
+        "en": [
+          "*I* is used for things you are inside of: countries, cities, rooms and boxes. *På* is used for surfaces, and also for many places you just have to learn.",
+          "Typical *på*-words: *på jobb, på skolen, på kino, på butikken, på kjøkkenet, på badet, på ferie*. Islands and many small Norwegian towns also take *på*."
+        ],
+        "nb": [
+          "*I* brukes om ting du er inni: land, byer, rom og esker. *På* brukes om flater, og om mange steder du bare må lære deg.",
+          "Vanlige *på*-ord: *på jobb, på skolen, på kino, på butikken, på kjøkkenet, på badet, på ferie*. Øyer og mange mindre steder i Norge tar også *på*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Hun bor *i* Oslo.",
+          "en": "She lives in Oslo."
+        },
+        {
+          "no": "Boka ligger *på* bordet.",
+          "en": "The book is on the table."
+        },
+        {
+          "no": "Han er *på* jobb.",
+          "en": "He's at work."
+        },
+        {
+          "no": "Vi sitter *i* stua.",
+          "en": "We're sitting in the living room."
+        }
+      ]
+    }
+  ]
+}

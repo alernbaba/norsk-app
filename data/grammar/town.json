@@ -1,0 +1,40 @@
+{
+  "topicId": "town",
+  "tips": [
+    {
+      "id": "town-double-definite",
+      "title": {
+        "en": "The big city: «the» twice",
+        "nb": "Den store byen: dobbel bestemmelse"
+      },
+      "text": {
+        "en": [
+          "When an adjective comes before a definite noun, Norwegian marks *the* twice: with *den, det* or *de* in front, and with the ending on the noun.",
+          "The adjective then takes *-e*: *en stor by → den store byen, et gammelt hus → det gamle huset, nye butikker → de nye butikkene*."
+        ],
+        "nb": [
+          "Når et adjektiv står foran et substantiv i bestemt form, markerer norsk bestemtheten to ganger: med *den, det* eller *de* foran, og med endelsen på substantivet.",
+          "Adjektivet får da *-e*: *en stor by → den store byen, et gammelt hus → det gamle huset, nye butikker → de nye butikkene*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*den store* by*en*",
+          "en": "the big city"
+        },
+        {
+          "no": "*det gamle* hus*et*",
+          "en": "the old house"
+        },
+        {
+          "no": "*de nye* butikk*ene*",
+          "en": "the new shops"
+        },
+        {
+          "no": "Vi spiser på *den lille* kafeen.",
+          "en": "We're eating at the little café."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "topicId": "time",
+  "tips": [
+    {
+      "id": "time-clock",
+      "title": {
+        "en": "Telling the time: «halv tre» is 2:30",
+        "nb": "Klokka: «halv tre» er 2.30"
+      },
+      "text": {
+        "en": [
+          "Half past is counted towards the next hour: *halv tre* means *half way to three*, so 2:30. This trips up almost every learner.",
+          "*Kvart over* is quarter past and *kvart på* is quarter to. Minutes near the half hour are counted from it: *fem på halv tre* is 2:25 and *fem over halv tre* is 2:35."
+        ],
+        "nb": [
+          "Halv regnes mot neste time: *halv tre* betyr halvveis til tre, altså 2.30. Dette er vanskelig for nesten alle som lærer norsk.",
+          "*Kvart over* er et kvarter etter hel time, og *kvart på* er et kvarter før. Minutter nær halv telles fra halv: *fem på halv tre* er 2.25, og *fem over halv tre* er 2.35."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Klokka er *halv tre*.",
+          "en": "It's half past two."
+        },
+        {
+          "no": "Klokka er *kvart over* åtte.",
+          "en": "It's quarter past eight."
+        },
+        {
+          "no": "Klokka er *ti på* sju.",
+          "en": "It's ten to seven."
+        },
+        {
+          "no": "Vi møtes *fem over halv* ni.",
+          "en": "We'll meet at 8:35."
+        }
+      ]
+    },
+    {
+      "id": "time-days-months",
+      "title": {
+        "en": "Days and months: small letters",
+        "nb": "Dager og måneder: liten forbokstav"
+      },
+      "text": {
+        "en": [
+          "Days, months and holidays are written with a small letter: *mandag, januar, jul*.",
+          "*På mandag* means this coming (or last) Monday. *Om mandagen* or *på mandager* means on Mondays in general. *I* is used for months and seasons: *i mai, i sommer*."
+        ],
+        "nb": [
+          "Dager, måneder og høytider skrives med liten forbokstav: *mandag, januar, jul*.",
+          "*På mandag* betyr denne (eller forrige) mandagen. *Om mandagen* eller *på mandager* betyr hver mandag. *I* brukes om måneder og årstider: *i mai, i sommer*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Vi ses *på fredag*.",
+          "en": "See you on Friday."
+        },
+        {
+          "no": "Jeg trener *om mandagen*.",
+          "en": "I work out on Mondays."
+        },
+        {
+          "no": "Hun har bursdag *i juni*.",
+          "en": "Her birthday is in June."
+        },
+        {
+          "no": "*I sommer* skal vi til Bergen.",
+          "en": "This summer we're going to Bergen."
+        }
+      ]
+    }
+  ]
+}

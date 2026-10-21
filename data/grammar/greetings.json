@@ -1,0 +1,40 @@
+{
+  "topicId": "greetings",
+  "tips": [
+    {
+      "id": "greetings-verbs-same",
+      "title": {
+        "en": "Verbs don't change with the person",
+        "nb": "Verbet er likt for alle personer"
+      },
+      "text": {
+        "en": [
+          "In the present tense a Norwegian verb has one form for everyone. Most verbs simply end in *-r*: *jeg heter*, *du heter*, *hun heter*, *vi heter*.",
+          "So there is nothing like English *I am / you are / she is* to learn. *Å være* (to be) is just *er* for all persons."
+        ],
+        "nb": [
+          "I presens har verbet én form for alle. De fleste verb ender bare på *-r*: *jeg heter*, *du heter*, *hun heter*, *vi heter*.",
+          "Du trenger altså ikke lære noe som engelsk *I am / you are / she is*. *Å være* er bare *er* for alle personer."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg *heter* Anna.",
+          "en": "My name is Anna."
+        },
+        {
+          "no": "Hva *heter* du?",
+          "en": "What's your name?"
+        },
+        {
+          "no": "Vi *er* fra England.",
+          "en": "We are from England."
+        },
+        {
+          "no": "Hun *er* lærer.",
+          "en": "She is a teacher."
+        }
+      ]
+    }
+  ]
+}

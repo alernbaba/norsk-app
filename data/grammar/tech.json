@@ -1,0 +1,40 @@
+{
+  "topicId": "tech",
+  "tips": [
+    {
+      "id": "tech-perfect",
+      "title": {
+        "en": "Have you read it? The present perfect",
+        "nb": "Har du lest det? Presens perfektum"
+      },
+      "text": {
+        "en": [
+          "The present perfect is *har* + past participle: *har sendt, har lest, har skrevet*. It works much as in English, for things that matter now.",
+          "When you say exactly when something happened, use the simple past instead: *I går sendte jeg en melding*, not *I går har jeg sendt*."
+        ],
+        "nb": [
+          "Presens perfektum er *har* + perfektum partisipp: *har sendt, har lest, har skrevet*. Det brukes omtrent som på engelsk, om ting som har betydning nå.",
+          "Når du sier nøyaktig når noe skjedde, bruker du preteritum i stedet: *I går sendte jeg en melding*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg *har sendt* deg en e-post.",
+          "en": "I've sent you an email."
+        },
+        {
+          "no": "*Har* du *lest* nyhetene?",
+          "en": "Have you read the news?"
+        },
+        {
+          "no": "I går *sendte* jeg en melding.",
+          "en": "Yesterday I sent a message."
+        },
+        {
+          "no": "Telefonen *har* ikke *ringt*.",
+          "en": "The phone hasn't rung."
+        }
+      ]
+    }
+  ]
+}

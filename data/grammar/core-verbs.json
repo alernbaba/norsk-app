@@ -1,0 +1,40 @@
+{
+  "topicId": "core-verbs",
+  "tips": [
+    {
+      "id": "core-verbs-modals",
+      "title": {
+        "en": "Can, will, must: no «å» after them",
+        "nb": "Kan, vil, må: ingen «å» etter"
+      },
+      "text": {
+        "en": [
+          "The modal verbs *kan* (can), *vil* (want to), *skal* (shall / am going to), *må* (must) and *bør* (should) are followed by an infinitive without *å*.",
+          "They also break the *-r* rule: the present tense is *kan, vil, skal, må, bør*."
+        ],
+        "nb": [
+          "Etter modalverbene *kan*, *vil*, *skal*, *må* og *bør* kommer infinitiv uten *å*.",
+          "De følger heller ikke *-r*-regelen: presens er *kan, vil, skal, må, bør*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg *kan* snakke litt norsk.",
+          "en": "I can speak a little Norwegian."
+        },
+        {
+          "no": "Vi *må* gå nå.",
+          "en": "We have to go now."
+        },
+        {
+          "no": "*Vil* du ha kaffe?",
+          "en": "Do you want coffee?"
+        },
+        {
+          "no": "Jeg liker *å* lese. (not a modal: keep «å»)",
+          "en": "I like to read."
+        }
+      ]
+    }
+  ]
+}

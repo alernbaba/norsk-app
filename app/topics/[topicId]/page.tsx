@@ -2,10 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { BackLink } from "@/components/BackLink";
+import { GrammarTips } from "@/components/GrammarTips";
 import { Msg, TopicText } from "@/components/i18n";
 import { ModeIcon } from "@/components/ModeIcon";
 import { TopicStats } from "@/components/TopicStats";
-import { getTopic, getTopics } from "@/lib/content";
+import { getTopic, getTopics, grammarForTopic } from "@/lib/content";
 import { MODES } from "@/lib/modes";
 import { topicItemIds } from "@/lib/progress";
 
@@ -34,6 +35,7 @@ async function TopicContent({ params }: { params: Params }) {
   const topic = getTopic(topicId);
   if (!topic) notFound();
 
+  const grammar = grammarForTopic(topic.id);
   const counts = {
     flashcards: topic.words.length,
     reverse: topic.words.length,
@@ -102,6 +104,20 @@ async function TopicContent({ params }: { params: Params }) {
           ))}
         </ul>
       </section>
+
+      {grammar.length > 0 && (
+        <section className="space-y-3">
+          <div className="flex items-baseline justify-between gap-3">
+            <h2 className="text-xl font-medium">
+              <Msg id={grammar.length === 1 ? "grammar.tip" : "grammar.tips"} />
+            </h2>
+            <Link href="/grammar" className="text-sm text-muted transition-colors hover:text-ink">
+              <Msg id="grammar.allTips" /> →
+            </Link>
+          </div>
+          <GrammarTips tips={grammar} />
+        </section>
+      )}
 
       <details className="sheet group p-4">
         <summary className="flex cursor-pointer list-none items-center justify-between gap-3 font-semibold [&::-webkit-details-marker]:hidden">

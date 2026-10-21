@@ -1,0 +1,40 @@
+{
+  "topicId": "body",
+  "tips": [
+    {
+      "id": "body-definite",
+      "title": {
+        "en": "«The head» where English says «my head»",
+        "nb": "«Hodet» der engelsk sier «my head»"
+      },
+      "text": {
+        "en": [
+          "When it's obvious whose body part it is, Norwegian uses the definite form instead of *my, your, his*: *Jeg har vondt i hodet* (I have pain in the head).",
+          "Many body words have irregular plurals with a vowel change: *en fot – føtter, ei hånd – hender, ei tann – tenner*."
+        ],
+        "nb": [
+          "Når det er tydelig hvem kroppsdelen tilhører, bruker norsk bestemt form i stedet for *min, din, hans*: *Jeg har vondt i hodet*.",
+          "Mange kroppsord har uregelrett flertall med vokalskifte: *en fot – føtter, ei hånd – hender, ei tann – tenner*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg har vondt i *hodet*.",
+          "en": "I have a headache."
+        },
+        {
+          "no": "Vask *hendene* før maten.",
+          "en": "Wash your hands before eating."
+        },
+        {
+          "no": "Hun brakk *armen*.",
+          "en": "She broke her arm."
+        },
+        {
+          "no": "Han pusser *tennene*.",
+          "en": "He brushes his teeth."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "topicId": "more-describing",
+  "tips": [
+    {
+      "id": "more-describing-adverbs",
+      "title": {
+        "en": "She sings beautifully: adverbs with -t",
+        "nb": "Hun synger pent: adverb med -t"
+      },
+      "text": {
+        "en": [
+          "English often adds *-ly* to make an adverb. Norwegian uses the et-form of the adjective: *pen → pent, rask → raskt, god → godt*.",
+          "Adjectives ending in *-ig* or *-sk* get no *-t* as adverbs either: *Han kjører forsiktig*."
+        ],
+        "nb": [
+          "Engelsk legger ofte til *-ly* for å lage et adverb. Norsk bruker intetkjønnsformen av adjektivet: *pen → pent, rask → raskt, god → godt*.",
+          "Adjektiver som ender på *-ig* eller *-sk*, får heller ikke *-t* som adverb: *Han kjører forsiktig*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Hun synger *pent*.",
+          "en": "She sings beautifully."
+        },
+        {
+          "no": "Han løper *raskt*.",
+          "en": "He runs fast."
+        },
+        {
+          "no": "Du snakker *godt* norsk.",
+          "en": "You speak Norwegian well."
+        },
+        {
+          "no": "Kjør *forsiktig*!",
+          "en": "Drive carefully!"
+        }
+      ]
+    }
+  ]
+}

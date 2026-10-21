@@ -1,0 +1,40 @@
+{
+  "topicId": "people",
+  "tips": [
+    {
+      "id": "people-jobs-no-article",
+      "title": {
+        "en": "She is teacher: no article for jobs",
+        "nb": "Hun er lærer: ingen artikkel foran yrker"
+      },
+      "text": {
+        "en": [
+          "When you say what someone does or is, such as a job, nationality or religion, leave out the article: *Hun er lærer*, not *Hun er en lærer*.",
+          "Nationalities and languages are written with a small letter: *norsk, engelsk, en nordmann, en brite*."
+        ],
+        "nb": [
+          "Når du sier hva noen er eller jobber som, for eksempel yrke, nasjonalitet eller religion, sløyfer du artikkelen: *Hun er lærer*, ikke *Hun er en lærer*.",
+          "Nasjonaliteter og språk skrives med liten forbokstav: *norsk, engelsk, en nordmann, en brite*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Hun er *lærer*.",
+          "en": "She is a teacher."
+        },
+        {
+          "no": "Jeg jobber som *sykepleier*.",
+          "en": "I work as a nurse."
+        },
+        {
+          "no": "Han er *nordmann*.",
+          "en": "He is Norwegian."
+        },
+        {
+          "no": "Vi snakker *engelsk*.",
+          "en": "We speak English."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "topicId": "society",
+  "tips": [
+    {
+      "id": "society-det-er",
+      "title": {
+        "en": "There is, there are: «det er» and «det finnes»",
+        "nb": "Det er og det finnes"
+      },
+      "text": {
+        "en": [
+          "English *there is / there are* is *det er* in Norwegian, with no difference between singular and plural.",
+          "*Det finnes* means *there exist(s)* and is used for things that exist in general: *Det finnes mange språk i verden.*"
+        ],
+        "nb": [
+          "Engelsk *there is / there are* heter *det er* på norsk, uten forskjell på entall og flertall.",
+          "*Det finnes* brukes om ting som finnes i det hele tatt: *Det finnes mange språk i verden.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "*Det er* et problem.",
+          "en": "There is a problem."
+        },
+        {
+          "no": "*Det er* mange grunner til det.",
+          "en": "There are many reasons for that."
+        },
+        {
+          "no": "*Det finnes* ingen enkel løsning.",
+          "en": "There is no simple solution."
+        },
+        {
+          "no": "*Er det* en butikk her?",
+          "en": "Is there a shop here?"
+        }
+      ]
+    }
+  ]
+}

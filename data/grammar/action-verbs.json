@@ -1,0 +1,40 @@
+{
+  "topicId": "action-verbs",
+  "tips": [
+    {
+      "id": "action-verbs-past",
+      "title": {
+        "en": "The past tense: four endings and some strong verbs",
+        "nb": "Preteritum: fire endelser og noen sterke verb"
+      },
+      "text": {
+        "en": [
+          "Most verbs make the past tense with one of four endings: *-et* (snakke → snakket), *-te* (spise → spiste), *-de* (prøve → prøvde) and *-dde* (bo → bodde). As with the present, the form is the same for all persons.",
+          "Many common verbs are strong and change their vowel instead, like English *go → went*: *gå → gikk, komme → kom, finne → fant, ta → tok*. These are worth learning one by one. The flashcards show the forms on the back."
+        ],
+        "nb": [
+          "De fleste verb får preteritum med én av fire endelser: *-et* (snakke → snakket), *-te* (spise → spiste), *-de* (prøve → prøvde) og *-dde* (bo → bodde). Som i presens er formen lik for alle personer.",
+          "Mange vanlige verb er sterke og bytter vokal i stedet, som engelsk *go → went*: *gå → gikk, komme → kom, finne → fant, ta → tok*. Dem lønner det seg å lære ett og ett. Ordkortene viser formene på baksiden."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Vi *snakket* lenge.",
+          "en": "We talked for a long time."
+        },
+        {
+          "no": "Jeg *spiste* frokost.",
+          "en": "I ate breakfast."
+        },
+        {
+          "no": "De *bodde* i Tromsø.",
+          "en": "They lived in Tromsø."
+        },
+        {
+          "no": "Hun *gikk* hjem.",
+          "en": "She walked home."
+        }
+      ]
+    }
+  ]
+}

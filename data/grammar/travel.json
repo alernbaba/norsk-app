@@ -1,0 +1,40 @@
+{
+  "topicId": "travel",
+  "tips": [
+    {
+      "id": "travel-future",
+      "title": {
+        "en": "Talking about the future",
+        "nb": "Å snakke om fremtiden"
+      },
+      "text": {
+        "en": [
+          "Use *skal* + infinitive for plans and things you've decided: *Jeg skal reise til Bergen i morgen.*",
+          "Use *kommer til å* + infinitive for predictions you can't control: *Det kommer til å regne.* With a time word, the plain present tense often works too, especially for timetables."
+        ],
+        "nb": [
+          "Bruk *skal* + infinitiv om planer og ting du har bestemt deg for: *Jeg skal reise til Bergen i morgen.*",
+          "Bruk *kommer til å* + infinitiv om ting du tror vil skje, men ikke bestemmer selv: *Det kommer til å regne.* Med et tidsord fungerer ofte vanlig presens også, særlig om rutetider."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Vi *skal* fly til Tromsø.",
+          "en": "We're flying to Tromsø."
+        },
+        {
+          "no": "Toget *kommer til å* være forsinket.",
+          "en": "The train is going to be late."
+        },
+        {
+          "no": "Bussen *går* klokka sju.",
+          "en": "The bus leaves at seven."
+        },
+        {
+          "no": "Hva *skal* du gjøre i helga?",
+          "en": "What are you doing at the weekend?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "topicId": "good-to-know",
+  "tips": [
+    {
+      "id": "good-to-know-jo",
+      "title": {
+        "en": "Ja, nei and jo",
+        "nb": "Ja, nei og jo"
+      },
+      "text": {
+        "en": [
+          "Norwegian has a third answer word. *Jo* means *yes* when you answer a negative question or contradict a negative statement.",
+          "*Har du ikke tid?* – *Jo!* means *Yes, I do have time*. Answering *ja* here would sound unclear."
+        ],
+        "nb": [
+          "Norsk har et tredje svarord. *Jo* betyr *ja* når du svarer på et nektende spørsmål eller sier imot noe nektende.",
+          "*Har du ikke tid?* – *Jo!* betyr at du har tid. Svarer du *ja* her, blir det uklart."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Kommer du? – *Ja*.",
+          "en": "Are you coming? – Yes."
+        },
+        {
+          "no": "Kommer du ikke? – *Jo*, jeg kommer.",
+          "en": "Aren't you coming? – Yes, I am."
+        },
+        {
+          "no": "Kommer du ikke? – *Nei*.",
+          "en": "Aren't you coming? – No."
+        },
+        {
+          "no": "Det er ikke sant! – *Jo*, det er det.",
+          "en": "That's not true! – Yes, it is."
+        }
+      ]
+    }
+  ]
+}

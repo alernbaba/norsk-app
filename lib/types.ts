@@ -46,6 +46,23 @@ export type Topic = {
   inflectionDrills: InflectionDrill[];
 };
 
+/** Text in both interface languages. */
+export type Localized<T> = { en: T; nb: T };
+
+/**
+ * A short grammar explanation for a topic, from data/grammar/<topicId>.json.
+ * In text and examples, *stars* mark Norwegian words, shown in bold.
+ */
+export type GrammarTip = {
+  id: string;
+  title: Localized<string>;
+  /** Paragraphs. */
+  text: Localized<string[]>;
+  examples: { no: string; en: string }[];
+};
+
+export type TopicGrammar = { topicId: string; tips: GrammarTip[] };
+
 export type NounForms = {
   gender: ("m" | "f" | "n")[];
   indefSg: string[];
