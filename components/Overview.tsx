@@ -4,12 +4,13 @@ import Link from "next/link";
 import type { TopicSummary } from "@/lib/content";
 import { currentStreak } from "@/lib/progress";
 import { isLearned, isMastered } from "@/lib/srs";
+import { DailyGoal } from "./DailyGoal";
 import { useT, useTopicText } from "./i18n";
 import { ProgressBar } from "./ProgressBar";
 import { useAppState } from "./useAppState";
 
 export function Overview({ topics }: { topics: TopicSummary[] }) {
-  const { ready, date, progress, profile } = useAppState();
+  const { ready, date, progress, profile, settings, activity } = useAppState();
   const t = useT();
   const topicText = useTopicText();
   const totalWords = topics.reduce((n, topic) => n + topic.wordIds.length, 0);
@@ -43,6 +44,7 @@ export function Overview({ topics }: { topics: TopicSummary[] }) {
             <Stat label={t.overview.dueToday} value={ready ? `${due}` : "–"} accent="text-ochre" />
           </Link>
         </div>
+        <DailyGoal ready={ready} date={date} activity={activity} profile={profile} settings={settings} due={due} />
       </section>
 
       <section className="space-y-4">

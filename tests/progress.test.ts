@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { currentStreak, recordAnswer, topicStats, updateStreak } from "@/lib/progress";
-import { LocalStorageAdapter, MemoryStore, STORAGE_KEY } from "@/lib/storage";
+import { DEFAULT_SETTINGS, LocalStorageAdapter, MemoryStore, STORAGE_KEY } from "@/lib/storage";
 import type { Topic } from "@/lib/types";
 
 describe("updateStreak", () => {
@@ -41,16 +41,22 @@ describe("storage + recordAnswer", () => {
     const all = await storage.getAllProgress();
     expect(all.w1).toMatchObject({ attempts: 2, correct: 1, box: 1, nextReview: "2026-10-22" });
     expect(await storage.getProfile()).toEqual({ streak: 2, lastActiveDate: "2026-10-22" });
+    expect(await storage.getActivity()).toEqual({
+      "2026-10-21": { answered: 1, correct: 1 },
+      "2026-10-22": { answered: 1, correct: 0 },
+    });
   });
 
-  it("reset clears progress and streak but keeps settings", async () => {
+  it("reset clears progress, streak and activity but keeps settings", async () => {
     const storage = new LocalStorageAdapter(new MemoryStore());
-    await storage.saveSettings({ slowSpeech: true, autoPlay: true });
+    const settings = { slowSpeech: true, autoPlay: true, dailyGoal: 30, goalReminder: false };
+    await storage.saveSettings(settings);
     await recordAnswer(storage, "w1", true, "2026-10-21");
     await storage.reset();
     expect(await storage.getAllProgress()).toEqual({});
     expect(await storage.getProfile()).toEqual({ streak: 0, lastActiveDate: null });
-    expect(await storage.getSettings()).toEqual({ slowSpeech: true, autoPlay: true });
+    expect(await storage.getActivity()).toEqual({});
+    expect(await storage.getSettings()).toEqual(settings);
   });
 
   it("survives corrupt stored data", async () => {
@@ -58,7 +64,16 @@ describe("storage + recordAnswer", () => {
     store.setItem(STORAGE_KEY, "{not json");
     const storage = new LocalStorageAdapter(store);
     expect(await storage.getAllProgress()).toEqual({});
-    expect(await storage.getSettings()).toEqual({ slowSpeech: false, autoPlay: false });
+    expect(await storage.getSettings()).toEqual(DEFAULT_SETTINGS);
+    expect(await storage.getActivity()).toEqual({});
+  });
+
+  it("fills in new settings and activity for data saved by an older version", async () => {
+    const store = new MemoryStore();
+    store.setItem(STORAGE_KEY, JSON.stringify({ version: 1, progress: {}, profile: { streak: 2, lastActiveDate: "2026-10-20" }, settings: { slowSpeech: true, autoPlay: false } }));
+    const storage = new LocalStorageAdapter(store);
+    expect(await storage.getSettings()).toEqual({ ...DEFAULT_SETTINGS, slowSpeech: true });
+    expect(await storage.getActivity()).toEqual({});
   });
 });
 

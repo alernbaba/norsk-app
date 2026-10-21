@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
 import { useT } from "./i18n";
 
-type NavId = "overview" | "due" | "settings" | "about";
+type NavId = "overview" | "due" | "stats" | "settings" | "about";
 
 const LINKS: { id: NavId; href: string; icon: ReactNode }[] = [
   {
@@ -28,6 +28,16 @@ const LINKS: { id: NavId; href: string; icon: ReactNode }[] = [
         <path d="M20 12a8 8 0 1 1-2.3-5.6" />
         <path d="M20 4v4.5h-4.5" />
         <path d="M12 8v4l2.5 2" />
+      </>
+    ),
+  },
+  {
+    id: "stats",
+    href: "/stats",
+    icon: (
+      <>
+        <path d="M4 20h16" />
+        <path d="M7 16v-4M12 16V7M17 16v-6" />
       </>
     ),
   },
@@ -86,7 +96,7 @@ export function TabBar() {
   const isActive = useIsActive();
   return (
     <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-card/90 pb-[env(safe-area-inset-bottom)] backdrop-blur-md sm:hidden">
-      <div className="mx-auto grid max-w-md grid-cols-4">
+      <div className="mx-auto grid max-w-md grid-cols-5">
         {LINKS.map((l) => (
           <Link
             key={l.id}

@@ -119,4 +119,14 @@ export type Profile = {
 export type Settings = {
   slowSpeech: boolean;
   autoPlay: boolean;
+  /** Answers per day to aim for. */
+  dailyGoal: number;
+  /** Show a reminder on the overview until the daily goal is met. */
+  goalReminder: boolean;
 };
+
+/** Answers given on one day. */
+export type DayActivity = { answered: number; correct: number };
+
+/** Answers per day, keyed by ISO date (YYYY-MM-DD). */
+export type ActivityLog = Record<string, DayActivity>;

@@ -31,6 +31,8 @@ export async function recordAnswer(
   const next = review(all[itemId], itemId, correct, date);
   await storage.saveProgress(next);
   await storage.saveProfile(updateStreak(await storage.getProfile(), date));
+  const day = (await storage.getActivity())[date] ?? { answered: 0, correct: 0 };
+  await storage.saveDayActivity(date, { answered: day.answered + 1, correct: day.correct + (correct ? 1 : 0) });
   return next;
 }
 

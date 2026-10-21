@@ -11,7 +11,7 @@ import { BackLink } from "./BackLink";
 import { useT, useTopicText } from "./i18n";
 import { useAppState } from "./useAppState";
 
-const KIND_MODE: Record<ReviewItem["kind"], Mode> = {
+export const KIND_MODE: Record<ReviewItem["kind"], Mode> = {
   word: "flashcards",
   reverse: "reverse",
   sentence: "write",
