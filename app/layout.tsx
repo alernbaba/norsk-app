@@ -3,12 +3,15 @@ import Link from "next/link";
 import { HtmlLang, Msg } from "@/components/i18n";
 import { Logo } from "@/components/Logo";
 import { HeaderNav, TabBar } from "@/components/NavLinks";
+import { ServiceWorker } from "@/components/ServiceWorker";
 import { THEME_SCRIPT, ThemeSync } from "@/components/theme";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Norsk – learn Norwegian",
   description: "Learn Norwegian (bokmål) with flashcards, sentence building, writing practice and inflections.",
+  // Home screen app on iOS; the icon comes from app/apple-icon.png.
+  appleWebApp: { capable: true, title: "Norsk", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {
@@ -31,6 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col bg-paper text-ink">
         <HtmlLang />
         <ThemeSync />
+        <ServiceWorker />
         <header className="sticky top-0 z-10 border-b border-line/70 bg-paper/85 backdrop-blur-md">
           <div className="mx-auto flex max-w-2xl items-center justify-between gap-3 px-4 py-3">
             <Link href="/" className="flex items-center gap-2">

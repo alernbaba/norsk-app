@@ -9,6 +9,8 @@
     "lint": "eslint",
     "test": "vitest run",
     "test:watch": "vitest",
+    "build:pages": "GITHUB_PAGES=true next build && tsx scripts/build-sw.ts",
+    "icons": "tsx scripts/build-icons.ts",
     "import:ordbank": "tsx scripts/import-ordbank.ts"
   },
   "dependencies": {

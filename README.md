@@ -9,6 +9,7 @@ En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Gre
 - 🔊 **Uttale** med nettleserens norske stemme, sakte tale og automatisk avspilling
 - **Oversikt** med fremgang per tema, lærte og mestrede ord, streak og nullstilling
 - **Due today**: liste over alt som skal repeteres i dag, med forklaring av boksene
+- 📱 **Installerbar app** (PWA): kan legges på hjemskjermen og virker uten nett etter første besøk
 - 🌐 **Språkvalg** for menyer, knapper og tilbakemeldinger: engelsk (standard) eller norsk bokmål, lagret i nettleseren
 
 Innholdet er 35 temaer med ca. 1350 ord, 146 vanlige uttrykk, 350 setninger og 167 bøyingsøvelser.
@@ -20,7 +21,13 @@ npm install
 npm run dev        # http://localhost:3000
 npm test           # tester for svarsjekk, spaced repetition, fremgang, ordbank-parser og innhold
 npm run build      # produksjonsbygg
+npm run build:pages  # statisk bygg for GitHub Pages i out/, med service worker for offline-bruk
+npm run icons      # lager app-ikonene på nytt fra scripts/icon.svg
 ```
+
+### Installerbar app og offline
+
+GitHub Pages-bygget er en PWA. `app/manifest.ts` beskriver appen, ikonene ligger i `public/icons/` og `app/apple-icon.png` (laget fra `scripts/icon.svg`). Etter `next build` lager `scripts/build-sw.ts` filen `out/sw.js`: `scripts/service-worker.js` med en liste over alle sider og filer som skal lagres, og en versjon som endres med hvert bygg. Ved første besøk lagres hele appen i nettleseren, så den virker uten nett. En ny deploy gir en ny versjon som erstatter den gamle lagringen. Service workeren registreres bare i det statiske bygget, ikke i `npm run dev`.
 
 Krever Node.js 20 eller nyere.
 

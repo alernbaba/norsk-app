@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- The app mark from components/Logo.tsx, on cream paper. Used for every app icon. -->
+  <rect width="512" height="512" fill="#f4eee2"/>
+  <clipPath id="tile"><rect x="96" y="116" width="320" height="280" rx="76"/></clipPath>
+  <g clip-path="url(#tile)">
+    <rect x="96" y="116" width="320" height="280" fill="#b0412d"/>
+    <path d="M203 116v280M96 256h320" stroke="#fffbf3" stroke-width="75"/>
+    <path d="M203 116v280M96 256h320" stroke="#275470" stroke-width="34"/>
+  </g>
+</svg>
