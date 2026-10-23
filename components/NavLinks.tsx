@@ -67,7 +67,7 @@ const LINKS: { id: NavId; href: string; icon: ReactNode }[] = [
 function useIsActive() {
   const pathname = usePathname();
   return (href: string) =>
-    href === "/" ? pathname === "/" || pathname.startsWith("/topics") || pathname.startsWith("/practice") : pathname.startsWith(href);
+    href === "/" ? pathname === "/" || pathname.startsWith("/topics") || pathname.startsWith("/practice") || pathname.startsWith("/shuffle") : pathname.startsWith(href);
 }
 
 /** Pill-shaped navigation in the header, from tablet width up. */

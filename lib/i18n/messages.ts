@@ -195,6 +195,14 @@ const en = {
     goalReminderDescription:
       "Show a reminder on the overview until today's goal is met, and warn you when your streak is about to end. The app runs in your browser without a server, so it can't send notifications while it is closed.",
   },
+  shuffle: {
+    title: "Shuffle",
+    description: "Every topic and every exercise type, mixed at random. Due items come first, then new ones.",
+    start: "Shuffle everything",
+    startDescription: "Mix all topics and exercise types in one round.",
+    back: "Overview",
+    nothing: "There is nothing to practise yet.",
+  },
   due: {
     back: "Overview",
     eyebrow: "Repetition",
@@ -400,6 +408,14 @@ const nb: Messages = {
     goalReminder: "Påminnelse",
     goalReminderDescription:
       "Vis en påminnelse i oversikten til dagens mål er nådd, og si fra når rekken din er i ferd med å ryke. Appen kjører i nettleseren uten server, så den kan ikke sende varsler når den er lukket.",
+  },
+  shuffle: {
+    title: "Bland alt",
+    description: "Alle emner og alle oppgavetyper, blandet tilfeldig. Det som skal repeteres kommer først, så nye ting.",
+    start: "Bland alt",
+    startDescription: "Bland alle emner og oppgavetyper i én økt.",
+    back: "Oversikt",
+    nothing: "Det er ingenting å øve på ennå.",
   },
   due: {
     back: "Oversikt",

@@ -45,6 +45,21 @@ export function Overview({ topics }: { topics: TopicSummary[] }) {
           </Link>
         </div>
         <DailyGoal ready={ready} date={date} activity={activity} profile={profile} settings={settings} due={due} />
+        <Link
+          href="/shuffle"
+          className="sheet group flex items-center gap-4 p-4 transition duration-200 hover:-translate-y-0.5 hover:border-fjord/40"
+        >
+          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-fjord-soft text-2xl" aria-hidden>
+            🔀
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-display text-lg leading-tight font-medium">{t.shuffle.start}</span>
+            <span className="block text-sm leading-snug text-muted">{t.shuffle.startDescription}</span>
+          </span>
+          <span aria-hidden className="text-lg text-muted transition-transform group-hover:translate-x-0.5">
+            →
+          </span>
+        </Link>
       </section>
 
       <section className="space-y-4">

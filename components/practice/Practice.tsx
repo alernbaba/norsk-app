@@ -17,7 +17,7 @@ import { useAppState } from "../useAppState";
 import { Flashcard } from "./Flashcards";
 import { ListenPrompt } from "./Listen";
 import { TileBuilder } from "./TileBuilder";
-import { useSession } from "./useSession";
+import { useSession, type SessionResult } from "./useSession";
 import { WriteAnswer } from "./WriteAnswer";
 
 type Props = { topic: Topic; mode: Mode; inflections: InflectionTable };
@@ -93,124 +93,31 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, goal, re
     void record(id, correct);
   };
 
-  /** What the listening exercise plays for an item, and the answers it accepts. */
-  const listenTarget = (itemId: string) => {
-    const baseId = idFromListen(itemId);
-    const word = topic.words.find((w) => w.id === baseId);
-    if (word) return { text: word.no, accepted: [word.no], meaning: word.en.join(", ") };
-    const sentence = topic.sentences.find((s) => s.id === baseId)!;
-    return { text: sentence.no[0], accepted: sentence.no, meaning: sentence.en };
-  };
-
   // iOS only plays speech started from a tap, so the next listening item is
   // spoken in the "Continue" handler itself rather than when it mounts.
-  const nextAndPlay = () => {
+  const next = () => {
     const nextId = session.queue[session.index + 1];
-    if (nextId) getSpeech().speak(listenTarget(nextId).text, { slow: settings.slowSpeech });
+    if (nextId && mode === "listen") getSpeech().speak(listenTarget(topic, nextId).text, { slow: settings.slowSpeech });
     session.next();
   };
 
   let body: ReactNode = null;
   if (session.done) {
-    const right = session.results.filter((r) => r.correct).length;
     body = (
-      <div className="sheet rise space-y-5 px-5 py-8 text-center">
-        <p className="eyebrow">{right === session.results.length ? t.practice.perfect : t.practice.wellDone}</p>
-        <p className="font-display text-6xl font-medium tabular-nums">
-          <span aria-hidden>
-            {right}
-            <span className="text-muted">/{session.results.length}</span>
-          </span>
-          <span className="sr-only">{t.practice.rightOf(right, session.results.length)}</span>
-        </p>
-        <p className="text-muted">
-          {right === session.results.length ? t.practice.allRight : t.practice.missedComeBack}
-        </p>
-        {goal.met ? (
-          <p className="text-sm font-medium text-moss">{t.practice.goalReached}</p>
-        ) : (
-          <div className="mx-auto flex max-w-xs items-center gap-3">
-            <ProgressBar value={goal.answered} max={goal.goal} label={t.goal.ringLabel} />
-            <span className="shrink-0 text-sm font-medium text-muted tabular-nums">{t.practice.goalToday(goal.answered, goal.goal)}</span>
-          </div>
-        )}
-        <div className="grid gap-3 pt-2 sm:grid-cols-2">
-          <button type="button" onClick={onRestart} className="btn btn-fjord">
-            {t.practice.again}
-          </button>
-          <Link href={`/topics/${topic.id}`} className="btn btn-quiet">
-            {t.practice.backTo(title)}
-          </Link>
-        </div>
-      </div>
+      <RoundSummary results={session.results} goal={goal} onRestart={onRestart} backHref={`/topics/${topic.id}`} backLabel={t.practice.backTo(title)} />
     );
-  } else if (id && (mode === "flashcards" || mode === "reverse")) {
-    const word = topic.words.find((w) => w.id === wordIdFromReverse(id))!;
+  } else if (id) {
     body = (
-      <Flashcard
+      <Exercise
         key={id}
-        word={word}
-        reverse={mode === "reverse"}
+        topic={topic}
+        mode={mode}
+        itemId={id}
         inflections={inflections}
         settings={settings}
-        onAnswer={(knewIt) => {
-          handleAnswer(knewIt);
-          session.next();
-        }}
-      />
-    );
-  } else if (id && mode === "tiles") {
-    const sentence = topic.sentences.find((s) => s.id === id)!;
-    body = <TileBuilder key={id} sentence={sentence} settings={settings} onAnswer={handleAnswer} onNext={session.next} />;
-  } else if (id && mode === "write") {
-    const sentence = topic.sentences.find((s) => s.id === id)!;
-    body = (
-      <WriteAnswer key={id} prompt={<p>{sentence.en}</p>} accepted={sentence.no} settings={settings} onAnswer={handleAnswer} onNext={session.next} />
-    );
-  } else if (id && mode === "listen") {
-    const target = listenTarget(id);
-    body = (
-      <WriteAnswer
-        key={id}
-        prompt={<ListenPrompt text={target.text} settings={settings} autoStarted={session.index > 0} />}
-        accepted={target.accepted}
-        settings={settings}
+        autoStarted={session.index > 0}
         onAnswer={handleAnswer}
-        onNext={nextAndPlay}
-        placeholder={t.practice.typeWhatYouHear}
-        alternatives={[]}
-        note={
-          <p className="text-sm text-muted">
-            {t.practice.meaning}
-            {target.meaning}
-          </p>
-        }
-      />
-    );
-  } else if (id && mode === "inflection") {
-    const drill = topic.inflectionDrills.find((d) => d.id === id)!;
-    const [before, after] = drill.no.split("___");
-    body = (
-      <WriteAnswer
-        key={id}
-        prompt={
-          <div className="space-y-2">
-            <p lang="nb">
-              {before}
-              <span className="mx-1 inline-block min-w-16 border-b-2 border-fjord text-center">&nbsp;</span>
-              {after}
-            </p>
-            <p className="font-sans text-base font-normal text-muted">
-              ({drillHint(drill, t.forms)}) · {drill.en}
-            </p>
-          </div>
-        }
-        accepted={drillAnswers(drill, inflections)}
-        settings={settings}
-        onAnswer={handleAnswer}
-        onNext={session.next}
-        placeholder={t.practice.missingWord}
-        formatExpected={(answer) => capitalize(`${before}${answer}${after}`)}
+        onNext={next}
       />
     );
   }
@@ -229,6 +136,142 @@ function Round({ topic, mode, inflections, itemIds, progress, settings, goal, re
         </>
       )}
       {body}
+    </div>
+  );
+}
+
+/** What the listening exercise plays for an item, and the answers it accepts. */
+export function listenTarget(topic: Topic, itemId: string) {
+  const baseId = idFromListen(itemId);
+  const word = topic.words.find((w) => w.id === baseId);
+  if (word) return { text: word.no, accepted: [word.no], meaning: word.en.join(", ") };
+  const sentence = topic.sentences.find((s) => s.id === baseId)!;
+  return { text: sentence.no[0], accepted: sentence.no, meaning: sentence.en };
+}
+
+type ExerciseProps = {
+  topic: Topic;
+  mode: Mode;
+  itemId: string;
+  inflections: InflectionTable;
+  settings: Settings;
+  /** The listening item was already spoken by the tap that brought it up. */
+  autoStarted: boolean;
+  onAnswer: (correct: boolean) => void;
+  onNext: () => void;
+};
+
+/** One item in one exercise type. Mount it with the item id as key. */
+export function Exercise({ topic, mode, itemId: id, inflections, settings, autoStarted, onAnswer, onNext }: ExerciseProps) {
+  const t = useT();
+  if (mode === "flashcards" || mode === "reverse") {
+    const word = topic.words.find((w) => w.id === wordIdFromReverse(id))!;
+    return (
+      <Flashcard
+        word={word}
+        reverse={mode === "reverse"}
+        inflections={inflections}
+        settings={settings}
+        onAnswer={(knewIt) => {
+          onAnswer(knewIt);
+          onNext();
+        }}
+      />
+    );
+  }
+  if (mode === "tiles") {
+    const sentence = topic.sentences.find((s) => s.id === id)!;
+    return <TileBuilder sentence={sentence} settings={settings} onAnswer={onAnswer} onNext={onNext} />;
+  }
+  if (mode === "write") {
+    const sentence = topic.sentences.find((s) => s.id === id)!;
+    return <WriteAnswer prompt={<p>{sentence.en}</p>} accepted={sentence.no} settings={settings} onAnswer={onAnswer} onNext={onNext} />;
+  }
+  if (mode === "listen") {
+    const target = listenTarget(topic, id);
+    return (
+      <WriteAnswer
+        prompt={<ListenPrompt text={target.text} settings={settings} autoStarted={autoStarted} />}
+        accepted={target.accepted}
+        settings={settings}
+        onAnswer={onAnswer}
+        onNext={onNext}
+        placeholder={t.practice.typeWhatYouHear}
+        alternatives={[]}
+        note={
+          <p className="text-sm text-muted">
+            {t.practice.meaning}
+            {target.meaning}
+          </p>
+        }
+      />
+    );
+  }
+  const drill = topic.inflectionDrills.find((d) => d.id === id)!;
+  const [before, after] = drill.no.split("___");
+  return (
+    <WriteAnswer
+      prompt={
+        <div className="space-y-2">
+          <p lang="nb">
+            {before}
+            <span className="mx-1 inline-block min-w-16 border-b-2 border-fjord text-center">&nbsp;</span>
+            {after}
+          </p>
+          <p className="font-sans text-base font-normal text-muted">
+            ({drillHint(drill, t.forms)}) · {drill.en}
+          </p>
+        </div>
+      }
+      accepted={drillAnswers(drill, inflections)}
+      settings={settings}
+      onAnswer={onAnswer}
+      onNext={onNext}
+      placeholder={t.practice.missingWord}
+      formatExpected={(answer) => capitalize(`${before}${answer}${after}`)}
+    />
+  );
+}
+
+type SummaryProps = {
+  results: SessionResult[];
+  goal: GoalState;
+  onRestart: () => void;
+  backHref: string;
+  backLabel: string;
+};
+
+/** The score at the end of a round, with today's goal. */
+export function RoundSummary({ results, goal, onRestart, backHref, backLabel }: SummaryProps) {
+  const t = useT();
+  const right = results.filter((r) => r.correct).length;
+  return (
+    <div className="sheet rise space-y-5 px-5 py-8 text-center">
+      <p className="eyebrow">{right === results.length ? t.practice.perfect : t.practice.wellDone}</p>
+      <p className="font-display text-6xl font-medium tabular-nums">
+        <span aria-hidden>
+          {right}
+          <span className="text-muted">/{results.length}</span>
+        </span>
+        <span className="sr-only">{t.practice.rightOf(right, results.length)}</span>
+      </p>
+      <p className="text-muted">{right === results.length ? t.practice.allRight : t.practice.missedComeBack}</p>
+      {goal.met ? (
+        <p className="text-sm font-medium text-moss">{t.practice.goalReached}</p>
+      ) : (
+        <div className="mx-auto flex max-w-xs items-center gap-3">
+          <ProgressBar value={goal.answered} max={goal.goal} label={t.goal.ringLabel} />
+          <span className="shrink-0 text-sm font-medium text-muted tabular-nums">{t.practice.goalToday(goal.answered, goal.goal)}</span>
+        </div>
+      )}
+      <div className="grid gap-3 pt-2 sm:grid-cols-2">
+        <button type="button" onClick={onRestart} className="btn btn-fjord">
+          {t.practice.again}
+        </button>
+        <Link href={backHref} className="btn btn-quiet">
+          {backLabel}
+        </Link>
+      </div>
     </div>
   );
 }

@@ -18,7 +18,12 @@ function pickQueue(itemIds: string[], progress: Record<string, ItemProgress>, si
  * Mount a new round (e.g. with a React key) to start over.
  */
 export function useSession(itemIds: string[], progress: Record<string, ItemProgress>, size = 10) {
-  const [{ queue, extra }] = useState(() => pickQueue(itemIds, progress, size));
+  return useQueue(() => pickQueue(itemIds, progress, size));
+}
+
+/** Like useSession, with the queue picked by `pick` (called once, on mount). */
+export function useQueue<T>(pick: () => { queue: T[]; extra: boolean }) {
+  const [{ queue, extra }] = useState(pick);
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState<SessionResult[]>([]);
 
