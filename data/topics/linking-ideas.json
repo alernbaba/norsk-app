@@ -1,0 +1,530 @@
+{
+  "id": "linking-ideas",
+  "title": "Linking ideas",
+  "description": "Even though, unless, despite and other words for longer sentences.",
+  "emoji": "🔗",
+  "order": 101,
+  "level": "b1-b2",
+  "words": [
+    {
+      "id": "linking-ideas-selv-om",
+      "no": "selv om",
+      "en": [
+        "even though",
+        "although",
+        "even if"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-ettersom",
+      "no": "ettersom",
+      "en": [
+        "since",
+        "as"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-dersom",
+      "no": "dersom",
+      "en": [
+        "if",
+        "in case"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-med-mindre",
+      "no": "med mindre",
+      "en": [
+        "unless"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-mens",
+      "no": "mens",
+      "en": [
+        "while",
+        "whereas"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-da",
+      "no": "da",
+      "en": [
+        "when (once, in the past)",
+        "then"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-etter-at",
+      "no": "etter at",
+      "en": [
+        "after"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-inntil",
+      "no": "inntil",
+      "en": [
+        "until"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-sa-snart",
+      "no": "så snart",
+      "en": [
+        "as soon as"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-slik-at",
+      "no": "slik at",
+      "en": [
+        "so that"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-for-at",
+      "no": "for at",
+      "en": [
+        "in order that",
+        "so that"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-i-stedet-for",
+      "no": "i stedet for",
+      "en": [
+        "instead of"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-til-tross-for",
+      "no": "til tross for",
+      "en": [
+        "despite",
+        "in spite of"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-ifolge",
+      "no": "ifølge",
+      "en": [
+        "according to"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-derimot",
+      "no": "derimot",
+      "en": [
+        "on the other hand",
+        "however"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-likevel",
+      "no": "likevel",
+      "en": [
+        "still",
+        "nevertheless",
+        "anyway"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-dessuten",
+      "no": "dessuten",
+      "en": [
+        "besides",
+        "moreover"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-imidlertid",
+      "no": "imidlertid",
+      "en": [
+        "however"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-altsa",
+      "no": "altså",
+      "en": [
+        "so",
+        "that is",
+        "in other words"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-nemlig",
+      "no": "nemlig",
+      "en": [
+        "you see",
+        "namely"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-ellers",
+      "no": "ellers",
+      "en": [
+        "otherwise",
+        "or else"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-i-tillegg",
+      "no": "i tillegg",
+      "en": [
+        "in addition",
+        "as well"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-bade-og",
+      "no": "både … og",
+      "en": [
+        "both … and"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-enten-eller",
+      "no": "enten … eller",
+      "en": [
+        "either … or"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-verken-eller",
+      "no": "verken … eller",
+      "en": [
+        "neither … nor"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-jo-desto",
+      "no": "jo … desto",
+      "en": [
+        "the … the (the more, the better)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-uansett",
+      "no": "uansett",
+      "en": [
+        "regardless",
+        "anyway",
+        "no matter"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "linking-ideas-som-regel",
+      "no": "som regel",
+      "en": [
+        "as a rule",
+        "usually"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "linking-ideas-pa-den-ene-siden",
+      "no": "på den ene siden",
+      "en": [
+        "on the one hand"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "linking-ideas-pa-den-andre-siden",
+      "no": "på den andre siden",
+      "en": [
+        "on the other hand"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "linking-ideas-med-andre-ord",
+      "no": "med andre ord",
+      "en": [
+        "in other words"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "linking-ideas-i-hvert-fall",
+      "no": "i hvert fall",
+      "en": [
+        "at least",
+        "in any case"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "linking-ideas-kort-sagt",
+      "no": "kort sagt",
+      "en": [
+        "in short"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "linking-ideas-det-vil-si",
+      "no": "Det vil si …",
+      "en": [
+        "That is to say …",
+        "i.e."
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "linking-ideas-s1",
+      "en": "Even though it was raining, we went for a walk.",
+      "no": [
+        "Selv om det regnet, gikk vi en tur.",
+        "Selv om det regna, gikk vi en tur.",
+        "Selv om det regnet, gikk vi tur."
+      ],
+      "distractors": [
+        "fordi",
+        "går",
+        "ikke"
+      ]
+    },
+    {
+      "id": "linking-ideas-s2",
+      "en": "I'm staying home because I'm not feeling well.",
+      "no": [
+        "Jeg blir hjemme fordi jeg ikke føler meg bra.",
+        "Jeg blir hjemme fordi jeg ikke føler meg i form."
+      ],
+      "distractors": [
+        "også",
+        "når",
+        "er"
+      ]
+    },
+    {
+      "id": "linking-ideas-s3",
+      "en": "If you don't hurry, you won't catch the bus.",
+      "no": [
+        "Hvis du ikke skynder deg, rekker du ikke bussen.",
+        "Dersom du ikke skynder deg, rekker du ikke bussen."
+      ],
+      "distractors": [
+        "skynd",
+        "bussene",
+        "når"
+      ]
+    },
+    {
+      "id": "linking-ideas-s4",
+      "en": "She said that she had never been to Bergen.",
+      "no": [
+        "Hun sa at hun aldri hadde vært i Bergen.",
+        "Hun sa at hun aldri hadde vært på Bergen."
+      ],
+      "distractors": [
+        "har",
+        "ikke",
+        "til"
+      ]
+    },
+    {
+      "id": "linking-ideas-s5",
+      "en": "We'll start as soon as everyone has arrived.",
+      "no": [
+        "Vi begynner så snart alle har kommet."
+      ],
+      "distractors": [
+        "når",
+        "kom",
+        "før"
+      ]
+    },
+    {
+      "id": "linking-ideas-s6",
+      "en": "I don't know whether he is coming tomorrow.",
+      "no": [
+        "Jeg vet ikke om han kommer i morgen."
+      ],
+      "distractors": [
+        "hvis",
+        "at",
+        "kommet"
+      ]
+    },
+    {
+      "id": "linking-ideas-s7",
+      "en": "While I was cooking, the children did their homework.",
+      "no": [
+        "Mens jeg lagde mat, gjorde barna leksene sine.",
+        "Mens jeg laget mat, gjorde barna leksene sine.",
+        "Mens jeg lagde middag, gjorde barna leksene sine."
+      ],
+      "distractors": [
+        "da",
+        "hans",
+        "gjør"
+      ]
+    },
+    {
+      "id": "linking-ideas-s8",
+      "en": "Despite the bad weather, the concert was a success.",
+      "no": [
+        "Til tross for det dårlige været ble konserten en suksess.",
+        "Til tross for dårlig vær ble konserten en suksess."
+      ],
+      "distractors": [
+        "selv",
+        "var",
+        "mens"
+      ]
+    },
+    {
+      "id": "linking-ideas-s9",
+      "en": "The book I'm reading now is very exciting.",
+      "no": [
+        "Boka som jeg leser nå, er veldig spennende.",
+        "Boken som jeg leser nå, er veldig spennende.",
+        "Boka jeg leser nå, er veldig spennende.",
+        "Boken jeg leser nå, er veldig spennende."
+      ],
+      "distractors": [
+        "hvem",
+        "leste",
+        "at"
+      ]
+    },
+    {
+      "id": "linking-ideas-s10",
+      "en": "The more I practise, the better I get.",
+      "no": [
+        "Jo mer jeg øver, desto bedre blir jeg.",
+        "Jo mer jeg øver, jo bedre blir jeg."
+      ],
+      "distractors": [
+        "mest",
+        "best",
+        "enn"
+      ]
+    },
+    {
+      "id": "linking-ideas-s11",
+      "en": "He took the train so that he could work on the way.",
+      "no": [
+        "Han tok toget slik at han kunne jobbe på veien.",
+        "Han tok toget så han kunne jobbe på veien.",
+        "Han tok toget slik at han kunne jobbe underveis."
+      ],
+      "distractors": [
+        "fordi",
+        "kan",
+        "bussen"
+      ]
+    },
+    {
+      "id": "linking-ideas-s12",
+      "en": "When I was little, we lived in Northern Norway.",
+      "no": [
+        "Da jeg var liten, bodde vi i Nord-Norge."
+      ],
+      "distractors": [
+        "når",
+        "bor",
+        "sør"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "linking-ideas-d1",
+      "no": "Selv om hun var trøtt, ___ hun på jobb.",
+      "en": "Even though she was tired, she went to work.",
+      "lemma": "gå",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "linking-ideas-d2",
+      "no": "Hun sier at hun ikke ___ middag ennå.",
+      "en": "She says she hasn't eaten dinner yet.",
+      "lemma": "spise",
+      "pos": "verb",
+      "form": "perfect"
+    },
+    {
+      "id": "linking-ideas-d3",
+      "no": "Etter at vi hadde ___, gikk vi en tur.",
+      "en": "After we had eaten, we went for a walk.",
+      "lemma": "spise",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "linking-ideas-d4",
+      "no": "Mens jeg ___ på bussen, begynte det å regne.",
+      "en": "While I was waiting for the bus, it started to rain.",
+      "lemma": "vente",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "linking-ideas-d5",
+      "no": "Hvis det ___ i morgen, blir vi hjemme.",
+      "en": "If it rains tomorrow, we'll stay at home.",
+      "lemma": "regne",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "linking-ideas-d6",
+      "no": "Da jeg kom hjem, ___ barna allerede.",
+      "en": "When I came home, the children were already asleep.",
+      "lemma": "sove",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "linking-ideas-d7",
+      "no": "Jo ___ det blir, desto mer snø får vi.",
+      "en": "The colder it gets, the more snow we get.",
+      "lemma": "kald",
+      "pos": "adj",
+      "form": "comparative"
+    },
+    {
+      "id": "linking-ideas-d8",
+      "no": "Vi venter til alle har ___.",
+      "en": "We'll wait until everyone has come.",
+      "lemma": "komme",
+      "pos": "verb",
+      "form": "participle"
+    }
+  ]
+}

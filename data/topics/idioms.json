@@ -1,0 +1,482 @@
+{
+  "id": "idioms",
+  "title": "Idioms and sayings",
+  "description": "Colourful expressions Norwegians use, and what they really mean.",
+  "emoji": "🦉",
+  "order": 106,
+  "level": "b1-b2",
+  "words": [
+    {
+      "id": "idioms-a-ha-bein-i-nesa",
+      "no": "å ha bein i nesa",
+      "en": [
+        "to be tough and decisive (lit. to have bone in the nose)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-snakke-rett-fra-levra",
+      "no": "å snakke rett fra levra",
+      "en": [
+        "to speak your mind (lit. straight from the liver)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-ta-seg-vann-over-hodet",
+      "no": "å ta seg vann over hodet",
+      "en": [
+        "to bite off more than you can chew"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-vaere-ute-pa-tynn-is",
+      "no": "å være ute på tynn is",
+      "en": [
+        "to be on thin ice"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-det-koker-bort-i-kalen",
+      "no": "Det koker bort i kålen.",
+      "en": [
+        "It comes to nothing.",
+        "It fizzles out."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-skjaere-alle-over-n-kam",
+      "no": "å skjære alle over én kam",
+      "en": [
+        "to lump everyone together"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-ingen-ko-pa-isen",
+      "no": "Ingen ko på isen.",
+      "en": [
+        "No worries, there's no rush. (lit. no cow on the ice)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-sla-to-fluer-i-n-smekk",
+      "no": "å slå to fluer i én smekk",
+      "en": [
+        "to kill two birds with one stone"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-passe-som-hand-i-hanske",
+      "no": "å passe som hånd i hanske",
+      "en": [
+        "to fit like a glove"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-det-er-ikke-bare-bare",
+      "no": "Det er ikke bare bare.",
+      "en": [
+        "It's not as easy as it sounds."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-henge-med-i-svingene",
+      "no": "å henge med i svingene",
+      "en": [
+        "to keep up (lit. to hang on in the bends)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-ta-noe-med-en-klype-salt",
+      "no": "å ta noe med en klype salt",
+      "en": [
+        "to take something with a pinch of salt"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-fa-kalde-fotter",
+      "no": "å få kalde føtter",
+      "en": [
+        "to get cold feet"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-sitte-midt-i-smoroyet",
+      "no": "å sitte midt i smørøyet",
+      "en": [
+        "to be in the perfect spot (lit. in the middle of the butter eye)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-ha-noe-pa-tunga",
+      "no": "å ha noe på tunga",
+      "en": [
+        "to have something on the tip of your tongue"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-det-sitter-langt-inne",
+      "no": "Det sitter langt inne.",
+      "en": [
+        "It's hard for them to do or admit it."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-ga-pa-en-smell",
+      "no": "å gå på en smell",
+      "en": [
+        "to suffer a setback",
+        "to come a cropper"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-komme-som-julekvelden-pa-kjerringa",
+      "no": "å komme som julekvelden på kjerringa",
+      "en": [
+        "to come as a (needless) surprise (lit. like Christmas Eve on the old woman)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-snu-kappen-etter-vinden",
+      "no": "å snu kappen etter vinden",
+      "en": [
+        "to change your views to suit the situation"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-det-er-ugler-i-mosen",
+      "no": "Det er ugler i mosen.",
+      "en": [
+        "Something fishy is going on. (lit. owls in the moss)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-male-fanden-pa-veggen",
+      "no": "å male fanden på veggen",
+      "en": [
+        "to imagine the worst (lit. to paint the devil on the wall)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-ikke-se-skogen-for-bare-traer",
+      "no": "å ikke se skogen for bare trær",
+      "en": [
+        "to not see the wood for the trees"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-bite-tennene-sammen",
+      "no": "å bite tennene sammen",
+      "en": [
+        "to grit your teeth"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-stikke-fingeren-i-jorda",
+      "no": "å stikke fingeren i jorda",
+      "en": [
+        "to come back down to earth",
+        "to do a reality check"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-legge-seg-flat",
+      "no": "å legge seg flat",
+      "en": [
+        "to admit you were wrong and apologize"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-ha-mange-baller-i-lufta",
+      "no": "å ha mange baller i lufta",
+      "en": [
+        "to have a lot of balls in the air"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-vaere-pa-baertur",
+      "no": "å være på bærtur",
+      "en": [
+        "to be way off the mark (lit. to be on a berry trip)"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-a-kaste-inn-handkleet",
+      "no": "å kaste inn håndkleet",
+      "en": [
+        "to throw in the towel"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-borte-bra-men-hjemme-best",
+      "no": "Borte bra, men hjemme best.",
+      "en": [
+        "There's no place like home."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-den-som-venter-pa-noe-godt-venter-ikke-forgjeves",
+      "no": "Den som venter på noe godt, venter ikke forgjeves.",
+      "en": [
+        "Good things come to those who wait."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-alle-gode-ting-er-tre",
+      "no": "Alle gode ting er tre.",
+      "en": [
+        "All good things come in threes."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-ovelse-gjor-mester",
+      "no": "Øvelse gjør mester.",
+      "en": [
+        "Practice makes perfect."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "idioms-det-er-ikke-gull-alt-som-glimrer",
+      "no": "Det er ikke gull alt som glimrer.",
+      "en": [
+        "All that glitters is not gold."
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "idioms-s1",
+      "en": "Take it easy, there's no rush.",
+      "no": [
+        "Ta det med ro, det er ingen ko på isen.",
+        "Ta det rolig, det er ingen ko på isen."
+      ],
+      "distractors": [
+        "kua",
+        "ku",
+        "is"
+      ]
+    },
+    {
+      "id": "idioms-s2",
+      "en": "She really speaks her mind.",
+      "no": [
+        "Hun snakker virkelig rett fra levra.",
+        "Hun snakker virkelig rett fra leveren."
+      ],
+      "distractors": [
+        "hjertet",
+        "snakket",
+        "munnen"
+      ]
+    },
+    {
+      "id": "idioms-s3",
+      "en": "I think he has bitten off more than he can chew.",
+      "no": [
+        "Jeg tror han har tatt seg vann over hodet.",
+        "Jeg tror at han har tatt seg vann over hodet."
+      ],
+      "distractors": [
+        "tok",
+        "hodene",
+        "under"
+      ]
+    },
+    {
+      "id": "idioms-s4",
+      "en": "Don't lump everyone together.",
+      "no": [
+        "Ikke skjær alle over én kam.",
+        "Ikke skjær alle over en kam."
+      ],
+      "distractors": [
+        "skjærer",
+        "kammen",
+        "noen"
+      ]
+    },
+    {
+      "id": "idioms-s5",
+      "en": "We killed two birds with one stone.",
+      "no": [
+        "Vi slo to fluer i én smekk.",
+        "Vi slo to fluer i en smekk."
+      ],
+      "distractors": [
+        "fugler",
+        "slår",
+        "stein"
+      ]
+    },
+    {
+      "id": "idioms-s6",
+      "en": "Take that rumour with a pinch of salt.",
+      "no": [
+        "Ta det ryktet med en klype salt."
+      ],
+      "distractors": [
+        "salte",
+        "pepper",
+        "rykte"
+      ]
+    },
+    {
+      "id": "idioms-s7",
+      "en": "He got cold feet just before the wedding.",
+      "no": [
+        "Han fikk kalde føtter rett før bryllupet.",
+        "Han fikk kalde føtter like før bryllupet."
+      ],
+      "distractors": [
+        "kald",
+        "fot",
+        "etter"
+      ]
+    },
+    {
+      "id": "idioms-s8",
+      "en": "The word is on the tip of my tongue.",
+      "no": [
+        "Jeg har ordet på tunga.",
+        "Jeg har ordet på tungen."
+      ],
+      "distractors": [
+        "ord",
+        "munnen",
+        "i"
+      ]
+    },
+    {
+      "id": "idioms-s9",
+      "en": "Something fishy is going on here.",
+      "no": [
+        "Her er det ugler i mosen.",
+        "Det er ugler i mosen her."
+      ],
+      "distractors": [
+        "fisk",
+        "ugle",
+        "mose"
+      ]
+    },
+    {
+      "id": "idioms-s10",
+      "en": "Don't imagine the worst, it will probably be fine.",
+      "no": [
+        "Ikke mal fanden på veggen, det går nok bra.",
+        "Ikke mal fanden på veggen, det går sikkert bra."
+      ],
+      "distractors": [
+        "maler",
+        "taket",
+        "godt"
+      ]
+    },
+    {
+      "id": "idioms-s11",
+      "en": "Learning Norwegian is not as easy as it sounds.",
+      "no": [
+        "Det er ikke bare bare å lære norsk."
+      ],
+      "distractors": [
+        "lett",
+        "lærer",
+        "bra"
+      ]
+    },
+    {
+      "id": "idioms-s12",
+      "en": "Practice makes perfect.",
+      "no": [
+        "Øvelse gjør mester."
+      ],
+      "distractors": [
+        "øver",
+        "mestere",
+        "gjorde"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "idioms-d1",
+      "no": "Han ___ seg vann over hodet da han kjøpte huset.",
+      "en": "He bit off more than he could chew when he bought the house.",
+      "lemma": "ta",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "idioms-d2",
+      "no": "Planene har ___ bort i kålen.",
+      "en": "The plans have come to nothing.",
+      "lemma": "koke",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "idioms-d3",
+      "no": "Hun ___ alltid rett fra levra.",
+      "en": "She always speaks her mind.",
+      "lemma": "snakke",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "idioms-d4",
+      "no": "Vi ___ to fluer i én smekk.",
+      "en": "We killed two birds with one stone.",
+      "lemma": "slå",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "idioms-d5",
+      "no": "Han fikk ___ føtter.",
+      "en": "He got cold feet.",
+      "lemma": "kald",
+      "pos": "adj",
+      "form": "pl"
+    },
+    {
+      "id": "idioms-d6",
+      "no": "Du må bare bite ___ sammen.",
+      "en": "You just have to grit your teeth.",
+      "lemma": "tann",
+      "pos": "noun",
+      "form": "defPl"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 // Storage layer. The rest of the app only talks to StorageAdapter, so the
 // localStorage adapter can later be swapped for a database behind a login.
 
+import { isLevelChoice } from "./levels";
 import type { ActivityLog, DayActivity, ItemProgress, Profile, Settings } from "./types";
 
 export interface StorageAdapter {
@@ -17,7 +18,7 @@ export interface StorageAdapter {
 }
 
 export const DEFAULT_PROFILE: Profile = { streak: 0, lastActiveDate: null };
-export const DEFAULT_SETTINGS: Settings = { slowSpeech: false, autoPlay: false, dailyGoal: 20, goalReminder: true };
+export const DEFAULT_SETTINGS: Settings = { slowSpeech: false, autoPlay: false, dailyGoal: 20, goalReminder: true, level: "all" };
 
 type StoredState = {
   version: 1;
@@ -44,11 +45,13 @@ export class LocalStorageAdapter implements StorageAdapter {
       const raw = this.store.getItem(this.key);
       if (!raw) return emptyState();
       const parsed = JSON.parse(raw) as Partial<StoredState>;
+      const settings = { ...DEFAULT_SETTINGS, ...parsed.settings };
+      if (!isLevelChoice(settings.level)) settings.level = DEFAULT_SETTINGS.level;
       return {
         version: 1,
         progress: parsed.progress ?? {},
         profile: { ...DEFAULT_PROFILE, ...parsed.profile },
-        settings: { ...DEFAULT_SETTINGS, ...parsed.settings },
+        settings,
         activity: parsed.activity ?? {},
       };
     } catch {

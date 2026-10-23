@@ -1,0 +1,69 @@
+{
+  "topicId": "opinions",
+  "tips": [
+    {
+      "id": "opinions-synes-tro-mene",
+      "title": {
+        "en": "I think: «synes», «tro» or «mene»?",
+        "nb": "Synes, tro eller mene?"
+      },
+      "text": {
+        "en": [
+          "*Synes* is for your own taste or experience: *Jeg synes filmen var kjedelig.*",
+          "*Tro* is for what you think is true but aren't sure about: *Jeg tror det blir regn.*",
+          "*Mene* is for a considered opinion, often about society or politics: *Jeg mener at skatten bør ned.*"
+        ],
+        "nb": [
+          "*Synes* brukes om smak og egne opplevelser: *Jeg synes filmen var kjedelig.*",
+          "*Tro* brukes om noe du regner med er sant, men ikke vet sikkert: *Jeg tror det blir regn.*",
+          "*Mene* brukes om et gjennomtenkt standpunkt, ofte om samfunn og politikk: *Jeg mener at skatten bør ned.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg *synes* maten er god.",
+          "en": "I think the food is good."
+        },
+        {
+          "no": "Jeg *tror* hun kommer i morgen.",
+          "en": "I think she's coming tomorrow."
+        },
+        {
+          "no": "Hun *mener* at byen trenger flere sykkelveier.",
+          "en": "She believes the city needs more cycle paths."
+        }
+      ]
+    },
+    {
+      "id": "opinions-at",
+      "title": {
+        "en": "Reporting what someone says with «at»",
+        "nb": "Gjengi hva noen sier, med «at»"
+      },
+      "text": {
+        "en": [
+          "After verbs like *si*, *hevde*, *påstå*, *mene* and *innrømme* you can add an *at*-clause, like English *that*. In speech, *at* is often left out.",
+          "Remember that it is a subordinate clause, so *ikke* goes in front of the verb, and the tense often shifts back in the past: *Han sa at han var syk.*"
+        ],
+        "nb": [
+          "Etter verb som *si*, *hevde*, *påstå*, *mene* og *innrømme* kan du legge til en *at*-setning. I muntlig språk sløyfes *at* ofte.",
+          "Husk at det er en leddsetning, så *ikke* står foran verbet, og tida flyttes ofte bakover i fortid: *Han sa at han var syk.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Hun hevder *at* ingen fortalte henne det.",
+          "en": "She claims that nobody told her."
+        },
+        {
+          "no": "Han innrømmet *at* han hadde gjort en feil.",
+          "en": "He admitted that he had made a mistake."
+        },
+        {
+          "no": "De sa *at* de ikke kunne komme.",
+          "en": "They said that they couldn't come."
+        }
+      ]
+    }
+  ]
+}

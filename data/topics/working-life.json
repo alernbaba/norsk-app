@@ -1,0 +1,591 @@
+{
+  "id": "working-life",
+  "title": "Working life",
+  "description": "Applying for jobs, contracts, salary and rights at work.",
+  "emoji": "💼",
+  "order": 103,
+  "level": "b1-b2",
+  "words": [
+    {
+      "id": "working-life-en-soknad",
+      "no": "en søknad",
+      "en": [
+        "an application"
+      ],
+      "pos": "noun",
+      "lemma": "søknad"
+    },
+    {
+      "id": "working-life-en-jobbsoknad",
+      "no": "en jobbsøknad",
+      "en": [
+        "a job application"
+      ],
+      "pos": "noun",
+      "lemma": "jobbsøknad"
+    },
+    {
+      "id": "working-life-en-arbeidsgiver",
+      "no": "en arbeidsgiver",
+      "en": [
+        "an employer"
+      ],
+      "pos": "noun",
+      "lemma": "arbeidsgiver"
+    },
+    {
+      "id": "working-life-en-arbeidstaker",
+      "no": "en arbeidstaker",
+      "en": [
+        "an employee",
+        "a worker"
+      ],
+      "pos": "noun",
+      "lemma": "arbeidstaker"
+    },
+    {
+      "id": "working-life-en-stilling",
+      "no": "en stilling",
+      "en": [
+        "a position",
+        "a post"
+      ],
+      "pos": "noun",
+      "lemma": "stilling"
+    },
+    {
+      "id": "working-life-ei-lonn",
+      "no": "ei lønn",
+      "en": [
+        "a salary",
+        "wages",
+        "pay"
+      ],
+      "pos": "noun",
+      "lemma": "lønn"
+    },
+    {
+      "id": "working-life-en-kontrakt",
+      "no": "en kontrakt",
+      "en": [
+        "a contract"
+      ],
+      "pos": "noun",
+      "lemma": "kontrakt"
+    },
+    {
+      "id": "working-life-et-intervju",
+      "no": "et intervju",
+      "en": [
+        "an interview"
+      ],
+      "pos": "noun",
+      "lemma": "intervju"
+    },
+    {
+      "id": "working-life-en-erfaring",
+      "no": "en erfaring",
+      "en": [
+        "an experience"
+      ],
+      "pos": "noun",
+      "lemma": "erfaring"
+    },
+    {
+      "id": "working-life-en-kompetanse",
+      "no": "en kompetanse",
+      "en": [
+        "competence",
+        "skills"
+      ],
+      "pos": "noun",
+      "lemma": "kompetanse"
+    },
+    {
+      "id": "working-life-en-utdanning",
+      "no": "en utdanning",
+      "en": [
+        "an education"
+      ],
+      "pos": "noun",
+      "lemma": "utdanning"
+    },
+    {
+      "id": "working-life-en-fagforening",
+      "no": "en fagforening",
+      "en": [
+        "a trade union",
+        "a labor union"
+      ],
+      "pos": "noun",
+      "lemma": "fagforening"
+    },
+    {
+      "id": "working-life-en-permisjon",
+      "no": "en permisjon",
+      "en": [
+        "leave (from work)"
+      ],
+      "pos": "noun",
+      "lemma": "permisjon"
+    },
+    {
+      "id": "working-life-en-foreldrepermisjon",
+      "no": "en foreldrepermisjon",
+      "en": [
+        "parental leave"
+      ],
+      "pos": "noun",
+      "lemma": "foreldrepermisjon"
+    },
+    {
+      "id": "working-life-en-oppsigelse",
+      "no": "en oppsigelse",
+      "en": [
+        "a resignation",
+        "a dismissal",
+        "notice"
+      ],
+      "pos": "noun",
+      "lemma": "oppsigelse"
+    },
+    {
+      "id": "working-life-en-provetid",
+      "no": "en prøvetid",
+      "en": [
+        "a probation period"
+      ],
+      "pos": "noun",
+      "lemma": "prøvetid"
+    },
+    {
+      "id": "working-life-et-ansvar",
+      "no": "et ansvar",
+      "en": [
+        "a responsibility"
+      ],
+      "pos": "noun",
+      "lemma": "ansvar"
+    },
+    {
+      "id": "working-life-en-arbeidsoppgave",
+      "no": "en arbeidsoppgave",
+      "en": [
+        "a task",
+        "a work duty"
+      ],
+      "pos": "noun",
+      "lemma": "arbeidsoppgave"
+    },
+    {
+      "id": "working-life-en-arbeidstid",
+      "no": "en arbeidstid",
+      "en": [
+        "working hours"
+      ],
+      "pos": "noun",
+      "lemma": "arbeidstid"
+    },
+    {
+      "id": "working-life-et-tilbud",
+      "no": "et tilbud",
+      "en": [
+        "an offer"
+      ],
+      "pos": "noun",
+      "lemma": "tilbud"
+    },
+    {
+      "id": "working-life-a-soke",
+      "no": "å søke",
+      "en": [
+        "to apply",
+        "to search"
+      ],
+      "pos": "verb",
+      "lemma": "søke"
+    },
+    {
+      "id": "working-life-a-ansette",
+      "no": "å ansette",
+      "en": [
+        "to hire",
+        "to employ"
+      ],
+      "pos": "verb",
+      "lemma": "ansette"
+    },
+    {
+      "id": "working-life-a-forhandle",
+      "no": "å forhandle",
+      "en": [
+        "to negotiate"
+      ],
+      "pos": "verb",
+      "lemma": "forhandle"
+    },
+    {
+      "id": "working-life-a-pendle",
+      "no": "å pendle",
+      "en": [
+        "to commute"
+      ],
+      "pos": "verb",
+      "lemma": "pendle"
+    },
+    {
+      "id": "working-life-a-samarbeide",
+      "no": "å samarbeide",
+      "en": [
+        "to cooperate",
+        "to collaborate"
+      ],
+      "pos": "verb",
+      "lemma": "samarbeide"
+    },
+    {
+      "id": "working-life-a-lede",
+      "no": "å lede",
+      "en": [
+        "to lead",
+        "to manage"
+      ],
+      "pos": "verb",
+      "lemma": "lede"
+    },
+    {
+      "id": "working-life-a-utvikle",
+      "no": "å utvikle",
+      "en": [
+        "to develop"
+      ],
+      "pos": "verb",
+      "lemma": "utvikle"
+    },
+    {
+      "id": "working-life-a-permittere",
+      "no": "å permittere",
+      "en": [
+        "to lay off (temporarily)"
+      ],
+      "pos": "verb",
+      "lemma": "permittere"
+    },
+    {
+      "id": "working-life-fast",
+      "no": "fast",
+      "en": [
+        "permanent",
+        "fixed",
+        "firm"
+      ],
+      "pos": "adj",
+      "lemma": "fast"
+    },
+    {
+      "id": "working-life-midlertidig",
+      "no": "midlertidig",
+      "en": [
+        "temporary"
+      ],
+      "pos": "adj",
+      "lemma": "midlertidig"
+    },
+    {
+      "id": "working-life-erfaren",
+      "no": "erfaren",
+      "en": [
+        "experienced"
+      ],
+      "pos": "adj",
+      "lemma": "erfaren"
+    },
+    {
+      "id": "working-life-ansvarlig",
+      "no": "ansvarlig",
+      "en": [
+        "responsible",
+        "in charge"
+      ],
+      "pos": "adj",
+      "lemma": "ansvarlig"
+    },
+    {
+      "id": "working-life-selvstendig",
+      "no": "selvstendig",
+      "en": [
+        "independent"
+      ],
+      "pos": "adj",
+      "lemma": "selvstendig"
+    },
+    {
+      "id": "working-life-fleksibel",
+      "no": "fleksibel",
+      "en": [
+        "flexible"
+      ],
+      "pos": "adj",
+      "lemma": "fleksibel"
+    },
+    {
+      "id": "working-life-heltid",
+      "no": "heltid",
+      "en": [
+        "full-time"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "working-life-deltid",
+      "no": "deltid",
+      "en": [
+        "part-time"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "working-life-a-si-opp",
+      "no": "å si opp",
+      "en": [
+        "to resign",
+        "to quit",
+        "to dismiss"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "working-life-a-jobbe-overtid",
+      "no": "å jobbe overtid",
+      "en": [
+        "to work overtime"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "working-life-a-ta-ansvar-for",
+      "no": "å ta ansvar for",
+      "en": [
+        "to take responsibility for"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "working-life-hvor-lang-er-oppsigelsestiden",
+      "no": "Hvor lang er oppsigelsestiden?",
+      "en": [
+        "How long is the notice period?"
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "working-life-s1",
+      "en": "I have applied for a permanent position in Oslo.",
+      "no": [
+        "Jeg har søkt på en fast stilling i Oslo.",
+        "Jeg har søkt en fast stilling i Oslo."
+      ],
+      "distractors": [
+        "søkte",
+        "stillingen",
+        "midlertidig"
+      ]
+    },
+    {
+      "id": "working-life-s2",
+      "en": "The employer wanted someone with more experience.",
+      "no": [
+        "Arbeidsgiveren ville ha noen med mer erfaring."
+      ],
+      "distractors": [
+        "erfaren",
+        "flere",
+        "arbeidstaker"
+      ]
+    },
+    {
+      "id": "working-life-s3",
+      "en": "She was hired after the second interview.",
+      "no": [
+        "Hun ble ansatt etter det andre intervjuet."
+      ],
+      "distractors": [
+        "ansette",
+        "første",
+        "før"
+      ]
+    },
+    {
+      "id": "working-life-s4",
+      "en": "We are negotiating about salary and working hours.",
+      "no": [
+        "Vi forhandler om lønn og arbeidstid."
+      ],
+      "distractors": [
+        "lønnen",
+        "forhandlet",
+        "med"
+      ]
+    },
+    {
+      "id": "working-life-s5",
+      "en": "He works part-time while he is studying.",
+      "no": [
+        "Han jobber deltid mens han studerer.",
+        "Han jobber på deltid mens han studerer.",
+        "Han arbeider deltid mens han studerer."
+      ],
+      "distractors": [
+        "heltid",
+        "da",
+        "studerte"
+      ]
+    },
+    {
+      "id": "working-life-s6",
+      "en": "My contract is temporary, unfortunately.",
+      "no": [
+        "Kontrakten min er dessverre midlertidig.",
+        "Dessverre er kontrakten min midlertidig."
+      ],
+      "distractors": [
+        "fast",
+        "mitt",
+        "kontrakt"
+      ]
+    },
+    {
+      "id": "working-life-s7",
+      "en": "Many people commute to work by train.",
+      "no": [
+        "Mange pendler til jobb med tog.",
+        "Mange pendler til jobben med tog.",
+        "Mange pendler til jobb med toget."
+      ],
+      "distractors": [
+        "pendlet",
+        "bil",
+        "på"
+      ]
+    },
+    {
+      "id": "working-life-s8",
+      "en": "Who is responsible for the project?",
+      "no": [
+        "Hvem er ansvarlig for prosjektet?",
+        "Hvem har ansvaret for prosjektet?"
+      ],
+      "distractors": [
+        "ansvar",
+        "hva",
+        "prosjekt"
+      ]
+    },
+    {
+      "id": "working-life-s9",
+      "en": "She resigned because she had got a better offer.",
+      "no": [
+        "Hun sa opp fordi hun hadde fått et bedre tilbud."
+      ],
+      "distractors": [
+        "har",
+        "godt",
+        "tilbudet"
+      ]
+    },
+    {
+      "id": "working-life-s10",
+      "en": "In Norway, fathers can take parental leave.",
+      "no": [
+        "I Norge kan fedre ta foreldrepermisjon.",
+        "I Norge kan fedre ta ut foreldrepermisjon."
+      ],
+      "distractors": [
+        "far",
+        "har",
+        "permisjonen"
+      ]
+    },
+    {
+      "id": "working-life-s11",
+      "en": "It's important to be able to work independently.",
+      "no": [
+        "Det er viktig å kunne jobbe selvstendig.",
+        "Det er viktig å kunne arbeide selvstendig."
+      ],
+      "distractors": [
+        "viktige",
+        "kan",
+        "alene"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "working-life-d1",
+      "no": "Hun har sendt mange ___ i år.",
+      "en": "She has sent many applications this year.",
+      "lemma": "søknad",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "working-life-d2",
+      "no": "Firmaet ___ tre nye medarbeidere i fjor.",
+      "en": "The company hired three new staff last year.",
+      "lemma": "ansette",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "working-life-d3",
+      "no": "___ var bedre enn jeg hadde håpet.",
+      "en": "The salary was better than I had hoped.",
+      "lemma": "lønn",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "working-life-d4",
+      "no": "De har ___ godt i mange år.",
+      "en": "They have worked well together for many years.",
+      "lemma": "samarbeide",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "working-life-d5",
+      "no": "Hun er den mest ___ legen på avdelingen.",
+      "en": "She is the most experienced doctor in the department.",
+      "lemma": "erfaren",
+      "pos": "adj",
+      "form": "def"
+    },
+    {
+      "id": "working-life-d6",
+      "no": "Alle ___ fikk en bonus.",
+      "en": "All the employees got a bonus.",
+      "lemma": "arbeidstaker",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "working-life-d7",
+      "no": "Jeg ___ til Oslo hver dag.",
+      "en": "I commute to Oslo every day.",
+      "lemma": "pendle",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "working-life-d8",
+      "no": "Hun har mange ___ på jobben.",
+      "en": "She has many tasks at work.",
+      "lemma": "arbeidsoppgave",
+      "pos": "noun",
+      "form": "indefPl"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Norsk – lær norsk (bokmål)
 
-En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Grensesnittet er på engelsk eller norsk (velges under Settings / Innstillinger).
+En webapp for voksne som kan engelsk og vil lære norsk bokmål. Grensesnittet er på engelsk eller norsk (velges under Settings / Innstillinger).
 
 - **Flashcards** begge veier (norsk → engelsk og engelsk → norsk, med egen fremgang per retning), enkel spaced repetition (Leitner-bokser) og bøyingsformer på baksiden
 - **Build the sentence**: bygg den norske setningen med ordbrikker (inkludert feil ord)
@@ -12,9 +12,10 @@ En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Gre
 - **Due today**: liste over alt som skal repeteres i dag, med forklaring av boksene
 - 📱 **Installerbar app** (PWA): kan legges på hjemskjermen og virker uten nett etter første besøk
 - 📘 **Grammatikktips** per tema (kjønn, V2-regelen, adjektivbøying, verbtider osv.) på engelsk eller norsk, på temasiden og samlet under `/grammar`
+- 🎚️ **Nivå**: A1–A2 for nybegynnere og B1–B2 med leddsetninger, idiomer og vanskeligere ord om jobb, samfunn, helse og miljø. Velg nivå på oversikten eller under Settings / Innstillinger
 - 🌐 **Språkvalg** for menyer, knapper og tilbakemeldinger: engelsk (standard) eller norsk bokmål, lagret i nettleseren
 
-Innholdet er 35 temaer med ca. 1350 ord, 146 vanlige uttrykk, 350 setninger og 167 bøyingsøvelser.
+Innholdet er 42 temaer med ca. 1550 ord, 208 vanlige uttrykk, 429 setninger og 221 bøyingsøvelser. Sju av temaene er på nivå B1–B2.
 
 ## Kom i gang
 
@@ -49,6 +50,7 @@ data/
   topics/*.json           ett tema per fil
   grammar/*.json          grammatikktips, én fil per tema
   inflections.json        bøyingsformer, generert fra Norsk ordbank
+  inflections-pending.json håndskrevne bøyingsformer for ord som ikke er importert ennå
   inflections-missing.txt ord som ikke ble funnet i ordbanken
 scripts/import-ordbank.ts lager inflections.json
 tests/                    Vitest
@@ -92,6 +94,10 @@ tests/                    Vitest
 Temaet dukker opp på forsiden neste gang du starter `npm run dev`. Testene i `tests/content.test.ts` sjekker at alt henger sammen.
 
 ### Feltene
+
+**Tema**
+
+`level` er valgfritt: `"a1-a2"` (standard) eller `"b1-b2"`. Brukeren velger hvilke nivåer som vises på oversikten.
 
 **Ord (`words`)**
 
@@ -154,6 +160,10 @@ Bøyingsformene kommer fra [Norsk ordbank – bokmål 2005](https://www.nb.no/sp
 3. Les loggen:
    - **NOT found**: ord som ikke finnes i ordbanken. De står også i `data/inflections-missing.txt`. Rett `lemma` eller `pos` i temafilen, eller sett `pos` til `other` hvis ordet ikke skal bøyes.
    - **had several ordbank entries**: grunnformen finnes flere ganger (f.eks. *bok* «book» og *bok* «beech»). Skriptet velger det vanligste oppslaget, og loggen viser hva som ble valgt og alternativene med id. Er valget feil, sett `"ordbankId"` på ordet i temafilen og kjør skriptet igjen.
+
+### Håndskrevne former
+
+Får du ikke kjørt importen (for eksempel uten ordbankfilene), kan formene skrives inn for hånd i `data/inflections-pending.json`, med samme format som `inflections.json`. Appen bruker dem bare for ord som mangler i `inflections.json`. Neste gang `npm run import:ordbank` kjøres, fjernes alle ord fra filen som ble funnet i ordbanken. B1–B2-temaene ble laget uten tilgang til ordbanken, så 134 ord ligger der nå.
 
 Valgfritt: legger du en frekvensliste i `data/raw/frequency.txt` (én linje per ord: `ord antall`, f.eks. `no_50k.txt` fra [FrequencyWords](https://github.com/hermitdave/FrequencyWords)), bruker skriptet den til å velge mellom like oppslag. Uten den velges oppslaget med flest former.
 

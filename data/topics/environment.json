@@ -1,0 +1,558 @@
+{
+  "id": "environment",
+  "title": "Climate and environment",
+  "description": "Emissions, renewable energy, recycling and the weather of the future.",
+  "emoji": "🌱",
+  "order": 104,
+  "level": "b1-b2",
+  "words": [
+    {
+      "id": "environment-et-klima",
+      "no": "et klima",
+      "en": [
+        "a climate"
+      ],
+      "pos": "noun",
+      "lemma": "klima"
+    },
+    {
+      "id": "environment-et-miljo",
+      "no": "et miljø",
+      "en": [
+        "an environment"
+      ],
+      "pos": "noun",
+      "lemma": "miljø"
+    },
+    {
+      "id": "environment-en-klimaendring",
+      "no": "en klimaendring",
+      "en": [
+        "a climate change"
+      ],
+      "pos": "noun",
+      "lemma": "klimaendring"
+    },
+    {
+      "id": "environment-et-utslipp",
+      "no": "et utslipp",
+      "en": [
+        "an emission",
+        "a discharge"
+      ],
+      "pos": "noun",
+      "lemma": "utslipp"
+    },
+    {
+      "id": "environment-en-forurensning",
+      "no": "en forurensning",
+      "en": [
+        "pollution"
+      ],
+      "pos": "noun",
+      "lemma": "forurensning"
+    },
+    {
+      "id": "environment-en-energi",
+      "no": "en energi",
+      "en": [
+        "energy"
+      ],
+      "pos": "noun",
+      "lemma": "energi"
+    },
+    {
+      "id": "environment-en-strom",
+      "no": "en strøm",
+      "en": [
+        "electricity",
+        "a current"
+      ],
+      "pos": "noun",
+      "lemma": "strøm"
+    },
+    {
+      "id": "environment-en-vannkraft",
+      "no": "en vannkraft",
+      "en": [
+        "hydropower"
+      ],
+      "pos": "noun",
+      "lemma": "vannkraft"
+    },
+    {
+      "id": "environment-en-vindmolle",
+      "no": "en vindmølle",
+      "en": [
+        "a wind turbine",
+        "a windmill"
+      ],
+      "pos": "noun",
+      "lemma": "vindmølle"
+    },
+    {
+      "id": "environment-et-avfall",
+      "no": "et avfall",
+      "en": [
+        "waste"
+      ],
+      "pos": "noun",
+      "lemma": "avfall"
+    },
+    {
+      "id": "environment-en-flom",
+      "no": "en flom",
+      "en": [
+        "a flood"
+      ],
+      "pos": "noun",
+      "lemma": "flom"
+    },
+    {
+      "id": "environment-ei-torke",
+      "no": "ei tørke",
+      "en": [
+        "a drought"
+      ],
+      "pos": "noun",
+      "lemma": "tørke"
+    },
+    {
+      "id": "environment-en-temperatur",
+      "no": "en temperatur",
+      "en": [
+        "a temperature"
+      ],
+      "pos": "noun",
+      "lemma": "temperatur"
+    },
+    {
+      "id": "environment-en-ressurs",
+      "no": "en ressurs",
+      "en": [
+        "a resource"
+      ],
+      "pos": "noun",
+      "lemma": "ressurs"
+    },
+    {
+      "id": "environment-en-art",
+      "no": "en art",
+      "en": [
+        "a species",
+        "a kind"
+      ],
+      "pos": "noun",
+      "lemma": "art"
+    },
+    {
+      "id": "environment-en-elbil",
+      "no": "en elbil",
+      "en": [
+        "an electric car"
+      ],
+      "pos": "noun",
+      "lemma": "elbil"
+    },
+    {
+      "id": "environment-et-forbruk",
+      "no": "et forbruk",
+      "en": [
+        "consumption"
+      ],
+      "pos": "noun",
+      "lemma": "forbruk"
+    },
+    {
+      "id": "environment-en-generasjon",
+      "no": "en generasjon",
+      "en": [
+        "a generation"
+      ],
+      "pos": "noun",
+      "lemma": "generasjon"
+    },
+    {
+      "id": "environment-a-resirkulere",
+      "no": "å resirkulere",
+      "en": [
+        "to recycle"
+      ],
+      "pos": "verb",
+      "lemma": "resirkulere"
+    },
+    {
+      "id": "environment-a-kildesortere",
+      "no": "å kildesortere",
+      "en": [
+        "to sort waste for recycling"
+      ],
+      "pos": "verb",
+      "lemma": "kildesortere"
+    },
+    {
+      "id": "environment-a-redusere",
+      "no": "å redusere",
+      "en": [
+        "to reduce"
+      ],
+      "pos": "verb",
+      "lemma": "redusere"
+    },
+    {
+      "id": "environment-a-forurense",
+      "no": "å forurense",
+      "en": [
+        "to pollute"
+      ],
+      "pos": "verb",
+      "lemma": "forurense"
+    },
+    {
+      "id": "environment-a-pavirke",
+      "no": "å påvirke",
+      "en": [
+        "to affect",
+        "to influence"
+      ],
+      "pos": "verb",
+      "lemma": "påvirke"
+    },
+    {
+      "id": "environment-a-bevare",
+      "no": "å bevare",
+      "en": [
+        "to preserve",
+        "to keep"
+      ],
+      "pos": "verb",
+      "lemma": "bevare"
+    },
+    {
+      "id": "environment-a-beskytte",
+      "no": "å beskytte",
+      "en": [
+        "to protect"
+      ],
+      "pos": "verb",
+      "lemma": "beskytte"
+    },
+    {
+      "id": "environment-a-spare",
+      "no": "å spare",
+      "en": [
+        "to save"
+      ],
+      "pos": "verb",
+      "lemma": "spare"
+    },
+    {
+      "id": "environment-a-oke",
+      "no": "å øke",
+      "en": [
+        "to increase",
+        "to rise"
+      ],
+      "pos": "verb",
+      "lemma": "øke"
+    },
+    {
+      "id": "environment-a-odelegge",
+      "no": "å ødelegge",
+      "en": [
+        "to destroy",
+        "to ruin"
+      ],
+      "pos": "verb",
+      "lemma": "ødelegge"
+    },
+    {
+      "id": "environment-baerekraftig",
+      "no": "bærekraftig",
+      "en": [
+        "sustainable"
+      ],
+      "pos": "adj",
+      "lemma": "bærekraftig"
+    },
+    {
+      "id": "environment-fornybar",
+      "no": "fornybar",
+      "en": [
+        "renewable"
+      ],
+      "pos": "adj",
+      "lemma": "fornybar"
+    },
+    {
+      "id": "environment-miljovennlig",
+      "no": "miljøvennlig",
+      "en": [
+        "environmentally friendly",
+        "eco-friendly"
+      ],
+      "pos": "adj",
+      "lemma": "miljøvennlig"
+    },
+    {
+      "id": "environment-global",
+      "no": "global",
+      "en": [
+        "global"
+      ],
+      "pos": "adj",
+      "lemma": "global"
+    },
+    {
+      "id": "environment-alvorlig",
+      "no": "alvorlig",
+      "en": [
+        "serious",
+        "severe"
+      ],
+      "pos": "adj",
+      "lemma": "alvorlig"
+    },
+    {
+      "id": "environment-utrydningstruet",
+      "no": "utrydningstruet",
+      "en": [
+        "endangered"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "environment-det-er-bedre-for-miljoet",
+      "no": "Det er bedre for miljøet.",
+      "en": [
+        "It's better for the environment."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "environment-a-ta-noe-pa-alvor",
+      "no": "å ta noe på alvor",
+      "en": [
+        "to take something seriously"
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "environment-s1",
+      "en": "Climate change affects the whole world.",
+      "no": [
+        "Klimaendringene påvirker hele verden."
+      ],
+      "distractors": [
+        "påvirket",
+        "alle",
+        "verdenen"
+      ]
+    },
+    {
+      "id": "environment-s2",
+      "en": "We must reduce emissions quickly.",
+      "no": [
+        "Vi må redusere utslippene raskt.",
+        "Vi må raskt redusere utslippene.",
+        "Vi må redusere utslippene fort."
+      ],
+      "distractors": [
+        "utslipp",
+        "redusert",
+        "sakte"
+      ]
+    },
+    {
+      "id": "environment-s3",
+      "en": "In Norway, most electricity comes from hydropower.",
+      "no": [
+        "I Norge kommer det meste av strømmen fra vannkraft.",
+        "I Norge kommer mesteparten av strømmen fra vannkraft."
+      ],
+      "distractors": [
+        "mest",
+        "strøm",
+        "til"
+      ]
+    },
+    {
+      "id": "environment-s4",
+      "en": "Do you sort your rubbish at home?",
+      "no": [
+        "Kildesorterer du søppelet hjemme?",
+        "Kildesorterer du søpla hjemme?",
+        "Kildesorterer du avfallet hjemme?"
+      ],
+      "distractors": [
+        "hjem",
+        "dere",
+        "søppel"
+      ]
+    },
+    {
+      "id": "environment-s5",
+      "en": "Electric cars are more environmentally friendly than diesel cars.",
+      "no": [
+        "Elbiler er mer miljøvennlige enn dieselbiler."
+      ],
+      "distractors": [
+        "miljøvennlig",
+        "mest",
+        "som"
+      ]
+    },
+    {
+      "id": "environment-s6",
+      "en": "Many species are endangered.",
+      "no": [
+        "Mange arter er utrydningstruet.",
+        "Mange arter er utrydningstruede.",
+        "Mange arter er utryddingstruet."
+      ],
+      "distractors": [
+        "art",
+        "truer",
+        "få"
+      ]
+    },
+    {
+      "id": "environment-s7",
+      "en": "The temperature has risen by almost one degree.",
+      "no": [
+        "Temperaturen har steget med nesten én grad.",
+        "Temperaturen har steget med nesten en grad.",
+        "Temperaturen har økt med nesten én grad.",
+        "Temperaturen har økt med nesten en grad."
+      ],
+      "distractors": [
+        "stiger",
+        "grader",
+        "over"
+      ]
+    },
+    {
+      "id": "environment-s8",
+      "en": "Renewable energy is the future.",
+      "no": [
+        "Fornybar energi er framtiden.",
+        "Fornybar energi er fremtiden.",
+        "Fornybar energi er framtida."
+      ],
+      "distractors": [
+        "fornybare",
+        "energien",
+        "var"
+      ]
+    },
+    {
+      "id": "environment-s9",
+      "en": "It is important to protect nature for future generations.",
+      "no": [
+        "Det er viktig å beskytte naturen for framtidige generasjoner.",
+        "Det er viktig å beskytte naturen for fremtidige generasjoner.",
+        "Det er viktig å beskytte naturen for kommende generasjoner."
+      ],
+      "distractors": [
+        "beskytter",
+        "generasjon",
+        "forrige"
+      ]
+    },
+    {
+      "id": "environment-s10",
+      "en": "The flood destroyed several houses last autumn.",
+      "no": [
+        "Flommen ødela flere hus i fjor høst.",
+        "Flommen ødela flere hus i høst."
+      ],
+      "distractors": [
+        "flom",
+        "ødelegger",
+        "huset"
+      ]
+    },
+    {
+      "id": "environment-s11",
+      "en": "If we all save electricity, it will help.",
+      "no": [
+        "Hvis vi alle sparer strøm, vil det hjelpe.",
+        "Hvis alle sparer strøm, vil det hjelpe.",
+        "Dersom vi alle sparer strøm, vil det hjelpe."
+      ],
+      "distractors": [
+        "sparte",
+        "hjelper",
+        "ikke"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "environment-d1",
+      "no": "Mange land ___ utslippene sine.",
+      "en": "Many countries are reducing their emissions.",
+      "lemma": "redusere",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "environment-d2",
+      "no": "___ i sommer var den verste på femti år.",
+      "en": "The drought this summer was the worst in fifty years.",
+      "lemma": "tørke",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "environment-d3",
+      "no": "Fabrikken har ___ elva i mange år.",
+      "en": "The factory has polluted the river for many years.",
+      "lemma": "forurense",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "environment-d4",
+      "no": "Det finnes mange truede ___ i Norge.",
+      "en": "There are many threatened species in Norway.",
+      "lemma": "art",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "environment-d5",
+      "no": "Vi må ta ___ på alvor.",
+      "en": "We must take climate change seriously.",
+      "lemma": "klimaendring",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "environment-d6",
+      "no": "Strømprisene ___ kraftig i fjor.",
+      "en": "Electricity prices rose sharply last year.",
+      "lemma": "øke",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "environment-d7",
+      "no": "Toget er det mest ___ alternativet.",
+      "en": "The train is the most environmentally friendly option.",
+      "lemma": "miljøvennlig",
+      "pos": "adj",
+      "form": "def"
+    },
+    {
+      "id": "environment-d8",
+      "no": "Vi ___ alle flasker og bokser.",
+      "en": "We recycle all bottles and cans.",
+      "lemma": "resirkulere",
+      "pos": "verb",
+      "form": "present"
+    }
+  ]
+}

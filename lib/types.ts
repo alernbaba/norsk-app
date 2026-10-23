@@ -34,6 +34,12 @@ export type InflectionDrill = {
   form: InflectionForm;
 };
 
+/** CEFR level of a topic. Topics without one are A1–A2. */
+export type Level = "a1-a2" | "b1-b2";
+
+/** Which topics the overview shows. */
+export type LevelChoice = "all" | Level;
+
 export type Topic = {
   id: string;
   title: string;
@@ -41,6 +47,7 @@ export type Topic = {
   emoji: string;
   /** Position in the topic list. */
   order: number;
+  level?: Level;
   words: Word[];
   sentences: Sentence[];
   inflectionDrills: InflectionDrill[];
@@ -140,6 +147,8 @@ export type Settings = {
   dailyGoal: number;
   /** Show a reminder on the overview until the daily goal is met. */
   goalReminder: boolean;
+  /** Topics shown on the overview. */
+  level: LevelChoice;
 };
 
 /** Answers given on one day. */

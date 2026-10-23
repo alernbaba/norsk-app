@@ -36,4 +36,11 @@ export const TOPICS_NB: Record<string, { title: string; description: string }> =
   travel: { title: "Reise og transport", description: "Tog, billetter, flyplasser og å komme seg rundt." },
   "verbs-3": { title: "Verb for hverdagen", description: "Samle, vokse, løse, forvente og mange flere." },
   "work-school": { title: "Jobb og skole", description: "Kontorer, møter, timer og eksamener." },
+  "linking-ideas": { title: "Binde sammen tanker", description: "Selv om, med mindre, til tross for og andre ord for lengre setninger." },
+  opinions: { title: "Meninger og debatt", description: "Si hva du mener, vær enig eller uenig, og vei argumenter mot hverandre." },
+  "working-life": { title: "Arbeidsliv", description: "Jobbsøknader, kontrakter, lønn og rettigheter på jobben." },
+  environment: { title: "Klima og miljø", description: "Utslipp, fornybar energi, kildesortering og framtidas vær." },
+  politics: { title: "Politikk og demokrati", description: "Valg, partier, rettigheter og hvordan Norge styres." },
+  idioms: { title: "Idiomer og ordtak", description: "Fargerike uttrykk nordmenn bruker, og hva de egentlig betyr." },
+  "health-care": { title: "Helse og omsorg", description: "Fastlegen, behandling, bivirkninger, sykemelding og å holde seg frisk." },
 };

@@ -6,7 +6,7 @@ import { GrammarTips } from "@/components/GrammarTips";
 import { Msg, TopicText } from "@/components/i18n";
 import { ModeIcon } from "@/components/ModeIcon";
 import { TopicStats } from "@/components/TopicStats";
-import { getTopic, getTopics, grammarForTopic } from "@/lib/content";
+import { getTopic, getTopics, grammarForTopic, topicLevel } from "@/lib/content";
 import { MODES } from "@/lib/modes";
 import { topicItemIds } from "@/lib/progress";
 
@@ -57,7 +57,7 @@ async function TopicContent({ params }: { params: Params }) {
           </span>
           <div className="min-w-0">
             <p className="eyebrow">
-              <Msg id="topic.eyebrow" />
+              <Msg id="topic.eyebrow" /> · <Msg id={`levels.${topicLevel(topic)}`} />
             </p>
             <h1 className="text-3xl font-medium sm:text-4xl">
               <TopicText id={topic.id} title={topic.title} description={topic.description} field="title" />

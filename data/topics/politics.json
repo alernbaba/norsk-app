@@ -1,0 +1,569 @@
+{
+  "id": "politics",
+  "title": "Politics and democracy",
+  "description": "Elections, parties, rights and how Norway is governed.",
+  "emoji": "🏛️",
+  "order": 105,
+  "level": "b1-b2",
+  "words": [
+    {
+      "id": "politics-et-valg",
+      "no": "et valg",
+      "en": [
+        "an election",
+        "a choice"
+      ],
+      "pos": "noun",
+      "lemma": "valg"
+    },
+    {
+      "id": "politics-et-stortingsvalg",
+      "no": "et stortingsvalg",
+      "en": [
+        "a parliamentary election"
+      ],
+      "pos": "noun",
+      "lemma": "stortingsvalg"
+    },
+    {
+      "id": "politics-et-parti",
+      "no": "et parti",
+      "en": [
+        "a (political) party"
+      ],
+      "pos": "noun",
+      "lemma": "parti"
+    },
+    {
+      "id": "politics-en-regjering",
+      "no": "en regjering",
+      "en": [
+        "a government"
+      ],
+      "pos": "noun",
+      "lemma": "regjering"
+    },
+    {
+      "id": "politics-stortinget",
+      "no": "Stortinget",
+      "en": [
+        "the Storting (the Norwegian parliament)"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "politics-en-statsminister",
+      "no": "en statsminister",
+      "en": [
+        "a prime minister"
+      ],
+      "pos": "noun",
+      "lemma": "statsminister"
+    },
+    {
+      "id": "politics-en-kommune",
+      "no": "en kommune",
+      "en": [
+        "a municipality"
+      ],
+      "pos": "noun",
+      "lemma": "kommune"
+    },
+    {
+      "id": "politics-et-fylke",
+      "no": "et fylke",
+      "en": [
+        "a county"
+      ],
+      "pos": "noun",
+      "lemma": "fylke"
+    },
+    {
+      "id": "politics-en-skatt",
+      "no": "en skatt",
+      "en": [
+        "a tax"
+      ],
+      "pos": "noun",
+      "lemma": "skatt"
+    },
+    {
+      "id": "politics-en-velferd",
+      "no": "en velferd",
+      "en": [
+        "welfare"
+      ],
+      "pos": "noun",
+      "lemma": "velferd"
+    },
+    {
+      "id": "politics-en-velferdsstat",
+      "no": "en velferdsstat",
+      "en": [
+        "a welfare state"
+      ],
+      "pos": "noun",
+      "lemma": "velferdsstat"
+    },
+    {
+      "id": "politics-en-innbygger",
+      "no": "en innbygger",
+      "en": [
+        "an inhabitant",
+        "a resident"
+      ],
+      "pos": "noun",
+      "lemma": "innbygger"
+    },
+    {
+      "id": "politics-en-innvandrer",
+      "no": "en innvandrer",
+      "en": [
+        "an immigrant"
+      ],
+      "pos": "noun",
+      "lemma": "innvandrer"
+    },
+    {
+      "id": "politics-en-integrering",
+      "no": "en integrering",
+      "en": [
+        "integration"
+      ],
+      "pos": "noun",
+      "lemma": "integrering"
+    },
+    {
+      "id": "politics-en-likestilling",
+      "no": "en likestilling",
+      "en": [
+        "equality (between women and men)"
+      ],
+      "pos": "noun",
+      "lemma": "likestilling"
+    },
+    {
+      "id": "politics-et-demokrati",
+      "no": "et demokrati",
+      "en": [
+        "a democracy"
+      ],
+      "pos": "noun",
+      "lemma": "demokrati"
+    },
+    {
+      "id": "politics-en-rettighet",
+      "no": "en rettighet",
+      "en": [
+        "a right"
+      ],
+      "pos": "noun",
+      "lemma": "rettighet"
+    },
+    {
+      "id": "politics-en-plikt",
+      "no": "en plikt",
+      "en": [
+        "a duty",
+        "an obligation"
+      ],
+      "pos": "noun",
+      "lemma": "plikt"
+    },
+    {
+      "id": "politics-en-ytringsfrihet",
+      "no": "en ytringsfrihet",
+      "en": [
+        "freedom of speech"
+      ],
+      "pos": "noun",
+      "lemma": "ytringsfrihet"
+    },
+    {
+      "id": "politics-et-flertall",
+      "no": "et flertall",
+      "en": [
+        "a majority"
+      ],
+      "pos": "noun",
+      "lemma": "flertall"
+    },
+    {
+      "id": "politics-et-mindretall",
+      "no": "et mindretall",
+      "en": [
+        "a minority"
+      ],
+      "pos": "noun",
+      "lemma": "mindretall"
+    },
+    {
+      "id": "politics-en-avgjorelse",
+      "no": "en avgjørelse",
+      "en": [
+        "a decision"
+      ],
+      "pos": "noun",
+      "lemma": "avgjørelse"
+    },
+    {
+      "id": "politics-a-stemme",
+      "no": "å stemme",
+      "en": [
+        "to vote"
+      ],
+      "pos": "verb",
+      "lemma": "stemme"
+    },
+    {
+      "id": "politics-a-vedta",
+      "no": "å vedta",
+      "en": [
+        "to pass",
+        "to adopt (a law)"
+      ],
+      "pos": "verb",
+      "lemma": "vedta"
+    },
+    {
+      "id": "politics-a-kritisere",
+      "no": "å kritisere",
+      "en": [
+        "to criticize"
+      ],
+      "pos": "verb",
+      "lemma": "kritisere"
+    },
+    {
+      "id": "politics-a-styre",
+      "no": "å styre",
+      "en": [
+        "to govern",
+        "to steer",
+        "to run"
+      ],
+      "pos": "verb",
+      "lemma": "styre"
+    },
+    {
+      "id": "politics-a-innfore",
+      "no": "å innføre",
+      "en": [
+        "to introduce",
+        "to bring in"
+      ],
+      "pos": "verb",
+      "lemma": "innføre"
+    },
+    {
+      "id": "politics-a-avskaffe",
+      "no": "å avskaffe",
+      "en": [
+        "to abolish"
+      ],
+      "pos": "verb",
+      "lemma": "avskaffe"
+    },
+    {
+      "id": "politics-a-representere",
+      "no": "å representere",
+      "en": [
+        "to represent"
+      ],
+      "pos": "verb",
+      "lemma": "representere"
+    },
+    {
+      "id": "politics-a-avvise",
+      "no": "å avvise",
+      "en": [
+        "to reject",
+        "to turn down"
+      ],
+      "pos": "verb",
+      "lemma": "avvise"
+    },
+    {
+      "id": "politics-politisk",
+      "no": "politisk",
+      "en": [
+        "political"
+      ],
+      "pos": "adj",
+      "lemma": "politisk"
+    },
+    {
+      "id": "politics-offentlig",
+      "no": "offentlig",
+      "en": [
+        "public"
+      ],
+      "pos": "adj",
+      "lemma": "offentlig"
+    },
+    {
+      "id": "politics-privat",
+      "no": "privat",
+      "en": [
+        "private"
+      ],
+      "pos": "adj",
+      "lemma": "privat"
+    },
+    {
+      "id": "politics-frivillig",
+      "no": "frivillig",
+      "en": [
+        "voluntary"
+      ],
+      "pos": "adj",
+      "lemma": "frivillig"
+    },
+    {
+      "id": "politics-rettferdig",
+      "no": "rettferdig",
+      "en": [
+        "fair",
+        "just"
+      ],
+      "pos": "adj",
+      "lemma": "rettferdig"
+    },
+    {
+      "id": "politics-demokratisk",
+      "no": "demokratisk",
+      "en": [
+        "democratic"
+      ],
+      "pos": "adj",
+      "lemma": "demokratisk"
+    },
+    {
+      "id": "politics-hvem-stemte-du-pa",
+      "no": "Hvem stemte du på?",
+      "en": [
+        "Who did you vote for?"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "politics-a-sitte-i-regjering",
+      "no": "å sitte i regjering",
+      "en": [
+        "to be in government"
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "politics-s1",
+      "en": "The election is held every four years.",
+      "no": [
+        "Valget holdes hvert fjerde år.",
+        "Valget blir holdt hvert fjerde år.",
+        "Det er valg hvert fjerde år."
+      ],
+      "distractors": [
+        "holder",
+        "alle",
+        "fire"
+      ]
+    },
+    {
+      "id": "politics-s2",
+      "en": "Which party did you vote for?",
+      "no": [
+        "Hvilket parti stemte du på?"
+      ],
+      "distractors": [
+        "hvilken",
+        "stemmer",
+        "for"
+      ]
+    },
+    {
+      "id": "politics-s3",
+      "en": "The government wants to raise taxes.",
+      "no": [
+        "Regjeringen vil øke skattene.",
+        "Regjeringa vil øke skattene.",
+        "Regjeringen vil heve skattene."
+      ],
+      "distractors": [
+        "skatt",
+        "økte",
+        "ville"
+      ]
+    },
+    {
+      "id": "politics-s4",
+      "en": "Parliament passed the law with a large majority.",
+      "no": [
+        "Stortinget vedtok loven med stort flertall.",
+        "Stortinget vedtok loven med et stort flertall."
+      ],
+      "distractors": [
+        "vedtar",
+        "mindretall",
+        "lov"
+      ]
+    },
+    {
+      "id": "politics-s5",
+      "en": "Freedom of speech is an important right in a democracy.",
+      "no": [
+        "Ytringsfrihet er en viktig rettighet i et demokrati.",
+        "Ytringsfriheten er en viktig rettighet i et demokrati."
+      ],
+      "distractors": [
+        "viktige",
+        "rett",
+        "demokratiet"
+      ]
+    },
+    {
+      "id": "politics-s6",
+      "en": "Everyone has the right to an education.",
+      "no": [
+        "Alle har rett til utdanning.",
+        "Alle har rett på utdanning."
+      ],
+      "distractors": [
+        "rettighet",
+        "utdanningen",
+        "hver"
+      ]
+    },
+    {
+      "id": "politics-s7",
+      "en": "The municipality is responsible for schools and nursing homes.",
+      "no": [
+        "Kommunen har ansvaret for skoler og sykehjem.",
+        "Kommunen har ansvar for skoler og sykehjem.",
+        "Kommunen er ansvarlig for skoler og sykehjem."
+      ],
+      "distractors": [
+        "staten",
+        "skolen",
+        "med"
+      ]
+    },
+    {
+      "id": "politics-s8",
+      "en": "Many people criticized the decision.",
+      "no": [
+        "Mange kritiserte avgjørelsen.",
+        "Mange kritiserte beslutningen."
+      ],
+      "distractors": [
+        "kritiserer",
+        "avgjørelse",
+        "få"
+      ]
+    },
+    {
+      "id": "politics-s9",
+      "en": "Gender equality has come a long way in Norway.",
+      "no": [
+        "Likestillingen har kommet langt i Norge.",
+        "Likestillinga har kommet langt i Norge."
+      ],
+      "distractors": [
+        "kom",
+        "lang",
+        "likestilling"
+      ]
+    },
+    {
+      "id": "politics-s10",
+      "en": "Voluntary work is an important part of Norwegian society.",
+      "no": [
+        "Frivillig arbeid er en viktig del av det norske samfunnet."
+      ],
+      "distractors": [
+        "frivillige",
+        "samfunn",
+        "norsk"
+      ]
+    },
+    {
+      "id": "politics-s11",
+      "en": "The proposal was rejected because it was not fair.",
+      "no": [
+        "Forslaget ble avvist fordi det ikke var rettferdig."
+      ],
+      "distractors": [
+        "forslag",
+        "rettferdige",
+        "at"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "politics-d1",
+      "no": "Hvor mange ___ sitter på Stortinget?",
+      "en": "How many parties sit in Parliament?",
+      "lemma": "parti",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "politics-d2",
+      "no": "Jeg ___ ved forrige valg.",
+      "en": "I voted in the last election.",
+      "lemma": "stemme",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "politics-d3",
+      "no": "Alle har like ___ og plikter.",
+      "en": "Everyone has equal rights and duties.",
+      "lemma": "rettighet",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "politics-d4",
+      "no": "Loven ble ___ i fjor.",
+      "en": "The law was passed last year.",
+      "lemma": "vedta",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "politics-d5",
+      "no": "Kommunen ___ en ny avgift.",
+      "en": "The municipality has introduced a new fee.",
+      "lemma": "innføre",
+      "pos": "verb",
+      "form": "perfect"
+    },
+    {
+      "id": "politics-d6",
+      "no": "___ ble kritisert for avgjørelsen.",
+      "en": "The government was criticized for the decision.",
+      "lemma": "regjering",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "politics-d7",
+      "no": "Det er mange ___ partier i Norge.",
+      "en": "There are many political parties in Norway.",
+      "lemma": "politisk",
+      "pos": "adj",
+      "form": "pl"
+    },
+    {
+      "id": "politics-d8",
+      "no": "Den ___ sektoren er stor i Norge.",
+      "en": "The public sector is large in Norway.",
+      "lemma": "offentlig",
+      "pos": "adj",
+      "form": "def"
+    }
+  ]
+}
