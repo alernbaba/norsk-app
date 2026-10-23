@@ -1,0 +1,2682 @@
+{
+  "akutt:adj": {
+    "pos": "adj",
+    "mf": [
+      "akutt"
+    ],
+    "n": [
+      "akutt"
+    ],
+    "def": [
+      "akutte"
+    ],
+    "pl": [
+      "akutte"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "ansvarlig:adj": {
+    "pos": "adj",
+    "mf": [
+      "ansvarlig"
+    ],
+    "n": [
+      "ansvarlig"
+    ],
+    "def": [
+      "ansvarlige"
+    ],
+    "pl": [
+      "ansvarlige"
+    ],
+    "comparative": [
+      "ansvarligere"
+    ],
+    "superlative": [
+      "ansvarligst"
+    ],
+    "superlativeDef": [
+      "ansvarligste"
+    ]
+  },
+  "arbeidsgiver:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en arbeidsgiver"
+    ],
+    "defSg": [
+      "arbeidsgiveren"
+    ],
+    "indefPl": [
+      "arbeidsgivere"
+    ],
+    "defPl": [
+      "arbeidsgiverne"
+    ]
+  },
+  "arbeidsoppgave:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei arbeidsoppgave",
+      "en arbeidsoppgave"
+    ],
+    "defSg": [
+      "arbeidsoppgava",
+      "arbeidsoppgaven"
+    ],
+    "indefPl": [
+      "arbeidsoppgaver"
+    ],
+    "defPl": [
+      "arbeidsoppgavene"
+    ]
+  },
+  "arbeidstaker:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en arbeidstaker"
+    ],
+    "defSg": [
+      "arbeidstakeren"
+    ],
+    "indefPl": [
+      "arbeidstakere"
+    ],
+    "defPl": [
+      "arbeidstakerne"
+    ]
+  },
+  "arbeidstid:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei arbeidstid",
+      "en arbeidstid"
+    ],
+    "defSg": [
+      "arbeidstida",
+      "arbeidstiden"
+    ],
+    "indefPl": [
+      "arbeidstider"
+    ],
+    "defPl": [
+      "arbeidstidene"
+    ]
+  },
+  "argument:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et argument"
+    ],
+    "defSg": [
+      "argumentet"
+    ],
+    "indefPl": [
+      "argumenter"
+    ],
+    "defPl": [
+      "argumenta",
+      "argumentene"
+    ]
+  },
+  "argumentere:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å argumentere"
+    ],
+    "present": [
+      "argumenterer"
+    ],
+    "past": [
+      "argumenterte"
+    ],
+    "perfect": [
+      "har argumentert"
+    ],
+    "participle": [
+      "argumentert"
+    ],
+    "imperative": [
+      "argumenter"
+    ]
+  },
+  "art:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en art"
+    ],
+    "defSg": [
+      "arten"
+    ],
+    "indefPl": [
+      "arter"
+    ],
+    "defPl": [
+      "artene"
+    ]
+  },
+  "avfall:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et avfall"
+    ],
+    "defSg": [
+      "avfallet"
+    ],
+    "indefPl": [
+      "avfall"
+    ],
+    "defPl": [
+      "avfalla",
+      "avfallene"
+    ]
+  },
+  "avgjørelse:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en avgjørelse"
+    ],
+    "defSg": [
+      "avgjørelsen"
+    ],
+    "indefPl": [
+      "avgjørelser"
+    ],
+    "defPl": [
+      "avgjørelsene"
+    ]
+  },
+  "avskaffe:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å avskaffe"
+    ],
+    "present": [
+      "avskaffer"
+    ],
+    "past": [
+      "avskaffa",
+      "avskaffet"
+    ],
+    "perfect": [
+      "har avskaffa",
+      "har avskaffet"
+    ],
+    "participle": [
+      "avskaffa",
+      "avskaffet"
+    ],
+    "imperative": [
+      "avskaff"
+    ]
+  },
+  "avvise:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å avvise"
+    ],
+    "present": [
+      "avviser"
+    ],
+    "past": [
+      "avviste"
+    ],
+    "perfect": [
+      "har avvist"
+    ],
+    "participle": [
+      "avvist"
+    ],
+    "imperative": [
+      "avvis"
+    ]
+  },
+  "behandling:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei behandling",
+      "en behandling"
+    ],
+    "defSg": [
+      "behandlinga",
+      "behandlingen"
+    ],
+    "indefPl": [
+      "behandlinger"
+    ],
+    "defPl": [
+      "behandlingene"
+    ]
+  },
+  "bevare:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å bevare"
+    ],
+    "present": [
+      "bevarer"
+    ],
+    "past": [
+      "bevarte"
+    ],
+    "perfect": [
+      "har bevart"
+    ],
+    "participle": [
+      "bevart"
+    ],
+    "imperative": [
+      "bevar"
+    ]
+  },
+  "bivirkning:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei bivirkning",
+      "en bivirkning"
+    ],
+    "defSg": [
+      "bivirkninga",
+      "bivirkningen"
+    ],
+    "indefPl": [
+      "bivirkninger"
+    ],
+    "defPl": [
+      "bivirkningene"
+    ]
+  },
+  "bærekraftig:adj": {
+    "pos": "adj",
+    "mf": [
+      "bærekraftig"
+    ],
+    "n": [
+      "bærekraftig"
+    ],
+    "def": [
+      "bærekraftige"
+    ],
+    "pl": [
+      "bærekraftige"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "debatt:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en debatt"
+    ],
+    "defSg": [
+      "debatten"
+    ],
+    "indefPl": [
+      "debatter"
+    ],
+    "defPl": [
+      "debattene"
+    ]
+  },
+  "demokrati:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et demokrati"
+    ],
+    "defSg": [
+      "demokratiet"
+    ],
+    "indefPl": [
+      "demokratier"
+    ],
+    "defPl": [
+      "demokratia",
+      "demokratiene"
+    ]
+  },
+  "demokratisk:adj": {
+    "pos": "adj",
+    "mf": [
+      "demokratisk"
+    ],
+    "n": [
+      "demokratisk"
+    ],
+    "def": [
+      "demokratiske"
+    ],
+    "pl": [
+      "demokratiske"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "diagnose:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en diagnose"
+    ],
+    "defSg": [
+      "diagnosen"
+    ],
+    "indefPl": [
+      "diagnoser"
+    ],
+    "defPl": [
+      "diagnosene"
+    ]
+  },
+  "diskusjon:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en diskusjon"
+    ],
+    "defSg": [
+      "diskusjonen"
+    ],
+    "indefPl": [
+      "diskusjoner"
+    ],
+    "defPl": [
+      "diskusjonene"
+    ]
+  },
+  "elbil:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en elbil"
+    ],
+    "defSg": [
+      "elbilen"
+    ],
+    "indefPl": [
+      "elbiler"
+    ],
+    "defPl": [
+      "elbilene"
+    ]
+  },
+  "energi:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en energi"
+    ],
+    "defSg": [
+      "energien"
+    ],
+    "indefPl": [
+      "energier"
+    ],
+    "defPl": [
+      "energiene"
+    ]
+  },
+  "enig:adj": {
+    "pos": "adj",
+    "mf": [
+      "enig"
+    ],
+    "n": [
+      "enig"
+    ],
+    "def": [
+      "enige"
+    ],
+    "pl": [
+      "enige"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "erfaren:adj": {
+    "pos": "adj",
+    "mf": [
+      "erfaren"
+    ],
+    "n": [
+      "erfarent"
+    ],
+    "def": [
+      "erfarne"
+    ],
+    "pl": [
+      "erfarne"
+    ],
+    "comparative": [
+      "erfarnere"
+    ],
+    "superlative": [
+      "erfarnest"
+    ],
+    "superlativeDef": [
+      "erfarneste"
+    ]
+  },
+  "fagforening:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei fagforening",
+      "en fagforening"
+    ],
+    "defSg": [
+      "fagforeninga",
+      "fagforeningen"
+    ],
+    "indefPl": [
+      "fagforeninger"
+    ],
+    "defPl": [
+      "fagforeningene"
+    ]
+  },
+  "fastlege:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en fastlege"
+    ],
+    "defSg": [
+      "fastlegen"
+    ],
+    "indefPl": [
+      "fastleger"
+    ],
+    "defPl": [
+      "fastlegene"
+    ]
+  },
+  "fleksibel:adj": {
+    "pos": "adj",
+    "mf": [
+      "fleksibel"
+    ],
+    "n": [
+      "fleksibelt"
+    ],
+    "def": [
+      "fleksible"
+    ],
+    "pl": [
+      "fleksible"
+    ],
+    "comparative": [
+      "fleksiblere"
+    ],
+    "superlative": [
+      "fleksiblest"
+    ],
+    "superlativeDef": [
+      "fleksibleste"
+    ]
+  },
+  "flertall:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et flertall"
+    ],
+    "defSg": [
+      "flertallet"
+    ],
+    "indefPl": [
+      "flertall"
+    ],
+    "defPl": [
+      "flertalla",
+      "flertallene"
+    ]
+  },
+  "flom:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en flom"
+    ],
+    "defSg": [
+      "flommen"
+    ],
+    "indefPl": [
+      "flommer"
+    ],
+    "defPl": [
+      "flommene"
+    ]
+  },
+  "forbruk:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et forbruk"
+    ],
+    "defSg": [
+      "forbruket"
+    ],
+    "indefPl": [
+      "forbruk"
+    ],
+    "defPl": [
+      "forbruka",
+      "forbrukene"
+    ]
+  },
+  "fordel:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en fordel"
+    ],
+    "defSg": [
+      "fordelen"
+    ],
+    "indefPl": [
+      "fordeler"
+    ],
+    "defPl": [
+      "fordelene"
+    ]
+  },
+  "forebygge:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å forebygge"
+    ],
+    "present": [
+      "forebygger"
+    ],
+    "past": [
+      "forebygde"
+    ],
+    "perfect": [
+      "har forebygd"
+    ],
+    "participle": [
+      "forebygd"
+    ],
+    "imperative": [
+      "forebygg"
+    ]
+  },
+  "foreldrepermisjon:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en foreldrepermisjon"
+    ],
+    "defSg": [
+      "foreldrepermisjonen"
+    ],
+    "indefPl": [
+      "foreldrepermisjoner"
+    ],
+    "defPl": [
+      "foreldrepermisjonene"
+    ]
+  },
+  "foretrekke:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å foretrekke"
+    ],
+    "present": [
+      "foretrekker"
+    ],
+    "past": [
+      "foretrakk"
+    ],
+    "perfect": [
+      "har foretrukket"
+    ],
+    "participle": [
+      "foretrukket"
+    ],
+    "imperative": [
+      "foretrekk"
+    ]
+  },
+  "forhandle:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å forhandle"
+    ],
+    "present": [
+      "forhandler"
+    ],
+    "past": [
+      "forhandla",
+      "forhandlet"
+    ],
+    "perfect": [
+      "har forhandla",
+      "har forhandlet"
+    ],
+    "participle": [
+      "forhandla",
+      "forhandlet"
+    ],
+    "imperative": [
+      "forhandl",
+      "forhandle"
+    ]
+  },
+  "fornybar:adj": {
+    "pos": "adj",
+    "mf": [
+      "fornybar"
+    ],
+    "n": [
+      "fornybart"
+    ],
+    "def": [
+      "fornybare"
+    ],
+    "pl": [
+      "fornybare"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "forslag:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et forslag"
+    ],
+    "defSg": [
+      "forslaget"
+    ],
+    "indefPl": [
+      "forslag"
+    ],
+    "defPl": [
+      "forslaga",
+      "forslagene"
+    ]
+  },
+  "forurense:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å forurense"
+    ],
+    "present": [
+      "forurenser"
+    ],
+    "past": [
+      "forurensa",
+      "forurenset"
+    ],
+    "perfect": [
+      "har forurensa",
+      "har forurenset"
+    ],
+    "participle": [
+      "forurensa",
+      "forurenset"
+    ],
+    "imperative": [
+      "forurens"
+    ]
+  },
+  "forurensning:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei forurensning",
+      "en forurensning"
+    ],
+    "defSg": [
+      "forurensninga",
+      "forurensningen"
+    ],
+    "indefPl": [
+      "forurensninger"
+    ],
+    "defPl": [
+      "forurensningene"
+    ]
+  },
+  "frivillig:adj": {
+    "pos": "adj",
+    "mf": [
+      "frivillig"
+    ],
+    "n": [
+      "frivillig"
+    ],
+    "def": [
+      "frivillige"
+    ],
+    "pl": [
+      "frivillige"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "fylke:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et fylke"
+    ],
+    "defSg": [
+      "fylket"
+    ],
+    "indefPl": [
+      "fylker"
+    ],
+    "defPl": [
+      "fylka",
+      "fylkene"
+    ]
+  },
+  "fysisk:adj": {
+    "pos": "adj",
+    "mf": [
+      "fysisk"
+    ],
+    "n": [
+      "fysisk"
+    ],
+    "def": [
+      "fysiske"
+    ],
+    "pl": [
+      "fysiske"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "generasjon:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en generasjon"
+    ],
+    "defSg": [
+      "generasjonen"
+    ],
+    "indefPl": [
+      "generasjoner"
+    ],
+    "defPl": [
+      "generasjonene"
+    ]
+  },
+  "global:adj": {
+    "pos": "adj",
+    "mf": [
+      "global"
+    ],
+    "n": [
+      "globalt"
+    ],
+    "def": [
+      "globale"
+    ],
+    "pl": [
+      "globale"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "henvise:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å henvise"
+    ],
+    "present": [
+      "henviser"
+    ],
+    "past": [
+      "henviste"
+    ],
+    "perfect": [
+      "har henvist"
+    ],
+    "participle": [
+      "henvist"
+    ],
+    "imperative": [
+      "henvis"
+    ]
+  },
+  "henvisning:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei henvisning",
+      "en henvisning"
+    ],
+    "defSg": [
+      "henvisninga",
+      "henvisningen"
+    ],
+    "indefPl": [
+      "henvisninger"
+    ],
+    "defPl": [
+      "henvisningene"
+    ]
+  },
+  "hevde:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å hevde"
+    ],
+    "present": [
+      "hevder"
+    ],
+    "past": [
+      "hevda",
+      "hevdet"
+    ],
+    "perfect": [
+      "har hevda",
+      "har hevdet"
+    ],
+    "participle": [
+      "hevda",
+      "hevdet"
+    ],
+    "imperative": [
+      "hevd"
+    ]
+  },
+  "holdning:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei holdning",
+      "en holdning"
+    ],
+    "defSg": [
+      "holdninga",
+      "holdningen"
+    ],
+    "indefPl": [
+      "holdninger"
+    ],
+    "defPl": [
+      "holdningene"
+    ]
+  },
+  "innbygger:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en innbygger"
+    ],
+    "defSg": [
+      "innbyggeren"
+    ],
+    "indefPl": [
+      "innbyggere"
+    ],
+    "defPl": [
+      "innbyggerne"
+    ]
+  },
+  "innføre:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å innføre"
+    ],
+    "present": [
+      "innfører"
+    ],
+    "past": [
+      "innførte"
+    ],
+    "perfect": [
+      "har innført"
+    ],
+    "participle": [
+      "innført"
+    ],
+    "imperative": [
+      "innfør"
+    ]
+  },
+  "inntrykk:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et inntrykk"
+    ],
+    "defSg": [
+      "inntrykket"
+    ],
+    "indefPl": [
+      "inntrykk"
+    ],
+    "defPl": [
+      "inntrykka",
+      "inntrykkene"
+    ]
+  },
+  "innvandrer:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en innvandrer"
+    ],
+    "defSg": [
+      "innvandreren"
+    ],
+    "indefPl": [
+      "innvandrere"
+    ],
+    "defPl": [
+      "innvandrerne"
+    ]
+  },
+  "integrering:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei integrering",
+      "en integrering"
+    ],
+    "defSg": [
+      "integreringa",
+      "integreringen"
+    ],
+    "indefPl": [
+      "integreringer"
+    ],
+    "defPl": [
+      "integreringene"
+    ]
+  },
+  "intervju:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et intervju"
+    ],
+    "defSg": [
+      "intervjuet"
+    ],
+    "indefPl": [
+      "intervjuer"
+    ],
+    "defPl": [
+      "intervjua",
+      "intervjuene"
+    ]
+  },
+  "jobbsøknad:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en jobbsøknad"
+    ],
+    "defSg": [
+      "jobbsøknaden"
+    ],
+    "indefPl": [
+      "jobbsøknader"
+    ],
+    "defPl": [
+      "jobbsøknadene"
+    ]
+  },
+  "kildesortere:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å kildesortere"
+    ],
+    "present": [
+      "kildesorterer"
+    ],
+    "past": [
+      "kildesorterte"
+    ],
+    "perfect": [
+      "har kildesortert"
+    ],
+    "participle": [
+      "kildesortert"
+    ],
+    "imperative": [
+      "kildesorter"
+    ]
+  },
+  "klima:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et klima"
+    ],
+    "defSg": [
+      "klimaet"
+    ],
+    "indefPl": [
+      "klima",
+      "klimaer"
+    ],
+    "defPl": [
+      "klimaene"
+    ]
+  },
+  "klimaendring:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei klimaendring",
+      "en klimaendring"
+    ],
+    "defSg": [
+      "klimaendringa",
+      "klimaendringen"
+    ],
+    "indefPl": [
+      "klimaendringer"
+    ],
+    "defPl": [
+      "klimaendringene"
+    ]
+  },
+  "kommune:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en kommune"
+    ],
+    "defSg": [
+      "kommunen"
+    ],
+    "indefPl": [
+      "kommuner"
+    ],
+    "defPl": [
+      "kommunene"
+    ]
+  },
+  "kompetanse:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en kompetanse"
+    ],
+    "defSg": [
+      "kompetansen"
+    ],
+    "indefPl": [
+      "kompetanser"
+    ],
+    "defPl": [
+      "kompetansene"
+    ]
+  },
+  "kontrakt:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en kontrakt"
+    ],
+    "defSg": [
+      "kontrakten"
+    ],
+    "indefPl": [
+      "kontrakter"
+    ],
+    "defPl": [
+      "kontraktene"
+    ]
+  },
+  "kosthold:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et kosthold"
+    ],
+    "defSg": [
+      "kostholdet"
+    ],
+    "indefPl": [
+      "kosthold"
+    ],
+    "defPl": [
+      "kostholda",
+      "kostholdene"
+    ]
+  },
+  "kritisere:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å kritisere"
+    ],
+    "present": [
+      "kritiserer"
+    ],
+    "past": [
+      "kritiserte"
+    ],
+    "perfect": [
+      "har kritisert"
+    ],
+    "participle": [
+      "kritisert"
+    ],
+    "imperative": [
+      "kritiser"
+    ]
+  },
+  "kronisk:adj": {
+    "pos": "adj",
+    "mf": [
+      "kronisk"
+    ],
+    "n": [
+      "kronisk"
+    ],
+    "def": [
+      "kroniske"
+    ],
+    "pl": [
+      "kroniske"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "legevakt:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei legevakt",
+      "en legevakt"
+    ],
+    "defSg": [
+      "legevakta",
+      "legevakten"
+    ],
+    "indefPl": [
+      "legevakter"
+    ],
+    "defPl": [
+      "legevaktene"
+    ]
+  },
+  "likestilling:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei likestilling",
+      "en likestilling"
+    ],
+    "defSg": [
+      "likestillinga",
+      "likestillingen"
+    ],
+    "indefPl": [
+      "likestillinger"
+    ],
+    "defPl": [
+      "likestillingene"
+    ]
+  },
+  "midlertidig:adj": {
+    "pos": "adj",
+    "mf": [
+      "midlertidig"
+    ],
+    "n": [
+      "midlertidig"
+    ],
+    "def": [
+      "midlertidige"
+    ],
+    "pl": [
+      "midlertidige"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "miljø:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et miljø"
+    ],
+    "defSg": [
+      "miljøet"
+    ],
+    "indefPl": [
+      "miljøer"
+    ],
+    "defPl": [
+      "miljøa",
+      "miljøene"
+    ]
+  },
+  "miljøvennlig:adj": {
+    "pos": "adj",
+    "mf": [
+      "miljøvennlig"
+    ],
+    "n": [
+      "miljøvennlig"
+    ],
+    "def": [
+      "miljøvennlige"
+    ],
+    "pl": [
+      "miljøvennlige"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "mindretall:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et mindretall"
+    ],
+    "defSg": [
+      "mindretallet"
+    ],
+    "indefPl": [
+      "mindretall"
+    ],
+    "defPl": [
+      "mindretalla",
+      "mindretallene"
+    ]
+  },
+  "motsi:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å motsi"
+    ],
+    "present": [
+      "motsier"
+    ],
+    "past": [
+      "motsa"
+    ],
+    "perfect": [
+      "har motsagt"
+    ],
+    "participle": [
+      "motsagt"
+    ],
+    "imperative": [
+      "motsi"
+    ]
+  },
+  "offentlig:adj": {
+    "pos": "adj",
+    "mf": [
+      "offentlig"
+    ],
+    "n": [
+      "offentlig"
+    ],
+    "def": [
+      "offentlige"
+    ],
+    "pl": [
+      "offentlige"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "operasjon:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en operasjon"
+    ],
+    "defSg": [
+      "operasjonen"
+    ],
+    "indefPl": [
+      "operasjoner"
+    ],
+    "defPl": [
+      "operasjonene"
+    ]
+  },
+  "oppsigelse:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en oppsigelse"
+    ],
+    "defSg": [
+      "oppsigelsen"
+    ],
+    "indefPl": [
+      "oppsigelser"
+    ],
+    "defPl": [
+      "oppsigelsene"
+    ]
+  },
+  "overbevise:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å overbevise"
+    ],
+    "present": [
+      "overbeviser"
+    ],
+    "past": [
+      "overbeviste"
+    ],
+    "perfect": [
+      "har overbevist"
+    ],
+    "participle": [
+      "overbevist"
+    ],
+    "imperative": [
+      "overbevis"
+    ]
+  },
+  "parti:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et parti"
+    ],
+    "defSg": [
+      "partiet"
+    ],
+    "indefPl": [
+      "partier"
+    ],
+    "defPl": [
+      "partia",
+      "partiene"
+    ]
+  },
+  "pendle:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å pendle"
+    ],
+    "present": [
+      "pendler"
+    ],
+    "past": [
+      "pendla",
+      "pendlet"
+    ],
+    "perfect": [
+      "har pendla",
+      "har pendlet"
+    ],
+    "participle": [
+      "pendla",
+      "pendlet"
+    ],
+    "imperative": [
+      "pendle"
+    ]
+  },
+  "permisjon:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en permisjon"
+    ],
+    "defSg": [
+      "permisjonen"
+    ],
+    "indefPl": [
+      "permisjoner"
+    ],
+    "defPl": [
+      "permisjonene"
+    ]
+  },
+  "permittere:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å permittere"
+    ],
+    "present": [
+      "permitterer"
+    ],
+    "past": [
+      "permitterte"
+    ],
+    "perfect": [
+      "har permittert"
+    ],
+    "participle": [
+      "permittert"
+    ],
+    "imperative": [
+      "permitter"
+    ]
+  },
+  "plikt:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei plikt",
+      "en plikt"
+    ],
+    "defSg": [
+      "plikta",
+      "plikten"
+    ],
+    "indefPl": [
+      "plikter"
+    ],
+    "defPl": [
+      "pliktene"
+    ]
+  },
+  "politisk:adj": {
+    "pos": "adj",
+    "mf": [
+      "politisk"
+    ],
+    "n": [
+      "politisk"
+    ],
+    "def": [
+      "politiske"
+    ],
+    "pl": [
+      "politiske"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "privat:adj": {
+    "pos": "adj",
+    "mf": [
+      "privat"
+    ],
+    "n": [
+      "privat"
+    ],
+    "def": [
+      "private"
+    ],
+    "pl": [
+      "private"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "prøvetid:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei prøvetid",
+      "en prøvetid"
+    ],
+    "defSg": [
+      "prøvetida",
+      "prøvetiden"
+    ],
+    "indefPl": [
+      "prøvetider"
+    ],
+    "defPl": [
+      "prøvetidene"
+    ]
+  },
+  "psykisk:adj": {
+    "pos": "adj",
+    "mf": [
+      "psykisk"
+    ],
+    "n": [
+      "psykisk"
+    ],
+    "def": [
+      "psykiske"
+    ],
+    "pl": [
+      "psykiske"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "påstand:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en påstand"
+    ],
+    "defSg": [
+      "påstanden"
+    ],
+    "indefPl": [
+      "påstander"
+    ],
+    "defPl": [
+      "påstandene"
+    ]
+  },
+  "påstå:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å påstå"
+    ],
+    "present": [
+      "påstår"
+    ],
+    "past": [
+      "påsto",
+      "påstod"
+    ],
+    "perfect": [
+      "har påstått"
+    ],
+    "participle": [
+      "påstått"
+    ],
+    "imperative": [
+      "påstå"
+    ]
+  },
+  "påvirke:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å påvirke"
+    ],
+    "present": [
+      "påvirker"
+    ],
+    "past": [
+      "påvirka",
+      "påvirket"
+    ],
+    "perfect": [
+      "har påvirka",
+      "har påvirket"
+    ],
+    "participle": [
+      "påvirka",
+      "påvirket"
+    ],
+    "imperative": [
+      "påvirk"
+    ]
+  },
+  "redusere:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å redusere"
+    ],
+    "present": [
+      "reduserer"
+    ],
+    "past": [
+      "reduserte"
+    ],
+    "perfect": [
+      "har redusert"
+    ],
+    "participle": [
+      "redusert"
+    ],
+    "imperative": [
+      "reduser"
+    ]
+  },
+  "regelmessig:adj": {
+    "pos": "adj",
+    "mf": [
+      "regelmessig"
+    ],
+    "n": [
+      "regelmessig"
+    ],
+    "def": [
+      "regelmessige"
+    ],
+    "pl": [
+      "regelmessige"
+    ],
+    "comparative": [
+      "regelmessigere"
+    ],
+    "superlative": [
+      "regelmessigst"
+    ],
+    "superlativeDef": [
+      "regelmessigste"
+    ]
+  },
+  "representere:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å representere"
+    ],
+    "present": [
+      "representerer"
+    ],
+    "past": [
+      "representerte"
+    ],
+    "perfect": [
+      "har representert"
+    ],
+    "participle": [
+      "representert"
+    ],
+    "imperative": [
+      "representer"
+    ]
+  },
+  "resept:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en resept"
+    ],
+    "defSg": [
+      "resepten"
+    ],
+    "indefPl": [
+      "resepter"
+    ],
+    "defPl": [
+      "reseptene"
+    ]
+  },
+  "resirkulere:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å resirkulere"
+    ],
+    "present": [
+      "resirkulerer"
+    ],
+    "past": [
+      "resirkulerte"
+    ],
+    "perfect": [
+      "har resirkulert"
+    ],
+    "participle": [
+      "resirkulert"
+    ],
+    "imperative": [
+      "resirkuler"
+    ]
+  },
+  "ressurs:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en ressurs"
+    ],
+    "defSg": [
+      "ressursen"
+    ],
+    "indefPl": [
+      "ressurser"
+    ],
+    "defPl": [
+      "ressursene"
+    ]
+  },
+  "rettferdig:adj": {
+    "pos": "adj",
+    "mf": [
+      "rettferdig"
+    ],
+    "n": [
+      "rettferdig"
+    ],
+    "def": [
+      "rettferdige"
+    ],
+    "pl": [
+      "rettferdige"
+    ],
+    "comparative": [
+      "rettferdigere"
+    ],
+    "superlative": [
+      "rettferdigst"
+    ],
+    "superlativeDef": [
+      "rettferdigste"
+    ]
+  },
+  "rettighet:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei rettighet",
+      "en rettighet"
+    ],
+    "defSg": [
+      "rettigheta",
+      "rettigheten"
+    ],
+    "indefPl": [
+      "rettigheter"
+    ],
+    "defPl": [
+      "rettighetene"
+    ]
+  },
+  "rimelig:adj": {
+    "pos": "adj",
+    "mf": [
+      "rimelig"
+    ],
+    "n": [
+      "rimelig"
+    ],
+    "def": [
+      "rimelige"
+    ],
+    "pl": [
+      "rimelige"
+    ],
+    "comparative": [
+      "rimeligere"
+    ],
+    "superlative": [
+      "rimeligst"
+    ],
+    "superlativeDef": [
+      "rimeligste"
+    ]
+  },
+  "saklig:adj": {
+    "pos": "adj",
+    "mf": [
+      "saklig"
+    ],
+    "n": [
+      "saklig"
+    ],
+    "def": [
+      "saklige"
+    ],
+    "pl": [
+      "saklige"
+    ],
+    "comparative": [
+      "sakligere"
+    ],
+    "superlative": [
+      "sakligst"
+    ],
+    "superlativeDef": [
+      "sakligste"
+    ]
+  },
+  "samarbeide:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å samarbeide"
+    ],
+    "present": [
+      "samarbeider"
+    ],
+    "past": [
+      "samarbeida",
+      "samarbeidet"
+    ],
+    "perfect": [
+      "har samarbeida",
+      "har samarbeidet"
+    ],
+    "participle": [
+      "samarbeida",
+      "samarbeidet"
+    ],
+    "imperative": [
+      "samarbeid"
+    ]
+  },
+  "selvstendig:adj": {
+    "pos": "adj",
+    "mf": [
+      "selvstendig"
+    ],
+    "n": [
+      "selvstendig"
+    ],
+    "def": [
+      "selvstendige"
+    ],
+    "pl": [
+      "selvstendige"
+    ],
+    "comparative": [
+      "selvstendigere"
+    ],
+    "superlative": [
+      "selvstendigst"
+    ],
+    "superlativeDef": [
+      "selvstendigste"
+    ]
+  },
+  "skade:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en skade"
+    ],
+    "defSg": [
+      "skaden"
+    ],
+    "indefPl": [
+      "skader"
+    ],
+    "defPl": [
+      "skadene"
+    ]
+  },
+  "smittsom:adj": {
+    "pos": "adj",
+    "mf": [
+      "smittsom"
+    ],
+    "n": [
+      "smittsomt"
+    ],
+    "def": [
+      "smittsomme"
+    ],
+    "pl": [
+      "smittsomme"
+    ],
+    "comparative": [
+      "smittsommere"
+    ],
+    "superlative": [
+      "smittsommest"
+    ],
+    "superlativeDef": [
+      "smittsommeste"
+    ]
+  },
+  "spesialist:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en spesialist"
+    ],
+    "defSg": [
+      "spesialisten"
+    ],
+    "indefPl": [
+      "spesialister"
+    ],
+    "defPl": [
+      "spesialistene"
+    ]
+  },
+  "statsminister:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en statsminister"
+    ],
+    "defSg": [
+      "statsministeren"
+    ],
+    "indefPl": [
+      "statsministrer"
+    ],
+    "defPl": [
+      "statsministrene"
+    ]
+  },
+  "stemme:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å stemme"
+    ],
+    "present": [
+      "stemmer"
+    ],
+    "past": [
+      "stemte"
+    ],
+    "perfect": [
+      "har stemt"
+    ],
+    "participle": [
+      "stemt"
+    ],
+    "imperative": [
+      "stem"
+    ]
+  },
+  "stilling:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei stilling",
+      "en stilling"
+    ],
+    "defSg": [
+      "stillinga",
+      "stillingen"
+    ],
+    "indefPl": [
+      "stillinger"
+    ],
+    "defPl": [
+      "stillingene"
+    ]
+  },
+  "stortingsvalg:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et stortingsvalg"
+    ],
+    "defSg": [
+      "stortingsvalget"
+    ],
+    "indefPl": [
+      "stortingsvalg"
+    ],
+    "defPl": [
+      "stortingsvalga",
+      "stortingsvalgene"
+    ]
+  },
+  "stress:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et stress"
+    ],
+    "defSg": [
+      "stresset"
+    ],
+    "indefPl": [
+      "stress"
+    ],
+    "defPl": [
+      "stressa",
+      "stressene"
+    ]
+  },
+  "strøm:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en strøm"
+    ],
+    "defSg": [
+      "strømmen"
+    ],
+    "indefPl": [
+      "strømmer"
+    ],
+    "defPl": [
+      "strømmene"
+    ]
+  },
+  "sunn:adj": {
+    "pos": "adj",
+    "mf": [
+      "sunn"
+    ],
+    "n": [
+      "sunt"
+    ],
+    "def": [
+      "sunne"
+    ],
+    "pl": [
+      "sunne"
+    ],
+    "comparative": [
+      "sunnere"
+    ],
+    "superlative": [
+      "sunnest"
+    ],
+    "superlativeDef": [
+      "sunneste"
+    ]
+  },
+  "sykemelding:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei sykemelding",
+      "en sykemelding"
+    ],
+    "defSg": [
+      "sykemeldinga",
+      "sykemeldingen"
+    ],
+    "indefPl": [
+      "sykemeldinger"
+    ],
+    "defPl": [
+      "sykemeldingene"
+    ]
+  },
+  "synspunkt:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et synspunkt"
+    ],
+    "defSg": [
+      "synspunktet"
+    ],
+    "indefPl": [
+      "synspunkter",
+      "synspunkt"
+    ],
+    "defPl": [
+      "synspunkta",
+      "synspunktene"
+    ]
+  },
+  "søknad:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en søknad"
+    ],
+    "defSg": [
+      "søknaden"
+    ],
+    "indefPl": [
+      "søknader"
+    ],
+    "defPl": [
+      "søknadene"
+    ]
+  },
+  "søvn:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en søvn"
+    ],
+    "defSg": [
+      "søvnen"
+    ],
+    "indefPl": [],
+    "defPl": []
+  },
+  "tvil:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en tvil"
+    ],
+    "defSg": [
+      "tvilen"
+    ],
+    "indefPl": [
+      "tviler"
+    ],
+    "defPl": [
+      "tvilene"
+    ]
+  },
+  "tvilsom:adj": {
+    "pos": "adj",
+    "mf": [
+      "tvilsom"
+    ],
+    "n": [
+      "tvilsomt"
+    ],
+    "def": [
+      "tvilsomme"
+    ],
+    "pl": [
+      "tvilsomme"
+    ],
+    "comparative": [
+      "tvilsommere"
+    ],
+    "superlative": [
+      "tvilsommest"
+    ],
+    "superlativeDef": [
+      "tvilsommeste"
+    ]
+  },
+  "tørke:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei tørke",
+      "en tørke"
+    ],
+    "defSg": [
+      "tørka",
+      "tørken"
+    ],
+    "indefPl": [
+      "tørker"
+    ],
+    "defPl": [
+      "tørkene"
+    ]
+  },
+  "uenig:adj": {
+    "pos": "adj",
+    "mf": [
+      "uenig"
+    ],
+    "n": [
+      "uenig"
+    ],
+    "def": [
+      "uenige"
+    ],
+    "pl": [
+      "uenige"
+    ],
+    "comparative": [],
+    "superlative": [],
+    "superlativeDef": []
+  },
+  "ulempe:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei ulempe",
+      "en ulempe"
+    ],
+    "defSg": [
+      "ulempa",
+      "ulempen"
+    ],
+    "indefPl": [
+      "ulemper"
+    ],
+    "defPl": [
+      "ulempene"
+    ]
+  },
+  "understreke:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å understreke"
+    ],
+    "present": [
+      "understreker"
+    ],
+    "past": [
+      "understreka",
+      "understreket"
+    ],
+    "perfect": [
+      "har understreka",
+      "har understreket"
+    ],
+    "participle": [
+      "understreka",
+      "understreket"
+    ],
+    "imperative": [
+      "understrek"
+    ]
+  },
+  "undersøkelse:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en undersøkelse"
+    ],
+    "defSg": [
+      "undersøkelsen"
+    ],
+    "indefPl": [
+      "undersøkelser"
+    ],
+    "defPl": [
+      "undersøkelsene"
+    ]
+  },
+  "urimelig:adj": {
+    "pos": "adj",
+    "mf": [
+      "urimelig"
+    ],
+    "n": [
+      "urimelig"
+    ],
+    "def": [
+      "urimelige"
+    ],
+    "pl": [
+      "urimelige"
+    ],
+    "comparative": [
+      "urimeligere"
+    ],
+    "superlative": [
+      "urimeligst"
+    ],
+    "superlativeDef": [
+      "urimeligste"
+    ]
+  },
+  "utslipp:noun": {
+    "pos": "noun",
+    "gender": [
+      "n"
+    ],
+    "indefSg": [
+      "et utslipp"
+    ],
+    "defSg": [
+      "utslippet"
+    ],
+    "indefPl": [
+      "utslipp"
+    ],
+    "defPl": [
+      "utslippa",
+      "utslippene"
+    ]
+  },
+  "utvikle:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å utvikle"
+    ],
+    "present": [
+      "utvikler"
+    ],
+    "past": [
+      "utvikla",
+      "utviklet"
+    ],
+    "perfect": [
+      "har utvikla",
+      "har utviklet"
+    ],
+    "participle": [
+      "utvikla",
+      "utviklet"
+    ],
+    "imperative": [
+      "utvikl",
+      "utvikle"
+    ]
+  },
+  "vaksine:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en vaksine"
+    ],
+    "defSg": [
+      "vaksinen"
+    ],
+    "indefPl": [
+      "vaksiner"
+    ],
+    "defPl": [
+      "vaksinene"
+    ]
+  },
+  "vaksinere:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å vaksinere"
+    ],
+    "present": [
+      "vaksinerer"
+    ],
+    "past": [
+      "vaksinerte"
+    ],
+    "perfect": [
+      "har vaksinert"
+    ],
+    "participle": [
+      "vaksinert"
+    ],
+    "imperative": [
+      "vaksiner"
+    ]
+  },
+  "vannkraft:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei vannkraft",
+      "en vannkraft"
+    ],
+    "defSg": [
+      "vannkrafta",
+      "vannkraften"
+    ],
+    "indefPl": [],
+    "defPl": []
+  },
+  "vedta:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å vedta"
+    ],
+    "present": [
+      "vedtar"
+    ],
+    "past": [
+      "vedtok"
+    ],
+    "perfect": [
+      "har vedtatt"
+    ],
+    "participle": [
+      "vedtatt"
+    ],
+    "imperative": [
+      "vedta"
+    ]
+  },
+  "velferd:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en velferd"
+    ],
+    "defSg": [
+      "velferden"
+    ],
+    "indefPl": [],
+    "defPl": []
+  },
+  "velferdsstat:noun": {
+    "pos": "noun",
+    "gender": [
+      "m"
+    ],
+    "indefSg": [
+      "en velferdsstat"
+    ],
+    "defSg": [
+      "velferdsstaten"
+    ],
+    "indefPl": [
+      "velferdsstater"
+    ],
+    "defPl": [
+      "velferdsstatene"
+    ]
+  },
+  "vindmølle:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei vindmølle",
+      "en vindmølle"
+    ],
+    "defSg": [
+      "vindmølla",
+      "vindmøllen"
+    ],
+    "indefPl": [
+      "vindmøller"
+    ],
+    "defPl": [
+      "vindmøllene"
+    ]
+  },
+  "ytringsfrihet:noun": {
+    "pos": "noun",
+    "gender": [
+      "f",
+      "m"
+    ],
+    "indefSg": [
+      "ei ytringsfrihet",
+      "en ytringsfrihet"
+    ],
+    "defSg": [
+      "ytringsfriheta",
+      "ytringsfriheten"
+    ],
+    "indefPl": [
+      "ytringsfriheter"
+    ],
+    "defPl": [
+      "ytringsfrihetene"
+    ]
+  },
+  "øke:verb": {
+    "pos": "verb",
+    "infinitive": [
+      "å øke"
+    ],
+    "present": [
+      "øker"
+    ],
+    "past": [
+      "økte",
+      "øka",
+      "øket"
+    ],
+    "perfect": [
+      "har økt",
+      "har øka",
+      "har øket"
+    ],
+    "participle": [
+      "økt",
+      "øka",
+      "øket"
+    ],
+    "imperative": [
+      "øk"
+    ]
+  }
+}

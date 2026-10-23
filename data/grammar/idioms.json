@@ -1,0 +1,67 @@
+{
+  "topicId": "idioms",
+  "tips": [
+    {
+      "id": "idioms-literal",
+      "title": {
+        "en": "Don't translate idioms word for word",
+        "nb": "Ikke oversett idiomer ord for ord"
+      },
+      "text": {
+        "en": [
+          "Idioms rarely make sense word for word. *Ingen ko på isen* (no cow on the ice) means there's nothing to worry about, and *å være på bærtur* (to be on a berry trip) means to be completely wrong.",
+          "Learn them as whole phrases, and use them where they fit: most belong in everyday speech, not in formal writing."
+        ],
+        "nb": [
+          "Idiomer gir sjelden mening ord for ord. *Ingen ko på isen* betyr at det ikke er noe å bekymre seg for, og *å være på bærtur* betyr å ta helt feil.",
+          "Lær dem som hele uttrykk, og bruk dem der de passer: de fleste hører hjemme i dagligtale, ikke i formelle tekster."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Ta det med ro, det er *ingen ko på isen*.",
+          "en": "Take it easy, there's no rush."
+        },
+        {
+          "no": "Nå er du helt *på bærtur*!",
+          "en": "Now you're way off the mark!"
+        },
+        {
+          "no": "Det er *ikke bare bare* å flytte.",
+          "en": "Moving isn't as easy as it sounds."
+        }
+      ]
+    },
+    {
+      "id": "idioms-seg",
+      "title": {
+        "en": "Reflexive «seg» in idioms",
+        "nb": "Refleksivt «seg» i uttrykk"
+      },
+      "text": {
+        "en": [
+          "Many idioms use the reflexive pronoun *seg*, which changes with the subject: *meg, deg, seg, oss, dere, seg*.",
+          "*Jeg tok meg vann over hodet.* *Vi tok oss vann over hodet.* *De la seg flate.*"
+        ],
+        "nb": [
+          "Mange uttrykk bruker det refleksive pronomenet *seg*, som skifter med subjektet: *meg, deg, seg, oss, dere, seg*.",
+          "*Jeg tok meg vann over hodet.* *Vi tok oss vann over hodet.* *De la seg flate.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Han har tatt *seg* vann over hodet.",
+          "en": "He has bitten off more than he can chew."
+        },
+        {
+          "no": "Jeg må legge *meg* flat.",
+          "en": "I have to admit I was wrong."
+        },
+        {
+          "no": "Hun kommer *seg* etter sykdommen.",
+          "en": "She is recovering after the illness."
+        }
+      ]
+    }
+  ]
+}

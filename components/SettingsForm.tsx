@@ -2,6 +2,7 @@
 
 import { useState, type ReactNode } from "react";
 import { LANGUAGES } from "@/lib/i18n/messages";
+import { LEVEL_CHOICES } from "@/lib/levels";
 import { GOAL_CHOICES } from "@/lib/stats";
 import { setLanguage, useLanguage, useT } from "./i18n";
 import { NoVoiceNotice, SpeakButton, VoicePicker } from "./SpeakButton";
@@ -34,6 +35,16 @@ export function SettingsForm() {
         options={THEME_CHOICES.map((id) => ({ id, label: t.settings.themes[id] }))}
         value={theme}
         onChange={setTheme}
+      />
+
+      <Choice
+        name="level"
+        title={t.settings.level}
+        description={t.settings.levelDescription}
+        options={LEVEL_CHOICES.map((id) => ({ id, label: t.levels[id] }))}
+        value={settings.level}
+        disabled={!ready}
+        onChange={(level) => updateSettings({ ...settings, level })}
       />
 
       <Choice

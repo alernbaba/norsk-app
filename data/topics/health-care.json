@@ -1,0 +1,556 @@
+{
+  "id": "health-care",
+  "title": "Health and care",
+  "description": "The GP, treatment, side effects, sick leave and staying healthy.",
+  "emoji": "🩺",
+  "order": 107,
+  "level": "b1-b2",
+  "words": [
+    {
+      "id": "health-care-en-fastlege",
+      "no": "en fastlege",
+      "en": [
+        "a regular GP",
+        "a family doctor"
+      ],
+      "pos": "noun",
+      "lemma": "fastlege"
+    },
+    {
+      "id": "health-care-en-diagnose",
+      "no": "en diagnose",
+      "en": [
+        "a diagnosis"
+      ],
+      "pos": "noun",
+      "lemma": "diagnose"
+    },
+    {
+      "id": "health-care-en-behandling",
+      "no": "en behandling",
+      "en": [
+        "a treatment"
+      ],
+      "pos": "noun",
+      "lemma": "behandling"
+    },
+    {
+      "id": "health-care-en-bivirkning",
+      "no": "en bivirkning",
+      "en": [
+        "a side effect"
+      ],
+      "pos": "noun",
+      "lemma": "bivirkning"
+    },
+    {
+      "id": "health-care-en-resept",
+      "no": "en resept",
+      "en": [
+        "a prescription"
+      ],
+      "pos": "noun",
+      "lemma": "resept"
+    },
+    {
+      "id": "health-care-en-henvisning",
+      "no": "en henvisning",
+      "en": [
+        "a referral"
+      ],
+      "pos": "noun",
+      "lemma": "henvisning"
+    },
+    {
+      "id": "health-care-en-sykemelding",
+      "no": "en sykemelding",
+      "en": [
+        "a sick note",
+        "sick leave"
+      ],
+      "pos": "noun",
+      "lemma": "sykemelding"
+    },
+    {
+      "id": "health-care-en-spesialist",
+      "no": "en spesialist",
+      "en": [
+        "a specialist"
+      ],
+      "pos": "noun",
+      "lemma": "spesialist"
+    },
+    {
+      "id": "health-care-en-undersokelse",
+      "no": "en undersøkelse",
+      "en": [
+        "an examination",
+        "a survey"
+      ],
+      "pos": "noun",
+      "lemma": "undersøkelse"
+    },
+    {
+      "id": "health-care-en-legevakt",
+      "no": "en legevakt",
+      "en": [
+        "an out-of-hours clinic",
+        "an emergency clinic"
+      ],
+      "pos": "noun",
+      "lemma": "legevakt"
+    },
+    {
+      "id": "health-care-en-smerte",
+      "no": "en smerte",
+      "en": [
+        "a pain"
+      ],
+      "pos": "noun",
+      "lemma": "smerte"
+    },
+    {
+      "id": "health-care-en-skade",
+      "no": "en skade",
+      "en": [
+        "an injury",
+        "damage"
+      ],
+      "pos": "noun",
+      "lemma": "skade"
+    },
+    {
+      "id": "health-care-en-operasjon",
+      "no": "en operasjon",
+      "en": [
+        "an operation",
+        "surgery"
+      ],
+      "pos": "noun",
+      "lemma": "operasjon"
+    },
+    {
+      "id": "health-care-en-vaksine",
+      "no": "en vaksine",
+      "en": [
+        "a vaccine"
+      ],
+      "pos": "noun",
+      "lemma": "vaksine"
+    },
+    {
+      "id": "health-care-et-kosthold",
+      "no": "et kosthold",
+      "en": [
+        "a diet"
+      ],
+      "pos": "noun",
+      "lemma": "kosthold"
+    },
+    {
+      "id": "health-care-en-sovn",
+      "no": "en søvn",
+      "en": [
+        "sleep"
+      ],
+      "pos": "noun",
+      "lemma": "søvn"
+    },
+    {
+      "id": "health-care-et-stress",
+      "no": "et stress",
+      "en": [
+        "stress"
+      ],
+      "pos": "noun",
+      "lemma": "stress"
+    },
+    {
+      "id": "health-care-en-pasient",
+      "no": "en pasient",
+      "en": [
+        "a patient"
+      ],
+      "pos": "noun",
+      "lemma": "pasient"
+    },
+    {
+      "id": "health-care-en-feber",
+      "no": "en feber",
+      "en": [
+        "a fever"
+      ],
+      "pos": "noun",
+      "lemma": "feber"
+    },
+    {
+      "id": "health-care-a-behandle",
+      "no": "å behandle",
+      "en": [
+        "to treat"
+      ],
+      "pos": "verb",
+      "lemma": "behandle"
+    },
+    {
+      "id": "health-care-a-forebygge",
+      "no": "å forebygge",
+      "en": [
+        "to prevent"
+      ],
+      "pos": "verb",
+      "lemma": "forebygge"
+    },
+    {
+      "id": "health-care-a-undersoke",
+      "no": "å undersøke",
+      "en": [
+        "to examine",
+        "to investigate"
+      ],
+      "pos": "verb",
+      "lemma": "undersøke"
+    },
+    {
+      "id": "health-care-a-vaksinere",
+      "no": "å vaksinere",
+      "en": [
+        "to vaccinate"
+      ],
+      "pos": "verb",
+      "lemma": "vaksinere"
+    },
+    {
+      "id": "health-care-a-henvise",
+      "no": "å henvise",
+      "en": [
+        "to refer"
+      ],
+      "pos": "verb",
+      "lemma": "henvise"
+    },
+    {
+      "id": "health-care-a-lide",
+      "no": "å lide",
+      "en": [
+        "to suffer"
+      ],
+      "pos": "verb",
+      "lemma": "lide"
+    },
+    {
+      "id": "health-care-kronisk",
+      "no": "kronisk",
+      "en": [
+        "chronic"
+      ],
+      "pos": "adj",
+      "lemma": "kronisk"
+    },
+    {
+      "id": "health-care-smittsom",
+      "no": "smittsom",
+      "en": [
+        "contagious",
+        "infectious"
+      ],
+      "pos": "adj",
+      "lemma": "smittsom"
+    },
+    {
+      "id": "health-care-psykisk",
+      "no": "psykisk",
+      "en": [
+        "mental",
+        "psychological"
+      ],
+      "pos": "adj",
+      "lemma": "psykisk"
+    },
+    {
+      "id": "health-care-fysisk",
+      "no": "fysisk",
+      "en": [
+        "physical"
+      ],
+      "pos": "adj",
+      "lemma": "fysisk"
+    },
+    {
+      "id": "health-care-akutt",
+      "no": "akutt",
+      "en": [
+        "acute"
+      ],
+      "pos": "adj",
+      "lemma": "akutt"
+    },
+    {
+      "id": "health-care-sunn",
+      "no": "sunn",
+      "en": [
+        "healthy (good for you)"
+      ],
+      "pos": "adj",
+      "lemma": "sunn"
+    },
+    {
+      "id": "health-care-regelmessig",
+      "no": "regelmessig",
+      "en": [
+        "regular"
+      ],
+      "pos": "adj",
+      "lemma": "regelmessig"
+    },
+    {
+      "id": "health-care-sykemeldt",
+      "no": "sykemeldt",
+      "en": [
+        "on sick leave"
+      ],
+      "pos": "other"
+    },
+    {
+      "id": "health-care-a-skrive-ut-en-resept",
+      "no": "å skrive ut en resept",
+      "en": [
+        "to write a prescription"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "health-care-a-komme-seg",
+      "no": "å komme seg",
+      "en": [
+        "to recover",
+        "to get better"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "health-care-a-bestille-time",
+      "no": "å bestille time",
+      "en": [
+        "to make an appointment"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "health-care-psykisk-helse",
+      "no": "psykisk helse",
+      "en": [
+        "mental health"
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "health-care-s1",
+      "en": "I need to make an appointment with my GP.",
+      "no": [
+        "Jeg må bestille time hos fastlegen.",
+        "Jeg må bestille time hos fastlegen min.",
+        "Jeg må bestille en time hos fastlegen."
+      ],
+      "distractors": [
+        "timen",
+        "til",
+        "lege"
+      ]
+    },
+    {
+      "id": "health-care-s2",
+      "en": "The doctor referred me to a specialist.",
+      "no": [
+        "Legen henviste meg til en spesialist."
+      ],
+      "distractors": [
+        "henviser",
+        "hos",
+        "spesialisten"
+      ]
+    },
+    {
+      "id": "health-care-s3",
+      "en": "This medicine can have side effects.",
+      "no": [
+        "Denne medisinen kan ha bivirkninger."
+      ],
+      "distractors": [
+        "bivirkning",
+        "dette",
+        "har"
+      ]
+    },
+    {
+      "id": "health-care-s4",
+      "en": "She has been on sick leave for two weeks.",
+      "no": [
+        "Hun har vært sykemeldt i to uker."
+      ],
+      "distractors": [
+        "var",
+        "syk",
+        "uke"
+      ]
+    },
+    {
+      "id": "health-care-s5",
+      "en": "If you have a high fever, you should call the out-of-hours clinic.",
+      "no": [
+        "Hvis du har høy feber, bør du ringe legevakten.",
+        "Hvis du har høy feber, bør du ringe legevakta.",
+        "Dersom du har høy feber, bør du ringe legevakten."
+      ],
+      "distractors": [
+        "høyt",
+        "ringer",
+        "sykehuset"
+      ]
+    },
+    {
+      "id": "health-care-s6",
+      "en": "Regular exercise prevents many illnesses.",
+      "no": [
+        "Regelmessig trening forebygger mange sykdommer."
+      ],
+      "distractors": [
+        "trener",
+        "sykdom",
+        "få"
+      ]
+    },
+    {
+      "id": "health-care-s7",
+      "en": "The treatment took longer than expected.",
+      "no": [
+        "Behandlingen tok lengre tid enn forventet.",
+        "Behandlinga tok lengre tid enn forventet.",
+        "Behandlingen tok lengre tid enn ventet."
+      ],
+      "distractors": [
+        "lang",
+        "tar",
+        "som"
+      ]
+    },
+    {
+      "id": "health-care-s8",
+      "en": "Mental health is just as important as physical health.",
+      "no": [
+        "Psykisk helse er like viktig som fysisk helse."
+      ],
+      "distractors": [
+        "enn",
+        "fysiske",
+        "viktigere"
+      ]
+    },
+    {
+      "id": "health-care-s9",
+      "en": "He is slowly recovering after the operation.",
+      "no": [
+        "Han kommer seg sakte etter operasjonen.",
+        "Han kommer seg langsomt etter operasjonen."
+      ],
+      "distractors": [
+        "kom",
+        "raskt",
+        "før"
+      ]
+    },
+    {
+      "id": "health-care-s10",
+      "en": "Is the disease contagious?",
+      "no": [
+        "Er sykdommen smittsom?"
+      ],
+      "distractors": [
+        "smitte",
+        "sykdom",
+        "har"
+      ]
+    },
+    {
+      "id": "health-care-s11",
+      "en": "I have been so stressed lately that I sleep badly.",
+      "no": [
+        "Jeg har vært så stresset i det siste at jeg sover dårlig.",
+        "Jeg har vært så stressa i det siste at jeg sover dårlig."
+      ],
+      "distractors": [
+        "sov",
+        "godt",
+        "fordi"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "health-care-d1",
+      "no": "Legen ___ meg grundig.",
+      "en": "The doctor examined me thoroughly.",
+      "lemma": "undersøke",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "health-care-d2",
+      "no": "Hun har ___ av hodepine i mange år.",
+      "en": "She has suffered from headaches for many years.",
+      "lemma": "lide",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "health-care-d3",
+      "no": "Han har fått flere ___.",
+      "en": "He has been given several diagnoses.",
+      "lemma": "diagnose",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "health-care-d4",
+      "no": "Hvor lenge varer ___?",
+      "en": "How long does the treatment last?",
+      "lemma": "behandling",
+      "pos": "noun",
+      "form": "defSg"
+    },
+    {
+      "id": "health-care-d5",
+      "no": "Alle barna har blitt ___.",
+      "en": "All the children have been vaccinated.",
+      "lemma": "vaksinere",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "health-care-d6",
+      "no": "Hun har ___ smerter i kneet.",
+      "en": "She has chronic pain in her knee.",
+      "lemma": "kronisk",
+      "pos": "adj",
+      "form": "pl"
+    },
+    {
+      "id": "health-care-d7",
+      "no": "Spør legen om ___ av medisinen.",
+      "en": "Ask the doctor about the side effects of the medicine.",
+      "lemma": "bivirkning",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "health-care-d8",
+      "no": "Gode vaner ___ mange sykdommer.",
+      "en": "Good habits prevent many illnesses.",
+      "lemma": "forebygge",
+      "pos": "verb",
+      "form": "present"
+    }
+  ]
+}

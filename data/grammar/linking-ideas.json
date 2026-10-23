@@ -1,0 +1,98 @@
+{
+  "topicId": "linking-ideas",
+  "tips": [
+    {
+      "id": "linking-ideas-ikke",
+      "title": {
+        "en": "«Ikke» comes before the verb in a subordinate clause",
+        "nb": "«Ikke» står foran verbet i leddsetninger"
+      },
+      "text": {
+        "en": [
+          "In a main clause, *ikke* and other adverbs like *aldri*, *alltid* and *ofte* come after the verb: *Jeg kommer ikke.*",
+          "In a subordinate clause (after *at*, *fordi*, *selv om*, *hvis*, *som*, *når* and so on) they move in front of the verb: *… fordi jeg ikke kommer.*"
+        ],
+        "nb": [
+          "I en helsetning står *ikke* og andre adverb som *aldri*, *alltid* og *ofte* etter verbet: *Jeg kommer ikke.*",
+          "I en leddsetning (etter *at*, *fordi*, *selv om*, *hvis*, *som*, *når* osv.) flytter de seg foran verbet: *… fordi jeg ikke kommer.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Han sier at han *ikke* har tid.",
+          "en": "He says that he doesn't have time."
+        },
+        {
+          "no": "Jeg blir hjemme fordi jeg *ikke* føler meg bra.",
+          "en": "I'm staying home because I'm not feeling well."
+        },
+        {
+          "no": "Hun sa at hun *aldri* hadde vært i Bergen.",
+          "en": "She said that she had never been to Bergen."
+        }
+      ]
+    },
+    {
+      "id": "linking-ideas-inversion",
+      "title": {
+        "en": "Starting with a subordinate clause turns the main clause around",
+        "nb": "Leddsetning først gir omvendt ordstilling"
+      },
+      "text": {
+        "en": [
+          "The verb is always the second element of a Norwegian main clause (the V2 rule). A whole subordinate clause counts as one element.",
+          "So when you start with *Hvis …*, *Selv om …* or *Da …*, the verb comes right after the comma, before the subject."
+        ],
+        "nb": [
+          "Verbet står alltid på andre plass i en norsk helsetning (V2-regelen). En hel leddsetning teller som ett ledd.",
+          "Når du begynner med *Hvis …*, *Selv om …* eller *Da …*, kommer derfor verbet rett etter kommaet, foran subjektet."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Hvis det regner, *blir vi* hjemme.",
+          "en": "If it rains, we'll stay at home."
+        },
+        {
+          "no": "Selv om hun var trøtt, *gikk hun* på jobb.",
+          "en": "Even though she was tired, she went to work."
+        },
+        {
+          "no": "Da jeg var liten, *bodde vi* i Nord-Norge.",
+          "en": "When I was little, we lived in Northern Norway."
+        }
+      ]
+    },
+    {
+      "id": "linking-ideas-da-nar",
+      "title": {
+        "en": "When: «da» or «når»?",
+        "nb": "Da eller når?"
+      },
+      "text": {
+        "en": [
+          "Use *da* for one single time in the past: *Da jeg kom hjem, sov barna.*",
+          "Use *når* for the present, the future and things that happened again and again: *Når jeg kommer hjem, lager jeg middag.* In questions, «when» is always *når*."
+        ],
+        "nb": [
+          "Bruk *da* om én bestemt gang i fortida: *Da jeg kom hjem, sov barna.*",
+          "Bruk *når* om nåtid, framtid og ting som har skjedd flere ganger: *Når jeg kommer hjem, lager jeg middag.* I spørsmål heter det alltid *når*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*Da* jeg var tjue, flyttet jeg til Oslo.",
+          "en": "When I was twenty, I moved to Oslo."
+        },
+        {
+          "no": "*Når* det snør, går vi på ski.",
+          "en": "When it snows, we go skiing."
+        },
+        {
+          "no": "*Når* kommer du?",
+          "en": "When are you coming?"
+        }
+      ]
+    }
+  ]
+}

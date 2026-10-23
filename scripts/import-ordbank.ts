@@ -6,6 +6,10 @@
 // fullformsliste.txt are required). Words that are not found are logged and
 // written to data/inflections-missing.txt.
 //
+// data/inflections-pending.json holds hand-written forms for words that could
+// not be imported yet. Entries that are now found in the ordbank are removed
+// from it, so it only keeps words the ordbank doesn't have.
+//
 // Homonyms: when a lemma has several entries of the same word class (bok
 // "book" / bok "beech"), set "ordbankId" on the word in the topic file to pick
 // one. Without it, the entry whose forms are most common wins if
@@ -30,6 +34,7 @@ const RAW = path.join(ROOT, "data/raw/ordbank");
 const TOPICS = path.join(ROOT, "data/topics");
 const OUT = path.join(ROOT, "data/inflections.json");
 const MISSING = path.join(ROOT, "data/inflections-missing.txt");
+const PENDING = path.join(ROOT, "data/inflections-pending.json");
 const FREQUENCY = path.join(ROOT, "data/raw/frequency.txt");
 
 type Wanted = { lemma: string; pos: WordClass; ordbankId?: number; usedIn: Set<string> };
@@ -132,6 +137,7 @@ function main() {
   );
 
   console.log(`Wrote ${Object.keys(table).length} entries to ${path.relative(ROOT, OUT)}.`);
+  prunePending(table);
   if (ambiguous.length) {
     console.log(`\n${ambiguous.length} lemmas had several ordbank entries. Set "ordbankId" on the word to override:`);
     for (const line of ambiguous) console.log(`  ${line}`);
@@ -142,6 +148,17 @@ function main() {
   } else {
     console.log("All lemmas were found.");
   }
+}
+
+/** Drops hand-written forms that the ordbank now provides. */
+function prunePending(table: InflectionTable) {
+  if (!existsSync(PENDING)) return;
+  const pending = JSON.parse(readFileSync(PENDING, "utf8")) as InflectionTable;
+  const replaced = Object.keys(pending).filter((key) => table[key]);
+  if (!replaced.length) return;
+  for (const key of replaced) delete pending[key];
+  writeFileSync(PENDING, JSON.stringify(pending, null, 2) + "\n");
+  console.log(`Replaced ${replaced.length} hand-written entries in ${path.relative(ROOT, PENDING)} with ordbank forms.`);
 }
 
 function sample(inflection: Inflection): string {

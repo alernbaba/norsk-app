@@ -4,7 +4,8 @@ import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { listenId, reverseId } from "./modes";
 import { topicItemIds } from "./progress";
-import type { GrammarTip, InflectionTable, Topic, TopicGrammar } from "./types";
+import { topicLevel } from "./levels";
+import type { GrammarTip, InflectionTable, Level, Topic, TopicGrammar } from "./types";
 
 let topicsCache: Topic[] | null = null;
 let inflectionsCache: InflectionTable | null = null;
@@ -26,16 +27,23 @@ export function getTopic(id: string): Topic | undefined {
   return getTopics().find((t) => t.id === id);
 }
 
-export function getInflections(): InflectionTable {
-  if (!inflectionsCache) {
-    try {
-      inflectionsCache = JSON.parse(readFileSync(path.join(process.cwd(), "data", "inflections.json"), "utf8")) as InflectionTable;
-    } catch {
-      inflectionsCache = {};
-    }
+function readTable(file: string): InflectionTable {
+  try {
+    return JSON.parse(readFileSync(path.join(process.cwd(), "data", file), "utf8")) as InflectionTable;
+  } catch {
+    return {};
   }
+}
+
+/**
+ * Forms from Norsk ordbank, plus hand-written forms in inflections-pending.json
+ * for words that have not been imported yet. Ordbank wins where both exist.
+ */
+export function getInflections(): InflectionTable {
+  if (!inflectionsCache) inflectionsCache = { ...readTable("inflections-pending.json"), ...readTable("inflections.json") };
   return inflectionsCache;
 }
+
 
 export function loadGrammar(): TopicGrammar[] {
   const dir = path.join(process.cwd(), "data", "grammar");
@@ -61,6 +69,7 @@ export function inflectionsForTopic(topic: Topic): InflectionTable {
 
 /** Small per-topic summary for the overview page. */
 export type TopicSummary = Pick<Topic, "id" | "title" | "description" | "emoji"> & {
+  level: Level;
   wordIds: string[];
   itemIds: string[];
 };
@@ -71,6 +80,7 @@ export function topicSummaries(): TopicSummary[] {
     title: t.title,
     description: t.description,
     emoji: t.emoji,
+    level: topicLevel(t),
     wordIds: t.words.map((w) => w.id),
     itemIds: topicItemIds(t),
   }));

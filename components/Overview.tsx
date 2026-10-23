@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import type { TopicSummary } from "@/lib/content";
+import { LEVEL_CHOICES, matchesLevel } from "@/lib/levels";
 import { currentStreak } from "@/lib/progress";
 import { isLearned, isMastered } from "@/lib/srs";
 import { DailyGoal } from "./DailyGoal";
@@ -10,7 +11,7 @@ import { ProgressBar } from "./ProgressBar";
 import { useAppState } from "./useAppState";
 
 export function Overview({ topics }: { topics: TopicSummary[] }) {
-  const { ready, date, progress, profile, settings, activity } = useAppState();
+  const { ready, date, progress, profile, settings, activity, updateSettings } = useAppState();
   const t = useT();
   const topicText = useTopicText();
   const totalWords = topics.reduce((n, topic) => n + topic.wordIds.length, 0);
@@ -18,6 +19,7 @@ export function Overview({ topics }: { topics: TopicSummary[] }) {
   const mastered = topics.reduce((n, topic) => n + topic.wordIds.filter((id) => isMastered(progress[id])).length, 0);
   const due = topics.reduce((n, topic) => n + topic.itemIds.filter((id) => progress[id] && progress[id].nextReview <= date).length, 0);
   const streak = currentStreak(profile, date);
+  const shown = topics.filter((topic) => matchesLevel(topic.level, settings.level));
 
   return (
     <div className="space-y-10">
@@ -65,10 +67,32 @@ export function Overview({ topics }: { topics: TopicSummary[] }) {
       <section className="space-y-4">
         <div className="flex items-baseline justify-between gap-3 border-b border-line pb-2">
           <h2 className="text-2xl font-medium">{t.overview.topics}</h2>
-          <p className="text-sm text-muted tabular-nums">{t.overview.topicCount(topics.length)}</p>
+          <p className="text-sm text-muted tabular-nums">{t.overview.topicCount(shown.length)}</p>
         </div>
+        <fieldset className="flex flex-wrap items-center gap-2" disabled={!ready}>
+          <legend className="sr-only">{t.overview.levelFilter}</legend>
+          <span aria-hidden className="text-sm text-muted">
+            {t.overview.levelFilter}
+          </span>
+          {LEVEL_CHOICES.map((level) => (
+            <label
+              key={level}
+              className="cursor-pointer rounded-full border border-line px-3 py-1 text-sm font-semibold text-muted transition has-checked:border-fjord has-checked:bg-fjord-soft has-checked:text-fjord has-focus-visible:outline-2 has-focus-visible:outline-fjord"
+            >
+              <input
+                type="radio"
+                name="overview-level"
+                value={level}
+                checked={settings.level === level}
+                onChange={() => updateSettings({ ...settings, level })}
+                className="sr-only"
+              />
+              {t.levels[level]}
+            </label>
+          ))}
+        </fieldset>
         <ul className="grid gap-3 sm:grid-cols-2">
-          {topics.map((topic, i) => {
+          {shown.map((topic, i) => {
             const { title, description } = topicText(topic);
             const learnedHere = topic.wordIds.filter((id) => isLearned(progress[id])).length;
             const practised = topic.itemIds.filter((id) => progress[id]).length;
@@ -84,7 +108,10 @@ export function Overview({ topics }: { topics: TopicSummary[] }) {
                       {topic.emoji}
                     </span>
                     <div className="min-w-0 flex-1">
-                      <p className="text-[0.7rem] font-semibold tracking-widest text-muted tabular-nums">{String(i + 1).padStart(2, "0")}</p>
+                      <p className="text-[0.7rem] font-semibold tracking-widest text-muted tabular-nums">
+                        {String(i + 1).padStart(2, "0")}
+                        {topic.level === "b1-b2" && <span className="ml-2 rounded bg-rust-soft px-1.5 py-px text-rust">{t.levels[topic.level]}</span>}
+                      </p>
                       <p className="font-display text-lg leading-tight font-medium">{title}</p>
                     </div>
                     {ready && dueHere > 0 && (

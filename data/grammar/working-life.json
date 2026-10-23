@@ -1,0 +1,67 @@
+{
+  "topicId": "working-life",
+  "tips": [
+    {
+      "id": "working-life-passive",
+      "title": {
+        "en": "The passive: «bli ansatt» and «søkes»",
+        "nb": "Passiv: «bli ansatt» og «søkes»"
+      },
+      "text": {
+        "en": [
+          "Norwegian has two passives. The *bli*-passive uses *bli* + past participle and is common for single events: *Hun ble ansatt i fjor.*",
+          "The *s*-passive adds *-s* to the infinitive. You see it in rules, ads and after modal verbs: *Stillingen må søkes innen fredag.* *Selger søkes.*"
+        ],
+        "nb": [
+          "Norsk har to passivformer. *Bli*-passiv lages med *bli* + perfektum partisipp og brukes mye om enkelthendelser: *Hun ble ansatt i fjor.*",
+          "*S*-passiv lages ved å legge *-s* til infinitiv. Den ser du i regler, annonser og etter modalverb: *Stillingen må søkes innen fredag.* *Selger søkes.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Hun *ble ansatt* etter intervjuet.",
+          "en": "She was hired after the interview."
+        },
+        {
+          "no": "Søknaden *må sendes* innen 1. mars.",
+          "en": "The application must be sent by 1 March."
+        },
+        {
+          "no": "Sykepleier *søkes*.",
+          "en": "Nurse wanted."
+        }
+      ]
+    },
+    {
+      "id": "working-life-compounds",
+      "title": {
+        "en": "Long compound words",
+        "nb": "Lange sammensatte ord"
+      },
+      "text": {
+        "en": [
+          "Norwegian writes compounds as one word: *arbeids* + *giver* = *arbeidsgiver*, *foreldre* + *permisjon* = *foreldrepermisjon*.",
+          "The last part decides the gender and the inflection: *ei/en lønn* → *ei/en minstelønn*, *en søknad* → *en jobbsøknad*. A linking *-s-* is often added, as in *arbeidstid*."
+        ],
+        "nb": [
+          "På norsk skrives sammensatte ord i ett ord: *arbeids* + *giver* = *arbeidsgiver*, *foreldre* + *permisjon* = *foreldrepermisjon*.",
+          "Det siste leddet bestemmer kjønn og bøying: *ei/en lønn* → *ei/en minstelønn*, *en søknad* → *en jobbsøknad*. Ofte kommer en *-s-* imellom, som i *arbeidstid*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "en *jobbsøknad*",
+          "en": "a job application"
+        },
+        {
+          "no": "en *arbeidskontrakt*",
+          "en": "an employment contract"
+        },
+        {
+          "no": "*oppsigelsestiden*",
+          "en": "the notice period"
+        }
+      ]
+    }
+  ]
+}

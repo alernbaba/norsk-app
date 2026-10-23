@@ -49,7 +49,7 @@ describe("storage + recordAnswer", () => {
 
   it("reset clears progress, streak and activity but keeps settings", async () => {
     const storage = new LocalStorageAdapter(new MemoryStore());
-    const settings = { slowSpeech: true, autoPlay: true, dailyGoal: 30, goalReminder: false };
+    const settings = { slowSpeech: true, autoPlay: true, dailyGoal: 30, goalReminder: false, level: "b1-b2" } as const;
     await storage.saveSettings(settings);
     await recordAnswer(storage, "w1", true, "2026-10-21");
     await storage.reset();

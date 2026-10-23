@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { matchesLevel, topicLevel } from "@/lib/levels";
 import { buildShuffleRound, type ShuffleItem } from "@/lib/shuffle";
 import { getSpeech } from "@/lib/speech";
 import { goalState, type GoalState } from "@/lib/stats";
@@ -45,7 +46,7 @@ export function Shuffle({ topics, inflections }: Props) {
       ) : (
         <Round
           key={round}
-          topics={topics}
+          topics={topics.filter((topic) => matchesLevel(topicLevel(topic), settings.level))}
           inflections={inflections}
           progress={progress}
           date={date}

@@ -1,0 +1,67 @@
+{
+  "topicId": "health-care",
+  "tips": [
+    {
+      "id": "health-care-modals-perfect",
+      "title": {
+        "en": "Should have: «burde ha gjort»",
+        "nb": "Burde ha gjort"
+      },
+      "text": {
+        "en": [
+          "To talk about what should or could have happened, use a past modal verb + *ha* + past participle.",
+          "*Jeg burde ha gått til legen.* (I should have gone to the doctor.) *Det kunne ha vært verre.* (It could have been worse.) In speech, *ha* is often dropped: *Jeg burde gått til legen.*"
+        ],
+        "nb": [
+          "Når du snakker om noe som burde eller kunne ha skjedd, bruker du modalverb i fortid + *ha* + perfektum partisipp.",
+          "*Jeg burde ha gått til legen.* *Det kunne ha vært verre.* I muntlig språk faller *ha* ofte bort: *Jeg burde gått til legen.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Du *burde ha ringt* legevakten.",
+          "en": "You should have called the out-of-hours clinic."
+        },
+        {
+          "no": "Det *kunne ha vært* verre.",
+          "en": "It could have been worse."
+        },
+        {
+          "no": "Hun *skulle ha tatt* medisinen i går.",
+          "en": "She was supposed to take the medicine yesterday."
+        }
+      ]
+    },
+    {
+      "id": "health-care-vondt",
+      "title": {
+        "en": "Saying where it hurts",
+        "nb": "Si hvor det gjør vondt"
+      },
+      "text": {
+        "en": [
+          "*Jeg har vondt i …* + body part is the usual way to say something hurts: *Jeg har vondt i ryggen.*",
+          "*Smerter* is more formal and is used by doctors: *Har du smerter i brystet?* *Kroniske smerter* are long-lasting pain."
+        ],
+        "nb": [
+          "*Jeg har vondt i …* + kroppsdel er den vanlige måten å si at noe gjør vondt: *Jeg har vondt i ryggen.*",
+          "*Smerter* er mer formelt og brukes av leger: *Har du smerter i brystet?* *Kroniske smerter* varer over lang tid."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Jeg har *vondt i* hodet.",
+          "en": "I have a headache."
+        },
+        {
+          "no": "Har du *smerter* når du går?",
+          "en": "Do you have pain when you walk?"
+        },
+        {
+          "no": "Hun har *kroniske smerter* i kneet.",
+          "en": "She has chronic pain in her knee."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "topicId": "politics",
+  "tips": [
+    {
+      "id": "politics-double-definite",
+      "title": {
+        "en": "Double definite: «den nye loven»",
+        "nb": "Dobbel bestemthet: «den nye loven»"
+      },
+      "text": {
+        "en": [
+          "With an adjective in front of a definite noun, Norwegian marks definiteness twice: *den*, *det* or *de* before the adjective, and the ending on the noun.",
+          "*det norske samfunnet* (the Norwegian society), *den nye regjeringen*, *de store partiene*. The adjective always ends in *-e*."
+        ],
+        "nb": [
+          "Når et adjektiv står foran et substantiv i bestemt form, markeres bestemtheten to ganger: *den*, *det* eller *de* foran adjektivet, og endelsen på substantivet.",
+          "*det norske samfunnet*, *den nye regjeringen*, *de store partiene*. Adjektivet ender alltid på *-e*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*den nye loven*",
+          "en": "the new law"
+        },
+        {
+          "no": "*det norske samfunnet*",
+          "en": "Norwegian society"
+        },
+        {
+          "no": "*de politiske partiene*",
+          "en": "the political parties"
+        }
+      ]
+    },
+    {
+      "id": "politics-rett",
+      "title": {
+        "en": "Having a right: «ha rett til»",
+        "nb": "Å ha rett til noe"
+      },
+      "text": {
+        "en": [
+          "*Å ha rett til* means *to have the right to*: *Alle har rett til utdanning.* *En rettighet* is a right as a noun, often in the plural: *rettigheter og plikter*.",
+          "Don't mix it up with *å ha rett*, which means *to be right*: *Du har rett.*"
+        ],
+        "nb": [
+          "*Å ha rett til* betyr at du har krav på noe: *Alle har rett til utdanning.* *En rettighet* er substantivet, ofte i flertall: *rettigheter og plikter*.",
+          "Ikke bland det med *å ha rett*, som betyr at det du sier er riktig: *Du har rett.*"
+        ]
+      },
+      "examples": [
+        {
+          "no": "Alle *har rett til* å stemme.",
+          "en": "Everyone has the right to vote."
+        },
+        {
+          "no": "Vi har like *rettigheter* og *plikter*.",
+          "en": "We have equal rights and duties."
+        },
+        {
+          "no": "Det *har du rett* i.",
+          "en": "You're right about that."
+        }
+      ]
+    }
+  ]
+}

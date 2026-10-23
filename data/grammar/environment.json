@@ -1,0 +1,67 @@
+{
+  "topicId": "environment",
+  "tips": [
+    {
+      "id": "environment-plural-definite",
+      "title": {
+        "en": "Talking about something in general: plural definite",
+        "nb": "Bestemt flertall om noe generelt"
+      },
+      "text": {
+        "en": [
+          "English often uses no article for things in general: *Climate change affects everyone.* Norwegian often uses the definite form instead: *Klimaendringene påvirker alle.*",
+          "The same goes for *utslippene* (emissions), *strømprisene* (electricity prices) and *miljøet* (the environment)."
+        ],
+        "nb": [
+          "Engelsk bruker ofte ubestemt form om noe generelt: *Climate change affects everyone.* Norsk bruker ofte bestemt form: *Klimaendringene påvirker alle.*",
+          "Det samme gjelder *utslippene*, *strømprisene* og *miljøet*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "*Klimaendringene* påvirker hele verden.",
+          "en": "Climate change affects the whole world."
+        },
+        {
+          "no": "Vi må redusere *utslippene*.",
+          "en": "We must reduce emissions."
+        },
+        {
+          "no": "Det er bedre for *miljøet*.",
+          "en": "It's better for the environment."
+        }
+      ]
+    },
+    {
+      "id": "environment-comparison",
+      "title": {
+        "en": "More and most with long adjectives",
+        "nb": "Mer og mest med lange adjektiver"
+      },
+      "text": {
+        "en": [
+          "Short adjectives take *-ere* and *-est*: *kald, kaldere, kaldest*.",
+          "Long adjectives and those ending in *-isk* or borrowed words usually use *mer* and *mest*: *mer miljøvennlig*, *mest bærekraftig*. After *mest*, the adjective takes the definite form: *det mest miljøvennlige alternativet*."
+        ],
+        "nb": [
+          "Korte adjektiver får *-ere* og *-est*: *kald, kaldere, kaldest*.",
+          "Lange adjektiver, ord på *-isk* og lånord bruker som regel *mer* og *mest*: *mer miljøvennlig*, *mest bærekraftig*. Etter *den/det mest* står adjektivet i bestemt form: *det mest miljøvennlige alternativet*."
+        ]
+      },
+      "examples": [
+        {
+          "no": "Elbiler er *mer miljøvennlige* enn dieselbiler.",
+          "en": "Electric cars are more environmentally friendly than diesel cars."
+        },
+        {
+          "no": "Toget er det *mest miljøvennlige* alternativet.",
+          "en": "The train is the most environmentally friendly option."
+        },
+        {
+          "no": "Det blir *kaldere* om natta.",
+          "en": "It gets colder at night."
+        }
+      ]
+    }
+  ]
+}

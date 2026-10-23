@@ -1,0 +1,598 @@
+{
+  "id": "opinions",
+  "title": "Opinions and debate",
+  "description": "Say what you think, agree, disagree and weigh up arguments.",
+  "emoji": "🗣️",
+  "order": 102,
+  "level": "b1-b2",
+  "words": [
+    {
+      "id": "opinions-a-mene",
+      "no": "å mene",
+      "en": [
+        "to think",
+        "to be of the opinion",
+        "to mean"
+      ],
+      "pos": "verb",
+      "lemma": "mene"
+    },
+    {
+      "id": "opinions-a-hevde",
+      "no": "å hevde",
+      "en": [
+        "to claim",
+        "to maintain"
+      ],
+      "pos": "verb",
+      "lemma": "hevde"
+    },
+    {
+      "id": "opinions-a-pasta",
+      "no": "å påstå",
+      "en": [
+        "to claim",
+        "to allege"
+      ],
+      "pos": "verb",
+      "lemma": "påstå"
+    },
+    {
+      "id": "opinions-a-argumentere",
+      "no": "å argumentere",
+      "en": [
+        "to argue (for a view)"
+      ],
+      "pos": "verb",
+      "lemma": "argumentere"
+    },
+    {
+      "id": "opinions-a-overbevise",
+      "no": "å overbevise",
+      "en": [
+        "to convince",
+        "to persuade"
+      ],
+      "pos": "verb",
+      "lemma": "overbevise"
+    },
+    {
+      "id": "opinions-a-innromme",
+      "no": "å innrømme",
+      "en": [
+        "to admit"
+      ],
+      "pos": "verb",
+      "lemma": "innrømme"
+    },
+    {
+      "id": "opinions-a-tvile",
+      "no": "å tvile",
+      "en": [
+        "to doubt"
+      ],
+      "pos": "verb",
+      "lemma": "tvile"
+    },
+    {
+      "id": "opinions-a-understreke",
+      "no": "å understreke",
+      "en": [
+        "to emphasize",
+        "to underline"
+      ],
+      "pos": "verb",
+      "lemma": "understreke"
+    },
+    {
+      "id": "opinions-a-anta",
+      "no": "å anta",
+      "en": [
+        "to assume",
+        "to suppose"
+      ],
+      "pos": "verb",
+      "lemma": "anta"
+    },
+    {
+      "id": "opinions-a-foretrekke",
+      "no": "å foretrekke",
+      "en": [
+        "to prefer"
+      ],
+      "pos": "verb",
+      "lemma": "foretrekke"
+    },
+    {
+      "id": "opinions-a-vurdere",
+      "no": "å vurdere",
+      "en": [
+        "to consider",
+        "to assess"
+      ],
+      "pos": "verb",
+      "lemma": "vurdere"
+    },
+    {
+      "id": "opinions-a-stotte",
+      "no": "å støtte",
+      "en": [
+        "to support"
+      ],
+      "pos": "verb",
+      "lemma": "støtte"
+    },
+    {
+      "id": "opinions-a-motsi",
+      "no": "å motsi",
+      "en": [
+        "to contradict"
+      ],
+      "pos": "verb",
+      "lemma": "motsi"
+    },
+    {
+      "id": "opinions-et-argument",
+      "no": "et argument",
+      "en": [
+        "an argument (a reason)"
+      ],
+      "pos": "noun",
+      "lemma": "argument"
+    },
+    {
+      "id": "opinions-et-synspunkt",
+      "no": "et synspunkt",
+      "en": [
+        "a point of view",
+        "a viewpoint"
+      ],
+      "pos": "noun",
+      "lemma": "synspunkt"
+    },
+    {
+      "id": "opinions-en-pastand",
+      "no": "en påstand",
+      "en": [
+        "a claim",
+        "an assertion"
+      ],
+      "pos": "noun",
+      "lemma": "påstand"
+    },
+    {
+      "id": "opinions-en-diskusjon",
+      "no": "en diskusjon",
+      "en": [
+        "a discussion"
+      ],
+      "pos": "noun",
+      "lemma": "diskusjon"
+    },
+    {
+      "id": "opinions-en-debatt",
+      "no": "en debatt",
+      "en": [
+        "a debate"
+      ],
+      "pos": "noun",
+      "lemma": "debatt"
+    },
+    {
+      "id": "opinions-en-fordel",
+      "no": "en fordel",
+      "en": [
+        "an advantage"
+      ],
+      "pos": "noun",
+      "lemma": "fordel"
+    },
+    {
+      "id": "opinions-en-ulempe",
+      "no": "en ulempe",
+      "en": [
+        "a disadvantage",
+        "a drawback"
+      ],
+      "pos": "noun",
+      "lemma": "ulempe"
+    },
+    {
+      "id": "opinions-et-poeng",
+      "no": "et poeng",
+      "en": [
+        "a point"
+      ],
+      "pos": "noun",
+      "lemma": "poeng"
+    },
+    {
+      "id": "opinions-en-holdning",
+      "no": "en holdning",
+      "en": [
+        "an attitude"
+      ],
+      "pos": "noun",
+      "lemma": "holdning"
+    },
+    {
+      "id": "opinions-en-tvil",
+      "no": "en tvil",
+      "en": [
+        "a doubt"
+      ],
+      "pos": "noun",
+      "lemma": "tvil"
+    },
+    {
+      "id": "opinions-et-inntrykk",
+      "no": "et inntrykk",
+      "en": [
+        "an impression"
+      ],
+      "pos": "noun",
+      "lemma": "inntrykk"
+    },
+    {
+      "id": "opinions-et-forslag",
+      "no": "et forslag",
+      "en": [
+        "a proposal",
+        "a suggestion"
+      ],
+      "pos": "noun",
+      "lemma": "forslag"
+    },
+    {
+      "id": "opinions-enig",
+      "no": "enig",
+      "en": [
+        "in agreement",
+        "agreed"
+      ],
+      "pos": "adj",
+      "lemma": "enig"
+    },
+    {
+      "id": "opinions-uenig",
+      "no": "uenig",
+      "en": [
+        "in disagreement"
+      ],
+      "pos": "adj",
+      "lemma": "uenig"
+    },
+    {
+      "id": "opinions-tvilsom",
+      "no": "tvilsom",
+      "en": [
+        "doubtful",
+        "dubious"
+      ],
+      "pos": "adj",
+      "lemma": "tvilsom"
+    },
+    {
+      "id": "opinions-saklig",
+      "no": "saklig",
+      "en": [
+        "objective",
+        "factual",
+        "to the point"
+      ],
+      "pos": "adj",
+      "lemma": "saklig"
+    },
+    {
+      "id": "opinions-rimelig",
+      "no": "rimelig",
+      "en": [
+        "reasonable",
+        "fair",
+        "cheap"
+      ],
+      "pos": "adj",
+      "lemma": "rimelig"
+    },
+    {
+      "id": "opinions-urimelig",
+      "no": "urimelig",
+      "en": [
+        "unreasonable"
+      ],
+      "pos": "adj",
+      "lemma": "urimelig"
+    },
+    {
+      "id": "opinions-etter-min-mening",
+      "no": "Etter min mening …",
+      "en": [
+        "In my opinion …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-jeg-er-helt-enig",
+      "no": "Jeg er helt enig.",
+      "en": [
+        "I completely agree."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-jeg-er-ikke-helt-enig",
+      "no": "Jeg er ikke helt enig.",
+      "en": [
+        "I don't quite agree."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-det-kommer-an-pa",
+      "no": "Det kommer an på.",
+      "en": [
+        "It depends."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-jeg-ser-poenget-ditt-men",
+      "no": "Jeg ser poenget ditt, men …",
+      "en": [
+        "I see your point, but …"
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-det-er-et-godt-poeng",
+      "no": "Det er et godt poeng.",
+      "en": [
+        "That's a good point."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-det-har-du-rett-i",
+      "no": "Det har du rett i.",
+      "en": [
+        "You're right about that."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-det-er-delte-meninger-om-det",
+      "no": "Det er delte meninger om det.",
+      "en": [
+        "Opinions are divided on that."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-tvert-imot",
+      "no": "Tvert imot.",
+      "en": [
+        "On the contrary."
+      ],
+      "pos": "phrase"
+    },
+    {
+      "id": "opinions-sann-sett",
+      "no": "sånn sett",
+      "en": [
+        "in that sense",
+        "seen that way"
+      ],
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "opinions-s1",
+      "en": "In my opinion, the city should build more cycle paths.",
+      "no": [
+        "Etter min mening bør byen bygge flere sykkelveier.",
+        "Etter min mening bør byen bygge flere sykkelstier."
+      ],
+      "distractors": [
+        "mener",
+        "burde",
+        "mer"
+      ]
+    },
+    {
+      "id": "opinions-s2",
+      "en": "I think you're right, but it depends on the price.",
+      "no": [
+        "Jeg tror du har rett, men det kommer an på prisen.",
+        "Jeg tror at du har rett, men det kommer an på prisen."
+      ],
+      "distractors": [
+        "synes",
+        "er",
+        "pris"
+      ]
+    },
+    {
+      "id": "opinions-s3",
+      "en": "She claims that nobody told her about the meeting.",
+      "no": [
+        "Hun hevder at ingen fortalte henne om møtet.",
+        "Hun påstår at ingen fortalte henne om møtet.",
+        "Hun hevder at ingen sa noe til henne om møtet."
+      ],
+      "distractors": [
+        "sa",
+        "ham",
+        "møte"
+      ]
+    },
+    {
+      "id": "opinions-s4",
+      "en": "He finally admitted that he had made a mistake.",
+      "no": [
+        "Han innrømmet til slutt at han hadde gjort en feil.",
+        "Til slutt innrømmet han at han hadde gjort en feil.",
+        "Han innrømte til slutt at han hadde gjort en feil."
+      ],
+      "distractors": [
+        "har",
+        "feilen",
+        "laget"
+      ]
+    },
+    {
+      "id": "opinions-s5",
+      "en": "There are both advantages and disadvantages to working from home.",
+      "no": [
+        "Det er både fordeler og ulemper med å jobbe hjemmefra.",
+        "Det finnes både fordeler og ulemper med å jobbe hjemmefra."
+      ],
+      "distractors": [
+        "eller",
+        "fordel",
+        "hjemme"
+      ]
+    },
+    {
+      "id": "opinions-s6",
+      "en": "I doubt that this is a good idea.",
+      "no": [
+        "Jeg tviler på at dette er en god idé.",
+        "Jeg tviler på at dette er en god ide.",
+        "Jeg tviler på at det er en god idé."
+      ],
+      "distractors": [
+        "om",
+        "godt",
+        "ikke"
+      ]
+    },
+    {
+      "id": "opinions-s7",
+      "en": "Opinions are divided on the new law.",
+      "no": [
+        "Det er delte meninger om den nye loven."
+      ],
+      "distractors": [
+        "mening",
+        "ny",
+        "lov"
+      ]
+    },
+    {
+      "id": "opinions-s8",
+      "en": "Can you convince your parents?",
+      "no": [
+        "Kan du overbevise foreldrene dine?"
+      ],
+      "distractors": [
+        "din",
+        "foreldre",
+        "overbeviser"
+      ]
+    },
+    {
+      "id": "opinions-s9",
+      "en": "We have to consider all the arguments before we decide.",
+      "no": [
+        "Vi må vurdere alle argumentene før vi bestemmer oss."
+      ],
+      "distractors": [
+        "argument",
+        "etter",
+        "seg"
+      ]
+    },
+    {
+      "id": "opinions-s10",
+      "en": "I prefer to discuss things objectively.",
+      "no": [
+        "Jeg foretrekker å diskutere ting saklig."
+      ],
+      "distractors": [
+        "foretrakk",
+        "sak",
+        "og"
+      ]
+    },
+    {
+      "id": "opinions-s11",
+      "en": "On the contrary, I think it's a reasonable proposal.",
+      "no": [
+        "Tvert imot, jeg synes det er et rimelig forslag.",
+        "Tvert imot synes jeg det er et rimelig forslag."
+      ],
+      "distractors": [
+        "urimelig",
+        "en",
+        "mener"
+      ]
+    }
+  ],
+  "inflectionDrills": [
+    {
+      "id": "opinions-d1",
+      "no": "Begge sidene har gode ___.",
+      "en": "Both sides have good arguments.",
+      "lemma": "argument",
+      "pos": "noun",
+      "form": "indefPl"
+    },
+    {
+      "id": "opinions-d2",
+      "no": "Hva er de største ___ med planen?",
+      "en": "What are the biggest disadvantages of the plan?",
+      "lemma": "ulempe",
+      "pos": "noun",
+      "form": "defPl"
+    },
+    {
+      "id": "opinions-d3",
+      "no": "Hun ___ at hun hadde tatt feil.",
+      "en": "She admitted that she had been wrong.",
+      "lemma": "innrømme",
+      "pos": "verb",
+      "form": "past"
+    },
+    {
+      "id": "opinions-d4",
+      "no": "Jeg har aldri ___ på at du ville klare det.",
+      "en": "I have never doubted that you would manage it.",
+      "lemma": "tvile",
+      "pos": "verb",
+      "form": "participle"
+    },
+    {
+      "id": "opinions-d5",
+      "no": "Han ___ kaffe framfor te.",
+      "en": "He prefers coffee to tea.",
+      "lemma": "foretrekke",
+      "pos": "verb",
+      "form": "present"
+    },
+    {
+      "id": "opinions-d6",
+      "no": "Vi er helt ___ med dere.",
+      "en": "We completely agree with you.",
+      "lemma": "enig",
+      "pos": "adj",
+      "form": "pl"
+    },
+    {
+      "id": "opinions-d7",
+      "no": "Det var et veldig ___ svar.",
+      "en": "That was a very reasonable answer.",
+      "lemma": "rimelig",
+      "pos": "adj",
+      "form": "n"
+    },
+    {
+      "id": "opinions-d8",
+      "no": "___ hennes var at prisen var for høy.",
+      "en": "Her claim was that the price was too high.",
+      "lemma": "påstand",
+      "pos": "noun",
+      "form": "defSg"
+    }
+  ]
+}

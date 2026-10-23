@@ -2,7 +2,7 @@
 // lives in data/ and is not translated here, except topic names in topics.ts.
 
 import type { Mode } from "../modes";
-import type { InflectionForm } from "../types";
+import type { InflectionForm, LevelChoice } from "../types";
 
 export type Language = "en" | "nb";
 
@@ -22,6 +22,11 @@ const en = {
     continue: "Continue",
     cancel: "Cancel",
   },
+  levels: {
+    all: "All",
+    "a1-a2": "A1–A2",
+    "b1-b2": "B1–B2",
+  } satisfies Record<LevelChoice, string>,
   overview: {
     dayStreak: "Day streak",
     wordsLearned: "Words learned",
@@ -35,6 +40,8 @@ const en = {
     topicProgressLabel: (title: string) => `${title}: words learned`,
     topicLearned: (learned: number, words: number) => `${learned} / ${words} words learned`,
     topicPractised: (practised: number, items: number) => `${practised} / ${items} practised`,
+    levelFilter: "Level",
+    levelBadge: (level: string) => `Level ${level}`,
   },
   topic: {
     allTopics: "All topics",
@@ -191,13 +198,16 @@ const en = {
     resetButton: "Reset progress…",
     goal: "Daily goal",
     goalDescription: "How many answers you want to give each day. Every flashcard, sentence and drill counts.",
+    level: "Level",
+    levelDescription:
+      "Which topics to show on the overview. A1–A2 is for beginners. B1–B2 has longer sentences with subordinate clauses, idioms and harder words about work, society, health and the environment.",
     goalReminder: "Remind me",
     goalReminderDescription:
       "Show a reminder on the overview until today's goal is met, and warn you when your streak is about to end. The app runs in your browser without a server, so it can't send notifications while it is closed.",
   },
   shuffle: {
     title: "Shuffle",
-    description: "Every topic and every exercise type, mixed at random. Due items come first, then new ones.",
+    description: "Every topic at your chosen level and every exercise type, mixed at random. Due items come first, then new ones.",
     start: "Shuffle everything",
     startDescription: "Mix all topics and exercise types in one round.",
     back: "Overview",
@@ -237,6 +247,7 @@ const nb: Messages = {
     continue: "Fortsett",
     cancel: "Avbryt",
   },
+  levels: { all: "Alle", "a1-a2": "A1–A2", "b1-b2": "B1–B2" },
   overview: {
     dayStreak: "Dager på rad",
     wordsLearned: "Ord lært",
@@ -250,6 +261,8 @@ const nb: Messages = {
     topicProgressLabel: (title) => `${title}: ord lært`,
     topicLearned: (learned, words) => `${learned} / ${words} ord lært`,
     topicPractised: (practised, items) => `${practised} / ${items} øvd på`,
+    levelFilter: "Nivå",
+    levelBadge: (level) => `Nivå ${level}`,
   },
   topic: {
     allTopics: "Alle emner",
@@ -405,13 +418,16 @@ const nb: Messages = {
     resetButton: "Nullstill fremgang…",
     goal: "Daglig mål",
     goalDescription: "Hvor mange svar du vil gi hver dag. Alle ordkort, setninger og øvelser teller.",
+    level: "Nivå",
+    levelDescription:
+      "Hvilke emner som vises i oversikten. A1–A2 er for nybegynnere. B1–B2 har lengre setninger med leddsetninger, faste uttrykk og vanskeligere ord om jobb, samfunn, helse og miljø.",
     goalReminder: "Påminnelse",
     goalReminderDescription:
       "Vis en påminnelse i oversikten til dagens mål er nådd, og si fra når rekken din er i ferd med å ryke. Appen kjører i nettleseren uten server, så den kan ikke sende varsler når den er lukket.",
   },
   shuffle: {
     title: "Bland alt",
-    description: "Alle emner og alle oppgavetyper, blandet tilfeldig. Det som skal repeteres kommer først, så nye ting.",
+    description: "Alle emner på nivået du har valgt og alle oppgavetyper, blandet tilfeldig. Det som skal repeteres kommer først, så nye ting.",
     start: "Bland alt",
     startDescription: "Bland alle emner og oppgavetyper i én økt.",
     back: "Oversikt",
