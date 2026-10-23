@@ -1,8 +1,8 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { getTopics, topicLevel, topicSummaries } from "@/lib/content";
-import { matchesLevel } from "@/lib/levels";
+import { getTopics, topicSummaries } from "@/lib/content";
+import { matchesLevel, topicLevel } from "@/lib/levels";
 import { DEFAULT_SETTINGS, LocalStorageAdapter, MemoryStore, STORAGE_KEY } from "@/lib/storage";
 import type { InflectionTable } from "@/lib/types";
 

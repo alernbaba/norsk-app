@@ -6,7 +6,8 @@ import { GrammarTips } from "@/components/GrammarTips";
 import { Msg, TopicText } from "@/components/i18n";
 import { ModeIcon } from "@/components/ModeIcon";
 import { TopicStats } from "@/components/TopicStats";
-import { getTopic, getTopics, grammarForTopic, topicLevel } from "@/lib/content";
+import { getTopic, getTopics, grammarForTopic } from "@/lib/content";
+import { topicLevel } from "@/lib/levels";
 import { MODES } from "@/lib/modes";
 import { topicItemIds } from "@/lib/progress";
 

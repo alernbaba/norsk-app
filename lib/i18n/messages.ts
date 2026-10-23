@@ -207,7 +207,7 @@ const en = {
   },
   shuffle: {
     title: "Shuffle",
-    description: "Every topic and every exercise type, mixed at random. Due items come first, then new ones.",
+    description: "Every topic at your chosen level and every exercise type, mixed at random. Due items come first, then new ones.",
     start: "Shuffle everything",
     startDescription: "Mix all topics and exercise types in one round.",
     back: "Overview",
@@ -427,7 +427,7 @@ const nb: Messages = {
   },
   shuffle: {
     title: "Bland alt",
-    description: "Alle emner og alle oppgavetyper, blandet tilfeldig. Det som skal repeteres kommer først, så nye ting.",
+    description: "Alle emner på nivået du har valgt og alle oppgavetyper, blandet tilfeldig. Det som skal repeteres kommer først, så nye ting.",
     start: "Bland alt",
     startDescription: "Bland alle emner og oppgavetyper i én økt.",
     back: "Oversikt",

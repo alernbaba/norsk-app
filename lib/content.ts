@@ -4,6 +4,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { listenId, reverseId } from "./modes";
 import { topicItemIds } from "./progress";
+import { topicLevel } from "./levels";
 import type { GrammarTip, InflectionTable, Level, Topic, TopicGrammar } from "./types";
 
 let topicsCache: Topic[] | null = null;
@@ -43,9 +44,6 @@ export function getInflections(): InflectionTable {
   return inflectionsCache;
 }
 
-export function topicLevel(topic: Pick<Topic, "level">): Level {
-  return topic.level ?? "a1-a2";
-}
 
 export function loadGrammar(): TopicGrammar[] {
   const dir = path.join(process.cwd(), "data", "grammar");
