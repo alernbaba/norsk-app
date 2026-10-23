@@ -6,6 +6,7 @@ En webapp for voksne nybegynnere som kan engelsk og vil lære norsk bokmål. Gre
 - **Build the sentence**: bygg den norske setningen med ordbrikker (inkludert feil ord)
 - **Write it**: skriv oversettelsen selv, med tolerant sjekk og knapper for æ, ø og å
 - **Inflection**: fyll inn riktig bøyingsform i en setning
+- 🔀 **Bland alt** (`/shuffle`): én økt som blander alle temaer og oppgavetyper tilfeldig; det som skal repeteres kommer først, så nye ting, og fremgangen lagres som vanlig
 - 🔊 **Uttale** med nettleserens norske stemme, sakte tale og automatisk avspilling
 - **Oversikt** med fremgang per tema, lærte og mestrede ord, streak og nullstilling
 - **Due today**: liste over alt som skal repeteres i dag, med forklaring av boksene
